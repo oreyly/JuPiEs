@@ -1,0 +1,53 @@
+========== Začátek relace ==========
+[INFO] [00:51:43] [Logger] Logger úspěšně inicializován. Soubor: d:\src\pytlak\JuPiEs\client_log.txt
+[INFO] [00:51:43] [Comunicator] Komunikátor inicializován na portu 7891
+[INFO] [00:51:43] [MessageManager] Vytvořen MessageManager.
+[INFO] [00:51:43] [MessageManager] MessageManager připojen ke komunikátoru.
+[INFO] [00:51:44] [Logger] Konec logování
+========== Konec relace ==========
+========== Začátek relace ==========
+[INFO] [00:53:08] [Logger] Logger úspěšně inicializován. Soubor: d:\src\pytlak\JuPiEs\client_log.txt
+[INFO] [00:53:08] [Comunicator] Komunikátor inicializován na portu 7891
+[INFO] [00:53:08] [MessageManager] Vytvořen MessageManager.
+[INFO] [00:53:09] [Logger] Konec logování
+========== Konec relace ==========
+========== Začátek relace ==========
+[INFO] [00:54:24] [Logger] Logger úspěšně inicializován. Soubor: d:\src\pytlak\JuPiEs\client_log.txt
+[INFO] [00:54:24] [Comunicator] Komunikátor inicializován na portu 7891
+[INFO] [00:54:24] [MessageManager] Vytvořen MessageManager.
+[INFO] [00:54:24] [Comunicator] Odesílání: "1-1-0-0-DataZPythonu" na ('127.0.0.1', 7890)
+[ERROR] [00:54:24] [Comunicator] Fatální chyba socketu: [WinError 10054] Stávající připojení bylo vynuceně ukončeno vzdáleným hostitelem
+[INFO] [00:54:26] [Comunicator] Odesílání: "1-1-0-0-DataZPythonu" na ('127.0.0.1', 7890)
+[INFO] [00:54:28] [Comunicator] Odesílání: "1-1-0-0-DataZPythonu" na ('127.0.0.1', 7890)
+[INFO] [00:54:35] [Logger] Konec logování
+========== Konec relace ==========
+========== Začátek relace ==========
+[INFO] [00:54:45] [Logger] Logger úspěšně inicializován. Soubor: d:\src\pytlak\JuPiEs\client_log.txt
+[INFO] [00:54:45] [Comunicator] Komunikátor inicializován na portu 7891
+[INFO] [00:54:45] [MessageManager] Vytvořen MessageManager.
+[INFO] [00:54:45] [Comunicator] Odesílání: "1-1-0-0-DataZPythonu" na ('127.0.0.1', 7890)
+[ERROR] [00:54:45] [Comunicator] Fatální chyba socketu: [WinError 10054] Stávající připojení bylo vynuceně ukončeno vzdáleným hostitelem
+[INFO] [00:54:47] [Comunicator] Odesílání: "1-1-0-0-DataZPythonu" na ('127.0.0.1', 7890)
+[INFO] [00:54:49] [Comunicator] Odesílání: "1-1-0-0-DataZPythonu" na ('127.0.0.1', 7890)
+========== Začátek relace ==========
+[INFO] [00:55:45] [Logger] Logger úspěšně inicializován. Soubor: d:\src\pytlak\JuPiEs\client_log.txt
+[INFO] [00:55:45] [Comunicator] Komunikátor inicializován na portu 7891
+[INFO] [00:55:45] [MessageManager] Vytvořen MessageManager.
+[INFO] [00:55:45] [Comunicator] Odesílání: "1-1-0-0-DataZPythonu" na ('10.0.1.72', 7890)
+[INFO] [00:55:45] [Comunicator] Přijmuta zpráva: "1-1-0-2" z ('10.0.1.72', 7890)
+[INFO] [00:55:47] [Comunicator] Odesílání: "1-1-0-0-DataZPythonu" na ('10.0.1.72', 7890)
+[INFO] [00:55:47] [Comunicator] Přijmuta zpráva: "2-1-0-2" z ('10.0.1.72', 7890)
+[INFO] [00:55:49] [Comunicator] Odesílání: "1-1-0-0-DataZPythonu" na ('10.0.1.72', 7890)
+[INFO] [00:55:49] [Comunicator] Přijmuta zpráva: "3-1-0-2" z ('10.0.1.72', 7890)
+[INFO] [00:55:56] [Logger] Konec logování
+========== Konec relace ==========
+========== Začátek relace ==========
+[INFO] [00:56:03] [Logger] Logger úspěšně inicializován. Soubor: d:\src\pytlak\JuPiEs\client_log.txt
+[INFO] [00:56:03] [Comunicator] Komunikátor inicializován na portu 7891
+[INFO] [00:56:03] [MessageManager] Vytvořen MessageManager.
+[INFO] [00:56:03] [Comunicator] Odesílání: "1-1-0-0-DataZPythonu" na ('10.0.1.72', 7890)
+[INFO] [00:56:03] [Comunicator] Přijmuta zpráva: "4-1-0-2" z ('10.0.1.72', 7890)
+[INFO] [00:56:05] [Comunicator] Odesílání: "1-1-0-0-DataZPythonu" na ('10.0.1.72', 7890)
+[INFO] [00:56:05] [Comunicator] Přijmuta zpráva: "5-1-0-2" z ('10.0.1.72', 7890)
+[INFO] [00:56:07] [Comunicator] Odesílání: "1-1-0-0-DataZPythonu" na ('10.0.1.72', 7890)
+[INFO] [00:56:07] [Comunicator] Přijmuta zpráva: "6-1-0-2" z ('10.0.1.72', 7890)
