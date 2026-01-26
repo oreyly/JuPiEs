@@ -1,6 +1,7 @@
 from __future__ import annotations
 import threading
 import tkinter as tk
+from tkinter import messagebox
 from typing import TYPE_CHECKING
 from Errors import ERROR_CODES
 from Logger import Logger
@@ -53,6 +54,11 @@ class ConnectionDialog:
         Logger.LogError(ConnectionDialog, ERROR_CODES.CONNECTION_FAILED, [Server.ServerAddress])
     
     def ConSucceded(self, responseParams: list[str]):
+        if(int(responseParams[0]) == 0):
+            messagebox.showwarning("Chyba", "K serveru je připojeno maximální množství klientů.")
+            Logger.LogMessage(ConnectionDialog, "K serveru je připojeno maximální množství klientů")
+            return
+        
         self.Connected = True
         Server.MyId = int(responseParams[0])
         Logger.LogMessage(ConnectionDialog,"Klient se úspěšně připojil k serveru.")

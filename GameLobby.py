@@ -174,8 +174,10 @@ class GameLobby:
             return
         
         if(GAME_BOOL(int(responseParams[0])) == GAME_BOOL.FALSE):
-            messagebox.showwarning("Chyba", "Server nedovolil vytvořit roomku.")
+            Logger.LogMessage(GameLobby, "Server dosáhl maximálního počtu roomek a nedovolil vytvořit další.")
+            messagebox.showwarning("Chyba", "Server dosáhl maximálního počtu roomek a nedovolil vytvořit další.")
             self.RefreshRooms()
+            return
         
         if self._scrollableFrame:
             for Widget in self._scrollableFrame.winfo_children():
