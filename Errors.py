@@ -1,7 +1,25 @@
-class ErrorCodes:
-    CANNOT_CREATE_SOCKET = "Nelze vytvořit socket."
-    CANNOT_CREATE_LOG_FILE = "Nelze vytvořit logovací soubor."
-    CANNOT_BIND_SOCKET = "Nelze přiřadit socket na port."
-    FATAL_SOCKET = "Socket je rozbitý, je nutné ukončit aplikaci."
-    ALREAD_REGISTERED = "Objekt již byl registrován."
-    # ... další zprávy dle potřeby
+from enum import StrEnum
+
+class ERROR_CODES(StrEnum):
+	CANNOT_CREATE_SOCKET = "Nelze vytvořit socket."
+	CANNOT_CREATE_LOG_FILE = "Nelze vytvořit logovací soubor."
+	TEST_ERROR = "Error pro testování funkcionalit spojených s errory."
+	CANNOT_BIND_SOCKET = "Nelze přiřadit socket na port."
+	BAD_SOCKET = "Přijat neplatný socket."
+	FATAL_SOCKET = "Socket je rozbitý, je nutné ukončit aplikaci."
+	CANNOT_SEND_VIA_SOCKET = "Přes socket nelze posílat zprávy, je nutné ukončit aplikaci."
+	UNKNOWN_SOCKET_RETURN = "Socket je v nedefinovaném stavu, je nutné ukončit aplikaci."
+	MISSING_ACKNOWLEDGEMENT = "Nebyla přijata odpověď na zprávu."
+	ALREAD_REGISTERED = "Objekt již byl nelze zaregistrovat, jelikož už byl jednou registrován."
+	ALREADY_CONNECTED_MANAGER = "Připojený manažer se snaží opět připojit ke zdroji."
+	UNKNOWN_ORIGIN = "Přišel packet s neznámým původem."
+	RESPONSE_TO_UNKNOWN_REQUEST = "Aplikace se snaží odpovědět na neexistující požadavek."
+	OBJECT_NOT_INITIALIZED = "Pokus o použití objektu {}, který ještě nebyl inicializován"
+	BAD_PARAMETERS_FOR_ERROR = "Byl zavolán {} s neplatnou kombinací argumentů - {{ {} }}"
+	MESSAGE_TIMEOUT = "Vypršel timeout pro odchozí zprávu {}"
+	CONNECTION_FAILED = "Nepodařilo se připojit k serveru {}"
+	ROOM_LOAD_FAIL = "Nepodařilo se získat roomky"
+	SERVER_NOT_KNOW_MOVE = "Server nedostal informaci o posledním tahu"
+	SERVER_NOT_KNOW_RESPONSE = "Server nedostal odpověď na požadavek {}"
+	SERVER_NOT_KNOW_NAME = "Server nedostal mé jméno"
+	SERVER_NOT_KNOW_QUIT = "Server neví, že jsem odešel"

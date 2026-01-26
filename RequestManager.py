@@ -1,77 +1,107 @@
-from typing import Callable, Optional, Dict, List
+from typing import Callable
 import threading
 import queue
-from typing import Dict, List, Optional
+from Errors import ERROR_CODES
 from MessageManager import MessageManager
-from Message import IncomingMessage
+from Message import IncomingMessage, OutgoingMessage
+from OPCODE import OPCODE
 from Request import IncomingRequest, OutgoingRequest
 from Logger import Logger
-
+from Server import Server
+from Packet import ORIGIN, Packet
 class RequestManager:
-    def __init__(self):
-        self._processing_function: Optional[Callable] = None
-        self._our_demands: Dict[int, List[OutgoingRequest]] = {} # ID zprávy -> List requestů
-        self._incoming_queue = queue.Queue()
-        self._message_manager: Optional[MessageManager] = None
+    _timeout: int
+    
+    _processingFunction: Callable[[IncomingRequest], None] | None
+    
+    _demandQueue: queue.Queue[OutgoingRequest | None]
+    
+    _ourDemandsLock: threading.Lock
+    _ourDemands: list[OutgoingRequest]
+    
+    _incomingQueue: queue.Queue[IncomingMessage]
+    
+    _messageManager: MessageManager | None
+    
+    _running: threading.Event
+    
+    _worker: threading.Thread | None
+
+    def __init__(self, timeout: int):
+        self._timeout = timeout
+        
         self._running = threading.Event()
-        self._lock = threading.Lock()
-        self._worker: Optional[threading.Thread] = None
+        
+        self._processingFunction = None
+        self._messageManager = None
+        
+        self._demandQueue = queue.Queue()
+        self._incomingQueue = queue.Queue()
+        
+        self._ourDemands = []
+        self._ourDemandsLock = threading.Lock()
+        
+        self._worker = None
 
-    def connect_to_message_manager(self, message_manager: MessageManager):
-        self._message_manager = message_manager
+    def CreateDemand(self, opcode: OPCODE, params: list[str], onFailure: Callable[[],None], onSuccess:Callable[[list[str]],None], expectedOpcode: OPCODE):
+        self._demandQueue.put(OutgoingRequest(opcode, params, self._timeout, onFailure, onSuccess, expectedOpcode))
+        
+    def SendResponse(self, opcode: OPCODE, params: list[str], onTimeout: Callable[[],None]):
+        if(not self._messageManager):
+            Logger.LogError(RequestManager, ERROR_CODES.OBJECT_NOT_INITIALIZED, [MessageManager.__name__])
+            return
+        self._messageManager.SendMessage(OutgoingMessage(Packet(targetId=Server.MyId,requestOrigin=ORIGIN.SERVER,opcode=opcode,params=params), onTimeout))
+    
+    def RegisterProcessingFunction(self, func: Callable[[IncomingRequest], None]):
+        if(self._processingFunction):
+            Logger.LogError(RequestManager, ERROR_CODES.ALREAD_REGISTERED)
+        
+        self._processingFunction = func
+        
+    def ConnectToMessageManager(self, message_manager: MessageManager):
         self._running.set()
-        self._worker = threading.Thread(target=self._main_loop, daemon=True)
+        
+        self._messageManager = message_manager
+        self._messageManager.RegisterProcessingFunction(self.OnMessageReceive)
+        
+        self._worker = threading.Thread(target=self.MainLoop, daemon=True)
         self._worker.start()
-        
-        # Registrace callbacku pro příjem zpráv
-        self._message_manager.register_processing_function(self._on_message_receive)
 
-    def create_demand(self, client, opcode, params, timeout, on_failure, on_success, expected_opcode):
-        req = OutgoingRequest(client, opcode, params, timeout, on_failure, on_success, expected_opcode)
-        
-        with self._lock:
-            msg_id = req.demand_message.main_packet.id
-            if msg_id not in self._our_demands:
-                self._our_demands[msg_id] = []
-            self._our_demands[msg_id].append(req)
-        
-        if self._message_manager:
-            self._message_manager.send_message(req.demand_message)
-            req.on_request_sent()
 
-    def _on_message_receive(self, incoming_message: IncomingMessage):
-        if self._running.is_set():
-            self._incoming_queue.put(incoming_message)
+    def OnMessageReceive(self, incomingMessage: IncomingMessage):
+        if(incomingMessage.MainPacket.RequestOrigin == ORIGIN.CLIENT):
+            with self._ourDemandsLock:
+                for i in range(len(self._ourDemands)):
+                    if(self._ourDemands[i].ValidateIncomingMessage(incomingMessage)):
+                        self._ourDemands.pop(i)
+                        return
+                return
+        
+        if(not self._processingFunction):
+            return
+        
+        if(incomingMessage.MainPacket.RequestOrigin == ORIGIN.SERVER):
+            self._processingFunction(IncomingRequest(incomingMessage))
+            return
+        
+        Logger.LogError(RequestManager, ERROR_CODES.UNKNOWN_ORIGIN)
 
-    def _main_loop(self):
-        while self._running.is_set():
-            try:
-                msg = self._incoming_queue.get(timeout=0.1)
+    def MainLoop(self):
+        while self._running:
+            outgoingRequest = self._demandQueue.get()
+            if(outgoingRequest is None):
+                break
+            
+            with self._ourDemandsLock:
+                self._ourDemands.append(outgoingRequest)
                 
-                # Zkusíme spárovat příchozí zprávu s našimi požadavky
-                found_demand = False
-                with self._lock:
-                    msg_id = msg.main_packet.id
-                    if msg_id in self._our_demands:
-                        # Validujeme všechny requesty čekající na toto ID
-                        for req in self._our_demands[msg_id]:
-                            if req.validate_incoming_message(msg):
-                                found_demand = True
-                        
-                        # Po vyřízení (úspěch/fail) odstraníme z mapy
-                        del self._our_demands[msg_id]
+                if(not self._messageManager):
+                    Logger.LogError(RequestManager, ERROR_CODES.OBJECT_NOT_INITIALIZED, [MessageManager.__name__])
+                    continue
+                
+                self._messageManager.SendMessage(outgoingRequest.DemandMessage)
+                outgoingRequest.OnRequestSend()
 
-                # Pokud to není odpověď na náš požadavek, je to nový příchozí požadavek
-                if not found_demand and self._processing_function:
-                    p = msg.main_packet
-                    inc_req = IncomingRequest(p.client_id, msg.client_address, p.opcode, p.parameters)
-                    self._processing_function(inc_req)
-
-            except queue.Empty:
-                continue
-
-    def register_processing_function(self, func: Callable):
-        self._processing_function = func
 
     def stop(self):
         self._running.clear()

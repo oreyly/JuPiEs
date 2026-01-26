@@ -1,3 +1,4 @@
+# type: ignore
 import time
 import sys
 
@@ -9,7 +10,7 @@ from Message import IncomingMessage
 from Packet import Packet, Origin, Opcode
 
 def process_incoming_message(in_msg: IncomingMessage):
-    packet = in_msg.main_packet
+    packet = in_msg.MainPacket
     print(f"Přijat packet ID: {packet.id}, Opcode: {packet.opcode}")
 
 def main():
@@ -23,15 +24,15 @@ def main():
         manager = MessageManager()
         
         manager._processing_function = process_incoming_message
-        manager.connect_to_comunicator(comunicator, 2000, 3)
+        manager.ConnectToComunicator(comunicator, 2000, 3)
 
-        Logger.log_message("Main", "Systém běží...")
+        Logger.LogMessage("Main", "Systém běží...")
 
         while True:
             time.sleep(1)
 
     except KeyboardInterrupt:
-        Logger.log_message("Main", "Ukončování...")
+        Logger.LogMessage("Main", "Ukončování...")
     finally:
         Logger.terminate()
 

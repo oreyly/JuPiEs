@@ -1,49 +1,45 @@
+from __future__ import annotations
 import itertools
 from enum import IntEnum
-from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List
 
-class Origin(IntEnum):
+from OPCODE import OPCODE
+
+class ORIGIN(IntEnum):
     SERVER = 0
     CLIENT = 1
 
-class Opcode(IntEnum):
-    # Předpokládané hodnoty podle C++ kódu
-    ACK = 0 
-    # Ostatní opcody definujte zde
-
 class Packet:
-    _id_generator = itertools.count(1)
+    _idGenerator = itertools.count(1)
     _delimiter = '-'
+    
+    Id: int
+    ClientId: int
+    RequestOrigin: ORIGIN
+    Opcode: OPCODE
+    Parameters: list[str]
+    IsValid: bool
 
-    def __init__(self, target_id: int = 0, origin: Origin = Origin.CLIENT, 
-                 opcode: Opcode = Opcode.ACK, params: List[str] = None, raw_msg: str = None):
-        if raw_msg:
-            self._parse_string(raw_msg)
-        else:
-            self.id = next(self._id_generator)
-            self.client_id = target_id
-            self.request_origin = origin
-            self.opcode = opcode
-            self.parameters = params or []
-            self.is_valid = True
+    def __init__(self, id: int | None = None, targetId: int = 0, requestOrigin: ORIGIN = ORIGIN.CLIENT, opcode: OPCODE = OPCODE.ACK, params: List[str] | None = None, isValid: bool = True):
+        self.Id = next(self._idGenerator) if id is None else id
+        self.ClientId = targetId
+        self.RequestOrigin = requestOrigin
+        self.Opcode = opcode
+        self.Parameters = params or []
+        self.IsValid = isValid
 
-    def _parse_string(self, message: str):
-        parts = message.split(self._delimiter)
-        if len(parts) < 4:
-            self.is_valid = False
-            return
-
-        try:
-            self.id = int(parts[0])
-            self.client_id = int(parts[1])
-            self.request_origin = Origin(int(parts[2]))
-            self.opcode = Opcode(int(parts[3]))
-            self.parameters = parts[4:]
-            self.is_valid = True
-        except (ValueError, KeyError):
-            self.is_valid = False
-
-    def create_string(self) -> str:
-        base = [str(self.id), str(self.client_id), str(int(self.request_origin)), str(int(self.opcode))]
-        return self._delimiter.join(base + self.parameters)
+    @staticmethod
+    def FromString(message: str) -> Packet:
+        parts = message.split(Packet._delimiter)
+        
+        if(not (len(parts) >= 4 and parts[0].isdigit() and parts[1].isdigit() and parts[2].isdigit() and parts[3].isdigit() and (int(parts[2]) in ORIGIN) and (int(parts[3]) in OPCODE))):
+            return Packet(isValid=False)
+        
+        return Packet(id=int(parts[0]), targetId=int(parts[1]), requestOrigin=ORIGIN(int(parts[2])), opcode=OPCODE(int(parts[3])), params=parts[4:])
+    
+    def CreateString(self) -> str:
+        baseStr = f"{self.Id}{self._delimiter}{self.ClientId}{self._delimiter}{int(self.RequestOrigin)}{self._delimiter}{int(self.Opcode)}"
+        if not self.Parameters:
+            return baseStr
+        
+        return f"{baseStr}{self._delimiter}{self._delimiter.join(self.Parameters)}"

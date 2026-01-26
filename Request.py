@@ -1,70 +1,94 @@
+from dataclasses import dataclass
 import threading
-import time
 from typing import Callable, List, Optional
 from Message import OutgoingMessage, IncomingMessage
-from Packet import Packet, Origin
+from OPCODE import OPCODE
+from Packet import Packet, ORIGIN
+from Server import Server
+from Utils import Utils
 
+@dataclass
 class IncomingRequest:
-    def __init__(self, client_id: int, source_addr: tuple, opcode, params: List[str]):
-        self.client_id = client_id
-        self.source_address = source_addr
-        self.opcode = opcode
-        self.parameters = params
+        DemandMessage: IncomingMessage
 
 class OutgoingRequest:
-    def __init__(self, client, opcode, params: List[str], timeout: int, 
-                 on_failure: Callable, on_success: Callable, expected_opcode):
+    _timeout: float
+    
+    _onFailure: Callable[[],None]
+    _onSuccess: Callable[[list[str]],None]
+    
+    _expectedOpcode: OPCODE
+    
+    DemandMessage: OutgoingMessage
+    
+    _responseParams: list[str]
+    
+    _hasResult: bool
+    _waiting: threading.Event
+    _worker: threading.Thread | None
+    
+    _running: bool
+    
+    def __init__(self, opcode: OPCODE, params: List[str], timeout: int, onFailure: Callable[[], None], onSuccess: Callable[[list[str]], None], expectedOpcode: OPCODE):
+        self._running = True
+        
         self._timeout = timeout / 1000.0
-        self._on_failure = on_failure
-        self._on_success = on_success
-        self._expected_opcode = expected_opcode
+        self._onFailure = onFailure
+        self._onSuccess = onSuccess
+        self._expectedOpcode = expectedOpcode
         
         self._waiting = threading.Event()
-        self._has_result = False
-        self.response_message: Optional[IncomingMessage] = None
+        self._hasResult = False
         
-        # Vytvoření základní odchozí zprávy
-        p = Packet(target_id=client.id, origin=Origin.SERVER, opcode=opcode, params=params)
-        self.demand_message = OutgoingMessage(p, client.addr, self._handle_timeout)
+        p = Packet(targetId=Server.MyId, requestOrigin=ORIGIN.CLIENT, opcode=opcode, params=params)
+        self.DemandMessage = OutgoingMessage(p, self.HandleTimeout)
         self._worker: Optional[threading.Thread] = None
 
-    def _handle_timeout(self):
-        if not self._has_result:
+    def HandleTimeout(self):
+        if not self._hasResult:
             self._waiting.clear()
-            self._on_failure()
+            self._onFailure()
 
-    def on_request_sent(self):
-        self._waiting.set()
-        self._worker = threading.Thread(target=self._wait_for_response, daemon=True)
+    @Utils.CheckRunning
+    def OnRequestSend(self):
+        
+        self._worker = threading.Thread(target=self.WaitForResponse, daemon=True)
         self._worker.start()
 
-    def _wait_for_response(self):
-        # Čekání na událost nebo timeout
-        if not self._waiting.wait(self._timeout):
-            if not self._has_result:
-                self._waiting.clear()
-                self._on_failure()
-                return
+    def WaitForResponse(self):
+        self._waiting.wait(self._timeout)
+        self._waiting.set()
+        
+        
+        if(not self._running):
+            return
+        
+        if(not self._hasResult):
+            self._onFailure()
+            return
+        
+        self._onSuccess(self._responseParams)
 
-        if self._has_result:
-            self._on_success()
-
-    def validate_incoming_message(self, incoming_message: IncomingMessage) -> bool:
-        if not self._waiting.is_set():
+    @Utils.CheckRunning
+    def ValidateIncomingMessage(self, incomingMessage: IncomingMessage) -> bool:
+        if self._waiting.is_set():
             return False
 
-        # Kontrola, zda ID a Opcode odpovídají očekávání
-        is_valid = (incoming_message.main_packet.id == self.demand_message.main_packet.id and 
-                    incoming_message.main_packet.opcode == self._expected_opcode)
+        is_valid = (incomingMessage.MainPacket.Opcode == self._expectedOpcode)
 
         if is_valid:
-            self.response_message = incoming_message
-            self._has_result = True
-            self._waiting.clear() # Signalizace pro worker thread
+            self._responseParams = incomingMessage.MainPacket.Parameters
+            self._hasResult = True
+            self._waiting.set()
         
         return is_valid
 
+    @Utils.CheckRunning
     def stop(self):
-        self._waiting.clear()
+        if(not self._running):
+            return
+        
+        self._running = False
+        self._waiting.set()
         if self._worker and self._worker.is_alive():
             self._worker.join()

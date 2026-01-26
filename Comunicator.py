@@ -1,30 +1,40 @@
+from __future__ import annotations
 import socket
 import threading
 import queue
-import time
-from Logger import Logger  # <--- TENTO ŘÁDEK CHYBĚL
+from typing import Callable, Literal
+from Errors import ERROR_CODES
+from Logger import Logger
+from Server import Address, Server
 
 class Comunicator:
-    def __init__(self, port):
-        self.buffsize = 255
+    _running: threading.Event
+    _buffSize: int
+    
+    _listener: Listener
+    
+    Initialized: bool
+    
+    def __init__(self, address: str | Literal[socket.AddressFamily.AF_INET] = socket.AF_INET, port: int = 0):
         self._running = threading.Event()
         self._running.set()
+        self._buffSize = 255
         
         try:
             self._sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
             self._sock.bind(('', port))
-            self._sock.settimeout(0.1) 
-        except Exception as e:
-            # Zde se volá Logger, proto musí být nahoře naimportován
-            Logger.log_error("Comunicator", f"Nelze inicializovat socket: {e}")
-            raise
+            self._sock.settimeout(0.1)
+        except Exception:
+            Logger.LogError(Comunicator, ERROR_CODES.CANNOT_CREATE_SOCKET)
+            self.Initialized = False
+            return
 
-        Logger.log_message("Comunicator", f"Komunikátor inicializován na portu {port}")
+        Logger.LogMessage(Comunicator, f"Komunikátor úspěšně inicializován na portu {self._sock.getsockname()[1]}")
 
-        self._listener = self._Listener(self)
-        self._sender = self._Sender(self)
-    
-    # ... zbytek třídy ...
+        self._listener = self.Listener(self)
+        self._sender = self.Sender(self)
+        
+        self.Initialized = True
 
     def stop(self):
         if not self._running.is_set():
@@ -35,73 +45,104 @@ class Comunicator:
         self._listener.stop()
         self._sock.close()
 
-    def send(self, target_addr, message):
-        """target_addr je tuple (ip, port)"""
-        self._sender.send(target_addr, message)
+    def Send(self, message: str):
+        self._sender.send( message)
 
-    def register_receiver(self, callback):
-        self._listener.register_receiver(callback)
+    def RegisterReceiver(self, recieverFunction: Callable[[str], None]):
+        self._listener.RegisterReciever(recieverFunction)
 
-    class _Listener:
-        def __init__(self, outer):
-            self.outer = outer
-            self.callback = None
-            self._worker = threading.Thread(target=self._main_loop, daemon=True)
+    class Listener:
+        _comunicator: Comunicator
+        
+        _worker: threading.Thread
+        _running: bool
+        
+        _recieverFunction: Callable[[str], None] | None
+                
+        def __init__(self, comunicator: Comunicator):
+            self._comunicator = comunicator
+            
+            self._recieverFunction = None
+            self._worker = threading.Thread(target=self.MainLoop, daemon=True)
+            
+            self._running = True
             self._worker.start()
 
-        def register_receiver(self, callback):
-            if self.callback:
-                Logger.log_error("Listener", "Receiver již byl registrován")
-            self.callback = callback
+        def RegisterReciever(self, recieverFunction: Callable[[str], None]):
+            if self._recieverFunction:
+                Logger.LogError(Comunicator.Listener, ERROR_CODES.ALREAD_REGISTERED)
+                
+            self._recieverFunction = recieverFunction
 
         def stop(self):
             if self._worker.is_alive():
                 self._worker.join()
 
-        def _main_loop(self):
-            while self.outer._running.is_set():
+        def MainLoop(self):
+            while self._running:
                 try:
-                    data, addr = self.outer._sock.recvfrom(self.outer.buffsize)
+                    data, _ = self._comunicator._sock.recvfrom(self._comunicator._buffSize)
                     message = data.decode('utf-8')
                     
-                    Logger.log_message("Comunicator", f"Přijmuta zpráva: \"{message}\" z {addr}")
+                    Logger.LogMessage(Comunicator.Listener, f"Přijmuta zpráva: \"{message}\"")
                     
-                    if self.callback:
-                        self.callback(addr, message)
-                except socket.timeout:
+                    if self._recieverFunction:
+                        self._recieverFunction(message)
+                except (socket.timeout, TimeoutError):
                     continue
-                except Exception as e:
-                    if self.outer._running.is_set():
-                        Logger.log_error("Comunicator", f"Fatální chyba socketu: {e}")
+                except Exception:
+                    if self._running:
+                        Logger.LogError(Comunicator.Listener, ERROR_CODES.FATAL_SOCKET)
                     break
 
-    class _Sender:
-        def __init__(self, outer):
-            self.outer = outer
-            self._queue = queue.Queue()
-            self._worker = threading.Thread(target=self._main_loop, daemon=True)
+    class Sender:
+        _running: bool
+        
+        _comunicator: Comunicator
+        
+        _worker: threading.Thread
+        
+        _sendQueue: queue.Queue[str | None]
+        
+        def __init__(self, comunicator: Comunicator):
+            self._running = True
+            self._comunicator = comunicator
+            self._sendQueue = queue.Queue()
+            self._worker = threading.Thread(target=self.MainLoop, daemon=True)
             self._worker.start()
 
-        def send(self, target_addr, message):
-            self._queue.put((target_addr, message))
+        def send(self, message: str):
+            self._sendQueue.put(message)
 
         def stop(self):
-            self._queue.put(None)
+            self._sendQueue.put(None)
             if self._worker.is_alive():
                 self._worker.join()
 
-        def _main_loop(self):
-            while True:
-                item = self._queue.get()
-                if item is None: break
+        def MainLoop(self):
+            while self._running:
+                message = self._sendQueue.get()
+                if message is None:
+                    break
                 
-                addr, msg = item
-                try:
-                    Logger.log_message("Comunicator", f"Odesílání: \"{msg}\" na {addr}")
-                    sent = self.outer._sock.sendto(msg.encode('utf-8'), addr)
-                    if sent != len(msg):
-                        Logger.log_error("Comunicator", "Nepodařilo se odeslat celou zprávu")
-                except Exception as e:
-                    Logger.log_error("Comunicator", f"Chyba při odesílání: {e}")
-                
-                self._queue.task_done()
+                if( not self.DoSend(message)):
+                    return
+        
+        def DoSend(self, message: str):
+            if(not Server.ServerAddress):
+                Logger.LogError(Comunicator.Sender, ERROR_CODES.OBJECT_NOT_INITIALIZED, [Address.__name__])
+                return
+            
+            Logger.LogMessage(Comunicator.Sender, f"Odesílání zprávy: \"{ message}\"")
+            sent = self._comunicator._sock.sendto(message.encode('utf-8'), (Server.ServerAddress.Ip, Server.ServerAddress.Port))
+            
+            if(sent < 0):
+                Logger.LogError(Comunicator.Sender, ERROR_CODES.FATAL_SOCKET)
+                return False
+            
+            if(sent != len(message)):
+                Logger.LogError(Comunicator.Sender, ERROR_CODES.CANNOT_SEND_VIA_SOCKET)
+                return False
+            
+            return True
+            

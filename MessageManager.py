@@ -1,121 +1,179 @@
 import threading
 import queue
 import time
-from collections import deque
+from typing import Callable
+from Comunicator import Comunicator
 from Message import IncomingMessage, OutgoingMessage
-from Packet import Packet, Opcode, Origin
+from OPCODE import OPCODE
+from Packet import Packet, ORIGIN
 from Logger import Logger
+from Errors import ERROR_CODES
+from Utils import Utils
 
 class MessageManager:
     CLEANER_SLEEP_SEC = 1.0
     HISTORY_LIMIT_SEC = 60.0
 
+    _running: threading.Event
+    
+    _messageTimeout: int
+    _maxMessageAttempts: int
+    
+    _comunicator: Comunicator | None
+    
+    _processingFunction: Callable[[IncomingMessage], None] | None
+    
+    _outgoingMessages: dict[int, OutgoingMessage]
+    
+    _incomingMessages: dict[int, float]
+    
+    _finishedIdTimesList: dict[int,float]
+
+    _arrivedMessages: queue.Queue[str | None]
+    
+    _cleaningWorker: threading.Thread | None
+    _messageWorker: threading.Thread | None
+    
+    _lockFinished: threading.Lock
+    
+    _lockIncoming: threading.Lock
+    _lockOutgoing: threading.Lock
+    
     def __init__(self):
         self._running = threading.Event()
-        self._comunicator = None
-        self._processing_function = None  # Zde se ukládá callback
+        self._messageTimeout = 50
+        self._maxMessageAttempts = 3
         
-        self._outgoing_messages = {}
-        self._arrived_queue = queue.Queue()
+        self._comunicator: Comunicator | None = None
+        self._processingFunction: Callable[[IncomingMessage], None] | None = None
         
-        self._finished_history = deque()
-        self._finished_map = {}
+        self._outgoingMessages = {}
+        self._incomingMessages = {}
+        self._arrivedMessages = queue.Queue()
         
-        self._lock_outgoing = threading.Lock()
-        self._lock_finished = threading.Lock()
+        self._finishedIdTimesList = {}
+        
+        self._lockOutgoing = threading.Lock()
+        self._lockIncoming = threading.Lock()
+        self._lockFinished = threading.Lock()
 
-        self._message_worker = None
-        self._cleaning_worker = None
-        Logger.log_message("MessageManager", "Vytvořen MessageManager.")
+        self._messageWorker: threading.Thread | None = None
+        self._cleaningWorker: threading.Thread | None = None
+        Logger.LogMessage(MessageManager, "Vytvořen MessageManager.")
 
-    # Přidaná metoda, která chyběla
-    def register_processing_function(self, processing_function):
-        if self._processing_function:
-            Logger.log_error("MessageManager", "Objekt již byl registrován.")
-        self._processing_function = processing_function
-
-    def connect_to_comunicator(self, comunicator, timeout_ms, max_attempts):
-        self._comunicator = comunicator
+    def ConnectToComunicator(self, comunicator: Comunicator, messageTimeout: int, maxMessageAttempts: int):
+        if(self._running.is_set()):
+            Logger.LogError(MessageManager,ERROR_CODES.ALREADY_CONNECTED_MANAGER)
+            return
+        
+        self._message_timeout = messageTimeout
+        self._max_attempts = maxMessageAttempts
+        
         self._running.set()
-        self._message_timeout = timeout_ms
-        self._max_attempts = max_attempts
-        self._cleaning_worker = threading.Thread(target=self._cleaning_loop, daemon=True)
-        self._message_worker = threading.Thread(target=self._main_loop, daemon=True)
-        self._cleaning_worker.start()
-        self._message_worker.start()
-        self._comunicator.register_receiver(self._on_string_receive)
+        
+        self._cleaningWorker = threading.Thread(target=self.CleaningLoop, daemon=True)
+        self._cleaningWorker.start()
+        self._messageWorker = threading.Thread(target=self.MainLoop, daemon=True)
+        self._messageWorker.start()
+        
+        self._comunicator = comunicator
+        self._comunicator.RegisterReceiver(self.OnStringRecieve)
+        
+        Logger.LogMessage(MessageManager,"MessageManager připojen ke komunikátoru.")
 
-    def _on_string_receive(self, addr, message_str):
-        if self._running.is_set():
-            self._arrived_queue.put((addr, message_str))
+    def RegisterProcessingFunction(self, processingFunction: Callable[[IncomingMessage], None]):
+        if self._processingFunction:
+            Logger.LogError(MessageManager, ERROR_CODES.ALREAD_REGISTERED)
+            
+        self._processingFunction = processingFunction
 
-    def _main_loop(self):
-        while self._running.is_set():
-            try:
-                addr, msg_str = self._arrived_queue.get(timeout=0.1)
-                packet = Packet(raw_msg=msg_str)
-                if not packet.is_valid:
-                    continue
+    @Utils.CheckRunning
+    def SendMessage(self, outgoingMessage: OutgoingMessage):
+        with self._lockOutgoing:
+            outgoingMessage.RegisterMessageManager(self, self._message_timeout, self._max_attempts)
+            self._outgoingMessages[outgoingMessage.MainPacket.Id] = outgoingMessage
+            self.SendPacket(outgoingMessage.MainPacket)
+            outgoingMessage.OnMessageSent()
+    
+    @Utils.CheckRunning
+    def SendPacket(self, packet: Packet):
+        if(not self._comunicator):
+            Logger.LogError(MessageManager, ERROR_CODES.OBJECT_NOT_INITIALIZED, [Comunicator])
+            return
+                    
+        self._comunicator.Send(packet.CreateString())
 
-                if packet.opcode == Opcode.ACK:
-                    with self._lock_outgoing:
-                        if packet.id in self._outgoing_messages:
-                            msg = self._outgoing_messages.pop(packet.id)
-                            msg.finish()
-                    continue
-
-                if packet.id in self._finished_map:
-                    continue
-
-                in_msg = IncomingMessage(packet, addr)
-                self._confirm_receiving(in_msg)
-                
-                # Volání registrovaného callbacku
-                if self._processing_function:
-                    self._processing_function(in_msg)
-
-            except queue.Empty:
-                continue
-
-    def _confirm_receiving(self, in_msg: IncomingMessage):
-        ack_packet = Packet(target_id=in_msg.main_packet.id, origin=Origin.SERVER, opcode=Opcode.ACK)
-        self.send_packet(in_msg.client_address, ack_packet)
-
-    def send_packet(self, addr, packet: Packet):
-        if self._comunicator:
-            self._comunicator.send(addr, packet.create_string())
-
-    def _cleaning_loop(self):
-        while self._running.is_set():
+    def CleaningLoop(self):
+        while self._running:
+            self.CleanFinished()
             time.sleep(self.CLEANER_SLEEP_SEC)
-            self._clean_finished()
+            
+        self.CleanFinished()
 
-    def _clean_finished(self):
+    def CleanFinished(self):
         now = time.time()
-        with self._lock_finished:
-            while self._finished_history and (now - self._finished_history[0][1]) > self.HISTORY_LIMIT_SEC:
-                old_id, _ = self._finished_history.popleft()
-                self._finished_map.pop(old_id, None)
+        idToPop: list[int] = []
+        with self._lockFinished:
+            for id, finTime in self._finishedIdTimesList.items():
+                if(now - finTime > self.HISTORY_LIMIT_SEC):
+                    idToPop.append(id)
+
+            for id in idToPop:
+                self._finishedIdTimesList.pop(id)
+        
+        idToPop.clear()
+        with self._lockIncoming:
+            for id, finTime in self._incomingMessages.items():
+                if(now - finTime > self.HISTORY_LIMIT_SEC):
+                    idToPop.append(id)
+
+            for id in idToPop:
+                self._incomingMessages.pop(id)
+    
+
+    @Utils.CheckRunning
+    def OnStringRecieve(self, messageStr: str):
+            self._arrivedMessages.put(messageStr)
+
+    def MainLoop(self):
+        while self._running:
+                message = self._arrivedMessages.get()
+                
+                if(message == None):
+                    return
+                
+                packet = Packet.FromString(message)
+                if not packet.IsValid:
+                    continue
+
+                if packet.Opcode == OPCODE.ACK:
+                    with self._lockOutgoing, self._lockFinished:
+                        if packet.Id in self._outgoingMessages:
+                            msg = self._outgoingMessages.pop(packet.Id)
+                            self._finishedIdTimesList[packet.Id] = time.time()
+                            Logger.LogMessage(MessageManager, f"Potvrzena zpráva {msg.MainPacket.CreateString()}")
+                            msg.Finish()
+                    continue
+                
+                incommingMessage = IncomingMessage(packet)
+                self.ConfirmReceiving(incommingMessage)
+                
+                with self._lockIncoming, self._lockFinished:
+                    if(incommingMessage.MainPacket.Id in self._incomingMessages):
+                        continue
+                    
+                    self._incomingMessages[packet.Id] = time.time()
+                
+                if self._processingFunction:
+                    self._processingFunction(incommingMessage)
+
+    def ConfirmReceiving(self, incommingMessage: IncomingMessage):
+        self.SendPacket(Packet(id=incommingMessage.MainPacket.Id, targetId=incommingMessage.MainPacket.ClientId,requestOrigin=ORIGIN.SERVER, opcode=OPCODE.ACK))
 
     def stop(self):
         self._running.clear()
-        if self._message_worker: self._message_worker.join()
-        if self._cleaning_worker: self._cleaning_worker.join()
         
-    def send_message(self, outgoing_message: OutgoingMessage):
-        with self._lock_outgoing:
-            # Předá zprávě nastavení timeoutu a pokusů z manažera
-            outgoing_message.register_manager(
-                self, 
-                self._message_timeout, 
-                self._max_attempts
-            )
-            
-            # Uloží zprávu pro budoucí zpracování ACK
-            self._outgoing_messages[outgoing_message.main_packet.id] = outgoing_message
-            
-            # Fyzicky odešle packet přes komunikátor
-            self.send_packet(outgoing_message.client_address, outgoing_message.main_packet)
-            
-            # Spustí vlákno, které hlídá doručení (retransmise)
-            outgoing_message.on_message_sent()
+        if self._messageWorker:
+            self._messageWorker.join()
+        if self._messageWorker:
+            self._messageWorker.join()

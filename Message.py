@@ -1,6 +1,11 @@
 from __future__ import annotations
 import threading
-from typing import Callable, Optional, TYPE_CHECKING
+from typing import Callable, TYPE_CHECKING
+
+from Errors import ERROR_CODES
+from LogLevel import LOG_LEVEL
+from Logger import Logger
+from Utils import Utils
 
 # Importujeme pouze pro statickou analýzu, za běhu se tento blok nevykoná
 if TYPE_CHECKING:
@@ -8,45 +13,75 @@ if TYPE_CHECKING:
     from MessageManager import MessageManager
 
 class IncomingMessage:
-    def __init__(self, packet: Packet, addr: tuple):
-        self.main_packet = packet
-        self.client_address = addr
+    def __init__(self, packet: Packet):
+        self.MainPacket = packet
 
 class OutgoingMessage:
-    def __init__(self, packet: Packet, addr: tuple, on_timeout: Callable):
-        self.main_packet = packet
-        self.client_address = addr
-        self._on_timeout = on_timeout
-        self._running = threading.Event()
-        self._finished = threading.Event()
+    MainPacket: Packet
+    
+    _running: bool
+    _finished: threading.Event
+    
+    _timeout: float
+    _onTimeout: Callable[[], None]
+    
+    _maxAttempts: int
+    _attempts: int
+    
+    _messageManager: MessageManager | None
+    
+    _worker: threading.Thread | None
+    
+    def __init__(self, packet: Packet, onTimeout: Callable[[], None]):
+        self.MainPacket = packet
+        self._onTimeout = onTimeout
         self._attempts = 0
-        self._timeout = 1.0
-        self._max_attempts = 3
-        self._message_manager = None # Typ určíme jen v anotaci níže
-        self._worker: Optional[threading.Thread] = None
+        
+        self.Finished = False
+        
+        self._running = False
+        self._finished = threading.Event()
+        
+        self._messageManager = None
+        
+        self._worker = None
 
-    def register_manager(self, manager: MessageManager, timeout: int, max_attempts: int):
-        self._message_manager = manager
+    def RegisterMessageManager(self, messageManager: MessageManager, timeout: int, maxAttempts: int):
+        if(self._messageManager):
+            Logger.LogError(OutgoingMessage, ERROR_CODES.ALREAD_REGISTERED)
+            return
+        
         self._timeout = timeout / 1000.0
-        self._max_attempts = max_attempts
+        self._maxAttempts = maxAttempts
+        self._message_manager = messageManager
 
-    def on_message_sent(self):
+    def OnMessageSent(self):
         self._attempts += 1
-        self._running.set()
-        self._worker = threading.Thread(target=self._wait_for_ack, daemon=True)
+        
+        self._running = True
+        self._finished = threading.Event()
+        
+        self._worker = threading.Thread(target=self.WaitForAck, daemon=True)
         self._worker.start()
 
-    def finish(self):
+    @Utils.CheckRunning
+    def Finish(self):
         self._finished.set()
 
-    def _wait_for_ack(self):
-        while self._running.is_set() and not self._finished.is_set():
+    def WaitForAck(self): 
+        while not self._finished.is_set():
             if self._finished.wait(self._timeout):
-                return
-            if self._attempts >= self._max_attempts:
+                if(not self._running):
+                    return
+                
+            if self._attempts >= self._maxAttempts:
                 break
+            
             self._attempts += 1
-            if self._message_manager:
-                self._message_manager.send_packet(self.client_address, self.main_packet)
+            
+            self._message_manager.SendPacket(self.MainPacket)
+                
         if not self._finished.is_set():
-            self._on_timeout()
+            Logger.LogError(OutgoingMessage, ERROR_CODES.MESSAGE_TIMEOUT, [self.MainPacket.CreateString()], LOG_LEVEL.WARNING)
+            self._onTimeout()
+            return

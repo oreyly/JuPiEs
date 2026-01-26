@@ -4,7 +4,7 @@ from Comunicator import Comunicator
 from MessageManager import MessageManager
 from RequestManager import RequestManager
 from Packet import Opcode
-from Client import Client
+from Server import Client
 
 def main():
     Logger.init("client_log.txt")
@@ -14,7 +14,7 @@ def main():
         comunicator = Comunicator(port=7891)
         
         msg_manager = MessageManager()
-        msg_manager.connect_to_comunicator(comunicator, timeout_ms=2000, max_attempts=3)
+        msg_manager.ConnectToComunicator(comunicator, timeout_ms=2000, max_attempts=3)
 
         req_manager = RequestManager()
         req_manager.connect_to_message_manager(msg_manager)
@@ -35,7 +35,6 @@ def main():
             on_success=success, 
             expected_opcode=Opcode.ACK
         )
-
         # Necháme klienta chvíli běžet, aby stihl přijmout odpověď
         time.sleep(10)
 
