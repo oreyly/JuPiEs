@@ -13,7 +13,8 @@ class Server:
     ServerAddress: Address | None = None
     MyId: int = 1
     MyName: str = ""
+    Online: bool = True
+    LastEcho: float = 0
     
     def __init__(self):
         raise TypeError("Tato třída je statická a nemůže být instancována.")
-

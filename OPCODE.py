@@ -3,7 +3,6 @@ from enum import IntEnum
 
 class OPCODE(IntEnum):
     TEST = 0
-    PING = 1
 
     ACK = 2
 
@@ -39,3 +38,9 @@ class OPCODE(IntEnum):
 
     GAME_QUIT = 24
     GAME_QUITED = 25
+
+    PING = 26
+    I_SEE_YOU = 27
+
+    RECONECT = 28
+    RECONECTED = 29

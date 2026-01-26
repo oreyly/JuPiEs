@@ -1,9 +1,12 @@
 import argparse
+import threading
+import time
 import socket
 import tkinter as tk
 from typing import Callable, Literal
 from Errors import ERROR_CODES
 import GameLobby
+from LoadingOverlay import LoadingOverlay
 from Logger import Logger
 from Comunicator import Comunicator
 from MessageManager import MessageManager
@@ -12,6 +15,7 @@ from Request import IncomingRequest
 from RequestManager import RequestManager
 from GameLobby import GameLobby
 
+from Server import Server
 from Utils import Utils
 from connectWindow import ConnectionDialog
 from nameWindow import NameDialog
@@ -22,11 +26,18 @@ class Program:
     Comunicaator: Comunicator | None
     MessManager: MessageManager | None
     ReqManager: RequestManager | None
+    Running: bool
+    
+    Loading: LoadingOverlay | None
     
     Root: tk.Tk
+    
+    CheckerThread: threading.Thread | None
 
     def __init__(self):
         self._nextProcessFunction = None
+        self.Running = False
+        self.CheckerThread = None
 
     def RegisterProcessingFunction(self, nextProcessFunction: Callable[[IncomingRequest], None]):
         self._nextProcessFunction = nextProcessFunction
@@ -57,9 +68,25 @@ class Program:
     def OpenLobby(self):
         gl = GameLobby(self)
         gl.Open()
+    
+    def CouldntReping(self):
+        Logger.LogError(Program, ERROR_CODES.PING_CANT_RESPOND)
 
     def ProcessIncomingMessage(self, incomingRequest: IncomingRequest):
+        if(not self.ReqManager):
+            Logger.LogError(Program, ERROR_CODES.OBJECT_NOT_INITIALIZED, [RequestManager.__name__])
+            return
+        
+        #if(not Server.Online and incomingRequest.DemandMessage.MainPacket.Opcode != OPCODE.RECONECTED):
+        #    Logger.LogMessage(Program, f"Zahození zprávy z offline serveru {incomingRequest.DemandMessage.MainPacket.CreateString()}")
+        #    return
+        
+        Server.LastEcho = time.monotonic()
+        
         match(incomingRequest.DemandMessage.MainPacket.Opcode):
+            case OPCODE.PING:
+                self.ReqManager.SendResponse(OPCODE.I_SEE_YOU, [], self.CouldntReping)
+                Server.LastEcho = time.monotonic()
             case _:
                 if(self._nextProcessFunction):
                     self._nextProcessFunction(incomingRequest)
@@ -79,6 +106,40 @@ class Program:
     
     def ServerAcknoledgedMyLeft(self, responseParams: list[str]):
         self.Root.destroy()
+
+    def ServerChecker(self):
+        while(self.Running):
+            time.sleep(1)
+            now = time.monotonic()
+            if(Server.Online and now - Server.LastEcho < 5):
+                continue
+            
+            if(Server.Online):
+                self.DisableServer()
+            
+            self.TryToReconect()
+
+    def TryToReconect(self):
+        if(not self.ReqManager):
+            Logger.LogError(Program, ERROR_CODES.OBJECT_NOT_INITIALIZED, [RequestManager.__name__])
+            return
+        
+        self.ReqManager.CreateDemand(OPCODE.RECONECT, [str(Server.MyId)], self.ReconnectFailed, self.ReconnectSucceded, OPCODE.RECONECTED)
+        
+    def ReconnectFailed(self):
+        Logger.LogError(Program, ERROR_CODES.FAILED_TO_RECONNECT)
+        
+    def ReconnectSucceded(self, responseParams: list[str]):
+        if(Server.Online):
+            return
+        
+        Server.Online = True
+        Server.LastEcho = time.monotonic()
+        Logger.LogMessage(Program, "Klient se úspěšně připojil zpátky na server")
+    
+    def DisableServer(self):
+        Server.Online = False
+        self.Loading = LoadingOverlay(self.Root, "Připojování")
     
     @staticmethod
     def ValidIp(ip: str):
@@ -126,7 +187,6 @@ class Program:
         else:
             Logger.LogMessage(Program, f"Nebyl zadán platný port a bude tedy použit náhodný")
             
-        
         
         self.Root = tk.Tk()
         

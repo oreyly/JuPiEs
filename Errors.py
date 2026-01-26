@@ -23,3 +23,5 @@ class ERROR_CODES(StrEnum):
 	SERVER_NOT_KNOW_RESPONSE = "Server nedostal odpověď na požadavek {}"
 	SERVER_NOT_KNOW_NAME = "Server nedostal mé jméno"
 	SERVER_NOT_KNOW_QUIT = "Server neví, že jsem odešel"
+	PING_CANT_RESPOND = "Nebylo možné doručit odpověď na ping"
+	FAILED_TO_RECONNECT = "Nepodařilo se reconnectnout"

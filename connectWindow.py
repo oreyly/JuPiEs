@@ -1,4 +1,5 @@
 from __future__ import annotations
+import threading
 import tkinter as tk
 from typing import TYPE_CHECKING
 from Errors import ERROR_CODES
@@ -55,6 +56,10 @@ class ConnectionDialog:
         self.Connected = True
         Server.MyId = int(responseParams[0])
         Logger.LogMessage(ConnectionDialog,"Klient se úspěšně připojil k serveru.")
+        #self._program.Running = True
+        #self._program.CheckerThread = threading.Thread(target=self._program.ServerChecker ,daemon=True)
+        #self._program.CheckerThread.start()
+        
         for widget in self._program.Root.winfo_children():
             widget.destroy()
         
