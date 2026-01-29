@@ -55,6 +55,10 @@ class ConnectionDialog:
     
     @Utils.UpdateLastEcho
     def ConSucceded(self, responseParams: list[str]):
+        if(len(responseParams) != 1 or not responseParams[0].isdigit()):
+            messagebox.showwarning("Chyba", "K server vrátil neplatnou odpověď.")
+            Logger.LogError(ConnectionDialog, ERROR_CODES.BAD_SERVER_RESPONSE)
+        
         if(int(responseParams[0]) == 0):
             messagebox.showwarning("Chyba", "K serveru je připojeno maximální množství klientů.")
             Logger.LogMessage(ConnectionDialog, "K serveru je připojeno maximální množství klientů")

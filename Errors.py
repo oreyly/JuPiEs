@@ -30,3 +30,4 @@ class ERROR_CODES(StrEnum):
 	I_DONT_KNOW_POSITION = "Server nevrátil poslední pozici"
 	I_DONT_KNOW_HE_ALIVE = "Serve mi neřekl, jestli oponent žije"
 	PLAY_STATUS_FAIL = "Server neodpověděl, jestli hraju"
+	BAD_SERVER_RESPONSE = "Odpověď serveru nedorazila ve správném formátu"

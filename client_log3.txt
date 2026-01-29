@@ -14153,3 +14153,138 @@
 [INFO] [06:15:55] [Listener] Přijmuta zpráva: "4-1-0-0-26"
 [INFO] [06:15:55] [Sender] Odesílání zprávy: "4-1-0-0-2"
 [ERROR] [06:15:59] [GameLobby] Nepodařilo se získat roomky
+========== Začátek relace ==========
+[INFO] [07:20:05] [Logger] Logger úspěšně inicializován. Soubor: d:\src\pytlak\JuPiEs\client_log3.txt
+[INFO] [07:20:05] [Utils] Nebyla zadána platná ip adresa a bude tedy použita 0.0.0.0
+[INFO] [07:20:05] [Utils] Nebyl zadán platný port a bude tedy použit náhodný
+[INFO] [07:20:05] [Comunicator] Komunikátor úspěšně inicializován na portu 64645
+[INFO] [07:20:05] [MessageManager] Vytvořen MessageManager.
+[INFO] [07:20:05] [MessageManager] MessageManager připojen ke komunikátoru.
+[INFO] [07:20:07] [Sender] Odesílání zprávy: "1-1-0-1-4"
+[INFO] [07:20:07] [Listener] Přijmuta zpráva: "1-1-0-1-2"
+[INFO] [07:20:07] [Listener] Přijmuta zpráva: "1-1-0-1-5-1"
+[INFO] [07:20:07] [Sender] Odesílání zprávy: "1-1-0-0-2"
+[INFO] [07:20:07] [ConnectionDialog] Klient se úspěšně připojil k serveru.
+[INFO] [07:20:08] [Sender] Odesílání zprávy: "2-1-0-1-6-123"
+[INFO] [07:20:08] [Listener] Přijmuta zpráva: "2-1-0-1-2"
+[INFO] [07:20:08] [Listener] Přijmuta zpráva: "2-1-0-1-7-1"
+[INFO] [07:20:08] [Sender] Odesílání zprávy: "2-1-0-0-2"
+[INFO] [07:20:08] [NameDialog] Klient úspěšně přihlášen pod jménem: 123
+[INFO] [07:20:08] [GameLobby] REFFF
+[INFO] [07:20:08] [Sender] Odesílání zprávy: "3-1-0-1-8"
+[INFO] [07:20:08] [Listener] Přijmuta zpráva: "3-1-0-1-2"
+[INFO] [07:20:08] [Listener] Přijmuta zpráva: "3-1-0-1-9"
+[INFO] [07:20:08] [Sender] Odesílání zprávy: "3-1-0-0-2"
+[INFO] [07:20:10] [Listener] Přijmuta zpráva: "4-1-0-0-26"
+[INFO] [07:20:10] [Sender] Odesílání zprávy: "4-1-0-0-2"
+[INFO] [07:20:10] [Sender] Odesílání zprávy: "4-1-0-0-27"
+[INFO] [07:20:10] [Listener] Přijmuta zpráva: "4-1-0-0-2"
+========== Začátek relace ==========
+[INFO] [07:20:11] [Logger] Logger úspěšně inicializován. Soubor: D:\src\pytlak\JuPiEs\client_log3.txt
+[INFO] [07:20:11] [Utils] Nebyla zadána platná ip adresa a bude tedy použita 0.0.0.0
+[INFO] [07:20:11] [Utils] Nebyl zadán platný port a bude tedy použit náhodný
+[INFO] [07:20:11] [Comunicator] Komunikátor úspěšně inicializován na portu 60824
+[INFO] [07:20:11] [MessageManager] Vytvořen MessageManager.
+[INFO] [07:20:11] [MessageManager] MessageManager připojen ke komunikátoru.
+[INFO] [07:20:13] [Sender] Odesílání zprávy: "1-1-0-1-4"
+[INFO] [07:20:13] [Listener] Přijmuta zpráva: "1-1-0-1-2"
+[INFO] [07:20:13] [Listener] Přijmuta zpráva: "5-2-0-1-5-2"
+[INFO] [07:20:13] [Sender] Odesílání zprávy: "5-2-0-0-2"
+[INFO] [07:20:13] [ConnectionDialog] Klient se úspěšně připojil k serveru.
+[INFO] [07:20:14] [Sender] Odesílání zprávy: "2-2-0-1-6-456"
+[INFO] [07:20:14] [Listener] Přijmuta zpráva: "2-2-0-1-2"
+[INFO] [07:20:14] [Listener] Přijmuta zpráva: "6-2-0-1-7-1"
+[INFO] [07:20:14] [Sender] Odesílání zprávy: "6-2-0-0-2"
+[INFO] [07:20:14] [NameDialog] Klient úspěšně přihlášen pod jménem: 456
+[INFO] [07:20:14] [Listener] Přijmuta zpráva: "7-1-0-0-26"
+[INFO] [07:20:14] [Sender] Odesílání zprávy: "7-1-0-0-2"
+[INFO] [07:20:14] [Sender] Odesílání zprávy: "5-1-0-0-27"
+[INFO] [07:20:14] [Listener] Přijmuta zpráva: "5-1-0-0-2"
+[INFO] [07:20:14] [GameLobby] REFFF
+[INFO] [07:20:14] [Sender] Odesílání zprávy: "3-2-0-1-8"
+[INFO] [07:20:14] [Listener] Přijmuta zpráva: "3-2-0-1-2"
+[INFO] [07:20:14] [Listener] Přijmuta zpráva: "8-2-0-1-9"
+[INFO] [07:20:14] [Sender] Odesílání zprávy: "8-2-0-0-2"
+[INFO] [07:20:16] [Listener] Přijmuta zpráva: "9-2-0-0-26"
+[INFO] [07:20:16] [Sender] Odesílání zprávy: "9-2-0-0-2"
+[INFO] [07:20:16] [Sender] Odesílání zprávy: "4-2-0-0-27"
+[INFO] [07:20:16] [Listener] Přijmuta zpráva: "4-2-0-0-2"
+[INFO] [07:20:18] [Sender] Odesílání zprávy: "6-1-0-1-10-1"
+[INFO] [07:20:18] [Listener] Přijmuta zpráva: "6-1-0-1-2"
+[INFO] [07:20:18] [Listener] Přijmuta zpráva: "10-1-0-1-11-1"
+[INFO] [07:20:18] [Sender] Odesílání zprávy: "10-1-0-0-2"
+[INFO] [07:20:18] [Listener] Přijmuta zpráva: "11-1-0-0-26"
+[INFO] [07:20:18] [Sender] Odesílání zprávy: "11-1-0-0-2"
+[INFO] [07:20:18] [Sender] Odesílání zprávy: "7-1-0-0-27"
+[INFO] [07:20:18] [Listener] Přijmuta zpráva: "7-1-0-0-2"
+[INFO] [07:20:20] [Listener] Přijmuta zpráva: "12-2-0-0-26"
+[INFO] [07:20:20] [Sender] Odesílání zprávy: "12-2-0-0-2"
+[INFO] [07:20:20] [Sender] Odesílání zprávy: "5-2-0-0-27"
+[INFO] [07:20:20] [Listener] Přijmuta zpráva: "5-2-0-0-2"
+[INFO] [07:20:20] [GameLobby] REFFF
+[INFO] [07:20:20] [Sender] Odesílání zprávy: "6-2-0-1-8"
+[INFO] [07:20:20] [Listener] Přijmuta zpráva: "6-2-0-1-2"
+[INFO] [07:20:20] [Listener] Přijmuta zpráva: "13-2-0-1-9-1-1-0"
+[INFO] [07:20:20] [Sender] Odesílání zprávy: "13-2-0-0-2"
+[INFO] [07:20:21] [Sender] Odesílání zprávy: "7-2-0-1-12-1-0"
+[INFO] [07:20:21] [Listener] Přijmuta zpráva: "7-2-0-1-2"
+[INFO] [07:20:21] [Listener] Přijmuta zpráva: "14-2-0-1-13-1-123"
+[INFO] [07:20:21] [Sender] Odesílání zprávy: "14-2-0-0-2"
+[INFO] [07:20:21] [Listener] Přijmuta zpráva: "15-1-0-0-14-456"
+[INFO] [07:20:21] [Sender] Odesílání zprávy: "15-1-0-0-2"
+[INFO] [07:20:21] [Sender] Odesílání zprávy: "8-1-0-0-15"
+[INFO] [07:20:21] [Listener] Přijmuta zpráva: "8-1-0-0-2"
+[INFO] [07:20:21] [Sender] Odesílání zprávy: "8-2-0-1-34"
+[INFO] [07:20:21] [Listener] Přijmuta zpráva: "8-2-0-1-2"
+[INFO] [07:20:21] [Listener] Přijmuta zpráva: "16-2-0-1-35-1"
+[INFO] [07:20:21] [Sender] Odesílání zprávy: "16-2-0-0-2"
+[INFO] [07:20:23] [Sender] Odesílání zprávy: "9-1-0-1-16-5-4-4-5"
+[INFO] [07:20:23] [Listener] Přijmuta zpráva: "9-1-0-1-2"
+[INFO] [07:20:23] [Listener] Přijmuta zpráva: "17-1-0-1-17-1"
+[INFO] [07:20:23] [Sender] Odesílání zprávy: "17-1-0-0-2"
+[INFO] [07:20:23] [Listener] Přijmuta zpráva: "18-2-0-0-18-5-4-4-5"
+[INFO] [07:20:23] [Sender] Odesílání zprávy: "18-2-0-0-2"
+[INFO] [07:20:23] [Sender] Odesílání zprávy: "9-2-0-0-19"
+[INFO] [07:20:23] [Listener] Přijmuta zpráva: "9-2-0-0-2"
+[INFO] [07:20:25] [Listener] Přijmuta zpráva: "19-1-0-0-26"
+[INFO] [07:20:25] [Sender] Odesílání zprávy: "19-1-0-0-2"
+[INFO] [07:20:25] [Sender] Odesílání zprávy: "10-1-0-0-27"
+[INFO] [07:20:25] [Listener] Přijmuta zpráva: "10-1-0-0-2"
+[INFO] [07:20:25] [Sender] Odesílání zprávy: "10-2-0-1-16-2-5-3-4"
+[INFO] [07:20:25] [Listener] Přijmuta zpráva: "10-2-0-1-2"
+[INFO] [07:20:25] [Listener] Přijmuta zpráva: "20-2-0-1-17-1"
+[INFO] [07:20:25] [Sender] Odesílání zprávy: "20-2-0-0-2"
+[INFO] [07:20:25] [Listener] Přijmuta zpráva: "21-1-0-0-18-2-5-3-4"
+[INFO] [07:20:25] [Sender] Odesílání zprávy: "21-1-0-0-2"
+[INFO] [07:20:25] [Sender] Odesílání zprávy: "11-1-0-0-19"
+[INFO] [07:20:25] [Listener] Přijmuta zpráva: "11-1-0-0-2"
+[INFO] [07:20:26] [Listener] Přijmuta zpráva: "22-2-0-0-26"
+[INFO] [07:20:26] [Sender] Odesílání zprávy: "22-2-0-0-2"
+[INFO] [07:20:26] [Sender] Odesílání zprávy: "11-2-0-0-27"
+[INFO] [07:20:26] [Listener] Přijmuta zpráva: "11-2-0-0-2"
+[INFO] [07:20:26] [Sender] Odesílání zprávy: "12-1-0-1-24"
+[INFO] [07:20:26] [Listener] Přijmuta zpráva: "12-1-0-1-2"
+[INFO] [07:20:26] [Listener] Přijmuta zpráva: "23-1-0-1-25"
+[INFO] [07:20:26] [Sender] Odesílání zprávy: "23-1-0-0-2"
+[INFO] [07:20:26] [Listener] Přijmuta zpráva: "24-2-0-0-20-2"
+[INFO] [07:20:26] [Sender] Odesílání zprávy: "24-2-0-0-2"
+[INFO] [07:20:26] [Sender] Odesílání zprávy: "12-2-0-0-21"
+[INFO] [07:20:26] [Listener] Přijmuta zpráva: "12-2-0-0-2"
+[INFO] [07:20:29] [Listener] Přijmuta zpráva: "25-1-0-0-26"
+[INFO] [07:20:29] [Sender] Odesílání zprávy: "25-1-0-0-2"
+[INFO] [07:20:29] [Sender] Odesílání zprávy: "13-1-0-0-27"
+[INFO] [07:20:29] [Listener] Přijmuta zpráva: "13-1-0-0-2"
+[INFO] [07:20:29] [Program] lýv
+[INFO] [07:20:29] [Sender] Odesílání zprávy: "13-2-0-1-22"
+[INFO] [07:20:29] [Listener] Přijmuta zpráva: "13-2-0-1-2"
+[INFO] [07:20:29] [Listener] Přijmuta zpráva: "26-2-0-1-23"
+[INFO] [07:20:29] [Sender] Odesílání zprávy: "26-2-0-0-2"
+[INFO] [07:20:29] [Logger] Konec logování
+========== Konec relace ==========
+[INFO] [07:20:31] [Program] lýv
+[INFO] [07:20:31] [Sender] Odesílání zprávy: "14-1-0-1-22"
+[INFO] [07:20:31] [Listener] Přijmuta zpráva: "14-1-0-1-2"
+[INFO] [07:20:31] [Listener] Přijmuta zpráva: "28-1-0-1-23"
+[INFO] [07:20:31] [Sender] Odesílání zprávy: "28-1-0-0-2"
+[INFO] [07:20:32] [Logger] Konec logování
+========== Konec relace ==========
