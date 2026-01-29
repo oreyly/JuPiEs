@@ -151,7 +151,7 @@ class MessageManager:
                         if packet.Id in self._outgoingMessages:
                             msg = self._outgoingMessages.pop(packet.Id)
                             self._finishedIdTimesList[packet.Id] = time.time()
-                            Logger.LogMessage(MessageManager, f"Potvrzena zpráva {msg.MainPacket.CreateString()}")
+                            # Logger.LogMessage(MessageManager, f"Potvrzena zpráva {msg.MainPacket.CreateString()}")
                             msg.Finish()
                     continue
                 

@@ -25,3 +25,6 @@ class ERROR_CODES(StrEnum):
 	SERVER_NOT_KNOW_QUIT = "Server neví, že jsem odešel"
 	PING_CANT_RESPOND = "Nebylo možné doručit odpověď na ping"
 	FAILED_TO_RECONNECT = "Nepodařilo se reconnectnout"
+	ALREAD_CONNECTED = "Pokus o připojení již připojeného serveru"
+	NO_NETWORK = "Síť je nedostupná"
+	I_DONT_KNOW_POSITION = "Server nevrátil poslední pozici"

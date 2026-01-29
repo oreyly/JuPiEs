@@ -17,16 +17,16 @@ class OPCODE(IntEnum):
 
     CREATE_ROOM = 10
     ROOM_CREATED = 11
-    
+
     GET_TO_ROOM = 12
     GOT_TO_ROOM = 13
 
     OPPONENT_ARRIVED = 14
     KNOW_ABOUT_HIM = 15
-    
+
     I_MOVED = 16
     YOU_MOVED = 17
-    
+
     HE_MOVED = 18
     I_KNOW_HE_MOVED = 19
     
@@ -42,5 +42,11 @@ class OPCODE(IntEnum):
     PING = 26
     I_SEE_YOU = 27
 
-    RECONECT = 28
-    RECONECTED = 29
+    RECON = 28
+    RECON_AS = 29
+
+    WHAT_HAPPEND = 30
+    THIS_HAPPEND = 31
+
+    HES_MISSING = 32
+    THATS_A_SHAME = 33

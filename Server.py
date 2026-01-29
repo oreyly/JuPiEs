@@ -15,6 +15,7 @@ class Server:
     MyName: str = ""
     Online: bool = True
     LastEcho: float = 0
+    ConnectionID: int = 0
     
     def __init__(self):
         raise TypeError("Tato třída je statická a nemůže být instancována.")

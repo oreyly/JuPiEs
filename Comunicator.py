@@ -134,7 +134,11 @@ class Comunicator:
                 return
             
             Logger.LogMessage(Comunicator.Sender, f"Odesílání zprávy: \"{ message}\"")
-            sent = self._comunicator._sock.sendto(message.encode('utf-8'), (Server.ServerAddress.Ip, Server.ServerAddress.Port))
+            try:
+                sent = self._comunicator._sock.sendto(message.encode('utf-8'), (Server.ServerAddress.Ip, Server.ServerAddress.Port))
+            except WindowsError:
+                Logger.LogError(Comunicator.Sender, ERROR_CODES.NO_NETWORK)
+                return True
             
             if(sent < 0):
                 Logger.LogError(Comunicator.Sender, ERROR_CODES.FATAL_SOCKET)

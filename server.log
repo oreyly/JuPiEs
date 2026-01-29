@@ -1,0 +1,1223 @@
+==========Zacatek relace==========
+[INFO] [17:35:46] [Logger] Logger uspesne inicializovan. vsechny logy lze nalezt v souboru: /home/mates/.vs/zkusmoNovej/out/build/linux-debug/zkusmoNovej/server.log
+[INFO] [17:35:46] [Program] /home/mates/.vs/zkusmoNovej/out/build/linux-debug/zkusmoNovej/zkusmoNovej, -r, xd
+[INFO] [17:35:46] [Program] Pouzita IP:	0.0.0.0
+[INFO] [17:35:46] [Program] Pouziy port:	7890
+[INFO] [17:35:46] [Program] Max roomek:	1
+[INFO] [17:35:46] [Program] Max hracu:	2
+[INFO] [17:35:46] [Comunicator] Komunikator uspesne inicializovan na portu 7890
+[INFO] [17:35:46] [MessageManager] Vytvoren MessageManager.
+[INFO] [17:35:46] [MessageManager] MessageManager pripojen ke komunikatoru.
+[INFO] [17:35:46] [GameLobby] GameLobby byla spustena.
+[INFO] [17:35:49] [Comunicator] Prijmuta zprava: "1-1-0-1-4" z adresy: 10.0.1.57:64300
+[INFO] [17:35:49] [Comunicator::Sender] Odesilani zpravy: "1-1-1-1-2" na adresu: 10.0.1.57:64300
+[INFO] [17:35:49] [Comunicator::Sender] Odesilani zpravy: "2-1-0-1-5-1" na adresu: 10.0.1.57:64300
+[INFO] [17:35:49] [GameLobby] Timeout neexistujiciho klienta
+[INFO] [17:35:49] [Comunicator] Prijmuta zprava: "2-1-0-0-2" z adresy: 10.0.1.57:64300
+[INFO] [17:35:50] [Comunicator::Sender] Odesilani zpravy: "3-1-0-0-26" na adresu: 10.0.1.57:64300
+[INFO] [17:35:50] [Comunicator] Prijmuta zprava: "3-1-0-0-2" z adresy: 10.0.1.57:64300
+[INFO] [17:35:50] [Comunicator] Prijmuta zprava: "2-1-0-0-27" z adresy: 10.0.1.57:64300
+[INFO] [17:35:50] [Comunicator::Sender] Odesilani zpravy: "4-2-1-0-2" na adresu: 10.0.1.57:64300
+==========Zacatek relace==========
+[INFO] [17:39:22] [Logger] Logger uspesne inicializovan. vsechny logy lze nalezt v souboru: /home/mates/.vs/zkusmoNovej/out/build/linux-debug/zkusmoNovej/server.log
+[INFO] [17:39:22] [Program] /home/mates/.vs/zkusmoNovej/out/build/linux-debug/zkusmoNovej/zkusmoNovej, -r, xd
+[INFO] [17:39:22] [Program] Pouzita IP:	0.0.0.0
+[INFO] [17:39:22] [Program] Pouziy port:	7890
+[INFO] [17:39:22] [Program] Max roomek:	1
+[INFO] [17:39:22] [Program] Max hracu:	2
+[INFO] [17:39:22] [Comunicator] Komunikator uspesne inicializovan na portu 7890
+[INFO] [17:39:22] [MessageManager] Vytvoren MessageManager.
+[INFO] [17:39:22] [MessageManager] MessageManager pripojen ke komunikatoru.
+[INFO] [17:39:22] [GameLobby] GameLobby byla spustena.
+[INFO] [17:39:38] [Comunicator] Prijmuta zprava: "1-1-0-1-4" z adresy: 10.0.1.57:62975
+[INFO] [17:39:38] [Comunicator::Sender] Odesilani zpravy: "1-1-1-1-2" na adresu: 10.0.1.57:62975
+[INFO] [17:39:38] [Comunicator::Sender] Odesilani zpravy: "2-1-0-1-5-1" na adresu: 10.0.1.57:62975
+[INFO] [17:39:38] [GameLobby] Timeout neexistujiciho klienta
+[INFO] [17:39:38] [Comunicator] Prijmuta zprava: "2-1-0-0-2" z adresy: 10.0.1.57:62975
+[INFO] [17:39:39] [Comunicator::Sender] Odesilani zpravy: "3-1-0-0-26" na adresu: 10.0.1.57:62975
+[INFO] [17:39:39] [Comunicator] Prijmuta zprava: "3-1-0-0-2" z adresy: 10.0.1.57:62975
+[INFO] [17:39:39] [Comunicator] Prijmuta zprava: "2-1-0-0-27" z adresy: 10.0.1.57:62975
+[INFO] [17:39:39] [Comunicator::Sender] Odesilani zpravy: "4-2-1-0-2" na adresu: 10.0.1.57:62975
+[INFO] [17:39:47] [GameLobby] Klient: 1	 Jmeno: 	 Adresa: 10.0.1.57:62975	 Online: Ne	 Posl. echo pred: 8843 ms
+
+[WARNING] [17:40:09] [Comunicator] Prijat neplatny socket.
+[INFO] [17:40:16] [Comunicator] Prijmuta zprava: "1-1-0-1-4" z adresy: 10.0.1.57:54596
+[INFO] [17:40:16] [Comunicator::Sender] Odesilani zpravy: "5-1-1-1-2" na adresu: 10.0.1.57:54596
+[INFO] [17:40:16] [Comunicator::Sender] Odesilani zpravy: "6-2-0-1-5-2" na adresu: 10.0.1.57:54596
+==========Zacatek relace==========
+[INFO] [17:41:15] [Logger] Logger uspesne inicializovan. vsechny logy lze nalezt v souboru: /home/mates/.vs/zkusmoNovej/out/build/linux-debug/zkusmoNovej/server.log
+[INFO] [17:41:15] [Program] /home/mates/.vs/zkusmoNovej/out/build/linux-debug/zkusmoNovej/zkusmoNovej, -r, xd
+[INFO] [17:41:15] [Program] Pouzita IP:	0.0.0.0
+[INFO] [17:41:15] [Program] Pouziy port:	7890
+[INFO] [17:41:15] [Program] Max roomek:	1
+[INFO] [17:41:15] [Program] Max hracu:	2
+[INFO] [17:41:15] [Comunicator] Komunikator uspesne inicializovan na portu 7890
+[INFO] [17:41:15] [MessageManager] Vytvoren MessageManager.
+[INFO] [17:41:15] [MessageManager] MessageManager pripojen ke komunikatoru.
+[INFO] [17:41:15] [GameLobby] GameLobby byla spustena.
+[INFO] [17:41:25] [Comunicator] Prijmuta zprava: "1-1-0-1-4" z adresy: 10.0.1.57:62691
+[INFO] [17:41:25] [Comunicator::Sender] Odesilani zpravy: "1-1-1-1-2" na adresu: 10.0.1.57:62691
+[INFO] [17:41:25] [Comunicator::Sender] Odesilani zpravy: "2-1-0-1-5-1" na adresu: 10.0.1.57:62691
+[INFO] [17:41:25] [Comunicator] Prijmuta zprava: "2-1-0-0-2" z adresy: 10.0.1.57:62691
+[INFO] [17:41:26] [Comunicator::Sender] Odesilani zpravy: "3-1-0-0-26" na adresu: 10.0.1.57:62691
+[INFO] [17:41:26] [Comunicator] Prijmuta zprava: "3-1-0-0-2" z adresy: 10.0.1.57:62691
+[INFO] [17:41:26] [Comunicator] Prijmuta zprava: "2-1-0-0-27" z adresy: 10.0.1.57:62691
+[INFO] [17:41:26] [Comunicator::Sender] Odesilani zpravy: "4-2-1-0-2" na adresu: 10.0.1.57:62691
+[INFO] [17:41:27] [Comunicator::Sender] Odesilani zpravy: "5-1-0-0-26" na adresu: 10.0.1.57:62691
+[INFO] [17:41:27] [Comunicator] Prijmuta zprava: "5-1-0-0-2" z adresy: 10.0.1.57:62691
+[INFO] [17:41:27] [Comunicator] Prijmuta zprava: "3-1-0-0-27" z adresy: 10.0.1.57:62691
+[INFO] [17:41:27] [Comunicator::Sender] Odesilani zpravy: "6-3-1-0-2" na adresu: 10.0.1.57:62691
+[INFO] [17:41:28] [Comunicator::Sender] Odesilani zpravy: "7-1-0-0-26" na adresu: 10.0.1.57:62691
+[INFO] [17:41:28] [Comunicator] Prijmuta zprava: "7-1-0-0-2" z adresy: 10.0.1.57:62691
+[INFO] [17:41:28] [Comunicator] Prijmuta zprava: "4-1-0-0-27" z adresy: 10.0.1.57:62691
+[INFO] [17:41:28] [Comunicator::Sender] Odesilani zpravy: "8-4-1-0-2" na adresu: 10.0.1.57:62691
+[INFO] [17:41:29] [Comunicator::Sender] Odesilani zpravy: "9-1-0-0-26" na adresu: 10.0.1.57:62691
+[INFO] [17:41:29] [Comunicator] Prijmuta zprava: "9-1-0-0-2" z adresy: 10.0.1.57:62691
+[INFO] [17:41:29] [Comunicator] Prijmuta zprava: "5-1-0-0-27" z adresy: 10.0.1.57:62691
+[INFO] [17:41:29] [Comunicator::Sender] Odesilani zpravy: "10-5-1-0-2" na adresu: 10.0.1.57:62691
+[INFO] [17:41:30] [Comunicator::Sender] Odesilani zpravy: "11-1-0-0-26" na adresu: 10.0.1.57:62691
+[INFO] [17:41:30] [Comunicator] Prijmuta zprava: "11-1-0-0-2" z adresy: 10.0.1.57:62691
+[INFO] [17:41:30] [Comunicator] Prijmuta zprava: "6-1-0-0-27" z adresy: 10.0.1.57:62691
+[INFO] [17:41:30] [Comunicator::Sender] Odesilani zpravy: "12-6-1-0-2" na adresu: 10.0.1.57:62691
+[INFO] [17:41:31] [Comunicator::Sender] Odesilani zpravy: "13-1-0-0-26" na adresu: 10.0.1.57:62691
+[INFO] [17:41:31] [Comunicator] Prijmuta zprava: "13-1-0-0-2" z adresy: 10.0.1.57:62691
+[INFO] [17:41:31] [Comunicator] Prijmuta zprava: "7-1-0-0-27" z adresy: 10.0.1.57:62691
+[INFO] [17:41:31] [Comunicator::Sender] Odesilani zpravy: "14-7-1-0-2" na adresu: 10.0.1.57:62691
+[INFO] [17:41:32] [Comunicator::Sender] Odesilani zpravy: "15-1-0-0-26" na adresu: 10.0.1.57:62691
+[INFO] [17:41:32] [Comunicator] Prijmuta zprava: "15-1-0-0-2" z adresy: 10.0.1.57:62691
+[INFO] [17:41:32] [Comunicator] Prijmuta zprava: "8-1-0-0-27" z adresy: 10.0.1.57:62691
+[INFO] [17:41:32] [Comunicator::Sender] Odesilani zpravy: "16-8-1-0-2" na adresu: 10.0.1.57:62691
+[INFO] [17:41:31] [Comunicator::Sender] Odesilani zpravy: "17-1-0-0-26" na adresu: 10.0.1.57:62691
+[INFO] [17:41:31] [Comunicator] Prijmuta zprava: "17-1-0-0-2" z adresy: 10.0.1.57:62691
+[INFO] [17:41:31] [Comunicator] Prijmuta zprava: "9-1-0-0-27" z adresy: 10.0.1.57:62691
+[INFO] [17:41:31] [Comunicator::Sender] Odesilani zpravy: "18-9-1-0-2" na adresu: 10.0.1.57:62691
+[INFO] [17:41:32] [Comunicator::Sender] Odesilani zpravy: "19-1-0-0-26" na adresu: 10.0.1.57:62691
+[INFO] [17:41:32] [Comunicator] Prijmuta zprava: "19-1-0-0-2" z adresy: 10.0.1.57:62691
+[INFO] [17:41:32] [Comunicator] Prijmuta zprava: "10-1-0-0-27" z adresy: 10.0.1.57:62691
+[INFO] [17:41:32] [Comunicator::Sender] Odesilani zpravy: "20-10-1-0-2" na adresu: 10.0.1.57:62691
+[INFO] [17:41:33] [Comunicator::Sender] Odesilani zpravy: "21-1-0-0-26" na adresu: 10.0.1.57:62691
+[INFO] [17:41:33] [Comunicator] Prijmuta zprava: "21-1-0-0-2" z adresy: 10.0.1.57:62691
+[INFO] [17:41:33] [Comunicator] Prijmuta zprava: "11-1-0-0-27" z adresy: 10.0.1.57:62691
+[INFO] [17:41:33] [Comunicator::Sender] Odesilani zpravy: "22-11-1-0-2" na adresu: 10.0.1.57:62691
+[INFO] [17:41:34] [Comunicator::Sender] Odesilani zpravy: "23-1-0-0-26" na adresu: 10.0.1.57:62691
+[INFO] [17:41:34] [Comunicator] Prijmuta zprava: "23-1-0-0-2" z adresy: 10.0.1.57:62691
+[INFO] [17:41:34] [Comunicator] Prijmuta zprava: "12-1-0-0-27" z adresy: 10.0.1.57:62691
+[INFO] [17:41:34] [Comunicator::Sender] Odesilani zpravy: "24-12-1-0-2" na adresu: 10.0.1.57:62691
+[INFO] [17:41:35] [Comunicator::Sender] Odesilani zpravy: "25-1-0-0-26" na adresu: 10.0.1.57:62691
+[INFO] [17:41:35] [Comunicator] Prijmuta zprava: "25-1-0-0-2" z adresy: 10.0.1.57:62691
+[INFO] [17:41:35] [Comunicator] Prijmuta zprava: "13-1-0-0-27" z adresy: 10.0.1.57:62691
+[INFO] [17:41:35] [Comunicator::Sender] Odesilani zpravy: "26-13-1-0-2" na adresu: 10.0.1.57:62691
+[INFO] [17:41:36] [Comunicator::Sender] Odesilani zpravy: "27-1-0-0-26" na adresu: 10.0.1.57:62691
+[INFO] [17:41:36] [Comunicator] Prijmuta zprava: "27-1-0-0-2" z adresy: 10.0.1.57:62691
+[INFO] [17:41:36] [Comunicator] Prijmuta zprava: "14-1-0-0-27" z adresy: 10.0.1.57:62691
+[INFO] [17:41:36] [Comunicator::Sender] Odesilani zpravy: "28-14-1-0-2" na adresu: 10.0.1.57:62691
+[INFO] [17:41:37] [Comunicator::Sender] Odesilani zpravy: "29-1-0-0-26" na adresu: 10.0.1.57:62691
+[INFO] [17:41:37] [Comunicator] Prijmuta zprava: "29-1-0-0-2" z adresy: 10.0.1.57:62691
+[INFO] [17:41:37] [Comunicator] Prijmuta zprava: "15-1-0-0-27" z adresy: 10.0.1.57:62691
+[INFO] [17:41:37] [Comunicator::Sender] Odesilani zpravy: "30-15-1-0-2" na adresu: 10.0.1.57:62691
+[INFO] [17:41:39] [Comunicator::Sender] Odesilani zpravy: "31-1-0-0-26" na adresu: 10.0.1.57:62691
+[INFO] [17:41:39] [Comunicator] Prijmuta zprava: "31-1-0-0-2" z adresy: 10.0.1.57:62691
+[INFO] [17:41:39] [Comunicator] Prijmuta zprava: "16-1-0-0-27" z adresy: 10.0.1.57:62691
+[INFO] [17:41:39] [Comunicator::Sender] Odesilani zpravy: "32-16-1-0-2" na adresu: 10.0.1.57:62691
+[INFO] [17:41:40] [Comunicator::Sender] Odesilani zpravy: "33-1-0-0-26" na adresu: 10.0.1.57:62691
+[INFO] [17:41:40] [Comunicator] Prijmuta zprava: "33-1-0-0-2" z adresy: 10.0.1.57:62691
+[INFO] [17:41:40] [Comunicator] Prijmuta zprava: "17-1-0-0-27" z adresy: 10.0.1.57:62691
+[INFO] [17:41:40] [Comunicator::Sender] Odesilani zpravy: "34-17-1-0-2" na adresu: 10.0.1.57:62691
+[INFO] [17:41:41] [Comunicator::Sender] Odesilani zpravy: "35-1-0-0-26" na adresu: 10.0.1.57:62691
+[INFO] [17:41:41] [Comunicator] Prijmuta zprava: "35-1-0-0-2" z adresy: 10.0.1.57:62691
+[INFO] [17:41:41] [Comunicator] Prijmuta zprava: "18-1-0-0-27" z adresy: 10.0.1.57:62691
+[INFO] [17:41:41] [Comunicator::Sender] Odesilani zpravy: "36-18-1-0-2" na adresu: 10.0.1.57:62691
+[INFO] [17:41:42] [Comunicator::Sender] Odesilani zpravy: "37-1-0-0-26" na adresu: 10.0.1.57:62691
+[INFO] [17:41:42] [Comunicator] Prijmuta zprava: "37-1-0-0-2" z adresy: 10.0.1.57:62691
+[INFO] [17:41:42] [Comunicator] Prijmuta zprava: "19-1-0-0-27" z adresy: 10.0.1.57:62691
+[INFO] [17:41:42] [Comunicator::Sender] Odesilani zpravy: "38-19-1-0-2" na adresu: 10.0.1.57:62691
+[INFO] [17:41:43] [Comunicator::Sender] Odesilani zpravy: "39-1-0-0-26" na adresu: 10.0.1.57:62691
+[INFO] [17:41:43] [Comunicator] Prijmuta zprava: "39-1-0-0-2" z adresy: 10.0.1.57:62691
+[INFO] [17:41:43] [Comunicator] Prijmuta zprava: "20-1-0-0-27" z adresy: 10.0.1.57:62691
+[INFO] [17:41:43] [Comunicator::Sender] Odesilani zpravy: "40-20-1-0-2" na adresu: 10.0.1.57:62691
+[INFO] [17:41:44] [Comunicator::Sender] Odesilani zpravy: "41-1-0-0-26" na adresu: 10.0.1.57:62691
+[INFO] [17:41:44] [Comunicator] Prijmuta zprava: "41-1-0-0-2" z adresy: 10.0.1.57:62691
+[INFO] [17:41:44] [Comunicator] Prijmuta zprava: "21-1-0-0-27" z adresy: 10.0.1.57:62691
+[INFO] [17:41:44] [Comunicator::Sender] Odesilani zpravy: "42-21-1-0-2" na adresu: 10.0.1.57:62691
+[INFO] [17:41:45] [Comunicator::Sender] Odesilani zpravy: "43-1-0-0-26" na adresu: 10.0.1.57:62691
+[INFO] [17:41:45] [Comunicator] Prijmuta zprava: "43-1-0-0-2" z adresy: 10.0.1.57:62691
+[INFO] [17:41:45] [Comunicator] Prijmuta zprava: "22-1-0-0-27" z adresy: 10.0.1.57:62691
+[INFO] [17:41:45] [Comunicator::Sender] Odesilani zpravy: "44-22-1-0-2" na adresu: 10.0.1.57:62691
+[INFO] [17:41:46] [Comunicator::Sender] Odesilani zpravy: "45-1-0-0-26" na adresu: 10.0.1.57:62691
+[INFO] [17:41:46] [Comunicator] Prijmuta zprava: "45-1-0-0-2" z adresy: 10.0.1.57:62691
+[INFO] [17:41:46] [Comunicator] Prijmuta zprava: "23-1-0-0-27" z adresy: 10.0.1.57:62691
+[INFO] [17:41:46] [Comunicator::Sender] Odesilani zpravy: "46-23-1-0-2" na adresu: 10.0.1.57:62691
+[INFO] [17:41:47] [Comunicator::Sender] Odesilani zpravy: "47-1-0-0-26" na adresu: 10.0.1.57:62691
+[INFO] [17:41:47] [Comunicator] Prijmuta zprava: "47-1-0-0-2" z adresy: 10.0.1.57:62691
+[INFO] [17:41:47] [Comunicator] Prijmuta zprava: "24-1-0-0-27" z adresy: 10.0.1.57:62691
+[INFO] [17:41:47] [Comunicator::Sender] Odesilani zpravy: "48-24-1-0-2" na adresu: 10.0.1.57:62691
+[INFO] [17:41:48] [Comunicator::Sender] Odesilani zpravy: "49-1-0-0-26" na adresu: 10.0.1.57:62691
+[INFO] [17:41:48] [Comunicator] Prijmuta zprava: "49-1-0-0-2" z adresy: 10.0.1.57:62691
+[INFO] [17:41:48] [Comunicator] Prijmuta zprava: "25-1-0-0-27" z adresy: 10.0.1.57:62691
+[INFO] [17:41:48] [Comunicator::Sender] Odesilani zpravy: "50-25-1-0-2" na adresu: 10.0.1.57:62691
+[INFO] [17:41:49] [Comunicator::Sender] Odesilani zpravy: "51-1-0-0-26" na adresu: 10.0.1.57:62691
+[INFO] [17:41:49] [Comunicator] Prijmuta zprava: "51-1-0-0-2" z adresy: 10.0.1.57:62691
+[INFO] [17:41:49] [Comunicator] Prijmuta zprava: "26-1-0-0-27" z adresy: 10.0.1.57:62691
+[INFO] [17:41:49] [Comunicator::Sender] Odesilani zpravy: "52-26-1-0-2" na adresu: 10.0.1.57:62691
+==========Zacatek relace==========
+[INFO] [17:44:55] [Logger] Logger uspesne inicializovan. vsechny logy lze nalezt v souboru: /home/mates/.vs/zkusmoNovej/out/build/linux-debug/zkusmoNovej/server.log
+[INFO] [17:44:55] [Program] /home/mates/.vs/zkusmoNovej/out/build/linux-debug/zkusmoNovej/zkusmoNovej, -r, xd
+[INFO] [17:44:55] [Program] Pouzita IP:	0.0.0.0
+[INFO] [17:44:55] [Program] Pouziy port:	7890
+[INFO] [17:44:55] [Program] Max roomek:	1
+[INFO] [17:44:55] [Program] Max hracu:	2
+[INFO] [17:44:55] [Comunicator] Komunikator uspesne inicializovan na portu 7890
+[INFO] [17:44:55] [MessageManager] Vytvoren MessageManager.
+[INFO] [17:44:55] [MessageManager] MessageManager pripojen ke komunikatoru.
+[INFO] [17:44:55] [GameLobby] GameLobby byla spustena.
+[INFO] [17:44:58] [Comunicator] Prijmuta zprava: "1-1-0-1-4" z adresy: 10.0.1.57:61513
+[INFO] [17:44:58] [Comunicator::Sender] Odesilani zpravy: "1-1-0-1-2" na adresu: 10.0.1.57:61513
+[INFO] [17:44:58] [Comunicator::Sender] Odesilani zpravy: "1-1-0-1-5-1" na adresu: 10.0.1.57:61513
+[INFO] [17:44:58] [Comunicator] Prijmuta zprava: "1-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:44:59] [Comunicator::Sender] Odesilani zpravy: "2-1-0-0-26" na adresu: 10.0.1.57:61513
+[INFO] [17:44:59] [Comunicator] Prijmuta zprava: "2-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:44:59] [Comunicator] Prijmuta zprava: "2-1-0-0-27" z adresy: 10.0.1.57:61513
+[INFO] [17:44:59] [Comunicator::Sender] Odesilani zpravy: "2-1-0-0-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:00] [Comunicator::Sender] Odesilani zpravy: "3-1-0-0-26" na adresu: 10.0.1.57:61513
+[INFO] [17:45:00] [Comunicator] Prijmuta zprava: "3-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:45:00] [Comunicator] Prijmuta zprava: "3-1-0-0-27" z adresy: 10.0.1.57:61513
+[INFO] [17:45:00] [Comunicator::Sender] Odesilani zpravy: "3-1-0-0-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:01] [Comunicator::Sender] Odesilani zpravy: "4-1-0-0-26" na adresu: 10.0.1.57:61513
+[INFO] [17:45:01] [Comunicator] Prijmuta zprava: "4-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:45:01] [Comunicator] Prijmuta zprava: "4-1-0-0-27" z adresy: 10.0.1.57:61513
+[INFO] [17:45:01] [Comunicator::Sender] Odesilani zpravy: "4-1-0-0-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:02] [Comunicator::Sender] Odesilani zpravy: "5-1-0-0-26" na adresu: 10.0.1.57:61513
+[INFO] [17:45:02] [Comunicator] Prijmuta zprava: "5-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:45:02] [Comunicator] Prijmuta zprava: "5-1-0-0-27" z adresy: 10.0.1.57:61513
+[INFO] [17:45:02] [Comunicator::Sender] Odesilani zpravy: "5-1-0-0-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:03] [Comunicator::Sender] Odesilani zpravy: "6-1-0-0-26" na adresu: 10.0.1.57:61513
+[INFO] [17:45:03] [Comunicator] Prijmuta zprava: "6-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:45:03] [Comunicator] Prijmuta zprava: "6-1-0-0-27" z adresy: 10.0.1.57:61513
+[INFO] [17:45:03] [Comunicator::Sender] Odesilani zpravy: "6-1-0-0-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:04] [Comunicator::Sender] Odesilani zpravy: "7-1-0-0-26" na adresu: 10.0.1.57:61513
+[INFO] [17:45:04] [Comunicator] Prijmuta zprava: "7-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:45:04] [Comunicator] Prijmuta zprava: "7-1-0-0-27" z adresy: 10.0.1.57:61513
+[INFO] [17:45:04] [Comunicator::Sender] Odesilani zpravy: "7-1-0-0-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:05] [Comunicator::Sender] Odesilani zpravy: "8-1-0-0-26" na adresu: 10.0.1.57:61513
+[INFO] [17:45:05] [Comunicator] Prijmuta zprava: "8-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:45:05] [Comunicator] Prijmuta zprava: "8-1-0-0-27" z adresy: 10.0.1.57:61513
+[INFO] [17:45:05] [Comunicator::Sender] Odesilani zpravy: "8-1-0-0-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:06] [Comunicator::Sender] Odesilani zpravy: "9-1-0-0-26" na adresu: 10.0.1.57:61513
+[INFO] [17:45:06] [Comunicator] Prijmuta zprava: "9-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:45:06] [Comunicator] Prijmuta zprava: "9-1-0-0-27" z adresy: 10.0.1.57:61513
+[INFO] [17:45:06] [Comunicator::Sender] Odesilani zpravy: "9-1-0-0-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:07] [Comunicator::Sender] Odesilani zpravy: "10-1-0-0-26" na adresu: 10.0.1.57:61513
+[INFO] [17:45:07] [Comunicator] Prijmuta zprava: "10-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:45:07] [Comunicator] Prijmuta zprava: "10-1-0-0-27" z adresy: 10.0.1.57:61513
+[INFO] [17:45:07] [Comunicator::Sender] Odesilani zpravy: "10-1-0-0-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:08] [Comunicator::Sender] Odesilani zpravy: "11-1-0-0-26" na adresu: 10.0.1.57:61513
+[INFO] [17:45:08] [Comunicator] Prijmuta zprava: "11-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:45:08] [Comunicator] Prijmuta zprava: "11-1-0-0-27" z adresy: 10.0.1.57:61513
+[INFO] [17:45:08] [Comunicator::Sender] Odesilani zpravy: "11-1-0-0-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:09] [Comunicator::Sender] Odesilani zpravy: "12-1-0-0-26" na adresu: 10.0.1.57:61513
+[INFO] [17:45:09] [Comunicator] Prijmuta zprava: "12-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:45:09] [Comunicator] Prijmuta zprava: "12-1-0-0-27" z adresy: 10.0.1.57:61513
+[INFO] [17:45:09] [Comunicator::Sender] Odesilani zpravy: "12-1-0-0-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:09] [Comunicator::Sender] Odesilani zpravy: "13-1-0-0-26" na adresu: 10.0.1.57:61513
+[INFO] [17:45:09] [Comunicator] Prijmuta zprava: "13-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:45:09] [Comunicator] Prijmuta zprava: "13-1-0-0-27" z adresy: 10.0.1.57:61513
+[INFO] [17:45:09] [Comunicator::Sender] Odesilani zpravy: "13-1-0-0-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:10] [Comunicator::Sender] Odesilani zpravy: "14-1-0-0-26" na adresu: 10.0.1.57:61513
+[INFO] [17:45:10] [Comunicator] Prijmuta zprava: "14-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:45:10] [Comunicator] Prijmuta zprava: "14-1-0-0-27" z adresy: 10.0.1.57:61513
+[INFO] [17:45:10] [Comunicator::Sender] Odesilani zpravy: "14-1-0-0-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:11] [Comunicator::Sender] Odesilani zpravy: "15-1-0-0-26" na adresu: 10.0.1.57:61513
+[INFO] [17:45:11] [Comunicator] Prijmuta zprava: "15-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:45:11] [Comunicator] Prijmuta zprava: "15-1-0-0-27" z adresy: 10.0.1.57:61513
+[INFO] [17:45:11] [Comunicator::Sender] Odesilani zpravy: "15-1-0-0-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:12] [Comunicator::Sender] Odesilani zpravy: "16-1-0-0-26" na adresu: 10.0.1.57:61513
+[INFO] [17:45:12] [Comunicator] Prijmuta zprava: "16-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:45:12] [Comunicator] Prijmuta zprava: "16-1-0-0-27" z adresy: 10.0.1.57:61513
+[INFO] [17:45:12] [Comunicator::Sender] Odesilani zpravy: "16-1-0-0-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:13] [Comunicator::Sender] Odesilani zpravy: "17-1-0-0-26" na adresu: 10.0.1.57:61513
+[INFO] [17:45:13] [Comunicator] Prijmuta zprava: "17-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:45:13] [Comunicator] Prijmuta zprava: "17-1-0-0-27" z adresy: 10.0.1.57:61513
+[INFO] [17:45:13] [Comunicator::Sender] Odesilani zpravy: "17-1-0-0-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:14] [Comunicator::Sender] Odesilani zpravy: "18-1-0-0-26" na adresu: 10.0.1.57:61513
+[INFO] [17:45:14] [Comunicator] Prijmuta zprava: "18-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:45:14] [Comunicator] Prijmuta zprava: "18-1-0-0-27" z adresy: 10.0.1.57:61513
+[INFO] [17:45:14] [Comunicator::Sender] Odesilani zpravy: "18-1-0-0-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:15] [Comunicator::Sender] Odesilani zpravy: "19-1-0-0-26" na adresu: 10.0.1.57:61513
+[INFO] [17:45:15] [Comunicator] Prijmuta zprava: "19-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:45:15] [Comunicator] Prijmuta zprava: "19-1-0-0-27" z adresy: 10.0.1.57:61513
+[INFO] [17:45:15] [Comunicator::Sender] Odesilani zpravy: "19-1-0-0-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:16] [Comunicator::Sender] Odesilani zpravy: "20-1-0-0-26" na adresu: 10.0.1.57:61513
+[INFO] [17:45:16] [Comunicator] Prijmuta zprava: "20-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:45:16] [Comunicator] Prijmuta zprava: "20-1-0-0-27" z adresy: 10.0.1.57:61513
+[INFO] [17:45:16] [Comunicator::Sender] Odesilani zpravy: "20-1-0-0-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:17] [Comunicator::Sender] Odesilani zpravy: "21-1-0-0-26" na adresu: 10.0.1.57:61513
+[INFO] [17:45:17] [Comunicator] Prijmuta zprava: "21-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:45:17] [Comunicator] Prijmuta zprava: "21-1-0-0-27" z adresy: 10.0.1.57:61513
+[INFO] [17:45:17] [Comunicator::Sender] Odesilani zpravy: "21-1-0-0-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:18] [Comunicator::Sender] Odesilani zpravy: "22-1-0-0-26" na adresu: 10.0.1.57:61513
+[INFO] [17:45:18] [Comunicator] Prijmuta zprava: "22-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:45:18] [Comunicator] Prijmuta zprava: "22-1-0-0-27" z adresy: 10.0.1.57:61513
+[INFO] [17:45:18] [Comunicator::Sender] Odesilani zpravy: "22-1-0-0-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:19] [Comunicator::Sender] Odesilani zpravy: "23-1-0-0-26" na adresu: 10.0.1.57:61513
+[INFO] [17:45:19] [Comunicator] Prijmuta zprava: "23-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:45:19] [Comunicator] Prijmuta zprava: "23-1-0-0-27" z adresy: 10.0.1.57:61513
+[INFO] [17:45:19] [Comunicator::Sender] Odesilani zpravy: "23-1-0-0-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:20] [Comunicator::Sender] Odesilani zpravy: "24-1-0-0-26" na adresu: 10.0.1.57:61513
+[INFO] [17:45:20] [Comunicator] Prijmuta zprava: "24-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:45:20] [Comunicator] Prijmuta zprava: "24-1-0-0-27" z adresy: 10.0.1.57:61513
+[INFO] [17:45:20] [Comunicator::Sender] Odesilani zpravy: "24-1-0-0-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:21] [Comunicator::Sender] Odesilani zpravy: "25-1-0-0-26" na adresu: 10.0.1.57:61513
+[INFO] [17:45:21] [Comunicator] Prijmuta zprava: "25-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:45:21] [Comunicator] Prijmuta zprava: "25-1-0-0-27" z adresy: 10.0.1.57:61513
+[INFO] [17:45:21] [Comunicator::Sender] Odesilani zpravy: "25-1-0-0-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:22] [Comunicator::Sender] Odesilani zpravy: "26-1-0-0-26" na adresu: 10.0.1.57:61513
+[INFO] [17:45:22] [Comunicator] Prijmuta zprava: "26-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:45:22] [Comunicator] Prijmuta zprava: "26-1-0-0-27" z adresy: 10.0.1.57:61513
+[INFO] [17:45:22] [Comunicator::Sender] Odesilani zpravy: "26-1-0-0-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:23] [Comunicator::Sender] Odesilani zpravy: "27-1-0-0-26" na adresu: 10.0.1.57:61513
+[INFO] [17:45:23] [Comunicator] Prijmuta zprava: "27-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:45:23] [Comunicator] Prijmuta zprava: "27-1-0-0-27" z adresy: 10.0.1.57:61513
+[INFO] [17:45:23] [Comunicator::Sender] Odesilani zpravy: "27-1-0-0-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:24] [Comunicator::Sender] Odesilani zpravy: "28-1-0-0-26" na adresu: 10.0.1.57:61513
+[INFO] [17:45:24] [Comunicator] Prijmuta zprava: "28-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:45:24] [Comunicator] Prijmuta zprava: "28-1-0-0-27" z adresy: 10.0.1.57:61513
+[INFO] [17:45:24] [Comunicator::Sender] Odesilani zpravy: "28-1-0-0-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:25] [Comunicator::Sender] Odesilani zpravy: "29-1-0-0-26" na adresu: 10.0.1.57:61513
+[INFO] [17:45:25] [Comunicator] Prijmuta zprava: "29-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:45:25] [Comunicator] Prijmuta zprava: "29-1-0-0-27" z adresy: 10.0.1.57:61513
+[INFO] [17:45:25] [Comunicator::Sender] Odesilani zpravy: "29-1-0-0-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:26] [Comunicator::Sender] Odesilani zpravy: "30-1-0-0-26" na adresu: 10.0.1.57:61513
+[INFO] [17:45:26] [Comunicator] Prijmuta zprava: "30-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:45:26] [Comunicator] Prijmuta zprava: "30-1-0-0-27" z adresy: 10.0.1.57:61513
+[INFO] [17:45:26] [Comunicator::Sender] Odesilani zpravy: "30-1-0-0-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:27] [Comunicator::Sender] Odesilani zpravy: "31-1-0-0-26" na adresu: 10.0.1.57:61513
+[INFO] [17:45:27] [Comunicator] Prijmuta zprava: "31-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:45:27] [Comunicator] Prijmuta zprava: "31-1-0-0-27" z adresy: 10.0.1.57:61513
+[INFO] [17:45:27] [Comunicator::Sender] Odesilani zpravy: "31-1-0-0-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:28] [Comunicator::Sender] Odesilani zpravy: "32-1-0-0-26" na adresu: 10.0.1.57:61513
+[INFO] [17:45:28] [Comunicator] Prijmuta zprava: "32-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:45:28] [Comunicator] Prijmuta zprava: "32-1-0-0-27" z adresy: 10.0.1.57:61513
+[INFO] [17:45:28] [Comunicator::Sender] Odesilani zpravy: "32-1-0-0-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:29] [Comunicator::Sender] Odesilani zpravy: "33-1-0-0-26" na adresu: 10.0.1.57:61513
+[INFO] [17:45:29] [Comunicator] Prijmuta zprava: "33-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:45:29] [Comunicator] Prijmuta zprava: "33-1-0-0-27" z adresy: 10.0.1.57:61513
+[INFO] [17:45:29] [Comunicator::Sender] Odesilani zpravy: "33-1-0-0-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:30] [Comunicator::Sender] Odesilani zpravy: "34-1-0-0-26" na adresu: 10.0.1.57:61513
+[INFO] [17:45:30] [Comunicator] Prijmuta zprava: "34-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:45:30] [Comunicator] Prijmuta zprava: "34-1-0-0-27" z adresy: 10.0.1.57:61513
+[INFO] [17:45:30] [Comunicator::Sender] Odesilani zpravy: "34-1-0-0-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:31] [Comunicator::Sender] Odesilani zpravy: "35-1-0-0-26" na adresu: 10.0.1.57:61513
+[INFO] [17:45:31] [Comunicator] Prijmuta zprava: "35-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:45:31] [Comunicator] Prijmuta zprava: "35-1-0-0-27" z adresy: 10.0.1.57:61513
+[INFO] [17:45:31] [Comunicator::Sender] Odesilani zpravy: "35-1-0-0-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:32] [Comunicator::Sender] Odesilani zpravy: "36-1-0-0-26" na adresu: 10.0.1.57:61513
+[INFO] [17:45:32] [Comunicator] Prijmuta zprava: "36-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:45:32] [Comunicator] Prijmuta zprava: "36-1-0-0-27" z adresy: 10.0.1.57:61513
+[INFO] [17:45:32] [Comunicator::Sender] Odesilani zpravy: "36-1-0-0-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:33] [Comunicator::Sender] Odesilani zpravy: "37-1-0-0-26" na adresu: 10.0.1.57:61513
+[INFO] [17:45:33] [Comunicator] Prijmuta zprava: "37-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:45:33] [Comunicator] Prijmuta zprava: "37-1-0-0-27" z adresy: 10.0.1.57:61513
+[INFO] [17:45:33] [Comunicator::Sender] Odesilani zpravy: "37-1-0-0-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:34] [Comunicator::Sender] Odesilani zpravy: "38-1-0-0-26" na adresu: 10.0.1.57:61513
+[INFO] [17:45:34] [Comunicator] Prijmuta zprava: "38-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:45:34] [Comunicator] Prijmuta zprava: "38-1-0-0-27" z adresy: 10.0.1.57:61513
+[INFO] [17:45:34] [Comunicator::Sender] Odesilani zpravy: "38-1-0-0-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:35] [Comunicator::Sender] Odesilani zpravy: "39-1-0-0-26" na adresu: 10.0.1.57:61513
+[INFO] [17:45:35] [Comunicator] Prijmuta zprava: "39-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:45:35] [Comunicator] Prijmuta zprava: "39-1-0-0-27" z adresy: 10.0.1.57:61513
+[INFO] [17:45:35] [Comunicator::Sender] Odesilani zpravy: "39-1-0-0-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:36] [Comunicator::Sender] Odesilani zpravy: "40-1-0-0-26" na adresu: 10.0.1.57:61513
+[INFO] [17:45:36] [Comunicator] Prijmuta zprava: "40-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:45:36] [Comunicator] Prijmuta zprava: "40-1-0-0-27" z adresy: 10.0.1.57:61513
+[INFO] [17:45:36] [Comunicator::Sender] Odesilani zpravy: "40-1-0-0-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:38] [Comunicator::Sender] Odesilani zpravy: "41-1-0-0-26" na adresu: 10.0.1.57:61513
+[INFO] [17:45:38] [Comunicator] Prijmuta zprava: "41-1-0-0-2" z adresy: 10.0.1.57:61513
+[INFO] [17:45:38] [Comunicator] Prijmuta zprava: "41-1-0-0-27" z adresy: 10.0.1.57:61513
+[INFO] [17:45:38] [Comunicator::Sender] Odesilani zpravy: "41-1-0-0-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:38] [Comunicator] Prijmuta zprava: "42-1-0-1-22" z adresy: 10.0.1.57:61513
+[INFO] [17:45:38] [Comunicator::Sender] Odesilani zpravy: "42-1-0-1-2" na adresu: 10.0.1.57:61513
+[INFO] [17:45:38] [Comunicator::Sender] Odesilani zpravy: "42-1-0-1-23" na adresu: 10.0.1.57:61513
+[INFO] [17:45:38] [Comunicator] Prijmuta zprava: "42-1-0-0-2" z adresy: 10.0.1.57:61513
+==========Zacatek relace==========
+[INFO] [17:51:38] [Logger] Logger uspesne inicializovan. vsechny logy lze nalezt v souboru: /home/mates/.vs/zkusmoNovej/out/build/linux-debug/zkusmoNovej/server.log
+[INFO] [17:51:38] [Program] /home/mates/.vs/zkusmoNovej/out/build/linux-debug/zkusmoNovej/zkusmoNovej, -r, xd
+[INFO] [17:51:38] [Program] Pouzita IP:	0.0.0.0
+[INFO] [17:51:38] [Program] Pouziy port:	7890
+[INFO] [17:51:38] [Program] Max roomek:	1
+[INFO] [17:51:38] [Program] Max hracu:	2
+[INFO] [17:51:38] [Comunicator] Komunikator uspesne inicializovan na portu 7890
+[INFO] [17:51:38] [MessageManager] Vytvoren MessageManager.
+[INFO] [17:51:38] [MessageManager] MessageManager pripojen ke komunikatoru.
+[INFO] [17:51:38] [GameLobby] GameLobby byla spustena.
+[INFO] [17:51:48] [Comunicator] Prijmuta zprava: "1-1-0-1-4" z adresy: 10.0.1.57:53136
+[INFO] [17:51:48] [Comunicator::Sender] Odesilani zpravy: "1-1-0-1-2" na adresu: 10.0.1.57:53136
+[INFO] [17:51:48] [Comunicator::Sender] Odesilani zpravy: "1-1-0-1-5-1" na adresu: 10.0.1.57:53136
+[INFO] [17:51:48] [Comunicator] Prijmuta zprava: "1-1-0-0-2" z adresy: 10.0.1.57:53136
+[INFO] [17:51:51] [Comunicator::Sender] Odesilani zpravy: "2-1-0-0-26" na adresu: 10.0.1.57:53136
+[INFO] [17:51:51] [Comunicator] Prijmuta zprava: "2-1-0-0-2" z adresy: 10.0.1.57:53136
+==========Zacatek relace==========
+[INFO] [17:53:29] [Logger] Logger uspesne inicializovan. vsechny logy lze nalezt v souboru: /home/mates/.vs/zkusmoNovej/out/build/linux-debug/zkusmoNovej/server.log
+[INFO] [17:53:29] [Program] /home/mates/.vs/zkusmoNovej/out/build/linux-debug/zkusmoNovej/zkusmoNovej, -r, xd
+[INFO] [17:53:29] [Program] Pouzita IP:	0.0.0.0
+[INFO] [17:53:29] [Program] Pouziy port:	7890
+[INFO] [17:53:29] [Program] Max roomek:	1
+[INFO] [17:53:29] [Program] Max hracu:	2
+[INFO] [17:53:29] [Comunicator] Komunikator uspesne inicializovan na portu 7890
+[INFO] [17:53:29] [MessageManager] Vytvoren MessageManager.
+[INFO] [17:53:29] [MessageManager] MessageManager pripojen ke komunikatoru.
+[INFO] [17:53:29] [GameLobby] GameLobby byla spustena.
+[INFO] [17:53:31] [Comunicator] Prijmuta zprava: "1-1-0-1-4" z adresy: 10.0.1.57:52017
+[INFO] [17:53:31] [Comunicator::Sender] Odesilani zpravy: "1-1-0-1-2" na adresu: 10.0.1.57:52017
+[INFO] [17:53:31] [Comunicator::Sender] Odesilani zpravy: "1-1-0-1-5-1" na adresu: 10.0.1.57:52017
+[INFO] [17:53:31] [Comunicator] Prijmuta zprava: "1-1-0-0-2" z adresy: 10.0.1.57:52017
+[INFO] [17:53:35] [Comunicator::Sender] Odesilani zpravy: "2-1-0-0-26" na adresu: 10.0.1.57:52017
+[WARNING] [17:53:40] [OutgoingMessage] Nebyla prijata odpoved na zpravu.
+[INFO] [17:53:40] [Comunicator::Sender] Odesilani zpravy: "2-1-0-0-26" na adresu: 10.0.1.57:52017
+[INFO] [17:57:38] [Comunicator] Prijmuta zprava: "1-1-0-1-4" z adresy: 10.0.1.57:59646
+[INFO] [17:57:38] [Comunicator::Sender] Odesilani zpravy: "1-1-0-1-2" na adresu: 10.0.1.57:59646
+[INFO] [17:57:38] [Comunicator::Sender] Odesilani zpravy: "3-2-0-1-5-2" na adresu: 10.0.1.57:59646
+[INFO] [17:57:38] [Comunicator] Prijmuta zprava: "3-2-0-0-2" z adresy: 10.0.1.57:59646
+[INFO] [17:57:41] [Comunicator::Sender] Odesilani zpravy: "4-2-0-0-26" na adresu: 10.0.1.57:59646
+[INFO] [17:57:41] [Comunicator] Prijmuta zprava: "4-2-0-0-2" z adresy: 10.0.1.57:59646
+[INFO] [17:57:41] [Comunicator] Prijmuta zprava: "2-2-0-0-27" z adresy: 10.0.1.57:59646
+[INFO] [17:57:41] [Comunicator::Sender] Odesilani zpravy: "2-2-0-0-2" na adresu: 10.0.1.57:59646
+==========Zacatek relace==========
+[INFO] [17:58:05] [Logger] Logger uspesne inicializovan. vsechny logy lze nalezt v souboru: /home/mates/.vs/zkusmoNovej/out/build/linux-debug/zkusmoNovej/server.log
+[INFO] [17:58:05] [Program] /home/mates/.vs/zkusmoNovej/out/build/linux-debug/zkusmoNovej/zkusmoNovej, -r, xd
+[INFO] [17:58:05] [Program] Pouzita IP:	0.0.0.0
+[INFO] [17:58:05] [Program] Pouziy port:	7890
+[INFO] [17:58:05] [Program] Max roomek:	1
+[INFO] [17:58:05] [Program] Max hracu:	2
+[INFO] [17:58:05] [Comunicator] Komunikator uspesne inicializovan na portu 7890
+[INFO] [17:58:05] [MessageManager] Vytvoren MessageManager.
+[INFO] [17:58:05] [MessageManager] MessageManager pripojen ke komunikatoru.
+[INFO] [17:58:05] [GameLobby] GameLobby byla spustena.
+[INFO] [17:58:09] [Comunicator] Prijmuta zprava: "1-1-0-1-4" z adresy: 10.0.1.57:50421
+[INFO] [17:58:09] [Comunicator::Sender] Odesilani zpravy: "1-1-0-1-2" na adresu: 10.0.1.57:50421
+[INFO] [17:58:09] [Comunicator::Sender] Odesilani zpravy: "1-1-0-1-5-1" na adresu: 10.0.1.57:50421
+[INFO] [17:58:09] [Comunicator] Prijmuta zprava: "1-1-0-0-2" z adresy: 10.0.1.57:50421
+[INFO] [17:58:12] [Comunicator::Sender] Odesilani zpravy: "2-1-0-0-26" na adresu: 10.0.1.57:50421
+[INFO] [17:58:12] [Comunicator] Prijmuta zprava: "2-1-0-0-2" z adresy: 10.0.1.57:50421
+[INFO] [17:58:12] [Comunicator] Prijmuta zprava: "2-1-0-0-27" z adresy: 10.0.1.57:50421
+[INFO] [17:58:12] [Comunicator::Sender] Odesilani zpravy: "2-1-0-0-2" na adresu: 10.0.1.57:50421
+==========Zacatek relace==========
+[INFO] [17:59:22] [Logger] Logger uspesne inicializovan. vsechny logy lze nalezt v souboru: /home/mates/.vs/zkusmoNovej/out/build/linux-debug/zkusmoNovej/server.log
+[INFO] [17:59:22] [Program] /home/mates/.vs/zkusmoNovej/out/build/linux-debug/zkusmoNovej/zkusmoNovej, -r, xd
+[INFO] [17:59:22] [Program] Pouzita IP:	0.0.0.0
+[INFO] [17:59:22] [Program] Pouziy port:	7890
+[INFO] [17:59:22] [Program] Max roomek:	1
+[INFO] [17:59:22] [Program] Max hracu:	2
+[INFO] [17:59:22] [Comunicator] Komunikator uspesne inicializovan na portu 7890
+[INFO] [17:59:22] [MessageManager] Vytvoren MessageManager.
+[INFO] [17:59:22] [MessageManager] MessageManager pripojen ke komunikatoru.
+[INFO] [17:59:22] [GameLobby] GameLobby byla spustena.
+[INFO] [17:59:30] [Comunicator] Prijmuta zprava: "1-1-0-1-4" z adresy: 10.0.1.57:58153
+[INFO] [17:59:30] [Comunicator::Sender] Odesilani zpravy: "1-1-0-1-2" na adresu: 10.0.1.57:58153
+[INFO] [17:59:30] [Comunicator::Sender] Odesilani zpravy: "1-1-0-1-5-1" na adresu: 10.0.1.57:58153
+[INFO] [17:59:30] [Comunicator] Prijmuta zprava: "1-1-0-0-2" z adresy: 10.0.1.57:58153
+[INFO] [17:59:33] [Comunicator::Sender] Odesilani zpravy: "2-1-0-0-26" na adresu: 10.0.1.57:58153
+[INFO] [17:59:33] [Comunicator] Prijmuta zprava: "2-1-0-0-2" z adresy: 10.0.1.57:58153
+[INFO] [17:59:33] [Comunicator] Prijmuta zprava: "2-1-0-0-27" z adresy: 10.0.1.57:58153
+[INFO] [17:59:33] [Comunicator::Sender] Odesilani zpravy: "2-1-0-0-2" na adresu: 10.0.1.57:58153
+[INFO] [17:59:46] [GameLobby] Klient: 1	 Jmeno: 	 Adresa: 10.0.1.57:58153	 Online: Ano	 Posl. echo pred: 13933 ms
+
+==========Zacatek relace==========
+[INFO] [18:00:45] [Logger] Logger uspesne inicializovan. vsechny logy lze nalezt v souboru: /home/mates/.vs/zkusmoNovej/out/build/linux-debug/zkusmoNovej/server.log
+[INFO] [18:00:45] [Program] /home/mates/.vs/zkusmoNovej/out/build/linux-debug/zkusmoNovej/zkusmoNovej, -r, xd
+[INFO] [18:00:45] [Program] Pouzita IP:	0.0.0.0
+[INFO] [18:00:45] [Program] Pouziy port:	7890
+[INFO] [18:00:45] [Program] Max roomek:	1
+[INFO] [18:00:45] [Program] Max hracu:	2
+[INFO] [18:00:45] [Comunicator] Komunikator uspesne inicializovan na portu 7890
+[INFO] [18:00:45] [MessageManager] Vytvoren MessageManager.
+[INFO] [18:00:45] [MessageManager] MessageManager pripojen ke komunikatoru.
+[INFO] [18:00:45] [GameLobby] GameLobby byla spustena.
+[INFO] [18:00:47] [Comunicator] Prijmuta zprava: "1-1-0-1-4" z adresy: 10.0.1.57:53866
+[INFO] [18:00:47] [Comunicator::Sender] Odesilani zpravy: "1-1-0-1-2" na adresu: 10.0.1.57:53866
+[INFO] [18:00:47] [Comunicator::Sender] Odesilani zpravy: "1-1-0-1-5-1" na adresu: 10.0.1.57:53866
+[INFO] [18:00:47] [Comunicator] Prijmuta zprava: "1-1-0-0-2" z adresy: 10.0.1.57:53866
+[INFO] [18:00:51] [Comunicator::Sender] Odesilani zpravy: "2-1-0-0-26" na adresu: 10.0.1.57:53866
+[INFO] [18:00:51] [Comunicator] Prijmuta zprava: "2-1-0-0-2" z adresy: 10.0.1.57:53866
+[INFO] [18:00:51] [Comunicator] Prijmuta zprava: "2-1-0-0-27" z adresy: 10.0.1.57:53866
+[INFO] [18:00:51] [Comunicator::Sender] Odesilani zpravy: "2-1-0-0-2" na adresu: 10.0.1.57:53866
+[INFO] [18:00:54] [Comunicator::Sender] Odesilani zpravy: "3-1-0-0-26" na adresu: 10.0.1.57:53866
+[INFO] [18:00:54] [Comunicator] Prijmuta zprava: "3-1-0-0-2" z adresy: 10.0.1.57:53866
+[INFO] [18:00:54] [Comunicator] Prijmuta zprava: "3-1-0-0-27" z adresy: 10.0.1.57:53866
+[INFO] [18:00:54] [Comunicator::Sender] Odesilani zpravy: "3-1-0-0-2" na adresu: 10.0.1.57:53866
+[INFO] [18:00:57] [Comunicator::Sender] Odesilani zpravy: "4-1-0-0-26" na adresu: 10.0.1.57:53866
+[INFO] [18:00:57] [Comunicator] Prijmuta zprava: "4-1-0-0-2" z adresy: 10.0.1.57:53866
+[INFO] [18:00:57] [Comunicator] Prijmuta zprava: "4-1-0-0-27" z adresy: 10.0.1.57:53866
+[INFO] [18:00:57] [Comunicator::Sender] Odesilani zpravy: "4-1-0-0-2" na adresu: 10.0.1.57:53866
+[INFO] [18:01:00] [Comunicator::Sender] Odesilani zpravy: "5-1-0-0-26" na adresu: 10.0.1.57:53866
+[INFO] [18:01:00] [Comunicator] Prijmuta zprava: "5-1-0-0-2" z adresy: 10.0.1.57:53866
+[INFO] [18:01:00] [Comunicator] Prijmuta zprava: "5-1-0-0-27" z adresy: 10.0.1.57:53866
+[INFO] [18:01:00] [Comunicator::Sender] Odesilani zpravy: "5-1-0-0-2" na adresu: 10.0.1.57:53866
+[INFO] [18:01:03] [Comunicator::Sender] Odesilani zpravy: "6-1-0-0-26" na adresu: 10.0.1.57:53866
+[INFO] [18:01:03] [Comunicator] Prijmuta zprava: "6-1-0-0-2" z adresy: 10.0.1.57:53866
+[INFO] [18:01:03] [Comunicator] Prijmuta zprava: "6-1-0-0-27" z adresy: 10.0.1.57:53866
+[INFO] [18:01:03] [Comunicator::Sender] Odesilani zpravy: "6-1-0-0-2" na adresu: 10.0.1.57:53866
+[INFO] [18:01:06] [Comunicator::Sender] Odesilani zpravy: "7-1-0-0-26" na adresu: 10.0.1.57:53866
+[INFO] [18:01:06] [Comunicator] Prijmuta zprava: "7-1-0-0-2" z adresy: 10.0.1.57:53866
+[INFO] [18:01:06] [Comunicator] Prijmuta zprava: "7-1-0-0-27" z adresy: 10.0.1.57:53866
+[INFO] [18:01:06] [Comunicator::Sender] Odesilani zpravy: "7-1-0-0-2" na adresu: 10.0.1.57:53866
+[INFO] [18:01:09] [Comunicator::Sender] Odesilani zpravy: "8-1-0-0-26" na adresu: 10.0.1.57:53866
+[INFO] [18:01:09] [Comunicator] Prijmuta zprava: "8-1-0-0-2" z adresy: 10.0.1.57:53866
+[INFO] [18:01:09] [Comunicator] Prijmuta zprava: "8-1-0-0-27" z adresy: 10.0.1.57:53866
+[INFO] [18:01:09] [Comunicator::Sender] Odesilani zpravy: "8-1-0-0-2" na adresu: 10.0.1.57:53866
+[INFO] [18:01:11] [Comunicator::Sender] Odesilani zpravy: "9-1-0-0-26" na adresu: 10.0.1.57:53866
+[WARNING] [18:01:16] [OutgoingMessage] Nebyla prijata odpoved na zpravu.
+[INFO] [18:01:16] [Comunicator::Sender] Odesilani zpravy: "9-1-0-0-26" na adresu: 10.0.1.57:53866
+[INFO] [18:01:32] [GameLobby] Klient: 1	 Jmeno: 	 Adresa: 10.0.1.57:53866	 Online: Ne	 Posl. echo pred: 24358 ms
+
+==========Zacatek relace==========
+[INFO] [18:01:43] [Logger] Logger uspesne inicializovan. vsechny logy lze nalezt v souboru: /home/mates/.vs/zkusmoNovej/out/build/linux-debug/zkusmoNovej/server.log
+[INFO] [18:01:43] [Program] /home/mates/.vs/zkusmoNovej/out/build/linux-debug/zkusmoNovej/zkusmoNovej, -r, xd
+[INFO] [18:01:43] [Program] Pouzita IP:	0.0.0.0
+[INFO] [18:01:43] [Program] Pouziy port:	7890
+[INFO] [18:01:43] [Program] Max roomek:	1
+[INFO] [18:01:43] [Program] Max hracu:	2
+[INFO] [18:01:43] [Comunicator] Komunikator uspesne inicializovan na portu 7890
+[INFO] [18:01:43] [MessageManager] Vytvoren MessageManager.
+[INFO] [18:01:43] [MessageManager] MessageManager pripojen ke komunikatoru.
+[INFO] [18:01:43] [GameLobby] GameLobby byla spustena.
+[INFO] [18:02:12] [Comunicator] Prijmuta zprava: "1-1-0-1-4" z adresy: 10.0.1.57:60560
+[INFO] [18:02:12] [Comunicator::Sender] Odesilani zpravy: "1-1-0-1-2" na adresu: 10.0.1.57:60560
+[INFO] [18:02:12] [Comunicator::Sender] Odesilani zpravy: "1-1-0-1-5-1" na adresu: 10.0.1.57:60560
+[INFO] [18:02:12] [Comunicator] Prijmuta zprava: "1-1-0-0-2" z adresy: 10.0.1.57:60560
+[INFO] [18:02:14] [Comunicator::Sender] Odesilani zpravy: "2-1-0-0-26" na adresu: 10.0.1.57:60560
+[INFO] [18:02:14] [Comunicator] Prijmuta zprava: "2-1-0-0-2" z adresy: 10.0.1.57:60560
+[INFO] [18:02:14] [Comunicator] Prijmuta zprava: "2-1-0-0-27" z adresy: 10.0.1.57:60560
+[INFO] [18:02:14] [Comunicator::Sender] Odesilani zpravy: "2-1-0-0-2" na adresu: 10.0.1.57:60560
+[INFO] [18:02:17] [Comunicator::Sender] Odesilani zpravy: "3-1-0-0-26" na adresu: 10.0.1.57:60560
+[INFO] [18:02:17] [Comunicator] Prijmuta zprava: "3-1-0-0-2" z adresy: 10.0.1.57:60560
+[INFO] [18:02:17] [Comunicator] Prijmuta zprava: "3-1-0-0-27" z adresy: 10.0.1.57:60560
+[INFO] [18:02:17] [Comunicator::Sender] Odesilani zpravy: "3-1-0-0-2" na adresu: 10.0.1.57:60560
+[INFO] [18:02:20] [Comunicator::Sender] Odesilani zpravy: "4-1-0-0-26" na adresu: 10.0.1.57:60560
+[INFO] [18:02:20] [Comunicator] Prijmuta zprava: "4-1-0-0-2" z adresy: 10.0.1.57:60560
+[INFO] [18:02:20] [Comunicator] Prijmuta zprava: "4-1-0-0-27" z adresy: 10.0.1.57:60560
+[INFO] [18:02:20] [Comunicator::Sender] Odesilani zpravy: "4-1-0-0-2" na adresu: 10.0.1.57:60560
+[INFO] [18:02:23] [Comunicator::Sender] Odesilani zpravy: "5-1-0-0-26" na adresu: 10.0.1.57:60560
+[INFO] [18:02:23] [Comunicator] Prijmuta zprava: "5-1-0-0-2" z adresy: 10.0.1.57:60560
+[INFO] [18:02:23] [Comunicator] Prijmuta zprava: "5-1-0-0-27" z adresy: 10.0.1.57:60560
+[INFO] [18:02:23] [Comunicator::Sender] Odesilani zpravy: "5-1-0-0-2" na adresu: 10.0.1.57:60560
+[INFO] [18:02:26] [Comunicator::Sender] Odesilani zpravy: "6-1-0-0-26" na adresu: 10.0.1.57:60560
+[INFO] [18:02:26] [Comunicator] Prijmuta zprava: "6-1-0-0-2" z adresy: 10.0.1.57:60560
+[INFO] [18:02:26] [Comunicator] Prijmuta zprava: "6-1-0-0-27" z adresy: 10.0.1.57:60560
+[INFO] [18:02:26] [Comunicator::Sender] Odesilani zpravy: "6-1-0-0-2" na adresu: 10.0.1.57:60560
+[INFO] [18:02:29] [Comunicator::Sender] Odesilani zpravy: "7-1-0-0-26" na adresu: 10.0.1.57:60560
+[INFO] [18:02:29] [Comunicator] Prijmuta zprava: "7-1-0-0-2" z adresy: 10.0.1.57:60560
+[INFO] [18:02:29] [Comunicator] Prijmuta zprava: "7-1-0-0-27" z adresy: 10.0.1.57:60560
+[INFO] [18:02:29] [Comunicator::Sender] Odesilani zpravy: "7-1-0-0-2" na adresu: 10.0.1.57:60560
+[INFO] [18:02:32] [Comunicator::Sender] Odesilani zpravy: "8-1-0-0-26" na adresu: 10.0.1.57:60560
+[WARNING] [18:02:37] [OutgoingMessage] Nebyla prijata odpoved na zpravu.
+[INFO] [18:02:37] [Comunicator::Sender] Odesilani zpravy: "8-1-0-0-26" na adresu: 10.0.1.57:60560
+[INFO] [18:02:45] [GameLobby] Klient: 1	 Jmeno: 	 Adresa: 10.0.1.57:60560	 Online: Ne	 Posl. echo pred: 17073 ms
+
+==========Zacatek relace==========
+[INFO] [18:03:34] [Logger] Logger uspesne inicializovan. vsechny logy lze nalezt v souboru: /home/mates/.vs/zkusmoNovej/out/build/linux-debug/zkusmoNovej/server.log
+[INFO] [18:03:34] [Program] /home/mates/.vs/zkusmoNovej/out/build/linux-debug/zkusmoNovej/zkusmoNovej, -r, xd
+[INFO] [18:03:34] [Program] Pouzita IP:	0.0.0.0
+[INFO] [18:03:34] [Program] Pouziy port:	7890
+[INFO] [18:03:34] [Program] Max roomek:	1
+[INFO] [18:03:34] [Program] Max hracu:	2
+[INFO] [18:03:34] [Comunicator] Komunikator uspesne inicializovan na portu 7890
+[INFO] [18:03:34] [MessageManager] Vytvoren MessageManager.
+[INFO] [18:03:34] [MessageManager] MessageManager pripojen ke komunikatoru.
+[INFO] [18:03:34] [GameLobby] GameLobby byla spustena.
+[INFO] [18:03:42] [Comunicator] Prijmuta zprava: "1-1-0-1-4" z adresy: 10.0.1.57:65412
+[INFO] [18:03:42] [Comunicator::Sender] Odesilani zpravy: "1-1-0-1-2" na adresu: 10.0.1.57:65412
+[INFO] [18:03:42] [Comunicator::Sender] Odesilani zpravy: "1-1-0-1-5-1" na adresu: 10.0.1.57:65412
+[INFO] [18:03:42] [Comunicator] Prijmuta zprava: "1-1-0-0-2" z adresy: 10.0.1.57:65412
+[INFO] [18:03:46] [Comunicator::Sender] Odesilani zpravy: "2-1-0-0-26" na adresu: 10.0.1.57:65412
+[INFO] [18:03:46] [Comunicator] Prijmuta zprava: "2-1-0-0-2" z adresy: 10.0.1.57:65412
+[INFO] [18:03:46] [Comunicator] Prijmuta zprava: "2-1-0-0-27" z adresy: 10.0.1.57:65412
+[INFO] [18:03:46] [Comunicator::Sender] Odesilani zpravy: "2-1-0-0-2" na adresu: 10.0.1.57:65412
+[INFO] [18:03:48] [Comunicator::Sender] Odesilani zpravy: "3-1-0-0-26" na adresu: 10.0.1.57:65412
+[INFO] [18:03:48] [Comunicator] Prijmuta zprava: "3-1-0-0-2" z adresy: 10.0.1.57:65412
+[INFO] [18:03:48] [Comunicator] Prijmuta zprava: "3-1-0-0-27" z adresy: 10.0.1.57:65412
+[INFO] [18:03:48] [Comunicator::Sender] Odesilani zpravy: "3-1-0-0-2" na adresu: 10.0.1.57:65412
+[INFO] [18:03:51] [Comunicator::Sender] Odesilani zpravy: "4-1-0-0-26" na adresu: 10.0.1.57:65412
+[INFO] [18:03:51] [Comunicator] Prijmuta zprava: "4-1-0-0-2" z adresy: 10.0.1.57:65412
+[INFO] [18:03:51] [Comunicator] Prijmuta zprava: "4-1-0-0-27" z adresy: 10.0.1.57:65412
+[INFO] [18:03:51] [Comunicator::Sender] Odesilani zpravy: "4-1-0-0-2" na adresu: 10.0.1.57:65412
+[INFO] [18:03:54] [Comunicator::Sender] Odesilani zpravy: "5-1-0-0-26" na adresu: 10.0.1.57:65412
+[INFO] [18:03:54] [Comunicator] Prijmuta zprava: "5-1-0-0-2" z adresy: 10.0.1.57:65412
+[INFO] [18:03:54] [Comunicator] Prijmuta zprava: "5-1-0-0-27" z adresy: 10.0.1.57:65412
+[INFO] [18:03:54] [Comunicator::Sender] Odesilani zpravy: "5-1-0-0-2" na adresu: 10.0.1.57:65412
+[INFO] [18:03:57] [Comunicator::Sender] Odesilani zpravy: "6-1-0-0-26" na adresu: 10.0.1.57:65412
+[INFO] [18:03:57] [Comunicator] Prijmuta zprava: "6-1-0-0-2" z adresy: 10.0.1.57:65412
+[INFO] [18:03:57] [Comunicator] Prijmuta zprava: "6-1-0-0-27" z adresy: 10.0.1.57:65412
+[INFO] [18:03:57] [Comunicator::Sender] Odesilani zpravy: "6-1-0-0-2" na adresu: 10.0.1.57:65412
+[INFO] [18:04:00] [Comunicator::Sender] Odesilani zpravy: "7-1-0-0-26" na adresu: 10.0.1.57:65412
+[INFO] [18:04:00] [Comunicator] Prijmuta zprava: "7-1-0-0-2" z adresy: 10.0.1.57:65412
+[INFO] [18:04:00] [Comunicator] Prijmuta zprava: "7-1-0-0-27" z adresy: 10.0.1.57:65412
+[INFO] [18:04:00] [Comunicator::Sender] Odesilani zpravy: "7-1-0-0-2" na adresu: 10.0.1.57:65412
+[INFO] [18:04:03] [Comunicator::Sender] Odesilani zpravy: "8-1-0-0-26" na adresu: 10.0.1.57:65412
+[INFO] [18:04:03] [Comunicator] Prijmuta zprava: "8-1-0-0-2" z adresy: 10.0.1.57:65412
+[INFO] [18:04:03] [Comunicator] Prijmuta zprava: "8-1-0-0-27" z adresy: 10.0.1.57:65412
+[INFO] [18:04:03] [Comunicator::Sender] Odesilani zpravy: "8-1-0-0-2" na adresu: 10.0.1.57:65412
+[INFO] [18:04:06] [Comunicator::Sender] Odesilani zpravy: "9-1-0-0-26" na adresu: 10.0.1.57:65412
+[INFO] [18:04:06] [Comunicator] Prijmuta zprava: "9-1-0-0-2" z adresy: 10.0.1.57:65412
+[INFO] [18:04:06] [Comunicator] Prijmuta zprava: "9-1-0-0-27" z adresy: 10.0.1.57:65412
+[INFO] [18:04:06] [Comunicator::Sender] Odesilani zpravy: "9-1-0-0-2" na adresu: 10.0.1.57:65412
+[INFO] [18:04:10] [Comunicator::Sender] Odesilani zpravy: "10-1-0-0-26" na adresu: 10.0.1.57:65412
+[INFO] [18:04:10] [Comunicator] Prijmuta zprava: "10-1-0-0-2" z adresy: 10.0.1.57:65412
+[INFO] [18:04:10] [Comunicator] Prijmuta zprava: "10-1-0-0-27" z adresy: 10.0.1.57:65412
+[INFO] [18:04:10] [Comunicator::Sender] Odesilani zpravy: "10-1-0-0-2" na adresu: 10.0.1.57:65412
+[INFO] [18:04:13] [Comunicator::Sender] Odesilani zpravy: "11-1-0-0-26" na adresu: 10.0.1.57:65412
+[INFO] [18:04:13] [Comunicator] Prijmuta zprava: "11-1-0-0-2" z adresy: 10.0.1.57:65412
+[INFO] [18:04:13] [Comunicator] Prijmuta zprava: "11-1-0-0-27" z adresy: 10.0.1.57:65412
+[INFO] [18:04:13] [Comunicator::Sender] Odesilani zpravy: "11-1-0-0-2" na adresu: 10.0.1.57:65412
+[INFO] [18:04:16] [Comunicator::Sender] Odesilani zpravy: "12-1-0-0-26" na adresu: 10.0.1.57:65412
+[INFO] [18:04:16] [Comunicator] Prijmuta zprava: "12-1-0-0-2" z adresy: 10.0.1.57:65412
+[INFO] [18:04:16] [Comunicator] Prijmuta zprava: "12-1-0-0-27" z adresy: 10.0.1.57:65412
+[INFO] [18:04:16] [Comunicator::Sender] Odesilani zpravy: "12-1-0-0-2" na adresu: 10.0.1.57:65412
+[INFO] [18:04:17] [Comunicator::Sender] Odesilani zpravy: "13-1-0-0-26" na adresu: 10.0.1.57:65412
+[INFO] [18:04:17] [Comunicator] Prijmuta zprava: "13-1-0-0-2" z adresy: 10.0.1.57:65412
+[INFO] [18:04:17] [Comunicator] Prijmuta zprava: "13-1-0-0-27" z adresy: 10.0.1.57:65412
+[INFO] [18:04:17] [Comunicator::Sender] Odesilani zpravy: "13-1-0-0-2" na adresu: 10.0.1.57:65412
+[INFO] [18:04:21] [Comunicator::Sender] Odesilani zpravy: "14-1-0-0-26" na adresu: 10.0.1.57:65412
+[INFO] [18:04:21] [Comunicator] Prijmuta zprava: "14-1-0-0-2" z adresy: 10.0.1.57:65412
+[INFO] [18:04:21] [Comunicator] Prijmuta zprava: "14-1-0-0-27" z adresy: 10.0.1.57:65412
+[INFO] [18:04:21] [Comunicator::Sender] Odesilani zpravy: "14-1-0-0-2" na adresu: 10.0.1.57:65412
+[INFO] [18:04:24] [Comunicator::Sender] Odesilani zpravy: "15-1-0-0-26" na adresu: 10.0.1.57:65412
+[INFO] [18:04:24] [Comunicator] Prijmuta zprava: "15-1-0-0-2" z adresy: 10.0.1.57:65412
+[INFO] [18:04:24] [Comunicator] Prijmuta zprava: "15-1-0-0-27" z adresy: 10.0.1.57:65412
+[INFO] [18:04:24] [Comunicator::Sender] Odesilani zpravy: "15-1-0-0-2" na adresu: 10.0.1.57:65412
+[INFO] [18:04:27] [Comunicator::Sender] Odesilani zpravy: "16-1-0-0-26" na adresu: 10.0.1.57:65412
+[INFO] [18:04:27] [Comunicator] Prijmuta zprava: "16-1-0-0-2" z adresy: 10.0.1.57:65412
+[INFO] [18:04:27] [Comunicator] Prijmuta zprava: "16-1-0-0-27" z adresy: 10.0.1.57:65412
+[INFO] [18:04:27] [Comunicator::Sender] Odesilani zpravy: "16-1-0-0-2" na adresu: 10.0.1.57:65412
+[INFO] [18:04:30] [Comunicator::Sender] Odesilani zpravy: "17-1-0-0-26" na adresu: 10.0.1.57:65412
+[INFO] [18:04:30] [Comunicator] Prijmuta zprava: "17-1-0-0-2" z adresy: 10.0.1.57:65412
+[INFO] [18:04:30] [Comunicator] Prijmuta zprava: "17-1-0-0-27" z adresy: 10.0.1.57:65412
+[INFO] [18:04:30] [Comunicator::Sender] Odesilani zpravy: "17-1-0-0-2" na adresu: 10.0.1.57:65412
+[INFO] [18:04:33] [Comunicator::Sender] Odesilani zpravy: "18-1-0-0-26" na adresu: 10.0.1.57:65412
+[INFO] [18:04:33] [Comunicator] Prijmuta zprava: "18-1-0-0-2" z adresy: 10.0.1.57:65412
+[INFO] [18:04:33] [Comunicator] Prijmuta zprava: "18-1-0-0-27" z adresy: 10.0.1.57:65412
+[INFO] [18:04:33] [Comunicator::Sender] Odesilani zpravy: "18-1-0-0-2" na adresu: 10.0.1.57:65412
+[INFO] [18:04:36] [Comunicator::Sender] Odesilani zpravy: "19-1-0-0-26" na adresu: 10.0.1.57:65412
+[INFO] [18:04:36] [Comunicator] Prijmuta zprava: "19-1-0-0-2" z adresy: 10.0.1.57:65412
+[INFO] [18:04:36] [Comunicator] Prijmuta zprava: "19-1-0-0-27" z adresy: 10.0.1.57:65412
+[INFO] [18:04:36] [Comunicator::Sender] Odesilani zpravy: "19-1-0-0-2" na adresu: 10.0.1.57:65412
+[INFO] [18:04:39] [Comunicator::Sender] Odesilani zpravy: "20-1-0-0-26" na adresu: 10.0.1.57:65412
+[INFO] [18:04:39] [Comunicator] Prijmuta zprava: "20-1-0-0-2" z adresy: 10.0.1.57:65412
+[INFO] [18:04:39] [Comunicator] Prijmuta zprava: "20-1-0-0-27" z adresy: 10.0.1.57:65412
+[INFO] [18:04:39] [Comunicator::Sender] Odesilani zpravy: "20-1-0-0-2" na adresu: 10.0.1.57:65412
+[INFO] [18:04:42] [Comunicator::Sender] Odesilani zpravy: "21-1-0-0-26" na adresu: 10.0.1.57:65412
+[INFO] [18:04:42] [Comunicator] Prijmuta zprava: "21-1-0-0-2" z adresy: 10.0.1.57:65412
+[INFO] [18:04:42] [Comunicator] Prijmuta zprava: "21-1-0-0-27" z adresy: 10.0.1.57:65412
+[INFO] [18:04:42] [Comunicator::Sender] Odesilani zpravy: "21-1-0-0-2" na adresu: 10.0.1.57:65412
+[INFO] [18:04:45] [Comunicator::Sender] Odesilani zpravy: "22-1-0-0-26" na adresu: 10.0.1.57:65412
+[INFO] [18:04:45] [Comunicator] Prijmuta zprava: "22-1-0-0-2" z adresy: 10.0.1.57:65412
+[INFO] [18:04:45] [Comunicator] Prijmuta zprava: "22-1-0-0-27" z adresy: 10.0.1.57:65412
+[INFO] [18:04:45] [Comunicator::Sender] Odesilani zpravy: "22-1-0-0-2" na adresu: 10.0.1.57:65412
+[INFO] [18:04:47] [Comunicator::Sender] Odesilani zpravy: "23-1-0-0-26" na adresu: 10.0.1.57:65412
+[INFO] [18:04:47] [Comunicator] Prijmuta zprava: "23-1-0-0-2" z adresy: 10.0.1.57:65412
+[INFO] [18:04:47] [Comunicator] Prijmuta zprava: "23-1-0-0-27" z adresy: 10.0.1.57:65412
+[INFO] [18:04:47] [Comunicator::Sender] Odesilani zpravy: "23-1-0-0-2" na adresu: 10.0.1.57:65412
+[INFO] [18:04:50] [Comunicator::Sender] Odesilani zpravy: "24-1-0-0-26" na adresu: 10.0.1.57:65412
+[INFO] [18:04:50] [Comunicator] Prijmuta zprava: "24-1-0-0-2" z adresy: 10.0.1.57:65412
+[INFO] [18:04:50] [Comunicator] Prijmuta zprava: "24-1-0-0-27" z adresy: 10.0.1.57:65412
+[INFO] [18:04:50] [Comunicator::Sender] Odesilani zpravy: "24-1-0-0-2" na adresu: 10.0.1.57:65412
+[INFO] [18:04:53] [Comunicator::Sender] Odesilani zpravy: "25-1-0-0-26" na adresu: 10.0.1.57:65412
+[INFO] [18:04:53] [Comunicator] Prijmuta zprava: "25-1-0-0-2" z adresy: 10.0.1.57:65412
+[INFO] [18:04:53] [Comunicator] Prijmuta zprava: "25-1-0-0-27" z adresy: 10.0.1.57:65412
+[INFO] [18:04:53] [Comunicator::Sender] Odesilani zpravy: "25-1-0-0-2" na adresu: 10.0.1.57:65412
+[INFO] [18:04:56] [Comunicator::Sender] Odesilani zpravy: "26-1-0-0-26" na adresu: 10.0.1.57:65412
+[INFO] [18:04:56] [Comunicator] Prijmuta zprava: "26-1-0-0-2" z adresy: 10.0.1.57:65412
+[INFO] [18:04:56] [Comunicator] Prijmuta zprava: "26-1-0-0-27" z adresy: 10.0.1.57:65412
+[INFO] [18:04:56] [Comunicator::Sender] Odesilani zpravy: "26-1-0-0-2" na adresu: 10.0.1.57:65412
+[INFO] [18:04:59] [Comunicator::Sender] Odesilani zpravy: "27-1-0-0-26" na adresu: 10.0.1.57:65412
+[INFO] [18:04:59] [Comunicator] Prijmuta zprava: "27-1-0-0-2" z adresy: 10.0.1.57:65412
+[INFO] [18:04:59] [Comunicator] Prijmuta zprava: "27-1-0-0-27" z adresy: 10.0.1.57:65412
+[INFO] [18:04:59] [Comunicator::Sender] Odesilani zpravy: "27-1-0-0-2" na adresu: 10.0.1.57:65412
+[INFO] [18:05:03] [Comunicator::Sender] Odesilani zpravy: "28-1-0-0-26" na adresu: 10.0.1.57:65412
+[INFO] [18:05:03] [Comunicator] Prijmuta zprava: "28-1-0-0-2" z adresy: 10.0.1.57:65412
+[INFO] [18:05:03] [Comunicator] Prijmuta zprava: "28-1-0-0-27" z adresy: 10.0.1.57:65412
+[INFO] [18:05:03] [Comunicator::Sender] Odesilani zpravy: "28-1-0-0-2" na adresu: 10.0.1.57:65412
+[INFO] [18:05:06] [Comunicator::Sender] Odesilani zpravy: "29-1-0-0-26" na adresu: 10.0.1.57:65412
+[INFO] [18:05:06] [Comunicator] Prijmuta zprava: "29-1-0-0-2" z adresy: 10.0.1.57:65412
+[INFO] [18:05:06] [Comunicator] Prijmuta zprava: "29-1-0-0-27" z adresy: 10.0.1.57:65412
+[INFO] [18:05:06] [Comunicator::Sender] Odesilani zpravy: "29-1-0-0-2" na adresu: 10.0.1.57:65412
+[INFO] [18:05:09] [Comunicator::Sender] Odesilani zpravy: "30-1-0-0-26" na adresu: 10.0.1.57:65412
+[INFO] [18:05:09] [Comunicator] Prijmuta zprava: "30-1-0-0-2" z adresy: 10.0.1.57:65412
+[INFO] [18:05:09] [Comunicator] Prijmuta zprava: "30-1-0-0-27" z adresy: 10.0.1.57:65412
+[INFO] [18:05:09] [Comunicator::Sender] Odesilani zpravy: "30-1-0-0-2" na adresu: 10.0.1.57:65412
+[INFO] [18:05:12] [Comunicator::Sender] Odesilani zpravy: "31-1-0-0-26" na adresu: 10.0.1.57:65412
+[INFO] [18:05:12] [Comunicator] Prijmuta zprava: "31-1-0-0-2" z adresy: 10.0.1.57:65412
+[INFO] [18:05:12] [Comunicator] Prijmuta zprava: "31-1-0-0-27" z adresy: 10.0.1.57:65412
+[INFO] [18:05:12] [Comunicator::Sender] Odesilani zpravy: "31-1-0-0-2" na adresu: 10.0.1.57:65412
+[INFO] [18:05:15] [Comunicator::Sender] Odesilani zpravy: "32-1-0-0-26" na adresu: 10.0.1.57:65412
+[INFO] [18:05:15] [Comunicator] Prijmuta zprava: "32-1-0-0-2" z adresy: 10.0.1.57:65412
+[INFO] [18:05:15] [Comunicator] Prijmuta zprava: "32-1-0-0-27" z adresy: 10.0.1.57:65412
+[INFO] [18:05:15] [Comunicator::Sender] Odesilani zpravy: "32-1-0-0-2" na adresu: 10.0.1.57:65412
+[INFO] [18:05:18] [Comunicator::Sender] Odesilani zpravy: "33-1-0-0-26" na adresu: 10.0.1.57:65412
+[INFO] [18:05:18] [Comunicator] Prijmuta zprava: "33-1-0-0-2" z adresy: 10.0.1.57:65412
+[INFO] [18:05:18] [Comunicator] Prijmuta zprava: "33-1-0-0-27" z adresy: 10.0.1.57:65412
+[INFO] [18:05:18] [Comunicator::Sender] Odesilani zpravy: "33-1-0-0-2" na adresu: 10.0.1.57:65412
+[INFO] [18:05:20] [Comunicator::Sender] Odesilani zpravy: "34-1-0-0-26" na adresu: 10.0.1.57:65412
+[INFO] [18:05:20] [Comunicator] Prijmuta zprava: "34-1-0-0-2" z adresy: 10.0.1.57:65412
+[INFO] [18:05:20] [Comunicator] Prijmuta zprava: "34-1-0-0-27" z adresy: 10.0.1.57:65412
+[INFO] [18:05:20] [Comunicator::Sender] Odesilani zpravy: "34-1-0-0-2" na adresu: 10.0.1.57:65412
+[INFO] [18:05:23] [Comunicator::Sender] Odesilani zpravy: "35-1-0-0-26" na adresu: 10.0.1.57:65412
+[INFO] [18:05:23] [Comunicator] Prijmuta zprava: "35-1-0-0-2" z adresy: 10.0.1.57:65412
+[INFO] [18:05:23] [Comunicator] Prijmuta zprava: "35-1-0-0-27" z adresy: 10.0.1.57:65412
+[INFO] [18:05:23] [Comunicator::Sender] Odesilani zpravy: "35-1-0-0-2" na adresu: 10.0.1.57:65412
+[INFO] [18:05:26] [Comunicator::Sender] Odesilani zpravy: "36-1-0-0-26" na adresu: 10.0.1.57:65412
+[INFO] [18:05:26] [Comunicator] Prijmuta zprava: "36-1-0-0-2" z adresy: 10.0.1.57:65412
+[INFO] [18:05:26] [Comunicator] Prijmuta zprava: "36-1-0-0-27" z adresy: 10.0.1.57:65412
+[INFO] [18:05:26] [Comunicator::Sender] Odesilani zpravy: "36-1-0-0-2" na adresu: 10.0.1.57:65412
+[INFO] [18:05:29] [Comunicator::Sender] Odesilani zpravy: "37-1-0-0-26" na adresu: 10.0.1.57:65412
+[INFO] [18:05:29] [Comunicator] Prijmuta zprava: "37-1-0-0-2" z adresy: 10.0.1.57:65412
+[INFO] [18:05:29] [Comunicator] Prijmuta zprava: "37-1-0-0-27" z adresy: 10.0.1.57:65412
+[INFO] [18:05:29] [Comunicator::Sender] Odesilani zpravy: "37-1-0-0-2" na adresu: 10.0.1.57:65412
+[INFO] [18:05:32] [Comunicator::Sender] Odesilani zpravy: "38-1-0-0-26" na adresu: 10.0.1.57:65412
+[WARNING] [18:05:37] [OutgoingMessage] Nebyla prijata odpoved na zpravu.
+[INFO] [18:05:37] [Comunicator::Sender] Odesilani zpravy: "38-1-0-0-26" na adresu: 10.0.1.57:65412
+==========Zacatek relace==========
+[INFO] [18:06:20] [Logger] Logger uspesne inicializovan. vsechny logy lze nalezt v souboru: /home/mates/.vs/zkusmoNovej/out/build/linux-debug/zkusmoNovej/server.log
+[INFO] [18:06:20] [Program] /home/mates/.vs/zkusmoNovej/out/build/linux-debug/zkusmoNovej/zkusmoNovej, -r, xd
+[INFO] [18:06:20] [Program] Pouzita IP:	0.0.0.0
+[INFO] [18:06:20] [Program] Pouziy port:	7890
+[INFO] [18:06:20] [Program] Max roomek:	1
+[INFO] [18:06:20] [Program] Max hracu:	2
+[INFO] [18:06:20] [Comunicator] Komunikator uspesne inicializovan na portu 7890
+[INFO] [18:06:20] [MessageManager] Vytvoren MessageManager.
+[INFO] [18:06:20] [MessageManager] MessageManager pripojen ke komunikatoru.
+[INFO] [18:06:20] [GameLobby] GameLobby byla spustena.
+[INFO] [18:06:25] [Comunicator] Prijmuta zprava: "1-1-0-1-4" z adresy: 10.0.1.48:50229
+[INFO] [18:06:25] [Comunicator::Sender] Odesilani zpravy: "1-1-0-1-2" na adresu: 10.0.1.48:50229
+[INFO] [18:06:25] [Comunicator::Sender] Odesilani zpravy: "1-1-0-1-5-1" na adresu: 10.0.1.48:50229
+[INFO] [18:06:25] [Comunicator] Prijmuta zprava: "1-1-0-0-2" z adresy: 10.0.1.48:50229
+[INFO] [18:06:28] [Comunicator::Sender] Odesilani zpravy: "2-1-0-0-26" na adresu: 10.0.1.48:50229
+[INFO] [18:06:28] [Comunicator] Prijmuta zprava: "2-1-0-0-2" z adresy: 10.0.1.48:50229
+[INFO] [18:06:28] [Comunicator] Prijmuta zprava: "2-1-0-0-27" z adresy: 10.0.1.48:50229
+[INFO] [18:06:28] [Comunicator::Sender] Odesilani zpravy: "2-1-0-0-2" na adresu: 10.0.1.48:50229
+[INFO] [18:06:31] [Comunicator::Sender] Odesilani zpravy: "3-1-0-0-26" na adresu: 10.0.1.48:50229
+[INFO] [18:06:31] [Comunicator] Prijmuta zprava: "3-1-0-0-2" z adresy: 10.0.1.48:50229
+[INFO] [18:06:31] [Comunicator] Prijmuta zprava: "3-1-0-0-27" z adresy: 10.0.1.48:50229
+[INFO] [18:06:31] [Comunicator::Sender] Odesilani zpravy: "3-1-0-0-2" na adresu: 10.0.1.48:50229
+[INFO] [18:06:34] [Comunicator::Sender] Odesilani zpravy: "4-1-0-0-26" na adresu: 10.0.1.48:50229
+[WARNING] [18:06:39] [OutgoingMessage] Nebyla prijata odpoved na zpravu.
+[INFO] [18:06:39] [Comunicator::Sender] Odesilani zpravy: "4-1-0-0-26" na adresu: 10.0.1.48:50229
+==========Zacatek relace==========
+[INFO] [18:09:27] [Logger] Logger uspesne inicializovan. vsechny logy lze nalezt v souboru: /home/mates/.vs/zkusmoNovej/out/build/linux-debug/zkusmoNovej/server.log
+[INFO] [18:09:27] [Program] /home/mates/.vs/zkusmoNovej/out/build/linux-debug/zkusmoNovej/zkusmoNovej, -r, xd
+[INFO] [18:09:27] [Program] Pouzita IP:	0.0.0.0
+[INFO] [18:09:27] [Program] Pouziy port:	7890
+[INFO] [18:09:27] [Program] Max roomek:	1
+[INFO] [18:09:27] [Program] Max hracu:	2
+[INFO] [18:09:27] [Comunicator] Komunikator uspesne inicializovan na portu 7890
+[INFO] [18:09:27] [MessageManager] Vytvoren MessageManager.
+[INFO] [18:09:27] [MessageManager] MessageManager pripojen ke komunikatoru.
+[INFO] [18:09:27] [GameLobby] GameLobby byla spustena.
+[INFO] [18:10:02] [Comunicator] Prijmuta zprava: "1-1-0-1-4" z adresy: 10.0.1.48:61596
+[INFO] [18:10:02] [Comunicator::Sender] Odesilani zpravy: "1-1-0-1-2" na adresu: 10.0.1.48:61596
+[INFO] [18:10:02] [Comunicator::Sender] Odesilani zpravy: "1-1-0-1-5-1" na adresu: 10.0.1.48:61596
+[INFO] [18:10:02] [Comunicator] Prijmuta zprava: "1-1-0-0-2" z adresy: 10.0.1.48:61596
+[INFO] [18:10:05] [Comunicator::Sender] Odesilani zpravy: "2-1-0-0-26" na adresu: 10.0.1.48:61596
+[INFO] [18:10:05] [Comunicator] Prijmuta zprava: "2-1-0-0-2" z adresy: 10.0.1.48:61596
+[INFO] [18:10:05] [Comunicator] Prijmuta zprava: "2-1-0-0-27" z adresy: 10.0.1.48:61596
+[INFO] [18:10:05] [Comunicator::Sender] Odesilani zpravy: "2-1-0-0-2" na adresu: 10.0.1.48:61596
+[INFO] [18:10:08] [Comunicator::Sender] Odesilani zpravy: "3-1-0-0-26" na adresu: 10.0.1.48:61596
+[INFO] [18:10:08] [Comunicator] Prijmuta zprava: "3-1-0-0-2" z adresy: 10.0.1.48:61596
+[INFO] [18:10:08] [Comunicator] Prijmuta zprava: "3-1-0-0-27" z adresy: 10.0.1.48:61596
+[INFO] [18:10:08] [Comunicator::Sender] Odesilani zpravy: "3-1-0-0-2" na adresu: 10.0.1.48:61596
+[INFO] [18:10:12] [Comunicator::Sender] Odesilani zpravy: "4-1-0-0-26" na adresu: 10.0.1.48:61596
+[INFO] [18:10:12] [Comunicator] Prijmuta zprava: "4-1-0-0-2" z adresy: 10.0.1.48:61596
+[INFO] [18:10:12] [Comunicator] Prijmuta zprava: "4-1-0-0-27" z adresy: 10.0.1.48:61596
+[INFO] [18:10:12] [Comunicator::Sender] Odesilani zpravy: "4-1-0-0-2" na adresu: 10.0.1.48:61596
+[INFO] [18:10:15] [Comunicator::Sender] Odesilani zpravy: "5-1-0-0-26" na adresu: 10.0.1.48:61596
+[WARNING] [18:10:20] [OutgoingMessage] Nebyla prijata odpoved na zpravu.
+[INFO] [18:10:20] [Comunicator::Sender] Odesilani zpravy: "5-1-0-0-26" na adresu: 10.0.1.48:61596
+[INFO] [18:10:28] [Comunicator] Prijmuta zprava: "8-1-0-1-28-1" z adresy: 10.0.1.57:61596
+[INFO] [18:10:28] [Comunicator] Prijmuta zprava: "9-1-0-1-28-1" z adresy: 10.0.1.57:61596
+[INFO] [18:10:28] [Comunicator::Sender] Odesilani zpravy: "8-1-0-1-2" na adresu: 10.0.1.57:61596
+[INFO] [18:10:28] [Comunicator] Prijmuta zprava: "10-1-0-1-28-1" z adresy: 10.0.1.57:61596
+[INFO] [18:10:28] [Comunicator::Sender] Odesilani zpravy: "6-1-1-1-29-1" na adresu: 10.0.1.48:61596
+[INFO] [18:10:28] [Comunicator::Sender] Odesilani zpravy: "9-1-0-1-2" na adresu: 10.0.1.57:61596
+[INFO] [18:10:28] [Comunicator::Sender] Odesilani zpravy: "10-1-0-1-2" na adresu: 10.0.1.57:61596
+[INFO] [18:10:28] [Comunicator::Sender] Odesilani zpravy: "7-1-2-1-29-2" na adresu: 10.0.1.48:61596
+[INFO] [18:10:28] [Comunicator::Sender] Odesilani zpravy: "8-1-3-1-29-3" na adresu: 10.0.1.48:61596
+[INFO] [18:10:28] [Comunicator] Prijmuta zprava: "11-1-0-1-28-1" z adresy: 10.0.1.57:61596
+[INFO] [18:10:28] [Comunicator::Sender] Odesilani zpravy: "11-1-0-1-2" na adresu: 10.0.1.57:61596
+[INFO] [18:10:28] [Comunicator::Sender] Odesilani zpravy: "9-1-4-1-29-4" na adresu: 10.0.1.48:61596
+[WARNING] [18:10:32] [OutgoingMessage] Nebyla prijata odpoved na zpravu.
+[WARNING] [18:10:32] [OutgoingMessage] Nebyla prijata odpoved na zpravu.
+[INFO] [18:10:32] [Comunicator::Sender] Odesilani zpravy: "8-1-3-1-29-3" na adresu: 10.0.1.48:61596
+[INFO] [18:10:32] [Comunicator::Sender] Odesilani zpravy: "6-1-1-1-29-1" na adresu: 10.0.1.48:61596
+[WARNING] [18:10:32] [OutgoingMessage] Nebyla prijata odpoved na zpravu.
+[INFO] [18:10:32] [Comunicator::Sender] Odesilani zpravy: "7-1-2-1-29-2" na adresu: 10.0.1.48:61596
+[WARNING] [18:10:32] [OutgoingMessage] Nebyla prijata odpoved na zpravu.
+[INFO] [18:10:32] [Comunicator::Sender] Odesilani zpravy: "9-1-4-1-29-4" na adresu: 10.0.1.48:61596
+[INFO] [18:10:32] [Comunicator] Prijmuta zprava: "12-1-0-1-28-1" z adresy: 10.0.1.57:61596
+[INFO] [18:10:32] [Comunicator::Sender] Odesilani zpravy: "12-1-0-1-2" na adresu: 10.0.1.57:61596
+[INFO] [18:10:32] [Comunicator::Sender] Odesilani zpravy: "10-1-5-1-29-5" na adresu: 10.0.1.48:61596
+[INFO] [18:10:32] [Comunicator] Prijmuta zprava: "13-1-0-1-28-1" z adresy: 10.0.1.57:61596
+[INFO] [18:10:32] [Comunicator::Sender] Odesilani zpravy: "13-1-0-1-2" na adresu: 10.0.1.57:61596
+[INFO] [18:10:32] [Comunicator::Sender] Odesilani zpravy: "11-1-6-1-29-6" na adresu: 10.0.1.48:61596
+[INFO] [18:10:32] [Comunicator] Prijmuta zprava: "14-1-0-1-28-1" z adresy: 10.0.1.57:61596
+[INFO] [18:10:32] [Comunicator::Sender] Odesilani zpravy: "14-1-0-1-2" na adresu: 10.0.1.57:61596
+[INFO] [18:10:32] [Comunicator::Sender] Odesilani zpravy: "12-1-7-1-29-7" na adresu: 10.0.1.48:61596
+[INFO] [18:10:32] [Comunicator] Prijmuta zprava: "15-1-0-1-28-1" z adresy: 10.0.1.57:61596
+[INFO] [18:10:32] [Comunicator::Sender] Odesilani zpravy: "15-1-0-1-2" na adresu: 10.0.1.57:61596
+[INFO] [18:10:32] [Comunicator::Sender] Odesilani zpravy: "13-1-8-1-29-8" na adresu: 10.0.1.48:61596
+[WARNING] [18:10:37] [OutgoingMessage] Nebyla prijata odpoved na zpravu.
+[INFO] [18:10:37] [Comunicator::Sender] Odesilani zpravy: "11-1-6-1-29-6" na adresu: 10.0.1.48:61596
+[WARNING] [18:10:37] [OutgoingMessage] Nebyla prijata odpoved na zpravu.
+[INFO] [18:10:37] [Comunicator::Sender] Odesilani zpravy: "12-1-7-1-29-7" na adresu: 10.0.1.48:61596
+[WARNING] [18:10:37] [OutgoingMessage] Nebyla prijata odpoved na zpravu.
+[INFO] [18:10:37] [Comunicator::Sender] Odesilani zpravy: "13-1-8-1-29-8" na adresu: 10.0.1.48:61596
+[WARNING] [18:10:37] [OutgoingMessage] Nebyla prijata odpoved na zpravu.
+[INFO] [18:10:37] [Comunicator::Sender] Odesilani zpravy: "10-1-5-1-29-5" na adresu: 10.0.1.48:61596
+[INFO] [18:10:37] [Comunicator] Prijmuta zprava: "16-1-0-1-28-1" z adresy: 10.0.1.57:61596
+[INFO] [18:10:37] [Comunicator::Sender] Odesilani zpravy: "16-1-0-1-2" na adresu: 10.0.1.57:61596
+[INFO] [18:10:37] [Comunicator::Sender] Odesilani zpravy: "14-1-9-1-29-9" na adresu: 10.0.1.48:61596
+[INFO] [18:10:37] [Comunicator] Prijmuta zprava: "17-1-0-1-28-1" z adresy: 10.0.1.57:61596
+[INFO] [18:10:37] [Comunicator::Sender] Odesilani zpravy: "17-1-0-1-2" na adresu: 10.0.1.57:61596
+[INFO] [18:10:37] [Comunicator] Prijmuta zprava: "18-1-0-1-28-1" z adresy: 10.0.1.57:61596
+[INFO] [18:10:37] [Comunicator::Sender] Odesilani zpravy: "15-1-10-1-29-10" na adresu: 10.0.1.48:61596
+[INFO] [18:10:37] [Comunicator::Sender] Odesilani zpravy: "18-1-0-1-2" na adresu: 10.0.1.57:61596
+[INFO] [18:10:37] [Comunicator::Sender] Odesilani zpravy: "16-1-11-1-29-11" na adresu: 10.0.1.48:61596
+[INFO] [18:10:37] [Comunicator] Prijmuta zprava: "19-1-0-1-28-1" z adresy: 10.0.1.57:61596
+[INFO] [18:10:37] [Comunicator::Sender] Odesilani zpravy: "19-1-0-1-2" na adresu: 10.0.1.57:61596
+[INFO] [18:10:37] [Comunicator::Sender] Odesilani zpravy: "17-1-12-1-29-12" na adresu: 10.0.1.48:61596
+[WARNING] [18:10:42] [OutgoingMessage] Nebyla prijata odpoved na zpravu.
+[INFO] [18:10:42] [Comunicator::Sender] Odesilani zpravy: "16-1-11-1-29-11" na adresu: 10.0.1.48:61596
+[WARNING] [18:10:42] [OutgoingMessage] Nebyla prijata odpoved na zpravu.
+[INFO] [18:10:42] [Comunicator::Sender] Odesilani zpravy: "14-1-9-1-29-9" na adresu: 10.0.1.48:61596
+[WARNING] [18:10:42] [OutgoingMessage] Nebyla prijata odpoved na zpravu.
+[INFO] [18:10:42] [Comunicator::Sender] Odesilani zpravy: "17-1-12-1-29-12" na adresu: 10.0.1.48:61596
+[WARNING] [18:10:42] [OutgoingMessage] Nebyla prijata odpoved na zpravu.
+[INFO] [18:10:42] [Comunicator::Sender] Odesilani zpravy: "15-1-10-1-29-10" na adresu: 10.0.1.48:61596
+[INFO] [18:10:42] [Comunicator] Prijmuta zprava: "20-1-0-1-28-1" z adresy: 10.0.1.57:61596
+[INFO] [18:10:42] [Comunicator::Sender] Odesilani zpravy: "20-1-0-1-2" na adresu: 10.0.1.57:61596
+[INFO] [18:10:42] [Comunicator::Sender] Odesilani zpravy: "18-1-13-1-29-13" na adresu: 10.0.1.48:61596
+[INFO] [18:10:42] [Comunicator] Prijmuta zprava: "21-1-0-1-28-1" z adresy: 10.0.1.57:61596
+[INFO] [18:10:42] [Comunicator::Sender] Odesilani zpravy: "21-1-0-1-2" na adresu: 10.0.1.57:61596
+[INFO] [18:10:42] [Comunicator::Sender] Odesilani zpravy: "19-1-14-1-29-14" na adresu: 10.0.1.48:61596
+[INFO] [18:10:42] [Comunicator] Prijmuta zprava: "22-1-0-1-28-1" z adresy: 10.0.1.57:61596
+[INFO] [18:10:42] [Comunicator::Sender] Odesilani zpravy: "22-1-0-1-2" na adresu: 10.0.1.57:61596
+[INFO] [18:10:42] [Comunicator::Sender] Odesilani zpravy: "20-1-15-1-29-15" na adresu: 10.0.1.48:61596
+[INFO] [18:10:42] [Comunicator] Prijmuta zprava: "23-1-0-1-28-1" z adresy: 10.0.1.57:61596
+[INFO] [18:10:42] [Comunicator::Sender] Odesilani zpravy: "23-1-0-1-2" na adresu: 10.0.1.57:61596
+[INFO] [18:10:42] [Comunicator::Sender] Odesilani zpravy: "21-1-16-1-29-16" na adresu: 10.0.1.48:61596
+[WARNING] [18:10:47] [OutgoingMessage] Nebyla prijata odpoved na zpravu.
+[INFO] [18:10:47] [Comunicator::Sender] Odesilani zpravy: "20-1-15-1-29-15" na adresu: 10.0.1.48:61596
+[WARNING] [18:10:47] [OutgoingMessage] Nebyla prijata odpoved na zpravu.
+[INFO] [18:10:47] [Comunicator::Sender] Odesilani zpravy: "18-1-13-1-29-13" na adresu: 10.0.1.48:61596
+[WARNING] [18:10:47] [OutgoingMessage] Nebyla prijata odpoved na zpravu.
+[INFO] [18:10:47] [Comunicator::Sender] Odesilani zpravy: "19-1-14-1-29-14" na adresu: 10.0.1.48:61596
+[WARNING] [18:10:47] [OutgoingMessage] Nebyla prijata odpoved na zpravu.
+[INFO] [18:10:47] [Comunicator::Sender] Odesilani zpravy: "21-1-16-1-29-16" na adresu: 10.0.1.48:61596
+[INFO] [18:10:48] [Comunicator] Prijmuta zprava: "24-1-0-1-28-1" z adresy: 10.0.1.57:61596
+[INFO] [18:10:48] [Comunicator::Sender] Odesilani zpravy: "24-1-0-1-2" na adresu: 10.0.1.57:61596
+[INFO] [18:10:48] [Comunicator::Sender] Odesilani zpravy: "22-1-17-1-29-17" na adresu: 10.0.1.48:61596
+[INFO] [18:10:48] [Comunicator] Prijmuta zprava: "25-1-0-1-28-1" z adresy: 10.0.1.57:61596
+[INFO] [18:10:48] [Comunicator::Sender] Odesilani zpravy: "25-1-0-1-2" na adresu: 10.0.1.57:61596
+[INFO] [18:10:48] [Comunicator] Prijmuta zprava: "26-1-0-1-28-1" z adresy: 10.0.1.57:61596
+[INFO] [18:10:48] [Comunicator::Sender] Odesilani zpravy: "23-1-18-1-29-18" na adresu: 10.0.1.48:61596
+[INFO] [18:10:48] [Comunicator::Sender] Odesilani zpravy: "26-1-0-1-2" na adresu: 10.0.1.57:61596
+[INFO] [18:10:48] [Comunicator::Sender] Odesilani zpravy: "24-1-19-1-29-19" na adresu: 10.0.1.48:61596
+[INFO] [18:10:48] [Comunicator] Prijmuta zprava: "27-1-0-1-28-1" z adresy: 10.0.1.57:61596
+[INFO] [18:10:48] [Comunicator::Sender] Odesilani zpravy: "27-1-0-1-2" na adresu: 10.0.1.57:61596
+[INFO] [18:10:48] [Comunicator::Sender] Odesilani zpravy: "25-1-20-1-29-20" na adresu: 10.0.1.48:61596
+==========Zacatek relace==========
+[INFO] [18:11:51] [Logger] Logger uspesne inicializovan. vsechny logy lze nalezt v souboru: /home/mates/.vs/zkusmoNovej/out/build/linux-debug/zkusmoNovej/server.log
+[INFO] [18:11:51] [Program] /home/mates/.vs/zkusmoNovej/out/build/linux-debug/zkusmoNovej/zkusmoNovej, -r, xd
+[INFO] [18:11:51] [Program] Pouzita IP:	0.0.0.0
+[INFO] [18:11:51] [Program] Pouziy port:	7890
+[INFO] [18:11:51] [Program] Max roomek:	1
+[INFO] [18:11:51] [Program] Max hracu:	2
+[INFO] [18:11:51] [Comunicator] Komunikator uspesne inicializovan na portu 7890
+[INFO] [18:11:51] [MessageManager] Vytvoren MessageManager.
+[INFO] [18:11:51] [MessageManager] MessageManager pripojen ke komunikatoru.
+[INFO] [18:11:51] [GameLobby] GameLobby byla spustena.
+[INFO] [18:11:54] [Comunicator] Prijmuta zprava: "1-1-0-1-4" z adresy: 10.0.1.57:51847
+[INFO] [18:11:54] [Comunicator::Sender] Odesilani zpravy: "1-1-0-1-2" na adresu: 10.0.1.57:51847
+[INFO] [18:11:54] [Comunicator::Sender] Odesilani zpravy: "1-1-0-1-5-1" na adresu: 10.0.1.57:51847
+[INFO] [18:11:54] [Comunicator] Prijmuta zprava: "1-1-0-0-2" z adresy: 10.0.1.57:51847
+[INFO] [18:11:58] [Comunicator::Sender] Odesilani zpravy: "2-1-0-0-26" na adresu: 10.0.1.57:51847
+[INFO] [18:11:58] [Comunicator] Prijmuta zprava: "2-1-0-0-2" z adresy: 10.0.1.57:51847
+[INFO] [18:11:58] [Comunicator] Prijmuta zprava: "2-1-0-0-27" z adresy: 10.0.1.57:51847
+[INFO] [18:11:58] [Comunicator::Sender] Odesilani zpravy: "2-1-0-0-2" na adresu: 10.0.1.57:51847
+[INFO] [18:12:01] [Comunicator::Sender] Odesilani zpravy: "3-1-0-0-26" na adresu: 10.0.1.57:51847
+[INFO] [18:12:01] [Comunicator] Prijmuta zprava: "3-1-0-0-2" z adresy: 10.0.1.57:51847
+[INFO] [18:12:01] [Comunicator] Prijmuta zprava: "3-1-0-0-27" z adresy: 10.0.1.57:51847
+[INFO] [18:12:01] [Comunicator::Sender] Odesilani zpravy: "3-1-0-0-2" na adresu: 10.0.1.57:51847
+[INFO] [18:12:03] [Comunicator::Sender] Odesilani zpravy: "4-1-0-0-26" na adresu: 10.0.1.57:51847
+[WARNING] [18:12:08] [OutgoingMessage] Nebyla prijata odpoved na zpravu.
+[INFO] [18:12:08] [Comunicator::Sender] Odesilani zpravy: "4-1-0-0-26" na adresu: 10.0.1.57:51847
+[INFO] [18:14:24] [Comunicator] Prijmuta zprava: "1-1-0-1-4" z adresy: 10.0.1.57:59697
+[INFO] [18:14:24] [Comunicator::Sender] Odesilani zpravy: "1-1-0-1-2" na adresu: 10.0.1.57:59697
+[INFO] [18:14:24] [Comunicator::Sender] Odesilani zpravy: "5-2-0-1-5-2" na adresu: 10.0.1.57:59697
+[INFO] [18:14:24] [Comunicator] Prijmuta zprava: "5-2-0-0-2" z adresy: 10.0.1.57:59697
+[INFO] [18:14:27] [Comunicator::Sender] Odesilani zpravy: "6-2-0-0-26" na adresu: 10.0.1.57:59697
+[INFO] [18:14:27] [Comunicator] Prijmuta zprava: "6-2-0-0-2" z adresy: 10.0.1.57:59697
+[INFO] [18:14:27] [Comunicator] Prijmuta zprava: "2-2-0-0-27" z adresy: 10.0.1.57:59697
+[INFO] [18:14:27] [Comunicator::Sender] Odesilani zpravy: "2-2-0-0-2" na adresu: 10.0.1.57:59697
+[INFO] [18:14:30] [Comunicator::Sender] Odesilani zpravy: "7-2-0-0-26" na adresu: 10.0.1.57:59697
+[INFO] [18:14:30] [Comunicator] Prijmuta zprava: "7-2-0-0-2" z adresy: 10.0.1.57:59697
+[INFO] [18:14:30] [Comunicator] Prijmuta zprava: "3-2-0-0-27" z adresy: 10.0.1.57:59697
+[INFO] [18:14:30] [Comunicator::Sender] Odesilani zpravy: "3-2-0-0-2" na adresu: 10.0.1.57:59697
+[INFO] [18:14:33] [Comunicator::Sender] Odesilani zpravy: "8-2-0-0-26" na adresu: 10.0.1.57:59697
+[INFO] [18:14:33] [Comunicator] Prijmuta zprava: "8-2-0-0-2" z adresy: 10.0.1.57:59697
+[INFO] [18:14:33] [Comunicator] Prijmuta zprava: "4-2-0-0-27" z adresy: 10.0.1.57:59697
+[INFO] [18:14:33] [Comunicator::Sender] Odesilani zpravy: "4-2-0-0-2" na adresu: 10.0.1.57:59697
+[INFO] [18:14:36] [Comunicator::Sender] Odesilani zpravy: "9-2-0-0-26" na adresu: 10.0.1.57:59697
+[WARNING] [18:14:40] [OutgoingMessage] Nebyla prijata odpoved na zpravu.
+[INFO] [18:14:40] [Comunicator::Sender] Odesilani zpravy: "9-2-0-0-26" na adresu: 10.0.1.57:59697
+[INFO] [18:14:51] [GameLobby] Klient: 2	 Jmeno: 	 Adresa: 10.0.1.57:59697	 Online: Ne	 Posl. echo pred: 18908 ms
+Klient: 1	 Jmeno: 	 Adresa: 10.0.1.57:51847	 Online: Ne	 Posl. echo pred: 177446 ms
+
+[INFO] [18:15:28] [Comunicator] Prijmuta zprava: "1-1-0-1-4" z adresy: 10.0.1.57:61026
+[INFO] [18:15:28] [Comunicator::Sender] Odesilani zpravy: "1-1-0-1-2" na adresu: 10.0.1.57:61026
+[INFO] [18:15:28] [Comunicator::Sender] Odesilani zpravy: "10-3-0-1-5-0" na adresu: 10.0.1.57:61026
+[INFO] [18:15:28] [Comunicator] Prijmuta zprava: "10-3-0-0-2" z adresy: 10.0.1.57:61026
+==========Zacatek relace==========
+[INFO] [18:16:05] [Logger] Logger uspesne inicializovan. vsechny logy lze nalezt v souboru: /home/mates/.vs/zkusmoNovej/out/build/linux-debug/zkusmoNovej/server.log
+[INFO] [18:16:05] [Program] /home/mates/.vs/zkusmoNovej/out/build/linux-debug/zkusmoNovej/zkusmoNovej, -r, xd
+[INFO] [18:16:05] [Program] Pouzita IP:	0.0.0.0
+[INFO] [18:16:05] [Program] Pouziy port:	7890
+[INFO] [18:16:05] [Program] Max roomek:	10
+[INFO] [18:16:05] [Program] Max hracu:	20
+[INFO] [18:16:05] [Comunicator] Komunikator uspesne inicializovan na portu 7890
+[INFO] [18:16:05] [MessageManager] Vytvoren MessageManager.
+[INFO] [18:16:05] [MessageManager] MessageManager pripojen ke komunikatoru.
+[INFO] [18:16:05] [GameLobby] GameLobby byla spustena.
+[INFO] [18:16:09] [Comunicator] Prijmuta zprava: "2-1-0-1-4" z adresy: 10.0.1.57:61026
+[INFO] [18:16:09] [Comunicator::Sender] Odesilani zpravy: "2-1-0-1-2" na adresu: 10.0.1.57:61026
+[INFO] [18:16:09] [Comunicator::Sender] Odesilani zpravy: "1-1-0-1-5-1" na adresu: 10.0.1.57:61026
+[INFO] [18:16:09] [Comunicator] Prijmuta zprava: "1-1-0-0-2" z adresy: 10.0.1.57:61026
+[INFO] [18:16:12] [Comunicator::Sender] Odesilani zpravy: "2-1-0-0-26" na adresu: 10.0.1.57:61026
+[INFO] [18:16:12] [Comunicator] Prijmuta zprava: "2-1-0-0-2" z adresy: 10.0.1.57:61026
+[INFO] [18:16:12] [Comunicator] Prijmuta zprava: "3-1-0-0-27" z adresy: 10.0.1.57:61026
+[INFO] [18:16:12] [Comunicator::Sender] Odesilani zpravy: "3-1-0-0-2" na adresu: 10.0.1.57:61026
+[INFO] [18:16:15] [Comunicator::Sender] Odesilani zpravy: "3-1-0-0-26" na adresu: 10.0.1.57:61026
+[INFO] [18:16:15] [Comunicator] Prijmuta zprava: "3-1-0-0-2" z adresy: 10.0.1.57:61026
+[INFO] [18:16:15] [Comunicator] Prijmuta zprava: "4-1-0-0-27" z adresy: 10.0.1.57:61026
+[INFO] [18:16:15] [Comunicator::Sender] Odesilani zpravy: "4-1-0-0-2" na adresu: 10.0.1.57:61026
+[INFO] [18:16:18] [Comunicator::Sender] Odesilani zpravy: "4-1-0-0-26" na adresu: 10.0.1.57:61026
+[INFO] [18:16:18] [Comunicator] Prijmuta zprava: "4-1-0-0-2" z adresy: 10.0.1.57:61026
+[INFO] [18:16:18] [Comunicator] Prijmuta zprava: "5-1-0-0-27" z adresy: 10.0.1.57:61026
+[INFO] [18:16:18] [Comunicator::Sender] Odesilani zpravy: "5-1-0-0-2" na adresu: 10.0.1.57:61026
+[INFO] [18:16:21] [Comunicator::Sender] Odesilani zpravy: "5-1-0-0-26" na adresu: 10.0.1.57:61026
+[INFO] [18:16:21] [Comunicator] Prijmuta zprava: "5-1-0-0-2" z adresy: 10.0.1.57:61026
+[INFO] [18:16:21] [Comunicator] Prijmuta zprava: "6-1-0-0-27" z adresy: 10.0.1.57:61026
+[INFO] [18:16:21] [Comunicator::Sender] Odesilani zpravy: "6-1-0-0-2" na adresu: 10.0.1.57:61026
+[INFO] [18:16:24] [Comunicator::Sender] Odesilani zpravy: "6-1-0-0-26" na adresu: 10.0.1.57:61026
+[WARNING] [18:16:29] [OutgoingMessage] Nebyla prijata odpoved na zpravu.
+[INFO] [18:16:29] [Comunicator::Sender] Odesilani zpravy: "6-1-0-0-26" na adresu: 10.0.1.57:61026
+[INFO] [18:16:41] [Comunicator] Prijmuta zprava: "10-1-0-1-28-1" z adresy: 10.0.1.57:61026
+[INFO] [18:16:41] [Comunicator::Sender] Odesilani zpravy: "10-1-0-1-2" na adresu: 10.0.1.57:61026
+[INFO] [18:16:41] [Comunicator::Sender] Odesilani zpravy: "7-1-1-1-29-1" na adresu: 10.0.1.57:61026
+[INFO] [18:16:41] [Comunicator] Prijmuta zprava: "7-1-0-0-2" z adresy: 10.0.1.57:61026
+[INFO] [18:16:47] [GameLobby] Klient: 1	 Jmeno: 	 Adresa: 10.0.1.57:61026	 Online: Ano	 Posl. echo pred: 6244 ms
+
+[INFO] [18:16:55] [GameLobby] Klient: 1	 Jmeno: 	 Adresa: 10.0.1.57:61026	 Online: Ano	 Posl. echo pred: 13943 ms
+
+==========Zacatek relace==========
+[INFO] [18:17:54] [Logger] Logger uspesne inicializovan. vsechny logy lze nalezt v souboru: /home/mates/.vs/zkusmoNovej/out/build/linux-debug/zkusmoNovej/server.log
+[INFO] [18:17:54] [Program] /home/mates/.vs/zkusmoNovej/out/build/linux-debug/zkusmoNovej/zkusmoNovej, -r, xd
+[INFO] [18:17:54] [Program] Pouzita IP:	0.0.0.0
+[INFO] [18:17:54] [Program] Pouziy port:	7890
+[INFO] [18:17:54] [Program] Max roomek:	10
+[INFO] [18:17:54] [Program] Max hracu:	20
+[INFO] [18:17:54] [Comunicator] Komunikator uspesne inicializovan na portu 7890
+[INFO] [18:17:54] [MessageManager] Vytvoren MessageManager.
+[INFO] [18:17:54] [MessageManager] MessageManager pripojen ke komunikatoru.
+[INFO] [18:17:54] [GameLobby] GameLobby byla spustena.
+[INFO] [18:18:04] [Comunicator] Prijmuta zprava: "1-1-0-1-4" z adresy: 10.0.1.57:53347
+[INFO] [18:18:04] [Comunicator::Sender] Odesilani zpravy: "1-1-0-1-2" na adresu: 10.0.1.57:53347
+[INFO] [18:18:04] [Comunicator::Sender] Odesilani zpravy: "1-1-0-1-5-1" na adresu: 10.0.1.57:53347
+[INFO] [18:18:04] [Comunicator] Prijmuta zprava: "1-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:18:07] [Comunicator::Sender] Odesilani zpravy: "2-1-0-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:18:07] [Comunicator] Prijmuta zprava: "2-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:18:07] [Comunicator] Prijmuta zprava: "2-1-0-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:18:07] [Comunicator::Sender] Odesilani zpravy: "2-1-0-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:18:10] [Comunicator::Sender] Odesilani zpravy: "3-1-0-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:18:10] [Comunicator] Prijmuta zprava: "3-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:18:10] [Comunicator] Prijmuta zprava: "3-1-0-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:18:10] [Comunicator::Sender] Odesilani zpravy: "3-1-0-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:18:13] [Comunicator::Sender] Odesilani zpravy: "4-1-0-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:18:13] [Comunicator] Prijmuta zprava: "4-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:18:13] [Comunicator] Prijmuta zprava: "4-1-0-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:18:13] [Comunicator::Sender] Odesilani zpravy: "4-1-0-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:18:14] [Comunicator::Sender] Odesilani zpravy: "5-1-0-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:18:14] [Comunicator] Prijmuta zprava: "5-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:18:14] [Comunicator] Prijmuta zprava: "5-1-0-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:18:14] [Comunicator::Sender] Odesilani zpravy: "5-1-0-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:18:17] [Comunicator::Sender] Odesilani zpravy: "6-1-0-0-26" na adresu: 10.0.1.57:53347
+[WARNING] [18:18:22] [OutgoingMessage] Nebyla prijata odpoved na zpravu.
+[INFO] [18:18:22] [Comunicator::Sender] Odesilani zpravy: "6-1-0-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:18:34] [Comunicator] Prijmuta zprava: "9-1-0-1-28-1" z adresy: 10.0.1.57:53347
+[INFO] [18:18:34] [Comunicator::Sender] Odesilani zpravy: "9-1-0-1-2" na adresu: 10.0.1.57:53347
+[INFO] [18:18:34] [Comunicator::Sender] Odesilani zpravy: "7-1-1-1-29-1" na adresu: 10.0.1.57:53347
+[INFO] [18:18:34] [Comunicator] Prijmuta zprava: "7-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:18:37] [Comunicator::Sender] Odesilani zpravy: "8-1-1-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:18:37] [Comunicator] Prijmuta zprava: "8-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:18:37] [Comunicator] Prijmuta zprava: "10-1-1-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:18:37] [Comunicator::Sender] Odesilani zpravy: "10-1-1-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:18:40] [Comunicator::Sender] Odesilani zpravy: "9-1-1-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:18:40] [Comunicator] Prijmuta zprava: "9-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:18:40] [Comunicator] Prijmuta zprava: "11-1-1-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:18:40] [Comunicator::Sender] Odesilani zpravy: "11-1-1-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:18:43] [Comunicator::Sender] Odesilani zpravy: "10-1-1-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:18:43] [Comunicator] Prijmuta zprava: "10-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:18:43] [Comunicator] Prijmuta zprava: "12-1-1-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:18:43] [Comunicator::Sender] Odesilani zpravy: "12-1-1-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:18:45] [Comunicator::Sender] Odesilani zpravy: "11-1-1-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:18:45] [Comunicator] Prijmuta zprava: "11-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:18:45] [Comunicator] Prijmuta zprava: "13-1-1-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:18:45] [Comunicator::Sender] Odesilani zpravy: "13-1-1-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:18:48] [Comunicator::Sender] Odesilani zpravy: "12-1-1-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:18:48] [Comunicator] Prijmuta zprava: "12-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:18:48] [Comunicator] Prijmuta zprava: "14-1-1-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:18:48] [Comunicator::Sender] Odesilani zpravy: "14-1-1-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:18:51] [Comunicator::Sender] Odesilani zpravy: "13-1-1-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:18:51] [Comunicator] Prijmuta zprava: "13-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:18:51] [Comunicator] Prijmuta zprava: "15-1-1-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:18:51] [Comunicator::Sender] Odesilani zpravy: "15-1-1-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:18:54] [Comunicator::Sender] Odesilani zpravy: "14-1-1-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:18:54] [Comunicator] Prijmuta zprava: "14-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:18:54] [Comunicator] Prijmuta zprava: "16-1-1-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:18:54] [Comunicator::Sender] Odesilani zpravy: "16-1-1-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:18:57] [Comunicator::Sender] Odesilani zpravy: "15-1-1-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:18:57] [Comunicator] Prijmuta zprava: "15-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:18:57] [Comunicator] Prijmuta zprava: "17-1-1-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:18:57] [Comunicator::Sender] Odesilani zpravy: "17-1-1-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:19:00] [Comunicator::Sender] Odesilani zpravy: "16-1-1-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:19:00] [Comunicator] Prijmuta zprava: "16-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:19:00] [Comunicator] Prijmuta zprava: "18-1-1-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:19:00] [Comunicator::Sender] Odesilani zpravy: "18-1-1-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:19:03] [Comunicator::Sender] Odesilani zpravy: "17-1-1-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:19:03] [Comunicator] Prijmuta zprava: "17-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:19:03] [Comunicator] Prijmuta zprava: "19-1-1-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:19:03] [Comunicator::Sender] Odesilani zpravy: "19-1-1-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:19:06] [Comunicator::Sender] Odesilani zpravy: "18-1-1-0-26" na adresu: 10.0.1.57:53347
+[WARNING] [18:19:11] [OutgoingMessage] Nebyla prijata odpoved na zpravu.
+[INFO] [18:19:11] [Comunicator::Sender] Odesilani zpravy: "18-1-1-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:19:18] [GameLobby] Klient: 1	 Jmeno: 	 Adresa: 10.0.1.57:53347	 Online: Ne	 Posl. echo pred: 15994 ms
+
+[INFO] [18:19:37] [Comunicator] Prijmuta zprava: "26-1-1-1-28-1" z adresy: 10.0.1.57:53347
+[INFO] [18:19:37] [Comunicator::Sender] Odesilani zpravy: "26-1-1-1-2" na adresu: 10.0.1.57:53347
+[INFO] [18:19:37] [Comunicator::Sender] Odesilani zpravy: "19-1-2-1-29-2" na adresu: 10.0.1.57:53347
+[INFO] [18:19:37] [Comunicator] Prijmuta zprava: "19-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:19:40] [Comunicator::Sender] Odesilani zpravy: "20-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:19:40] [Comunicator] Prijmuta zprava: "20-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:19:40] [Comunicator] Prijmuta zprava: "27-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:19:40] [Comunicator::Sender] Odesilani zpravy: "27-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:19:43] [Comunicator::Sender] Odesilani zpravy: "21-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:19:43] [Comunicator] Prijmuta zprava: "21-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:19:43] [Comunicator] Prijmuta zprava: "28-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:19:43] [Comunicator::Sender] Odesilani zpravy: "28-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:19:46] [Comunicator::Sender] Odesilani zpravy: "22-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:19:46] [Comunicator] Prijmuta zprava: "22-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:19:46] [Comunicator] Prijmuta zprava: "29-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:19:46] [Comunicator::Sender] Odesilani zpravy: "29-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:19:46] [GameLobby] Klient: 1	 Jmeno: 	 Adresa: 10.0.1.57:53347	 Online: Ano	 Posl. echo pred: 554 ms
+
+[INFO] [18:19:48] [Comunicator::Sender] Odesilani zpravy: "23-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:19:48] [Comunicator] Prijmuta zprava: "23-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:19:48] [Comunicator] Prijmuta zprava: "30-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:19:48] [Comunicator::Sender] Odesilani zpravy: "30-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:19:51] [Comunicator::Sender] Odesilani zpravy: "24-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:19:51] [Comunicator] Prijmuta zprava: "24-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:19:51] [Comunicator] Prijmuta zprava: "31-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:19:51] [Comunicator::Sender] Odesilani zpravy: "31-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:19:54] [Comunicator::Sender] Odesilani zpravy: "25-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:19:54] [Comunicator] Prijmuta zprava: "25-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:19:54] [Comunicator] Prijmuta zprava: "32-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:19:54] [Comunicator::Sender] Odesilani zpravy: "32-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:19:58] [Comunicator::Sender] Odesilani zpravy: "26-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:19:58] [Comunicator] Prijmuta zprava: "26-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:19:58] [Comunicator] Prijmuta zprava: "33-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:19:58] [Comunicator::Sender] Odesilani zpravy: "33-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:20:01] [Comunicator::Sender] Odesilani zpravy: "27-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:20:01] [Comunicator] Prijmuta zprava: "27-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:20:01] [Comunicator] Prijmuta zprava: "34-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:20:01] [Comunicator::Sender] Odesilani zpravy: "34-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:20:04] [Comunicator::Sender] Odesilani zpravy: "28-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:20:04] [Comunicator] Prijmuta zprava: "28-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:20:04] [Comunicator] Prijmuta zprava: "35-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:20:04] [Comunicator::Sender] Odesilani zpravy: "35-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:20:07] [Comunicator::Sender] Odesilani zpravy: "29-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:20:07] [Comunicator] Prijmuta zprava: "29-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:20:07] [Comunicator] Prijmuta zprava: "36-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:20:07] [Comunicator::Sender] Odesilani zpravy: "36-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:20:10] [Comunicator::Sender] Odesilani zpravy: "30-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:20:10] [Comunicator] Prijmuta zprava: "30-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:20:10] [Comunicator] Prijmuta zprava: "37-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:20:10] [Comunicator::Sender] Odesilani zpravy: "37-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:20:13] [Comunicator::Sender] Odesilani zpravy: "31-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:20:13] [Comunicator] Prijmuta zprava: "31-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:20:13] [Comunicator] Prijmuta zprava: "38-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:20:13] [Comunicator::Sender] Odesilani zpravy: "38-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:20:16] [Comunicator::Sender] Odesilani zpravy: "32-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:20:16] [Comunicator] Prijmuta zprava: "32-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:20:16] [Comunicator] Prijmuta zprava: "39-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:20:16] [Comunicator::Sender] Odesilani zpravy: "39-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:20:18] [Comunicator::Sender] Odesilani zpravy: "33-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:20:18] [Comunicator] Prijmuta zprava: "33-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:20:18] [Comunicator] Prijmuta zprava: "40-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:20:18] [Comunicator::Sender] Odesilani zpravy: "40-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:20:21] [Comunicator::Sender] Odesilani zpravy: "34-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:20:21] [Comunicator] Prijmuta zprava: "34-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:20:21] [Comunicator] Prijmuta zprava: "41-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:20:21] [Comunicator::Sender] Odesilani zpravy: "41-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:20:24] [Comunicator::Sender] Odesilani zpravy: "35-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:20:24] [Comunicator] Prijmuta zprava: "35-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:20:24] [Comunicator] Prijmuta zprava: "42-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:20:24] [Comunicator::Sender] Odesilani zpravy: "42-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:20:27] [Comunicator::Sender] Odesilani zpravy: "36-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:20:27] [Comunicator] Prijmuta zprava: "36-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:20:27] [Comunicator] Prijmuta zprava: "43-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:20:27] [Comunicator::Sender] Odesilani zpravy: "43-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:20:30] [Comunicator::Sender] Odesilani zpravy: "37-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:20:30] [Comunicator] Prijmuta zprava: "37-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:20:30] [Comunicator] Prijmuta zprava: "44-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:20:30] [Comunicator::Sender] Odesilani zpravy: "44-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:20:33] [Comunicator::Sender] Odesilani zpravy: "38-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:20:33] [Comunicator] Prijmuta zprava: "38-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:20:33] [Comunicator] Prijmuta zprava: "45-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:20:33] [Comunicator::Sender] Odesilani zpravy: "45-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:20:36] [Comunicator::Sender] Odesilani zpravy: "39-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:20:36] [Comunicator] Prijmuta zprava: "39-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:20:36] [Comunicator] Prijmuta zprava: "46-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:20:36] [Comunicator::Sender] Odesilani zpravy: "46-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:20:39] [Comunicator::Sender] Odesilani zpravy: "40-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:20:39] [Comunicator] Prijmuta zprava: "40-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:20:39] [Comunicator] Prijmuta zprava: "47-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:20:39] [Comunicator::Sender] Odesilani zpravy: "47-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:20:42] [Comunicator::Sender] Odesilani zpravy: "41-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:20:42] [Comunicator] Prijmuta zprava: "41-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:20:42] [Comunicator] Prijmuta zprava: "48-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:20:42] [Comunicator::Sender] Odesilani zpravy: "48-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:20:45] [Comunicator::Sender] Odesilani zpravy: "42-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:20:45] [Comunicator] Prijmuta zprava: "42-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:20:45] [Comunicator] Prijmuta zprava: "49-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:20:45] [Comunicator::Sender] Odesilani zpravy: "49-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:20:48] [Comunicator::Sender] Odesilani zpravy: "43-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:20:48] [Comunicator] Prijmuta zprava: "43-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:20:48] [Comunicator] Prijmuta zprava: "50-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:20:48] [Comunicator::Sender] Odesilani zpravy: "50-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:20:50] [Comunicator::Sender] Odesilani zpravy: "44-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:20:50] [Comunicator] Prijmuta zprava: "44-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:20:50] [Comunicator] Prijmuta zprava: "51-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:20:50] [Comunicator::Sender] Odesilani zpravy: "51-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:20:53] [Comunicator::Sender] Odesilani zpravy: "45-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:20:53] [Comunicator] Prijmuta zprava: "45-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:20:53] [Comunicator] Prijmuta zprava: "52-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:20:53] [Comunicator::Sender] Odesilani zpravy: "52-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:20:56] [Comunicator::Sender] Odesilani zpravy: "46-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:20:56] [Comunicator] Prijmuta zprava: "46-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:20:56] [Comunicator] Prijmuta zprava: "53-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:20:56] [Comunicator::Sender] Odesilani zpravy: "53-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:20:59] [Comunicator::Sender] Odesilani zpravy: "47-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:20:59] [Comunicator] Prijmuta zprava: "47-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:20:59] [Comunicator] Prijmuta zprava: "54-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:20:59] [Comunicator::Sender] Odesilani zpravy: "54-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:21:02] [Comunicator::Sender] Odesilani zpravy: "48-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:21:02] [Comunicator] Prijmuta zprava: "48-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:21:02] [Comunicator] Prijmuta zprava: "55-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:21:02] [Comunicator::Sender] Odesilani zpravy: "55-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:21:05] [Comunicator::Sender] Odesilani zpravy: "49-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:21:05] [Comunicator] Prijmuta zprava: "49-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:21:05] [Comunicator] Prijmuta zprava: "56-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:21:05] [Comunicator::Sender] Odesilani zpravy: "56-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:21:08] [Comunicator::Sender] Odesilani zpravy: "50-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:21:08] [Comunicator] Prijmuta zprava: "50-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:21:08] [Comunicator] Prijmuta zprava: "57-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:21:08] [Comunicator::Sender] Odesilani zpravy: "57-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:21:11] [Comunicator::Sender] Odesilani zpravy: "51-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:21:11] [Comunicator] Prijmuta zprava: "51-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:21:11] [Comunicator] Prijmuta zprava: "58-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:21:11] [Comunicator::Sender] Odesilani zpravy: "58-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:21:14] [Comunicator::Sender] Odesilani zpravy: "52-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:21:14] [Comunicator] Prijmuta zprava: "52-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:21:14] [Comunicator] Prijmuta zprava: "59-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:21:14] [Comunicator::Sender] Odesilani zpravy: "59-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:21:17] [Comunicator::Sender] Odesilani zpravy: "53-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:21:17] [Comunicator] Prijmuta zprava: "53-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:21:17] [Comunicator] Prijmuta zprava: "60-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:21:17] [Comunicator::Sender] Odesilani zpravy: "60-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:21:19] [Comunicator::Sender] Odesilani zpravy: "54-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:21:19] [Comunicator] Prijmuta zprava: "54-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:21:19] [Comunicator] Prijmuta zprava: "61-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:21:19] [Comunicator::Sender] Odesilani zpravy: "61-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:21:22] [Comunicator::Sender] Odesilani zpravy: "55-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:21:22] [Comunicator] Prijmuta zprava: "55-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:21:22] [Comunicator] Prijmuta zprava: "62-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:21:22] [Comunicator::Sender] Odesilani zpravy: "62-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:21:25] [Comunicator::Sender] Odesilani zpravy: "56-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:21:25] [Comunicator] Prijmuta zprava: "56-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:21:25] [Comunicator] Prijmuta zprava: "63-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:21:25] [Comunicator::Sender] Odesilani zpravy: "63-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:21:28] [Comunicator::Sender] Odesilani zpravy: "57-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:21:28] [Comunicator] Prijmuta zprava: "57-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:21:28] [Comunicator] Prijmuta zprava: "64-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:21:28] [Comunicator::Sender] Odesilani zpravy: "64-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:21:31] [Comunicator::Sender] Odesilani zpravy: "58-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:21:31] [Comunicator] Prijmuta zprava: "58-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:21:31] [Comunicator] Prijmuta zprava: "65-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:21:31] [Comunicator::Sender] Odesilani zpravy: "65-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:21:34] [Comunicator::Sender] Odesilani zpravy: "59-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:21:34] [Comunicator] Prijmuta zprava: "59-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:21:34] [Comunicator] Prijmuta zprava: "66-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:21:34] [Comunicator::Sender] Odesilani zpravy: "66-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:21:37] [Comunicator::Sender] Odesilani zpravy: "60-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:21:37] [Comunicator] Prijmuta zprava: "60-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:21:37] [Comunicator] Prijmuta zprava: "67-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:21:37] [Comunicator::Sender] Odesilani zpravy: "67-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:21:40] [Comunicator::Sender] Odesilani zpravy: "61-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:21:40] [Comunicator] Prijmuta zprava: "61-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:21:40] [Comunicator] Prijmuta zprava: "68-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:21:40] [Comunicator::Sender] Odesilani zpravy: "68-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:21:43] [Comunicator::Sender] Odesilani zpravy: "62-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:21:43] [Comunicator] Prijmuta zprava: "62-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:21:43] [Comunicator] Prijmuta zprava: "69-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:21:43] [Comunicator::Sender] Odesilani zpravy: "69-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:21:46] [Comunicator::Sender] Odesilani zpravy: "63-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:21:46] [Comunicator] Prijmuta zprava: "63-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:21:46] [Comunicator] Prijmuta zprava: "70-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:21:46] [Comunicator::Sender] Odesilani zpravy: "70-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:21:49] [Comunicator::Sender] Odesilani zpravy: "64-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:21:49] [Comunicator] Prijmuta zprava: "64-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:21:49] [Comunicator] Prijmuta zprava: "71-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:21:49] [Comunicator::Sender] Odesilani zpravy: "71-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:21:51] [Comunicator::Sender] Odesilani zpravy: "65-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:21:51] [Comunicator] Prijmuta zprava: "65-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:21:51] [Comunicator] Prijmuta zprava: "72-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:21:51] [Comunicator::Sender] Odesilani zpravy: "72-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:21:54] [Comunicator::Sender] Odesilani zpravy: "66-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:21:54] [Comunicator] Prijmuta zprava: "66-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:21:54] [Comunicator] Prijmuta zprava: "73-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:21:54] [Comunicator::Sender] Odesilani zpravy: "73-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:21:57] [Comunicator::Sender] Odesilani zpravy: "67-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:21:57] [Comunicator] Prijmuta zprava: "67-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:21:57] [Comunicator] Prijmuta zprava: "74-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:21:57] [Comunicator::Sender] Odesilani zpravy: "74-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:22:00] [Comunicator::Sender] Odesilani zpravy: "68-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:22:00] [Comunicator] Prijmuta zprava: "68-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:22:00] [Comunicator] Prijmuta zprava: "75-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:22:00] [Comunicator::Sender] Odesilani zpravy: "75-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:22:03] [Comunicator::Sender] Odesilani zpravy: "69-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:22:03] [Comunicator] Prijmuta zprava: "69-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:22:03] [Comunicator] Prijmuta zprava: "76-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:22:03] [Comunicator::Sender] Odesilani zpravy: "76-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:22:06] [Comunicator::Sender] Odesilani zpravy: "70-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:22:06] [Comunicator] Prijmuta zprava: "70-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:22:06] [Comunicator] Prijmuta zprava: "77-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:22:06] [Comunicator::Sender] Odesilani zpravy: "77-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:22:09] [Comunicator::Sender] Odesilani zpravy: "71-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:22:09] [Comunicator] Prijmuta zprava: "71-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:22:09] [Comunicator] Prijmuta zprava: "78-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:22:09] [Comunicator::Sender] Odesilani zpravy: "78-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:22:12] [Comunicator::Sender] Odesilani zpravy: "72-1-2-0-26" na adresu: 10.0.1.57:53347
+[INFO] [18:22:12] [Comunicator] Prijmuta zprava: "72-1-0-0-2" z adresy: 10.0.1.57:53347
+[INFO] [18:22:12] [Comunicator] Prijmuta zprava: "79-1-2-0-27" z adresy: 10.0.1.57:53347
+[INFO] [18:22:12] [Comunicator::Sender] Odesilani zpravy: "79-1-2-0-2" na adresu: 10.0.1.57:53347
+[INFO] [18:22:15] [Comunicator::Sender] Odesilani zpravy: "73-1-2-0-26" na adresu: 10.0.1.57:53347
+[WARNING] [18:22:20] [OutgoingMessage] Nebyla prijata odpoved na zpravu.
+[INFO] [18:22:20] [Comunicator::Sender] Odesilani zpravy: "73-1-2-0-26" na adresu: 10.0.1.57:53347

@@ -1,4 +1,3 @@
-import argparse
 import threading
 import time
 import socket
@@ -19,7 +18,6 @@ from Server import Server
 from Utils import Utils
 from connectWindow import ConnectionDialog
 from nameWindow import NameDialog
-import sys
 
 class Program:
     _nextProcessFunction: Callable[[IncomingRequest], None] | None
@@ -27,6 +25,8 @@ class Program:
     MessManager: MessageManager | None
     ReqManager: RequestManager | None
     Running: bool
+    
+    _onReconect: Callable[[], None] | None
     
     Loading: LoadingOverlay | None
     
@@ -36,39 +36,13 @@ class Program:
 
     def __init__(self):
         self._nextProcessFunction = None
+        self._onReconect = None
         self.Running = False
         self.CheckerThread = None
 
     def RegisterProcessingFunction(self, nextProcessFunction: Callable[[IncomingRequest], None]):
         self._nextProcessFunction = nextProcessFunction
 
-    def SetupCom(self, address: str | Literal[socket.AddressFamily.AF_INET], port: int =0):
-        comunicator = Comunicator(address,port)
-        
-        if(not comunicator.Initialized):
-            return False, None, None, None
-        
-        msgManager = MessageManager()
-        msgManager.ConnectToComunicator(comunicator, 2000, 1)
-
-        reqManager = RequestManager(5000)
-        reqManager.ConnectToMessageManager(msgManager)
-        reqManager.RegisterProcessingFunction(self.ProcessIncomingMessage)
-        
-        return True, comunicator, msgManager, reqManager
-        
-    def ConnectToServer(self):
-        dialog = ConnectionDialog(self)
-        dialog.Open()
-
-    def RegisterName(self):
-        dialog = NameDialog(self)
-        dialog.Open()
-
-    def OpenLobby(self):
-        gl = GameLobby(self)
-        gl.Open()
-    
     def CouldntReping(self):
         Logger.LogError(Program, ERROR_CODES.PING_CANT_RESPOND)
 
@@ -77,9 +51,13 @@ class Program:
             Logger.LogError(Program, ERROR_CODES.OBJECT_NOT_INITIALIZED, [RequestManager.__name__])
             return
         
-        #if(not Server.Online and incomingRequest.DemandMessage.MainPacket.Opcode != OPCODE.RECONECTED):
-        #    Logger.LogMessage(Program, f"Zahození zprávy z offline serveru {incomingRequest.DemandMessage.MainPacket.CreateString()}")
-        #    return
+        if(incomingRequest.DemandMessage.MainPacket.ConnectionID != Server.ConnectionID):
+            Logger.LogMessage(Program, f"Zahození zprávy se starým connectionID {incomingRequest.DemandMessage.MainPacket.CreateString()}")
+            return
+        
+        if(not Server.Online):
+            Logger.LogMessage(Program, f"Zahození zprávy z offline serveru {incomingRequest.DemandMessage.MainPacket.CreateString()}")
+            return
         
         Server.LastEcho = time.monotonic()
         
@@ -104,6 +82,7 @@ class Program:
     def ServerNotKnowAmLeaving(self):
         self.Root.destroy()
     
+    @Utils.UpdateLastEcho
     def ServerAcknoledgedMyLeft(self, responseParams: list[str]):
         self.Root.destroy()
 
@@ -111,91 +90,99 @@ class Program:
         while(self.Running):
             time.sleep(1)
             now = time.monotonic()
-            if(Server.Online and now - Server.LastEcho < 5):
+            if(Server.Online and now - Server.LastEcho < 10):
                 continue
-            
+
             if(Server.Online):
                 self.DisableServer()
-            
-            self.TryToReconect()
+                break
 
+    def EnableServer(self):
+        self.Running = True
+        self.CheckerThread = threading.Thread(target=self.ServerChecker ,daemon=True)
+        self.CheckerThread.start()
+
+    def DisableServer(self):
+        Server.Online = False
+        self.Loading = LoadingOverlay(self.Root, "Připojování")
+        self.TryToReconect()
+        
     def TryToReconect(self):
         if(not self.ReqManager):
             Logger.LogError(Program, ERROR_CODES.OBJECT_NOT_INITIALIZED, [RequestManager.__name__])
             return
         
-        self.ReqManager.CreateDemand(OPCODE.RECONECT, [str(Server.MyId)], self.ReconnectFailed, self.ReconnectSucceded, OPCODE.RECONECTED)
+        self.ReqManager.CreateDemand(OPCODE.RECON, [str(Server.MyId)], self.ReconnectFailed, self.ReconnectSucceded, OPCODE.RECON_AS)
         
     def ReconnectFailed(self):
         Logger.LogError(Program, ERROR_CODES.FAILED_TO_RECONNECT)
-        
+        self.TryToReconect()
+    
     def ReconnectSucceded(self, responseParams: list[str]):
         if(Server.Online):
+            Logger.LogError(Program, ERROR_CODES.ALREAD_CONNECTED)
+            return
+        
+        if(not self.Loading):
+            Logger.LogError(Program, ERROR_CODES.OBJECT_NOT_INITIALIZED, [LoadingOverlay.__name__])
             return
         
         Server.Online = True
+        Server.ConnectionID = int(responseParams[0])
         Server.LastEcho = time.monotonic()
+        self.Loading.stop()
         Logger.LogMessage(Program, "Klient se úspěšně připojil zpátky na server")
+        self.EnableServer()
+        self.OnReconect()
     
-    def DisableServer(self):
-        Server.Online = False
-        self.Loading = LoadingOverlay(self.Root, "Připojování")
+    def RegisterOnReconnect(self, onReconnect: Callable[[], None]):
+        self._onReconect = onReconnect
     
-    @staticmethod
-    def ValidIp(ip: str):
-        return ip if Utils.IsValidIp(ip) else None
+    def UnregisterOnReconnect(self):
+        self._onReconect = None
     
-    @staticmethod
-    def ValidPort(port: str):
-        p: int
-        try:
-            p = int(port)
-        except ValueError:
-            return None
+    def OnReconect(self):
+        if(self._onReconect):
+            self._onReconect()
         
-        if(p < 0 or p > 65535):
-            return None
+    def SetupCom(self, address: str | Literal[socket.AddressFamily.AF_INET], port: int =0):
+        comunicator = Comunicator(address,port)
         
-        return p
+        if(not comunicator.Initialized):
+            return False, None, None, None
+        
+        msgManager = MessageManager()
+        msgManager.ConnectToComunicator(comunicator, 5000, 1)
+
+        reqManager = RequestManager(5000)
+        reqManager.ConnectToMessageManager(msgManager)
+        reqManager.RegisterProcessingFunction(self.ProcessIncomingMessage)
+        
+        return True, comunicator, msgManager, reqManager
+    
+    def ConnectToServer(self):
+        dialog = ConnectionDialog(self)
+        dialog.Open()
+
+    def RegisterName(self):
+        dialog = NameDialog(self)
+        dialog.Open()
+
+    def OpenLobby(self):
+        gl = GameLobby(self)
+        gl.Open()
     
     def main(self):
-        parser = argparse.ArgumentParser(add_help=False)
-
-        parser.add_argument(
-        '-h', '--help',
-        action='help',
-        default=argparse.SUPPRESS,
-        help='Zde je váš vlastní text nápovědy'
-    )
-
-        parser.add_argument('-i', '--ip', type=Program.ValidIp, help='IP, kde aplikace naslouchá')
-        parser.add_argument('-p', '--port', type=Program.ValidPort, default=0, help='Port na kterém aplikace naslouchá')
+        Logger.init("client_log3.txt")
         
-        args = parser.parse_args()
-        
-        Logger.init("client_log2.txt")
-        address: str | Literal[socket.AddressFamily.AF_INET] = socket.AF_INET
-        port = 0
-        
-        if(args.port):
-            address = args.address # type: ignore
-        else:
-            Logger.LogMessage(Program, f"Nebyla zadána platná ip adresa a bude tedy použita 0.0.0.0")
-            
-        if(args.port):
-            port = args.port
-        else:
-            Logger.LogMessage(Program, f"Nebyl zadán platný port a bude tedy použit náhodný")
-            
-        
-        self.Root = tk.Tk()
-        
-        if(len(sys.argv) > 1):
-            port = int(int(sys.argv[2]))
-
+        address, port = Utils.ParseParams()
         successInit, self.Comunicaator, self.MessManager, self.ReqManager = self.SetupCom(address, port)
+        
         if(not successInit):
             return
+        
+        self.Root = tk.Tk()
+
         self.ConnectToServer()
         """
         if( not self.ConnectToServer()):

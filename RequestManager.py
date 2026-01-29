@@ -50,7 +50,7 @@ class RequestManager:
         if(not self._messageManager):
             Logger.LogError(RequestManager, ERROR_CODES.OBJECT_NOT_INITIALIZED, [MessageManager.__name__])
             return
-        self._messageManager.SendMessage(OutgoingMessage(Packet(targetId=Server.MyId,requestOrigin=ORIGIN.SERVER,opcode=opcode,params=params), onTimeout))
+        self._messageManager.SendMessage(OutgoingMessage(Packet(targetId=Server.MyId, connectionID=Server.ConnectionID, requestOrigin=ORIGIN.SERVER,opcode=opcode,params=params), onTimeout))
     
     def RegisterProcessingFunction(self, func: Callable[[IncomingRequest], None]):
         if(self._processingFunction):

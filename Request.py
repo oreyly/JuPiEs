@@ -40,14 +40,13 @@ class OutgoingRequest:
         self._waiting = threading.Event()
         self._hasResult = False
         
-        p = Packet(targetId=Server.MyId, requestOrigin=ORIGIN.CLIENT, opcode=opcode, params=params)
+        p = Packet(targetId=Server.MyId, connectionID=Server.ConnectionID, requestOrigin=ORIGIN.CLIENT, opcode=opcode, params=params)
         self.DemandMessage = OutgoingMessage(p, self.HandleTimeout)
         self._worker: Optional[threading.Thread] = None
 
     def HandleTimeout(self):
         if not self._hasResult:
             self._waiting.clear()
-            self._onFailure()
 
     @Utils.CheckRunning
     def OnRequestSend(self):
@@ -64,6 +63,7 @@ class OutgoingRequest:
             return
         
         if(not self._hasResult):
+            self._hasResult = True
             self._onFailure()
             return
         

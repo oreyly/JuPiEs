@@ -9,6 +9,7 @@ from Logger import Logger
 from OPCODE import OPCODE
 from RequestManager import RequestManager
 from Server import Server
+from Utils import Utils
 
 if TYPE_CHECKING:
     from Program import Program
@@ -71,6 +72,7 @@ class NameDialog:
     def ConFailed(self):
         Logger.LogError(NameDialog, ERROR_CODES.SERVER_NOT_KNOW_NAME)
     
+    @Utils.UpdateLastEcho
     def ConSucceded(self, responseParams: list[str]):
         if(GAME_BOOL(int(responseParams[0])) == GAME_BOOL.FALSE):
             messagebox.showwarning("Chyba", "Jméno je již obsazené.")

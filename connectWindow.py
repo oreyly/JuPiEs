@@ -8,6 +8,7 @@ from Logger import Logger
 from OPCODE import OPCODE
 from Server import Server, Address
 from RequestManager import RequestManager
+from Utils import Utils
 
 if TYPE_CHECKING:
     from Program import Program
@@ -53,6 +54,7 @@ class ConnectionDialog:
     def ConFailed(self):
         Logger.LogError(ConnectionDialog, ERROR_CODES.CONNECTION_FAILED, [Server.ServerAddress])
     
+    @Utils.UpdateLastEcho
     def ConSucceded(self, responseParams: list[str]):
         if(int(responseParams[0]) == 0):
             messagebox.showwarning("Chyba", "K serveru je připojeno maximální množství klientů.")
@@ -62,9 +64,8 @@ class ConnectionDialog:
         self.Connected = True
         Server.MyId = int(responseParams[0])
         Logger.LogMessage(ConnectionDialog,"Klient se úspěšně připojil k serveru.")
-        #self._program.Running = True
-        #self._program.CheckerThread = threading.Thread(target=self._program.ServerChecker ,daemon=True)
-        #self._program.CheckerThread.start()
+        
+        self._program.EnableServer()
         
         for widget in self._program.Root.winfo_children():
             widget.destroy()

@@ -3,7 +3,7 @@ import random
 import tkinter as tk
 from typing import TYPE_CHECKING, Callable, Dict, Tuple, Optional, Any
 from Errors import ERROR_CODES
-from GAME_BOOL import PLAYER_COLOR
+from GAME_BOOL import GAME_BOOL, PLAYER_COLOR
 from GameResult import GAME_RESULT
 from GameState import GAME_STATE
 from Logger import Logger
@@ -12,6 +12,7 @@ from Packet import Packet
 from PieceType import PIECE_TYPE
 from Request import IncomingRequest
 from RequestManager import RequestManager
+from Utils import Utils
 from checkers import CheckersBoard
 
 if TYPE_CHECKING:
@@ -40,6 +41,7 @@ class GameRoom:
     
     _opponentArrivedPacket: Packet | None
     _opponentGameFinished: Packet | None
+    _opponentMissingPacket: Packet | None
     _gameResult: GAME_RESULT | None
 
     def __init__(self, program: Program, gameLobby: GameLobby, myColor: PLAYER_COLOR, 
@@ -151,9 +153,11 @@ class GameRoom:
     
     def EndRoom(self):
         self.window.destroy()
+        self._program.UnregisterOnReconnect()
         self.gameLobby.unRegisterProcessingFunction()
         self._program.Root.deiconify()
         self._program.Root.update_idletasks()
+        self._program.Root.after_idle(self.gameLobby.RegisterOnReconnect)
         """while (not self.gameLobby.RefButton):
             Logger.LogError(GameRoom, ERROR_CODES.OBJECT_NOT_INITIALIZED, [tk.Button.__name__])
             time.sleep(0.1)
@@ -172,6 +176,10 @@ class GameRoom:
             case OPCODE.OPPONENT_ARRIVED:
                 self._opponentArrivedPacket = incomingRequest.DemandMessage.MainPacket
                 self._program.ReqManager.SendResponse(OPCODE.KNOW_ABOUT_HIM, [], self.onTimeoutOppnonentArrived)
+                otherName = self.whiteName if self.myColor == PLAYER_COLOR.BLACK else self.blackName
+                if(otherName == incomingRequest.DemandMessage.MainPacket.Parameters[0]):
+                    return
+                
                 targetColor = PLAYER_COLOR.WHITE if not self.whiteName else PLAYER_COLOR.BLACK
                 self.addPlayer(targetColor, incomingRequest.DemandMessage.MainPacket.Parameters[0], isReady=False)
             case OPCODE.GAME_FINISHED:
@@ -188,11 +196,22 @@ class GameRoom:
                 
                 self.ShowResult()
                 self.CanClick = False
+            case OPCODE.HES_MISSING:
+                self._opponentMissingPacket = incomingRequest.DemandMessage.MainPacket
+                self._program.ReqManager.SendResponse(OPCODE.THATS_A_SHAME, [], self.onTimeoutHesMissing)
+                self.updatePlayerStatus(PLAYER_COLOR.WHITE if self.myColor == PLAYER_COLOR.BLACK else PLAYER_COLOR.BLACK, GAME_BOOL(int(incomingRequest.DemandMessage.MainPacket.Parameters[0])) != GAME_BOOL.TRUE)
             case _:
                 if(self._nextProcessFunction):
                     self._nextProcessFunction(incomingRequest)
                 else:
                     raise Exception("Neznámý OPCODE")
+    
+    def onTimeoutHesMissing(self):
+        if(not self._opponentMissingPacket):
+            Logger.LogError(GameRoom, ERROR_CODES.RESPONSE_TO_UNKNOWN_REQUEST)
+            return
+        
+        Logger.LogError(GameRoom, ERROR_CODES.SERVER_NOT_KNOW_RESPONSE, [self._opponentMissingPacket.CreateString()])
     
     def onTimeoutOppnonentArrived(self):
         if(not self._opponentArrivedPacket):
@@ -206,7 +225,31 @@ class GameRoom:
             return
         Logger.LogError(GameRoom, ERROR_CODES.SERVER_NOT_KNOW_RESPONSE, [self._opponentGameFinished.CreateString()])
         
+    def OnReconnect(self):
+        if(not self._program.ReqManager):
+            Logger.LogError(CheckersBoard, ERROR_CODES.OBJECT_NOT_INITIALIZED, [RequestManager.__name__])
+            return
+        
+        self._program.ReqManager.CreateDemand(OPCODE.WHAT_HAPPEND, [], self.onTimeoutWhatHappend, self.onLastMoveObtained, OPCODE.THIS_HAPPEND)
+    
+    def onTimeoutWhatHappend(self):
+        Logger.LogError(GameRoom, ERROR_CODES.I_DONT_KNOW_POSITION)
+        
+    @Utils.UpdateLastEcho
+    def onLastMoveObtained(self, responseParams: list[str]):
+        self.CanClick = True
+        if(all([int(r) == 0 for r in responseParams])):
+            return
+        
+        was = self.game.isAnyValidMove((int(responseParams[0]), int(responseParams[1])), (int(responseParams[2]), int(responseParams[3])))
+        
+        if(was):
+            self.game.movePiece((int(responseParams[0]), int(responseParams[1])), (int(responseParams[2]), int(responseParams[3])))
+            self.drawBoard()
+
     def Open(self) -> None:
+        self._program.RegisterOnReconnect(self.OnReconnect)
+        
         if (self.whiteName):
             self.addPlayer(PLAYER_COLOR.WHITE, self.whiteName)
         if (self.blackName):
@@ -226,20 +269,37 @@ class GameRoom:
         self.drawBoard()
 
     def createPlayerSlot(self, parent: tk.Frame, player: PLAYER_COLOR) -> None:
-        nameLabel = tk.Label(parent, text="Čekání na hráče...", font=("Arial", 12, "italic"), fg="gray")
-        nameLabel.pack(side="left", padx=10)
 
+        infoFrame = tk.Frame(parent)
+        infoFrame.pack(side="left", padx=10)
+
+        statusCanvas = tk.Canvas(infoFrame, width=12, height=12, highlightthickness=0)
+        statusCanvas.pack(side="left", padx=(0, 5))
+        
+        statusCanvas.create_oval(2, 2, 10, 10, fill="gray", tags="dot")
+        
+        nameLabel = tk.Label(parent, text="Čekání na hráče...", font=("Arial", 12, "italic"), fg="gray")
+        nameLabel.pack(side="left")
+        
         if(player == self.myColor):
             exitBtn = tk.Button(parent, text="Odejít", command=self.onExitClick, fg="red")
+            exitBtn.pack(side="left", padx=10)
             self.uiElements[player] = {
                 "nameLabel": nameLabel,
+                "statusCanvas": statusCanvas,
                 "exitBtn": exitBtn
             }
-            exitBtn.pack(side="left", padx=10)
         else:
             self.uiElements[player] = {
                 "nameLabel": nameLabel,
+                "statusCanvas": statusCanvas,
             }
+
+    def updatePlayerStatus(self, player: PLAYER_COLOR, online: bool) -> None:
+        if player in self.uiElements:
+            color = "#4CAF50" if online else "#F44336" 
+            canvas = self.uiElements[player]["statusCanvas"]
+            canvas.itemconfig("dot", fill=color)
 
     def addPlayer(self, player: PLAYER_COLOR, name: str, isReady: bool = False) -> None:
         if(not name):
@@ -250,6 +310,7 @@ class GameRoom:
         
         ui = self.uiElements[player]
         ui["nameLabel"].config(text=name, font=("Arial", 12, "bold"), fg="black")
+        self.updatePlayerStatus(player, True)
 
     def drawBoard(self) -> None:
         self.canvas.delete("all")
@@ -344,6 +405,7 @@ class GameRoom:
     def onTimeoutQuit(self):
         Logger.LogError(GameRoom, ERROR_CODES.SERVER_NOT_KNOW_QUIT)
     
+    @Utils.UpdateLastEcho
     def QuitRoom(self, responseParams: list[str]):
         self.EndRoom()
     

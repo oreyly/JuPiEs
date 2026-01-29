@@ -17656,3 +17656,2301 @@
 [INFO] [07:43:19] [Sender] Odesílání zprávy: "105-2-0-2"
 [INFO] [07:43:19] [Logger] Konec logování
 ========== Konec relace ==========
+========== Začátek relace ==========
+[INFO] [16:03:46] [Logger] Logger úspěšně inicializován. Soubor: D:\src\pytlak\JuPiEs\client_log2.txt
+[INFO] [16:03:46] [Program] Nebyla zadána platná ip adresa a bude tedy použita 0.0.0.0
+[INFO] [16:03:46] [Program] Nebyl zadán platný port a bude tedy použit náhodný
+[INFO] [16:03:46] [Comunicator] Komunikátor úspěšně inicializován na portu 57158
+[INFO] [16:03:46] [MessageManager] Vytvořen MessageManager.
+[INFO] [16:03:46] [MessageManager] MessageManager připojen ke komunikátoru.
+[INFO] [16:03:48] [Sender] Odesílání zprávy: "1-1-0-1-4"
+[WARNING] [16:03:50] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 1-1-0-1-4
+[ERROR] [16:03:50] [ConnectionDialog] Nepodařilo se připojit k serveru 10.0.1.72:7890
+[ERROR] [16:03:53] [ConnectionDialog] Nepodařilo se připojit k serveru 10.0.1.72:7890
+[INFO] [16:05:20] [Sender] Odesílání zprávy: "2-1-0-1-4"
+[INFO] [16:05:20] [Listener] Přijmuta zpráva: "1-2--11-2"
+[INFO] [16:05:20] [Listener] Přijmuta zpráva: "2-1--01-5-1"
+[INFO] [16:05:21] [Listener] Přijmuta zpráva: "3-1--00-26"
+[INFO] [16:05:22] [Listener] Přijmuta zpráva: "4-1--00-26"
+[INFO] [16:05:22] [Listener] Přijmuta zpráva: "2-1--01-5-1"
+[WARNING] [16:05:22] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 2-1-0-1-4
+[ERROR] [16:05:22] [ConnectionDialog] Nepodařilo se připojit k serveru 10.0.1.72:7890
+[INFO] [16:05:23] [Listener] Přijmuta zpráva: "3-1--00-26"
+[INFO] [16:05:23] [Listener] Přijmuta zpráva: "5-1--00-26"
+[INFO] [16:05:24] [Listener] Přijmuta zpráva: "4-1--00-26"
+[INFO] [16:05:24] [Listener] Přijmuta zpráva: "6-1--00-26"
+[INFO] [16:05:24] [Listener] Přijmuta zpráva: "2-1--01-5-1"
+[INFO] [16:05:25] [Listener] Přijmuta zpráva: "3-1--00-26"
+[INFO] [16:05:25] [Listener] Přijmuta zpráva: "5-1--00-26"
+[ERROR] [16:05:25] [ConnectionDialog] Nepodařilo se připojit k serveru 10.0.1.72:7890
+[INFO] [16:06:02] [Sender] Odesílání zprávy: "15-1-0-1-4"
+[INFO] [16:06:02] [Listener] Přijmuta zpráva: "1-15-1-1-2"
+[INFO] [16:06:02] [MessageManager] Potvrzena zpráva 1-1-0-1-4
+[INFO] [16:06:02] [Listener] Přijmuta zpráva: "2-1-0-1-5-1"
+[INFO] [16:06:02] [ConnectionDialog] Klient se úspěšně připojil k serveru.
+[INFO] [16:06:02] [Sender] Odesílání zprávy: "2-1-0-0-2"
+[INFO] [16:06:03] [Listener] Přijmuta zpráva: "3-1-0-0-26"
+[INFO] [16:06:03] [Sender] Odesílání zprávy: "3-1-0-0-2"
+[INFO] [16:06:03] [Sender] Odesílání zprávy: "16-1-0-0-27"
+[INFO] [16:06:03] [Listener] Přijmuta zpráva: "4-16-1-0-2"
+[INFO] [16:06:04] [Listener] Přijmuta zpráva: "5-1-0-0-26"
+[INFO] [16:06:04] [Sender] Odesílání zprávy: "5-1-0-0-2"
+[INFO] [16:06:04] [Sender] Odesílání zprávy: "17-1-0-0-27"
+[INFO] [16:06:04] [Listener] Přijmuta zpráva: "6-17-1-0-2"
+[WARNING] [16:06:04] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 15-1-0-1-4
+[INFO] [16:06:05] [Listener] Přijmuta zpráva: "7-1-0-0-26"
+[INFO] [16:06:05] [Sender] Odesílání zprávy: "7-1-0-0-2"
+[INFO] [16:06:05] [Sender] Odesílání zprávy: "18-1-0-0-27"
+[INFO] [16:06:05] [Listener] Přijmuta zpráva: "8-18-1-0-2"
+[WARNING] [16:06:05] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 16-1-0-0-27
+[ERROR] [16:06:05] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:06] [Listener] Přijmuta zpráva: "9-1-0-0-26"
+[INFO] [16:06:06] [Sender] Odesílání zprávy: "9-1-0-0-2"
+[INFO] [16:06:06] [Sender] Odesílání zprávy: "19-1-0-0-27"
+[INFO] [16:06:06] [Listener] Přijmuta zpráva: "10-19-1-0-2"
+[WARNING] [16:06:06] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 17-1-0-0-27
+[ERROR] [16:06:06] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:07] [Listener] Přijmuta zpráva: "11-1-0-0-26"
+[INFO] [16:06:07] [Sender] Odesílání zprávy: "11-1-0-0-2"
+[INFO] [16:06:07] [Sender] Odesílání zprávy: "20-1-0-0-27"
+[INFO] [16:06:07] [Listener] Přijmuta zpráva: "12-20-1-0-2"
+[WARNING] [16:06:07] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 18-1-0-0-27
+[ERROR] [16:06:07] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:08] [Listener] Přijmuta zpráva: "13-1-0-0-26"
+[INFO] [16:06:08] [Sender] Odesílání zprávy: "13-1-0-0-2"
+[INFO] [16:06:08] [Sender] Odesílání zprávy: "21-1-0-0-27"
+[INFO] [16:06:08] [Listener] Přijmuta zpráva: "14-21-1-0-2"
+[WARNING] [16:06:08] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 19-1-0-0-27
+[ERROR] [16:06:08] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:09] [Listener] Přijmuta zpráva: "15-1-0-0-26"
+[INFO] [16:06:09] [Sender] Odesílání zprávy: "15-1-0-0-2"
+[INFO] [16:06:09] [Sender] Odesílání zprávy: "22-1-0-0-27"
+[INFO] [16:06:09] [Listener] Přijmuta zpráva: "16-22-1-0-2"
+[INFO] [16:06:09] [MessageManager] Potvrzena zpráva 16-1-0-0-27
+[WARNING] [16:06:09] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 20-1-0-0-27
+[ERROR] [16:06:09] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:10] [Listener] Přijmuta zpráva: "17-1-0-0-26"
+[INFO] [16:06:10] [Sender] Odesílání zprávy: "17-1-0-0-2"
+[INFO] [16:06:10] [Sender] Odesílání zprávy: "23-1-0-0-27"
+[INFO] [16:06:10] [Listener] Přijmuta zpráva: "18-23-1-0-2"
+[INFO] [16:06:10] [MessageManager] Potvrzena zpráva 18-1-0-0-27
+[WARNING] [16:06:10] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 21-1-0-0-27
+[ERROR] [16:06:10] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:11] [Listener] Přijmuta zpráva: "19-1-0-0-26"
+[INFO] [16:06:11] [Sender] Odesílání zprávy: "19-1-0-0-2"
+[INFO] [16:06:11] [Sender] Odesílání zprávy: "24-1-0-0-27"
+[INFO] [16:06:11] [Listener] Přijmuta zpráva: "20-24-1-0-2"
+[INFO] [16:06:11] [MessageManager] Potvrzena zpráva 20-1-0-0-27
+[WARNING] [16:06:11] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 22-1-0-0-27
+[ERROR] [16:06:11] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:12] [Listener] Přijmuta zpráva: "21-1-0-0-26"
+[INFO] [16:06:12] [Sender] Odesílání zprávy: "21-1-0-0-2"
+[INFO] [16:06:12] [Sender] Odesílání zprávy: "25-1-0-0-27"
+[INFO] [16:06:12] [Listener] Přijmuta zpráva: "22-25-1-0-2"
+[INFO] [16:06:12] [MessageManager] Potvrzena zpráva 22-1-0-0-27
+[WARNING] [16:06:12] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 23-1-0-0-27
+[ERROR] [16:06:12] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:13] [Listener] Přijmuta zpráva: "23-1-0-0-26"
+[INFO] [16:06:13] [Sender] Odesílání zprávy: "23-1-0-0-2"
+[INFO] [16:06:13] [Sender] Odesílání zprávy: "26-1-0-0-27"
+[INFO] [16:06:13] [Listener] Přijmuta zpráva: "24-26-1-0-2"
+[INFO] [16:06:13] [MessageManager] Potvrzena zpráva 24-1-0-0-27
+[INFO] [16:06:14] [Listener] Přijmuta zpráva: "25-1-0-0-26"
+[INFO] [16:06:14] [Sender] Odesílání zprávy: "25-1-0-0-2"
+[INFO] [16:06:14] [Sender] Odesílání zprávy: "27-1-0-0-27"
+[INFO] [16:06:14] [Listener] Přijmuta zpráva: "26-27-1-0-2"
+[INFO] [16:06:14] [MessageManager] Potvrzena zpráva 26-1-0-0-27
+[WARNING] [16:06:14] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 25-1-0-0-27
+[ERROR] [16:06:14] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:15] [Listener] Přijmuta zpráva: "27-1-0-0-26"
+[INFO] [16:06:15] [Sender] Odesílání zprávy: "27-1-0-0-2"
+[INFO] [16:06:15] [Sender] Odesílání zprávy: "28-1-0-0-27"
+[INFO] [16:06:15] [Listener] Přijmuta zpráva: "28-28-1-0-2"
+[INFO] [16:06:15] [MessageManager] Potvrzena zpráva 28-1-0-0-27
+[INFO] [16:06:16] [Listener] Přijmuta zpráva: "29-1-0-0-26"
+[INFO] [16:06:16] [Sender] Odesílání zprávy: "29-1-0-0-2"
+[INFO] [16:06:16] [Sender] Odesílání zprávy: "29-1-0-0-27"
+[INFO] [16:06:16] [Listener] Přijmuta zpráva: "30-29-1-0-2"
+[WARNING] [16:06:16] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 27-1-0-0-27
+[ERROR] [16:06:16] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:16] [Sender] Odesílání zprávy: "30-1-0-1-6-xd"
+[INFO] [16:06:16] [Listener] Přijmuta zpráva: "31-30-1-1-2"
+[INFO] [16:06:16] [Listener] Přijmuta zpráva: "32-1-0-1-7-1"
+[INFO] [16:06:16] [Sender] Odesílání zprávy: "32-1-0-0-2"
+[INFO] [16:06:16] [NameDialog] Klient úspěšně zaregistroval své jméno: xd
+[INFO] [16:06:16] [GameLobby] REFFF
+[INFO] [16:06:16] [Sender] Odesílání zprávy: "31-1-0-1-8"
+[INFO] [16:06:16] [Listener] Přijmuta zpráva: "33-31-1-1-2"
+[INFO] [16:06:16] [Listener] Přijmuta zpráva: "34-1-0-1-9"
+[INFO] [16:06:16] [Sender] Odesílání zprávy: "34-1-0-0-2"
+[INFO] [16:06:17] [Listener] Přijmuta zpráva: "35-1-0-0-26"
+[INFO] [16:06:17] [Sender] Odesílání zprávy: "35-1-0-0-2"
+[INFO] [16:06:17] [Sender] Odesílání zprávy: "32-1-0-0-27"
+[INFO] [16:06:17] [Listener] Přijmuta zpráva: "36-32-1-0-2"
+[INFO] [16:06:18] [Listener] Přijmuta zpráva: "37-1-0-0-26"
+[INFO] [16:06:18] [Sender] Odesílání zprávy: "37-1-0-0-2"
+[INFO] [16:06:18] [Sender] Odesílání zprávy: "33-1-0-0-27"
+[INFO] [16:06:18] [Listener] Přijmuta zpráva: "38-33-1-0-2"
+[WARNING] [16:06:18] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 29-1-0-0-27
+[ERROR] [16:06:18] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:06:18] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 30-1-0-1-6-xd
+[WARNING] [16:06:18] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 31-1-0-1-8
+[INFO] [16:06:19] [Listener] Přijmuta zpráva: "39-1-0-0-26"
+[INFO] [16:06:19] [Sender] Odesílání zprávy: "39-1-0-0-2"
+[INFO] [16:06:19] [Sender] Odesílání zprávy: "34-1-0-0-27"
+[INFO] [16:06:19] [Listener] Přijmuta zpráva: "40-34-1-0-2"
+[WARNING] [16:06:19] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 32-1-0-0-27
+[ERROR] [16:06:19] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:20] [Listener] Přijmuta zpráva: "41-1-0-0-26"
+[INFO] [16:06:20] [Sender] Odesílání zprávy: "41-1-0-0-2"
+[INFO] [16:06:20] [Sender] Odesílání zprávy: "35-1-0-0-27"
+[INFO] [16:06:20] [Listener] Přijmuta zpráva: "42-35-1-0-2"
+[WARNING] [16:06:20] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 33-1-0-0-27
+[ERROR] [16:06:20] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:21] [Listener] Přijmuta zpráva: "43-1-0-0-26"
+[INFO] [16:06:21] [Sender] Odesílání zprávy: "43-1-0-0-2"
+[INFO] [16:06:21] [Sender] Odesílání zprávy: "36-1-0-0-27"
+[INFO] [16:06:21] [Listener] Přijmuta zpráva: "44-36-1-0-2"
+[WARNING] [16:06:21] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 34-1-0-0-27
+[ERROR] [16:06:21] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:22] [Listener] Přijmuta zpráva: "45-1-0-0-26"
+[INFO] [16:06:22] [Sender] Odesílání zprávy: "45-1-0-0-2"
+[INFO] [16:06:22] [Sender] Odesílání zprávy: "37-1-0-0-27"
+[INFO] [16:06:22] [Listener] Přijmuta zpráva: "46-37-1-0-2"
+[WARNING] [16:06:22] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 35-1-0-0-27
+[ERROR] [16:06:22] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:23] [Listener] Přijmuta zpráva: "47-1-0-0-26"
+[INFO] [16:06:23] [Sender] Odesílání zprávy: "47-1-0-0-2"
+[INFO] [16:06:23] [Sender] Odesílání zprávy: "38-1-0-0-27"
+[INFO] [16:06:23] [Listener] Přijmuta zpráva: "48-38-1-0-2"
+[WARNING] [16:06:23] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 36-1-0-0-27
+[ERROR] [16:06:23] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:24] [Listener] Přijmuta zpráva: "49-1-0-0-26"
+[INFO] [16:06:24] [Sender] Odesílání zprávy: "49-1-0-0-2"
+[INFO] [16:06:24] [Sender] Odesílání zprávy: "39-1-0-0-27"
+[INFO] [16:06:24] [Listener] Přijmuta zpráva: "50-39-1-0-2"
+[WARNING] [16:06:24] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 37-1-0-0-27
+[ERROR] [16:06:24] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:25] [Listener] Přijmuta zpráva: "51-1-0-0-26"
+[INFO] [16:06:25] [Sender] Odesílání zprávy: "51-1-0-0-2"
+[INFO] [16:06:25] [Sender] Odesílání zprávy: "40-1-0-0-27"
+[INFO] [16:06:25] [Listener] Přijmuta zpráva: "52-40-1-0-2"
+[WARNING] [16:06:25] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 38-1-0-0-27
+[ERROR] [16:06:25] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:26] [Listener] Přijmuta zpráva: "53-1-0-0-26"
+[INFO] [16:06:26] [Sender] Odesílání zprávy: "53-1-0-0-2"
+[INFO] [16:06:26] [Sender] Odesílání zprávy: "41-1-0-0-27"
+[INFO] [16:06:26] [Listener] Přijmuta zpráva: "54-41-1-0-2"
+[WARNING] [16:06:26] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 39-1-0-0-27
+[ERROR] [16:06:26] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:27] [Listener] Přijmuta zpráva: "55-1-0-0-26"
+[INFO] [16:06:27] [Sender] Odesílání zprávy: "55-1-0-0-2"
+[INFO] [16:06:27] [Sender] Odesílání zprávy: "42-1-0-0-27"
+[INFO] [16:06:27] [Listener] Přijmuta zpráva: "56-42-1-0-2"
+[WARNING] [16:06:27] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 40-1-0-0-27
+[ERROR] [16:06:27] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:28] [Listener] Přijmuta zpráva: "57-1-0-0-26"
+[INFO] [16:06:28] [Sender] Odesílání zprávy: "57-1-0-0-2"
+[INFO] [16:06:28] [Sender] Odesílání zprávy: "43-1-0-0-27"
+[INFO] [16:06:28] [Listener] Přijmuta zpráva: "58-43-1-0-2"
+[WARNING] [16:06:28] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 41-1-0-0-27
+[ERROR] [16:06:28] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:29] [Listener] Přijmuta zpráva: "59-1-0-0-26"
+[INFO] [16:06:29] [Sender] Odesílání zprávy: "59-1-0-0-2"
+[INFO] [16:06:29] [Sender] Odesílání zprávy: "44-1-0-0-27"
+[INFO] [16:06:29] [Listener] Přijmuta zpráva: "60-44-1-0-2"
+[WARNING] [16:06:29] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 42-1-0-0-27
+[ERROR] [16:06:29] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:30] [Listener] Přijmuta zpráva: "61-1-0-0-26"
+[INFO] [16:06:30] [Sender] Odesílání zprávy: "61-1-0-0-2"
+[INFO] [16:06:30] [Sender] Odesílání zprávy: "45-1-0-0-27"
+[INFO] [16:06:30] [Listener] Přijmuta zpráva: "62-45-1-0-2"
+[WARNING] [16:06:30] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 43-1-0-0-27
+[ERROR] [16:06:30] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:31] [Listener] Přijmuta zpráva: "63-1-0-0-26"
+[INFO] [16:06:31] [Sender] Odesílání zprávy: "63-1-0-0-2"
+[INFO] [16:06:31] [Sender] Odesílání zprávy: "46-1-0-0-27"
+[INFO] [16:06:31] [Listener] Přijmuta zpráva: "64-46-1-0-2"
+[WARNING] [16:06:31] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 44-1-0-0-27
+[ERROR] [16:06:31] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:32] [Listener] Přijmuta zpráva: "65-1-0-0-26"
+[INFO] [16:06:32] [Sender] Odesílání zprávy: "65-1-0-0-2"
+[INFO] [16:06:32] [Sender] Odesílání zprávy: "47-1-0-0-27"
+[INFO] [16:06:32] [Listener] Přijmuta zpráva: "66-47-1-0-2"
+[WARNING] [16:06:32] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 45-1-0-0-27
+[ERROR] [16:06:32] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:33] [Listener] Přijmuta zpráva: "67-1-0-0-26"
+[INFO] [16:06:33] [Sender] Odesílání zprávy: "67-1-0-0-2"
+[INFO] [16:06:33] [Sender] Odesílání zprávy: "48-1-0-0-27"
+[INFO] [16:06:33] [Listener] Přijmuta zpráva: "68-48-1-0-2"
+[WARNING] [16:06:33] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 46-1-0-0-27
+[ERROR] [16:06:33] [Program] Nebylo možné doručit odpověď na ping
+========== Začátek relace ==========
+[INFO] [16:06:34] [Logger] Logger úspěšně inicializován. Soubor: D:\src\pytlak\JuPiEs\client_log2.txt
+[INFO] [16:06:34] [Program] Nebyla zadána platná ip adresa a bude tedy použita 0.0.0.0
+[INFO] [16:06:34] [Program] Nebyl zadán platný port a bude tedy použit náhodný
+[INFO] [16:06:34] [Comunicator] Komunikátor úspěšně inicializován na portu 63592
+[INFO] [16:06:34] [MessageManager] Vytvořen MessageManager.
+[INFO] [16:06:34] [MessageManager] MessageManager připojen ke komunikátoru.
+[INFO] [16:06:34] [Listener] Přijmuta zpráva: "69-1-0-0-26"
+[INFO] [16:06:34] [Sender] Odesílání zprávy: "69-1-0-0-2"
+[INFO] [16:06:34] [Sender] Odesílání zprávy: "49-1-0-0-27"
+[INFO] [16:06:34] [Listener] Přijmuta zpráva: "70-49-1-0-2"
+[WARNING] [16:06:34] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 47-1-0-0-27
+[ERROR] [16:06:34] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:35] [Listener] Přijmuta zpráva: "71-1-0-0-26"
+[INFO] [16:06:35] [Sender] Odesílání zprávy: "71-1-0-0-2"
+[INFO] [16:06:35] [Sender] Odesílání zprávy: "50-1-0-0-27"
+[INFO] [16:06:35] [Listener] Přijmuta zpráva: "72-50-1-0-2"
+[WARNING] [16:06:35] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 48-1-0-0-27
+[ERROR] [16:06:35] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:06:36] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 49-1-0-0-27
+[ERROR] [16:06:36] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:36] [Listener] Přijmuta zpráva: "73-1-0-0-26"
+[INFO] [16:06:36] [Sender] Odesílání zprávy: "73-1-0-0-2"
+[INFO] [16:06:36] [Sender] Odesílání zprávy: "51-1-0-0-27"
+[INFO] [16:06:36] [Listener] Přijmuta zpráva: "74-51-1-0-2"
+[INFO] [16:06:37] [Listener] Přijmuta zpráva: "75-1-0-0-26"
+[INFO] [16:06:37] [Sender] Odesílání zprávy: "75-1-0-0-2"
+[INFO] [16:06:37] [Sender] Odesílání zprávy: "52-1-0-0-27"
+[INFO] [16:06:37] [Listener] Přijmuta zpráva: "76-52-1-0-2"
+[WARNING] [16:06:37] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 50-1-0-0-27
+[ERROR] [16:06:37] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:38] [Listener] Přijmuta zpráva: "77-1-0-0-26"
+[INFO] [16:06:38] [Sender] Odesílání zprávy: "77-1-0-0-2"
+[INFO] [16:06:38] [Sender] Odesílání zprávy: "53-1-0-0-27"
+[INFO] [16:06:38] [Listener] Přijmuta zpráva: "78-53-1-0-2"
+[WARNING] [16:06:38] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 51-1-0-0-27
+[ERROR] [16:06:38] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:39] [Listener] Přijmuta zpráva: "79-1-0-0-26"
+[INFO] [16:06:39] [Sender] Odesílání zprávy: "79-1-0-0-2"
+[INFO] [16:06:39] [Sender] Odesílání zprávy: "54-1-0-0-27"
+[INFO] [16:06:39] [Listener] Přijmuta zpráva: "80-54-1-0-2"
+[WARNING] [16:06:39] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 52-1-0-0-27
+[ERROR] [16:06:39] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:40] [Listener] Přijmuta zpráva: "81-1-0-0-26"
+[INFO] [16:06:40] [Sender] Odesílání zprávy: "81-1-0-0-2"
+[INFO] [16:06:40] [Sender] Odesílání zprávy: "55-1-0-0-27"
+[INFO] [16:06:40] [Listener] Přijmuta zpráva: "82-55-1-0-2"
+[WARNING] [16:06:40] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 53-1-0-0-27
+[ERROR] [16:06:40] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:41] [Listener] Přijmuta zpráva: "83-1-0-0-26"
+[INFO] [16:06:41] [Sender] Odesílání zprávy: "83-1-0-0-2"
+[INFO] [16:06:41] [Sender] Odesílání zprávy: "56-1-0-0-27"
+[INFO] [16:06:41] [Listener] Přijmuta zpráva: "84-56-1-0-2"
+[WARNING] [16:06:41] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 54-1-0-0-27
+[ERROR] [16:06:41] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:42] [Listener] Přijmuta zpráva: "85-1-0-0-26"
+[INFO] [16:06:42] [Sender] Odesílání zprávy: "85-1-0-0-2"
+[INFO] [16:06:42] [Sender] Odesílání zprávy: "57-1-0-0-27"
+[INFO] [16:06:42] [Listener] Přijmuta zpráva: "86-57-1-0-2"
+[WARNING] [16:06:42] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 55-1-0-0-27
+[ERROR] [16:06:42] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:43] [Listener] Přijmuta zpráva: "87-1-0-0-26"
+[INFO] [16:06:43] [Sender] Odesílání zprávy: "87-1-0-0-2"
+[INFO] [16:06:43] [Sender] Odesílání zprávy: "58-1-0-0-27"
+[INFO] [16:06:43] [Listener] Přijmuta zpráva: "88-58-1-0-2"
+[WARNING] [16:06:43] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 56-1-0-0-27
+[ERROR] [16:06:43] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:44] [Listener] Přijmuta zpráva: "89-1-0-0-26"
+[INFO] [16:06:44] [Sender] Odesílání zprávy: "89-1-0-0-2"
+[INFO] [16:06:44] [Sender] Odesílání zprávy: "59-1-0-0-27"
+[INFO] [16:06:44] [Listener] Přijmuta zpráva: "90-59-1-0-2"
+[WARNING] [16:06:44] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 57-1-0-0-27
+[ERROR] [16:06:44] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:44] [Sender] Odesílání zprávy: "1-1-0-1-4"
+[INFO] [16:06:44] [Listener] Přijmuta zpráva: "91-1-1-1-2"
+[INFO] [16:06:44] [Listener] Přijmuta zpráva: "92-2-0-1-5-2"
+[INFO] [16:06:44] [ConnectionDialog] Klient se úspěšně připojil k serveru.
+[INFO] [16:06:44] [Sender] Odesílání zprávy: "92-2-0-0-2"
+[INFO] [16:06:45] [Listener] Přijmuta zpráva: "93-2-0-0-26"
+[INFO] [16:06:45] [Sender] Odesílání zprávy: "93-2-0-0-2"
+[INFO] [16:06:45] [Sender] Odesílání zprávy: "2-2-0-0-27"
+[INFO] [16:06:45] [Listener] Přijmuta zpráva: "94-1-0-0-26"
+[INFO] [16:06:45] [Sender] Odesílání zprávy: "94-1-0-0-2"
+[INFO] [16:06:45] [Sender] Odesílání zprávy: "60-1-0-0-27"
+[INFO] [16:06:45] [Listener] Přijmuta zpráva: "96-60-1-0-2"
+[WARNING] [16:06:45] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 58-1-0-0-27
+[ERROR] [16:06:45] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:46] [Listener] Přijmuta zpráva: "97-2-0-0-26"
+[INFO] [16:06:46] [Sender] Odesílání zprávy: "97-2-0-0-2"
+[INFO] [16:06:46] [Sender] Odesílání zprávy: "3-2-0-0-27"
+[INFO] [16:06:46] [Listener] Přijmuta zpráva: "98-1-0-0-26"
+[INFO] [16:06:46] [Sender] Odesílání zprávy: "98-1-0-0-2"
+[INFO] [16:06:46] [Sender] Odesílání zprávy: "61-1-0-0-27"
+[INFO] [16:06:46] [Listener] Přijmuta zpráva: "99-3-2-0-2"
+[INFO] [16:06:46] [Listener] Přijmuta zpráva: "100-61-1-0-2"
+[WARNING] [16:06:46] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 59-1-0-0-27
+[ERROR] [16:06:46] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:46] [Sender] Odesílání zprávy: "4-2-0-1-6-12"
+[INFO] [16:06:46] [Listener] Přijmuta zpráva: "101-4-2-1-2"
+[INFO] [16:06:46] [Listener] Přijmuta zpráva: "102-2-0-1-7-1"
+[INFO] [16:06:46] [Sender] Odesílání zprávy: "102-2-0-0-2"
+[INFO] [16:06:46] [NameDialog] Klient úspěšně zaregistroval své jméno: 12
+[WARNING] [16:06:46] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 1-1-0-1-4
+[INFO] [16:06:46] [GameLobby] REFFF
+[INFO] [16:06:46] [Sender] Odesílání zprávy: "5-2-0-1-8"
+[INFO] [16:06:46] [Listener] Přijmuta zpráva: "103-5-2-1-2"
+[INFO] [16:06:46] [Listener] Přijmuta zpráva: "104-2-0-1-9"
+[INFO] [16:06:46] [Sender] Odesílání zprávy: "104-2-0-0-2"
+[INFO] [16:06:46] [Listener] Přijmuta zpráva: "105-2-0-0-26"
+[INFO] [16:06:46] [Sender] Odesílání zprávy: "105-2-0-0-2"
+[INFO] [16:06:46] [Sender] Odesílání zprávy: "6-2-0-0-27"
+[INFO] [16:06:46] [Listener] Přijmuta zpráva: "106-1-0-0-26"
+[INFO] [16:06:46] [Sender] Odesílání zprávy: "106-1-0-0-2"
+[INFO] [16:06:46] [Listener] Přijmuta zpráva: "107-6-2-0-2"
+[INFO] [16:06:46] [Sender] Odesílání zprávy: "62-1-0-0-27"
+[INFO] [16:06:46] [Listener] Přijmuta zpráva: "108-62-1-0-2"
+[WARNING] [16:06:47] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 2-2-0-0-27
+[WARNING] [16:06:47] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 60-1-0-0-27
+[ERROR] [16:06:47] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:06:47] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:47] [Listener] Přijmuta zpráva: "109-2-0-0-26"
+[INFO] [16:06:47] [Sender] Odesílání zprávy: "109-2-0-0-2"
+[INFO] [16:06:47] [Sender] Odesílání zprávy: "7-2-0-0-27"
+[INFO] [16:06:47] [Listener] Přijmuta zpráva: "110-1-0-0-26"
+[INFO] [16:06:47] [Listener] Přijmuta zpráva: "111-7-2-0-2"
+[INFO] [16:06:47] [Sender] Odesílání zprávy: "110-1-0-0-2"
+[INFO] [16:06:47] [Sender] Odesílání zprávy: "63-1-0-0-27"
+[INFO] [16:06:47] [Listener] Přijmuta zpráva: "112-63-1-0-2"
+[WARNING] [16:06:48] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 3-2-0-0-27
+[WARNING] [16:06:48] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 61-1-0-0-27
+[ERROR] [16:06:48] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:06:48] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:06:48] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 4-2-0-1-6-12
+[WARNING] [16:06:48] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 5-2-0-1-8
+[INFO] [16:06:48] [Listener] Přijmuta zpráva: "113-2-0-0-26"
+[INFO] [16:06:48] [Sender] Odesílání zprávy: "113-2-0-0-2"
+[INFO] [16:06:48] [Sender] Odesílání zprávy: "8-2-0-0-27"
+[INFO] [16:06:48] [Listener] Přijmuta zpráva: "114-1-0-0-26"
+[INFO] [16:06:48] [Listener] Přijmuta zpráva: "115-8-2-0-2"
+[INFO] [16:06:48] [Sender] Odesílání zprávy: "114-1-0-0-2"
+[INFO] [16:06:48] [Sender] Odesílání zprávy: "64-1-0-0-27"
+[INFO] [16:06:48] [Listener] Přijmuta zpráva: "116-64-1-0-2"
+[WARNING] [16:06:48] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 6-2-0-0-27
+[WARNING] [16:06:48] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 62-1-0-0-27
+[ERROR] [16:06:48] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:06:48] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:49] [Listener] Přijmuta zpráva: "117-2-0-0-26"
+[INFO] [16:06:49] [Sender] Odesílání zprávy: "117-2-0-0-2"
+[INFO] [16:06:49] [Sender] Odesílání zprávy: "9-2-0-0-27"
+[INFO] [16:06:49] [Listener] Přijmuta zpráva: "118-1-0-0-26"
+[INFO] [16:06:49] [Listener] Přijmuta zpráva: "119-9-2-0-2"
+[INFO] [16:06:49] [Sender] Odesílání zprávy: "118-1-0-0-2"
+[INFO] [16:06:49] [Sender] Odesílání zprávy: "65-1-0-0-27"
+[INFO] [16:06:49] [Listener] Přijmuta zpráva: "120-65-1-0-2"
+[WARNING] [16:06:50] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 63-1-0-0-27
+[WARNING] [16:06:50] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 7-2-0-0-27
+[ERROR] [16:06:50] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:06:50] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:50] [Sender] Odesílání zprávy: "66-1-0-1-10-1"
+[INFO] [16:06:50] [Listener] Přijmuta zpráva: "121-66-1-1-2"
+[INFO] [16:06:50] [Listener] Přijmuta zpráva: "122-1-0-1-11-1"
+[INFO] [16:06:50] [Sender] Odesílání zprávy: "122-1-0-0-2"
+[INFO] [16:06:50] [Listener] Přijmuta zpráva: "123-2-0-0-26"
+[INFO] [16:06:50] [Sender] Odesílání zprávy: "123-2-0-0-2"
+[INFO] [16:06:50] [Sender] Odesílání zprávy: "10-2-0-0-27"
+[INFO] [16:06:50] [Listener] Přijmuta zpráva: "124-1-0-0-26"
+[INFO] [16:06:50] [Listener] Přijmuta zpráva: "125-10-2-0-2"
+[INFO] [16:06:50] [Sender] Odesílání zprávy: "124-1-0-0-2"
+[INFO] [16:06:50] [Sender] Odesílání zprávy: "67-1-0-0-27"
+[INFO] [16:06:50] [Listener] Přijmuta zpráva: "126-67-1-0-2"
+[WARNING] [16:06:50] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 8-2-0-0-27
+[WARNING] [16:06:50] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 64-1-0-0-27
+[ERROR] [16:06:50] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:06:50] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:51] [Listener] Přijmuta zpráva: "127-2-0-0-26"
+[INFO] [16:06:51] [Sender] Odesílání zprávy: "127-2-0-0-2"
+[INFO] [16:06:51] [Sender] Odesílání zprávy: "11-2-0-0-27"
+[INFO] [16:06:51] [Listener] Přijmuta zpráva: "128-1-0-0-26"
+[INFO] [16:06:51] [Sender] Odesílání zprávy: "128-1-0-0-2"
+[INFO] [16:06:51] [Sender] Odesílání zprávy: "68-1-0-0-27"
+[INFO] [16:06:51] [Listener] Přijmuta zpráva: "130-68-1-0-2"
+[INFO] [16:06:51] [GameLobby] REFFF
+[INFO] [16:06:51] [Sender] Odesílání zprávy: "12-2-0-1-8"
+[INFO] [16:06:51] [Listener] Přijmuta zpráva: "131-12-2-1-2"
+[INFO] [16:06:51] [Listener] Přijmuta zpráva: "132-2-0-1-9-1-1-0"
+[INFO] [16:06:51] [Sender] Odesílání zprávy: "132-2-0-0-2"
+[WARNING] [16:06:51] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 9-2-0-0-27
+[ERROR] [16:06:51] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:06:51] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 65-1-0-0-27
+[ERROR] [16:06:51] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:52] [Sender] Odesílání zprávy: "13-2-0-1-12-1-0"
+[INFO] [16:06:52] [Listener] Přijmuta zpráva: "133-13-2-1-2"
+[INFO] [16:06:52] [Listener] Přijmuta zpráva: "134-2-0-1-13-1-xd"
+[INFO] [16:06:52] [Sender] Odesílání zprávy: "134-2-0-0-2"
+[INFO] [16:06:52] [Listener] Přijmuta zpráva: "135-1-0-0-14-12"
+[INFO] [16:06:52] [Sender] Odesílání zprávy: "135-1-0-0-2"
+[INFO] [16:06:52] [Sender] Odesílání zprávy: "69-1-0-0-15"
+[INFO] [16:06:52] [Listener] Přijmuta zpráva: "136-69-1-0-2"
+[WARNING] [16:06:52] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 66-1-0-1-10-1
+[INFO] [16:06:52] [Listener] Přijmuta zpráva: "137-2-0-0-26"
+[INFO] [16:06:52] [Sender] Odesílání zprávy: "137-2-0-0-2"
+[INFO] [16:06:52] [Listener] Přijmuta zpráva: "138-1-0-0-26"
+[INFO] [16:06:52] [Sender] Odesílání zprávy: "14-2-0-0-27"
+[INFO] [16:06:52] [Sender] Odesílání zprávy: "138-1-0-0-2"
+[INFO] [16:06:52] [Listener] Přijmuta zpráva: "139-14-2-0-2"
+[INFO] [16:06:52] [Sender] Odesílání zprávy: "70-1-0-0-27"
+[INFO] [16:06:52] [Listener] Přijmuta zpráva: "140-70-1-0-2"
+[WARNING] [16:06:52] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 67-1-0-0-27
+[ERROR] [16:06:52] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:06:52] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:53] [Listener] Přijmuta zpráva: "141-2-0-0-26"
+[INFO] [16:06:53] [Sender] Odesílání zprávy: "141-2-0-0-2"
+[INFO] [16:06:53] [Sender] Odesílání zprávy: "15-2-0-0-27"
+[INFO] [16:06:53] [Listener] Přijmuta zpráva: "142-1-0-0-26"
+[INFO] [16:06:53] [Listener] Přijmuta zpráva: "143-15-2-0-2"
+[INFO] [16:06:53] [Sender] Odesílání zprávy: "142-1-0-0-2"
+[INFO] [16:06:53] [Sender] Odesílání zprávy: "71-1-0-0-27"
+[INFO] [16:06:53] [Listener] Přijmuta zpráva: "144-71-1-0-2"
+[WARNING] [16:06:53] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 11-2-0-0-27
+[WARNING] [16:06:53] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 68-1-0-0-27
+[ERROR] [16:06:53] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:06:53] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:06:53] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 12-2-0-1-8
+[WARNING] [16:06:54] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 69-1-0-0-15
+-0
+[ERROR] [16:06:54] [GameRoom] Server nedostal odpověď na požadavek 135-1-0-0-14-12
+[INFO] [16:06:54] [Sender] Odesílání zprávy: "72-1-0-1-16-5-6-4-5"
+[INFO] [16:06:54] [Listener] Přijmuta zpráva: "145-72-1-1-2"
+[INFO] [16:06:54] [Listener] Přijmuta zpráva: "146-1-0-1-17-1"
+[INFO] [16:06:54] [Sender] Odesílání zprávy: "146-1-0-0-2"
+[INFO] [16:06:54] [Listener] Přijmuta zpráva: "147-2-0-0-18-5-6-4-5"
+[INFO] [16:06:54] [Sender] Odesílání zprávy: "147-2-0-0-2"
+[INFO] [16:06:54] [Sender] Odesílání zprávy: "16-2-0-0-19"
+[INFO] [16:06:54] [Listener] Přijmuta zpráva: "148-16-2-0-2"
+[INFO] [16:06:54] [Listener] Přijmuta zpráva: "149-2-0-0-26"
+[INFO] [16:06:54] [Sender] Odesílání zprávy: "149-2-0-0-2"
+[INFO] [16:06:54] [Sender] Odesílání zprávy: "17-2-0-0-27"
+[INFO] [16:06:54] [Listener] Přijmuta zpráva: "150-1-0-0-26"
+[INFO] [16:06:54] [Sender] Odesílání zprávy: "150-1-0-0-2"
+[INFO] [16:06:54] [Listener] Přijmuta zpráva: "151-17-2-0-2"
+[INFO] [16:06:54] [Sender] Odesílání zprávy: "73-1-0-0-27"
+[INFO] [16:06:54] [Listener] Přijmuta zpráva: "152-73-1-0-2"
+[WARNING] [16:06:54] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 14-2-0-0-27
+[WARNING] [16:06:54] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 70-1-0-0-27
+[ERROR] [16:06:54] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:06:54] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:55] [Listener] Přijmuta zpráva: "153-2-0-0-26"
+[INFO] [16:06:55] [Sender] Odesílání zprávy: "153-2-0-0-2"
+[INFO] [16:06:55] [Sender] Odesílání zprávy: "18-2-0-0-27"
+[INFO] [16:06:55] [Listener] Přijmuta zpráva: "154-1-0-0-26"
+[INFO] [16:06:55] [Listener] Přijmuta zpráva: "155-18-2-0-2"
+[INFO] [16:06:55] [Sender] Odesílání zprávy: "154-1-0-0-2"
+[INFO] [16:06:55] [Sender] Odesílání zprávy: "74-1-0-0-27"
+[INFO] [16:06:55] [Listener] Přijmuta zpráva: "156-74-1-0-2"
+[WARNING] [16:06:55] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 71-1-0-0-27
+[WARNING] [16:06:55] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 15-2-0-0-27
+[ERROR] [16:06:55] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:06:55] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:06:56] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 72-1-0-1-16-5-6-4-5
+[ERROR] [16:06:56] [CheckersBoard] Server nedostal odpověď na požadavek 147-2-0-0-18-5-6-4-5
+[INFO] [16:06:56] [Sender] Odesílání zprávy: "19-2-0-1-16-2-5-3-6"
+[INFO] [16:06:56] [Listener] Přijmuta zpráva: "157-19-2-1-2"
+[INFO] [16:06:56] [Listener] Přijmuta zpráva: "158-2-0-1-17-1"
+[INFO] [16:06:56] [Sender] Odesílání zprávy: "158-2-0-0-2"
+[INFO] [16:06:56] [Listener] Přijmuta zpráva: "159-1-0-0-18-2-5-3-6"
+[INFO] [16:06:56] [Sender] Odesílání zprávy: "159-1-0-0-2"
+[INFO] [16:06:56] [Sender] Odesílání zprávy: "75-1-0-0-19"
+[INFO] [16:06:56] [Listener] Přijmuta zpráva: "160-75-1-0-2"
+[INFO] [16:06:56] [Listener] Přijmuta zpráva: "161-2-0-0-26"
+[INFO] [16:06:56] [Sender] Odesílání zprávy: "161-2-0-0-2"
+[INFO] [16:06:56] [Sender] Odesílání zprávy: "20-2-0-0-27"
+[INFO] [16:06:56] [Listener] Přijmuta zpráva: "163-20-2-0-2"
+[INFO] [16:06:56] [Listener] Přijmuta zpráva: "162-1-0-0-26"
+[INFO] [16:06:56] [Sender] Odesílání zprávy: "162-1-0-0-2"
+[INFO] [16:06:56] [Sender] Odesílání zprávy: "76-1-0-0-27"
+[INFO] [16:06:56] [Listener] Přijmuta zpráva: "164-76-1-0-2"
+[WARNING] [16:06:56] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 17-2-0-0-27
+[WARNING] [16:06:56] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 73-1-0-0-27
+[ERROR] [16:06:56] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:06:56] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:57] [Listener] Přijmuta zpráva: "165-2-0-0-26"
+[INFO] [16:06:57] [Sender] Odesílání zprávy: "165-2-0-0-2"
+[INFO] [16:06:57] [Sender] Odesílání zprávy: "21-2-0-0-27"
+[INFO] [16:06:57] [Listener] Přijmuta zpráva: "166-1-0-0-26"
+[INFO] [16:06:57] [Sender] Odesílání zprávy: "166-1-0-0-2"
+[INFO] [16:06:57] [Listener] Přijmuta zpráva: "167-21-2-0-2"
+[INFO] [16:06:57] [Sender] Odesílání zprávy: "77-1-0-0-27"
+[INFO] [16:06:57] [Listener] Přijmuta zpráva: "168-77-1-0-2"
+[WARNING] [16:06:57] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 18-2-0-0-27
+[WARNING] [16:06:57] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 74-1-0-0-27
+[ERROR] [16:06:57] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:06:57] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:06:58] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 19-2-0-1-16-2-5-3-6
+[WARNING] [16:06:58] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 75-1-0-0-19
+[ERROR] [16:06:58] [CheckersBoard] Server nedostal odpověď na požadavek 159-1-0-0-18-2-5-3-6
+[INFO] [16:06:58] [Listener] Přijmuta zpráva: "169-2-0-0-26"
+[INFO] [16:06:58] [Sender] Odesílání zprávy: "169-2-0-0-2"
+[INFO] [16:06:58] [Sender] Odesílání zprávy: "22-2-0-0-27"
+[INFO] [16:06:58] [Listener] Přijmuta zpráva: "170-1-0-0-26"
+[INFO] [16:06:58] [Sender] Odesílání zprávy: "170-1-0-0-2"
+[INFO] [16:06:58] [Listener] Přijmuta zpráva: "171-22-2-0-2"
+[INFO] [16:06:58] [Sender] Odesílání zprávy: "78-1-0-0-27"
+[INFO] [16:06:58] [Listener] Přijmuta zpráva: "172-78-1-0-2"
+[WARNING] [16:06:58] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 20-2-0-0-27
+[ERROR] [16:06:58] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:06:58] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 76-1-0-0-27
+[ERROR] [16:06:58] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:06:59] [Listener] Přijmuta zpráva: "173-2-0-0-26"
+[INFO] [16:06:59] [Sender] Odesílání zprávy: "173-2-0-0-2"
+[INFO] [16:06:59] [Sender] Odesílání zprávy: "23-2-0-0-27"
+[INFO] [16:06:59] [Listener] Přijmuta zpráva: "174-1-0-0-26"
+[INFO] [16:06:59] [Sender] Odesílání zprávy: "174-1-0-0-2"
+[INFO] [16:06:59] [Listener] Přijmuta zpráva: "175-23-2-0-2"
+[INFO] [16:06:59] [Sender] Odesílání zprávy: "79-1-0-0-27"
+[INFO] [16:06:59] [Listener] Přijmuta zpráva: "176-79-1-0-2"
+[WARNING] [16:06:59] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 21-2-0-0-27
+[ERROR] [16:06:59] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:06:59] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 77-1-0-0-27
+[ERROR] [16:06:59] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:00] [Listener] Přijmuta zpráva: "177-2-0-0-26"
+[INFO] [16:07:00] [Sender] Odesílání zprávy: "177-2-0-0-2"
+[INFO] [16:07:00] [Sender] Odesílání zprávy: "24-2-0-0-27"
+[INFO] [16:07:00] [Listener] Přijmuta zpráva: "178-1-0-0-26"
+[INFO] [16:07:00] [Sender] Odesílání zprávy: "178-1-0-0-2"
+[INFO] [16:07:00] [Listener] Přijmuta zpráva: "179-24-2-0-2"
+[INFO] [16:07:00] [Sender] Odesílání zprávy: "80-1-0-0-27"
+[INFO] [16:07:00] [Listener] Přijmuta zpráva: "180-80-1-0-2"
+[WARNING] [16:07:00] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 78-1-0-0-27
+[WARNING] [16:07:00] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 22-2-0-0-27
+[ERROR] [16:07:00] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:00] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:01] [Sender] Odesílání zprávy: "81-1-0-1-16-4-5-3-4"
+[INFO] [16:07:01] [Listener] Přijmuta zpráva: "181-81-1-1-2"
+[INFO] [16:07:01] [Listener] Přijmuta zpráva: "182-1-0-1-17-1"
+[INFO] [16:07:01] [Sender] Odesílání zprávy: "182-1-0-0-2"
+[INFO] [16:07:01] [Listener] Přijmuta zpráva: "183-2-0-0-18-4-5-3-4"
+[INFO] [16:07:01] [Sender] Odesílání zprávy: "183-2-0-0-2"
+[INFO] [16:07:01] [Sender] Odesílání zprávy: "25-2-0-0-19"
+[INFO] [16:07:01] [Listener] Přijmuta zpráva: "184-25-2-0-2"
+[INFO] [16:07:01] [Listener] Přijmuta zpráva: "185-2-0-0-26"
+[INFO] [16:07:01] [Sender] Odesílání zprávy: "185-2-0-0-2"
+[INFO] [16:07:01] [Sender] Odesílání zprávy: "26-2-0-0-27"
+[INFO] [16:07:01] [Listener] Přijmuta zpráva: "186-1-0-0-26"
+[INFO] [16:07:01] [Listener] Přijmuta zpráva: "187-26-2-0-2"
+[INFO] [16:07:01] [Sender] Odesílání zprávy: "82-1-0-0-27"
+[WARNING] [16:07:01] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 79-1-0-0-27
+[WARNING] [16:07:01] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 23-2-0-0-27
+[ERROR] [16:07:01] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:01] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:01] [Listener] Přijmuta zpráva: "188-82-1-0-2"
+[INFO] [16:07:02] [Listener] Přijmuta zpráva: "189-2-0-0-26"
+[INFO] [16:07:02] [Sender] Odesílání zprávy: "189-2-0-0-2"
+[INFO] [16:07:02] [Sender] Odesílání zprávy: "27-2-0-0-27"
+[INFO] [16:07:02] [Listener] Přijmuta zpráva: "190-1-0-0-26"
+[INFO] [16:07:02] [Sender] Odesílání zprávy: "190-1-0-0-2"
+[INFO] [16:07:02] [Listener] Přijmuta zpráva: "191-27-2-0-2"
+[INFO] [16:07:02] [Sender] Odesílání zprávy: "83-1-0-0-27"
+[INFO] [16:07:02] [Listener] Přijmuta zpráva: "192-83-1-0-2"
+[WARNING] [16:07:02] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 24-2-0-0-27
+[ERROR] [16:07:02] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:02] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:02] [Sender] Odesílání zprávy: "28-2-0-1-16-2-3-4-5"
+[INFO] [16:07:02] [Listener] Přijmuta zpráva: "193-28-2-1-2"
+[INFO] [16:07:02] [Listener] Přijmuta zpráva: "194-2-0-1-17-1"
+[INFO] [16:07:02] [Sender] Odesílání zprávy: "194-2-0-0-2"
+[INFO] [16:07:02] [Listener] Přijmuta zpráva: "195-1-0-0-18-2-3-4-5"
+[INFO] [16:07:02] [Sender] Odesílání zprávy: "195-1-0-0-2"
+[INFO] [16:07:02] [Sender] Odesílání zprávy: "84-1-0-0-19"
+[INFO] [16:07:02] [Listener] Přijmuta zpráva: "196-84-1-0-2"
+[WARNING] [16:07:03] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 25-2-0-0-19
+[WARNING] [16:07:03] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 81-1-0-1-16-4-5-3-4
+[ERROR] [16:07:03] [CheckersBoard] Server nedostal odpověď na požadavek 183-2-0-0-18-4-5-3-4
+[INFO] [16:07:03] [Listener] Přijmuta zpráva: "197-2-0-0-26"
+[INFO] [16:07:03] [Sender] Odesílání zprávy: "197-2-0-0-2"
+[INFO] [16:07:03] [Listener] Přijmuta zpráva: "198-1-0-0-26"
+[INFO] [16:07:03] [Sender] Odesílání zprávy: "29-2-0-0-27"
+[INFO] [16:07:03] [Sender] Odesílání zprávy: "198-1-0-0-2"
+[INFO] [16:07:03] [Listener] Přijmuta zpráva: "199-29-2-0-2"
+[INFO] [16:07:03] [Sender] Odesílání zprávy: "85-1-0-0-27"
+[INFO] [16:07:03] [Listener] Přijmuta zpráva: "200-85-1-0-2"
+[WARNING] [16:07:03] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 26-2-0-0-27
+[WARNING] [16:07:03] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 82-1-0-0-27
+[ERROR] [16:07:03] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:03] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:04] [Listener] Přijmuta zpráva: "201-2-0-0-26"
+[INFO] [16:07:04] [Sender] Odesílání zprávy: "201-2-0-0-2"
+[INFO] [16:07:04] [Sender] Odesílání zprávy: "30-2-0-0-27"
+[INFO] [16:07:04] [Listener] Přijmuta zpráva: "202-1-0-0-26"
+[INFO] [16:07:04] [Listener] Přijmuta zpráva: "203-30-2-0-2"
+[INFO] [16:07:04] [Sender] Odesílání zprávy: "202-1-0-0-2"
+[INFO] [16:07:04] [Sender] Odesílání zprávy: "86-1-0-0-27"
+[INFO] [16:07:04] [Listener] Přijmuta zpráva: "204-86-1-0-2"
+[WARNING] [16:07:04] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 27-2-0-0-27
+[WARNING] [16:07:04] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 83-1-0-0-27
+[ERROR] [16:07:04] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:04] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:07:04] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 28-2-0-1-16-2-3-4-5
+[WARNING] [16:07:04] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 84-1-0-0-19
+[ERROR] [16:07:04] [CheckersBoard] Server nedostal odpověď na požadavek 195-1-0-0-18-2-3-4-5
+[INFO] [16:07:05] [Sender] Odesílání zprávy: "87-1-0-1-16-6-5-5-6"
+[INFO] [16:07:05] [Listener] Přijmuta zpráva: "205-87-1-1-2"
+[INFO] [16:07:05] [Listener] Přijmuta zpráva: "206-1-0-1-17-1"
+[INFO] [16:07:05] [Sender] Odesílání zprávy: "206-1-0-0-2"
+[INFO] [16:07:05] [Listener] Přijmuta zpráva: "207-2-0-0-18-6-5-5-6"
+[INFO] [16:07:05] [Sender] Odesílání zprávy: "207-2-0-0-2"
+[INFO] [16:07:05] [Sender] Odesílání zprávy: "31-2-0-0-19"
+[INFO] [16:07:05] [Listener] Přijmuta zpráva: "208-31-2-0-2"
+[INFO] [16:07:05] [Listener] Přijmuta zpráva: "209-2-0-0-26"
+[INFO] [16:07:05] [Sender] Odesílání zprávy: "209-2-0-0-2"
+[INFO] [16:07:05] [Sender] Odesílání zprávy: "32-2-0-0-27"
+[INFO] [16:07:05] [Listener] Přijmuta zpráva: "210-1-0-0-26"
+[INFO] [16:07:05] [Listener] Přijmuta zpráva: "211-32-2-0-2"
+[INFO] [16:07:05] [Sender] Odesílání zprávy: "88-1-0-0-27"
+[INFO] [16:07:05] [Listener] Přijmuta zpráva: "212-88-1-0-2"
+[WARNING] [16:07:05] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 85-1-0-0-27
+[ERROR] [16:07:05] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:05] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:06] [Listener] Přijmuta zpráva: "213-2-0-0-26"
+[INFO] [16:07:06] [Sender] Odesílání zprávy: "213-2-0-0-2"
+[INFO] [16:07:06] [Sender] Odesílání zprávy: "33-2-0-0-27"
+[INFO] [16:07:06] [Listener] Přijmuta zpráva: "215-33-2-0-2"
+[INFO] [16:07:06] [Listener] Přijmuta zpráva: "214-1-0-0-26"
+[INFO] [16:07:06] [Sender] Odesílání zprávy: "214-1-0-0-2"
+[INFO] [16:07:06] [Sender] Odesílání zprávy: "89-1-0-0-27"
+[INFO] [16:07:06] [Listener] Přijmuta zpráva: "216-89-1-0-2"
+[WARNING] [16:07:06] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 30-2-0-0-27
+[ERROR] [16:07:06] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:07:06] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 86-1-0-0-27
+[ERROR] [16:07:06] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:07:07] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 31-2-0-0-19
+[ERROR] [16:07:07] [CheckersBoard] Server nedostal odpověď na požadavek 207-2-0-0-18-6-5-5-6
+[WARNING] [16:07:07] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 87-1-0-1-16-6-5-5-6
+[INFO] [16:07:07] [Listener] Přijmuta zpráva: "217-2-0-0-26"
+[INFO] [16:07:07] [Sender] Odesílání zprávy: "217-2-0-0-2"
+[INFO] [16:07:07] [Sender] Odesílání zprávy: "34-2-0-0-27"
+[INFO] [16:07:07] [Listener] Přijmuta zpráva: "218-1-0-0-26"
+[INFO] [16:07:07] [Sender] Odesílání zprávy: "218-1-0-0-2"
+[INFO] [16:07:07] [Listener] Přijmuta zpráva: "219-34-2-0-2"
+[INFO] [16:07:07] [Sender] Odesílání zprávy: "90-1-0-0-27"
+[INFO] [16:07:07] [Listener] Přijmuta zpráva: "220-90-1-0-2"
+[INFO] [16:07:07] [Sender] Odesílání zprávy: "35-2-0-1-16-1-2-2-3"
+[INFO] [16:07:07] [Listener] Přijmuta zpráva: "221-35-2-1-2"
+[INFO] [16:07:07] [Listener] Přijmuta zpráva: "222-2-0-1-17-1"
+[INFO] [16:07:07] [Sender] Odesílání zprávy: "222-2-0-0-2"
+[WARNING] [16:07:07] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 32-2-0-0-27
+[WARNING] [16:07:07] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 88-1-0-0-27
+[ERROR] [16:07:07] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:07] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:07] [Listener] Přijmuta zpráva: "223-1-0-0-18-1-2-2-3"
+[INFO] [16:07:07] [Sender] Odesílání zprávy: "223-1-0-0-2"
+[INFO] [16:07:07] [Sender] Odesílání zprávy: "91-1-0-0-19"
+[INFO] [16:07:07] [Listener] Přijmuta zpráva: "224-91-1-0-2"
+[INFO] [16:07:08] [Listener] Přijmuta zpráva: "225-2-0-0-26"
+[INFO] [16:07:08] [Sender] Odesílání zprávy: "225-2-0-0-2"
+[INFO] [16:07:08] [Sender] Odesílání zprávy: "36-2-0-0-27"
+[INFO] [16:07:08] [Listener] Přijmuta zpráva: "226-1-0-0-26"
+[INFO] [16:07:08] [Sender] Odesílání zprávy: "226-1-0-0-2"
+[INFO] [16:07:08] [Sender] Odesílání zprávy: "92-1-0-0-27"
+[INFO] [16:07:08] [Listener] Přijmuta zpráva: "228-92-1-0-2"
+[WARNING] [16:07:08] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 33-2-0-0-27
+[ERROR] [16:07:08] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:07:08] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 89-1-0-0-27
+[ERROR] [16:07:08] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:09] [Sender] Odesílání zprávy: "93-1-0-1-16-5-6-3-4"
+[INFO] [16:07:09] [Listener] Přijmuta zpráva: "229-93-1-1-2"
+[INFO] [16:07:09] [Listener] Přijmuta zpráva: "230-1-0-1-17-1"
+[INFO] [16:07:09] [Sender] Odesílání zprávy: "230-1-0-0-2"
+[INFO] [16:07:09] [Listener] Přijmuta zpráva: "231-2-0-0-18-5-6-3-4"
+[INFO] [16:07:09] [Sender] Odesílání zprávy: "231-2-0-0-2"
+[INFO] [16:07:09] [Sender] Odesílání zprávy: "37-2-0-0-19"
+[INFO] [16:07:09] [Listener] Přijmuta zpráva: "232-37-2-0-2"
+[INFO] [16:07:09] [Listener] Přijmuta zpráva: "233-2-0-0-26"
+[INFO] [16:07:09] [Sender] Odesílání zprávy: "233-2-0-0-2"
+[INFO] [16:07:09] [Sender] Odesílání zprávy: "38-2-0-0-27"
+[INFO] [16:07:09] [Listener] Přijmuta zpráva: "234-1-0-0-26"
+[INFO] [16:07:09] [Sender] Odesílání zprávy: "234-1-0-0-2"
+[INFO] [16:07:09] [Listener] Přijmuta zpráva: "235-38-2-0-2"
+[INFO] [16:07:09] [Sender] Odesílání zprávy: "94-1-0-0-27"
+[INFO] [16:07:09] [Listener] Přijmuta zpráva: "236-94-1-0-2"
+[WARNING] [16:07:09] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 90-1-0-0-27
+[WARNING] [16:07:09] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 34-2-0-0-27
+[ERROR] [16:07:09] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:09] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:07:09] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 35-2-0-1-16-1-2-2-3
+[WARNING] [16:07:09] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 91-1-0-0-19
+[ERROR] [16:07:09] [CheckersBoard] Server nedostal odpověď na požadavek 223-1-0-0-18-1-2-2-3
+[INFO] [16:07:10] [Sender] Odesílání zprávy: "95-1-0-1-16-3-4-1-2"
+[INFO] [16:07:10] [Listener] Přijmuta zpráva: "237-95-1-1-2"
+[INFO] [16:07:10] [Listener] Přijmuta zpráva: "238-1-0-1-17-1"
+[INFO] [16:07:10] [Sender] Odesílání zprávy: "238-1-0-0-2"
+[INFO] [16:07:10] [Listener] Přijmuta zpráva: "239-2-0-0-18-3-4-1-2"
+[INFO] [16:07:10] [Sender] Odesílání zprávy: "239-2-0-0-2"
+[INFO] [16:07:10] [Sender] Odesílání zprávy: "39-2-0-0-19"
+[INFO] [16:07:10] [Listener] Přijmuta zpráva: "240-39-2-0-2"
+[INFO] [16:07:10] [Listener] Přijmuta zpráva: "241-2-0-0-26"
+[INFO] [16:07:10] [Sender] Odesílání zprávy: "241-2-0-0-2"
+[INFO] [16:07:10] [Sender] Odesílání zprávy: "40-2-0-0-27"
+[INFO] [16:07:10] [Listener] Přijmuta zpráva: "242-1-0-0-26"
+[INFO] [16:07:10] [Sender] Odesílání zprávy: "242-1-0-0-2"
+[INFO] [16:07:10] [Listener] Přijmuta zpráva: "243-40-2-0-2"
+[INFO] [16:07:10] [Sender] Odesílání zprávy: "96-1-0-0-27"
+[INFO] [16:07:10] [Listener] Přijmuta zpráva: "244-96-1-0-2"
+[WARNING] [16:07:10] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 36-2-0-0-27
+[WARNING] [16:07:10] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 92-1-0-0-27
+[ERROR] [16:07:10] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:10] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:07:11] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 37-2-0-0-19
+[WARNING] [16:07:11] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 93-1-0-1-16-5-6-3-4
+[ERROR] [16:07:11] [CheckersBoard] Server nedostal odpověď na požadavek 239-2-0-0-18-3-4-1-2
+[INFO] [16:07:11] [Listener] Přijmuta zpráva: "245-2-0-0-26"
+[INFO] [16:07:11] [Sender] Odesílání zprávy: "245-2-0-0-2"
+[INFO] [16:07:11] [Sender] Odesílání zprávy: "41-2-0-0-27"
+[INFO] [16:07:11] [Listener] Přijmuta zpráva: "246-1-0-0-26"
+[INFO] [16:07:11] [Sender] Odesílání zprávy: "246-1-0-0-2"
+[INFO] [16:07:11] [Sender] Odesílání zprávy: "97-1-0-0-27"
+[INFO] [16:07:11] [Listener] Přijmuta zpráva: "247-41-2-0-2"
+[INFO] [16:07:11] [Listener] Přijmuta zpráva: "248-97-1-0-2"
+[WARNING] [16:07:11] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 38-2-0-0-27
+[WARNING] [16:07:11] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 94-1-0-0-27
+[ERROR] [16:07:11] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:11] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:07:12] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 39-2-0-0-19
+[WARNING] [16:07:12] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 95-1-0-1-16-3-4-1-2
+[ERROR] [16:07:12] [CheckersBoard] Server nedostal odpověď na požadavek 239-2-0-0-18-3-4-1-2
+[INFO] [16:07:12] [Listener] Přijmuta zpráva: "249-2-0-0-26"
+[INFO] [16:07:12] [Sender] Odesílání zprávy: "249-2-0-0-2"
+[INFO] [16:07:12] [Sender] Odesílání zprávy: "42-2-0-0-27"
+[INFO] [16:07:12] [Listener] Přijmuta zpráva: "250-1-0-0-26"
+[INFO] [16:07:12] [Listener] Přijmuta zpráva: "251-42-2-0-2"
+[INFO] [16:07:12] [Sender] Odesílání zprávy: "98-1-0-0-27"
+[INFO] [16:07:12] [Listener] Přijmuta zpráva: "252-98-1-0-2"
+[WARNING] [16:07:12] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 96-1-0-0-27
+[WARNING] [16:07:12] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 40-2-0-0-27
+[ERROR] [16:07:12] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:12] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:13] [Listener] Přijmuta zpráva: "253-2-0-0-26"
+[INFO] [16:07:13] [Sender] Odesílání zprávy: "253-2-0-0-2"
+[INFO] [16:07:13] [Sender] Odesílání zprávy: "43-2-0-0-27"
+[INFO] [16:07:13] [Listener] Přijmuta zpráva: "254-1-0-0-26"
+[INFO] [16:07:13] [Listener] Přijmuta zpráva: "255-43-2-0-2"
+[INFO] [16:07:13] [Sender] Odesílání zprávy: "254-1-0-0-2"
+[INFO] [16:07:13] [Sender] Odesílání zprávy: "99-1-0-0-27"
+[INFO] [16:07:13] [Listener] Přijmuta zpráva: "256-99-1-0-2"
+[WARNING] [16:07:13] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 41-2-0-0-27
+[WARNING] [16:07:13] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 97-1-0-0-27
+[ERROR] [16:07:13] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:13] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:13] [Sender] Odesílání zprávy: "44-2-0-1-16-0-1-2-3"
+[INFO] [16:07:13] [Listener] Přijmuta zpráva: "257-44-2-1-2"
+[INFO] [16:07:13] [Listener] Přijmuta zpráva: "258-2-0-1-17-1"
+[INFO] [16:07:13] [Sender] Odesílání zprávy: "258-2-0-0-2"
+[INFO] [16:07:13] [Listener] Přijmuta zpráva: "259-1-0-0-18-0-1-2-3"
+[INFO] [16:07:13] [Sender] Odesílání zprávy: "259-1-0-0-2"
+[INFO] [16:07:13] [Sender] Odesílání zprávy: "100-1-0-0-19"
+[INFO] [16:07:13] [Listener] Přijmuta zpráva: "260-100-1-0-2"
+[INFO] [16:07:14] [Listener] Přijmuta zpráva: "261-2-0-0-26"
+[INFO] [16:07:14] [Sender] Odesílání zprávy: "261-2-0-0-2"
+[INFO] [16:07:14] [Sender] Odesílání zprávy: "45-2-0-0-27"
+[INFO] [16:07:14] [Listener] Přijmuta zpráva: "262-1-0-0-26"
+[INFO] [16:07:14] [Listener] Přijmuta zpráva: "263-45-2-0-2"
+[INFO] [16:07:14] [Sender] Odesílání zprávy: "262-1-0-0-2"
+[INFO] [16:07:14] [Sender] Odesílání zprávy: "101-1-0-0-27"
+[INFO] [16:07:14] [Listener] Přijmuta zpráva: "264-101-1-0-2"
+[WARNING] [16:07:14] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 42-2-0-0-27
+[ERROR] [16:07:14] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:07:14] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 98-1-0-0-27
+[ERROR] [16:07:14] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:15] [Sender] Odesílání zprávy: "102-1-0-1-16-5-4-4-5"
+[INFO] [16:07:15] [Listener] Přijmuta zpráva: "265-102-1-1-2"
+[INFO] [16:07:15] [Listener] Přijmuta zpráva: "266-1-0-1-17-1"
+[INFO] [16:07:15] [Sender] Odesílání zprávy: "266-1-0-0-2"
+[INFO] [16:07:15] [Listener] Přijmuta zpráva: "267-2-0-0-18-5-4-4-5"
+[INFO] [16:07:15] [Sender] Odesílání zprávy: "267-2-0-0-2"
+[INFO] [16:07:15] [Sender] Odesílání zprávy: "46-2-0-0-19"
+[INFO] [16:07:15] [Listener] Přijmuta zpráva: "268-46-2-0-2"
+[INFO] [16:07:15] [Listener] Přijmuta zpráva: "269-2-0-0-26"
+[INFO] [16:07:15] [Sender] Odesílání zprávy: "269-2-0-0-2"
+[INFO] [16:07:15] [Sender] Odesílání zprávy: "47-2-0-0-27"
+[INFO] [16:07:15] [Listener] Přijmuta zpráva: "270-1-0-0-26"
+[INFO] [16:07:15] [Sender] Odesílání zprávy: "270-1-0-0-2"
+[INFO] [16:07:15] [Listener] Přijmuta zpráva: "271-47-2-0-2"
+[INFO] [16:07:15] [Sender] Odesílání zprávy: "103-1-0-0-27"
+[INFO] [16:07:15] [Listener] Přijmuta zpráva: "272-103-1-0-2"
+[WARNING] [16:07:15] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 43-2-0-0-27
+[WARNING] [16:07:15] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 99-1-0-0-27
+[ERROR] [16:07:15] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:15] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:07:15] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 44-2-0-1-16-0-1-2-3
+[WARNING] [16:07:15] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 100-1-0-0-19
+[ERROR] [16:07:15] [CheckersBoard] Server nedostal odpověď na požadavek 259-1-0-0-18-0-1-2-3
+[INFO] [16:07:16] [Listener] Přijmuta zpráva: "273-2-0-0-26"
+[INFO] [16:07:16] [Sender] Odesílání zprávy: "273-2-0-0-2"
+[INFO] [16:07:16] [Sender] Odesílání zprávy: "48-2-0-0-27"
+[INFO] [16:07:16] [Listener] Přijmuta zpráva: "274-1-0-0-26"
+[INFO] [16:07:16] [Listener] Přijmuta zpráva: "275-48-2-0-2"
+[INFO] [16:07:16] [Sender] Odesílání zprávy: "274-1-0-0-2"
+[INFO] [16:07:16] [Sender] Odesílání zprávy: "104-1-0-0-27"
+[INFO] [16:07:16] [Listener] Přijmuta zpráva: "276-104-1-0-2"
+[WARNING] [16:07:16] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 45-2-0-0-27
+[ERROR] [16:07:16] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:07:16] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 101-1-0-0-27
+[ERROR] [16:07:16] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:16] [Sender] Odesílání zprávy: "49-2-0-1-16-3-6-5-4"
+[INFO] [16:07:16] [Listener] Přijmuta zpráva: "277-49-2-1-2"
+[INFO] [16:07:16] [Listener] Přijmuta zpráva: "278-2-0-1-17-1"
+[INFO] [16:07:16] [Sender] Odesílání zprávy: "278-2-0-0-2"
+[INFO] [16:07:16] [Listener] Přijmuta zpráva: "279-1-0-0-18-3-6-5-4"
+[INFO] [16:07:16] [Sender] Odesílání zprávy: "279-1-0-0-2"
+[INFO] [16:07:16] [Sender] Odesílání zprávy: "105-1-0-0-19"
+[INFO] [16:07:16] [Listener] Přijmuta zpráva: "280-105-1-0-2"
+[WARNING] [16:07:17] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 46-2-0-0-19
+[ERROR] [16:07:17] [CheckersBoard] Server nedostal odpověď na požadavek 267-2-0-0-18-5-4-4-5
+[WARNING] [16:07:17] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 102-1-0-1-16-5-4-4-5
+[INFO] [16:07:17] [Listener] Přijmuta zpráva: "281-2-0-0-26"
+[INFO] [16:07:17] [Sender] Odesílání zprávy: "281-2-0-0-2"
+[INFO] [16:07:17] [Sender] Odesílání zprávy: "50-2-0-0-27"
+[INFO] [16:07:17] [Listener] Přijmuta zpráva: "282-1-0-0-26"
+[INFO] [16:07:17] [Sender] Odesílání zprávy: "282-1-0-0-2"
+[INFO] [16:07:17] [Listener] Přijmuta zpráva: "283-50-2-0-2"
+[INFO] [16:07:17] [Sender] Odesílání zprávy: "106-1-0-0-27"
+[INFO] [16:07:17] [Listener] Přijmuta zpráva: "284-106-1-0-2"
+[WARNING] [16:07:17] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 47-2-0-0-27
+[WARNING] [16:07:17] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 103-1-0-0-27
+[ERROR] [16:07:17] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:17] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:18] [Sender] Odesílání zprávy: "107-1-0-1-16-6-3-4-5"
+[INFO] [16:07:18] [Listener] Přijmuta zpráva: "285-107-1-1-2"
+[INFO] [16:07:18] [Listener] Přijmuta zpráva: "286-1-0-1-17-1"
+[INFO] [16:07:18] [Sender] Odesílání zprávy: "286-1-0-0-2"
+[INFO] [16:07:18] [Listener] Přijmuta zpráva: "287-2-0-0-18-6-3-4-5"
+[INFO] [16:07:18] [Sender] Odesílání zprávy: "287-2-0-0-2"
+[INFO] [16:07:18] [Sender] Odesílání zprávy: "51-2-0-0-19"
+[INFO] [16:07:18] [Listener] Přijmuta zpráva: "288-51-2-0-2"
+[INFO] [16:07:18] [Listener] Přijmuta zpráva: "289-2-0-0-26"
+[INFO] [16:07:18] [Sender] Odesílání zprávy: "289-2-0-0-2"
+[INFO] [16:07:18] [Sender] Odesílání zprávy: "52-2-0-0-27"
+[INFO] [16:07:18] [Listener] Přijmuta zpráva: "290-1-0-0-26"
+[INFO] [16:07:18] [Sender] Odesílání zprávy: "290-1-0-0-2"
+[INFO] [16:07:18] [Listener] Přijmuta zpráva: "291-52-2-0-2"
+[INFO] [16:07:18] [Sender] Odesílání zprávy: "108-1-0-0-27"
+[INFO] [16:07:18] [Listener] Přijmuta zpráva: "292-108-1-0-2"
+[WARNING] [16:07:18] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 104-1-0-0-27
+[WARNING] [16:07:18] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 48-2-0-0-27
+[ERROR] [16:07:18] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:18] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:07:18] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 49-2-0-1-16-3-6-5-4
+[WARNING] [16:07:18] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 105-1-0-0-19
+[ERROR] [16:07:18] [CheckersBoard] Server nedostal odpověď na požadavek 279-1-0-0-18-3-6-5-4
+[INFO] [16:07:19] [Listener] Přijmuta zpráva: "293-2-0-0-26"
+[INFO] [16:07:19] [Sender] Odesílání zprávy: "293-2-0-0-2"
+[INFO] [16:07:19] [Sender] Odesílání zprávy: "53-2-0-0-27"
+[INFO] [16:07:19] [Listener] Přijmuta zpráva: "294-1-0-0-26"
+[INFO] [16:07:19] [Listener] Přijmuta zpráva: "295-53-2-0-2"
+[INFO] [16:07:19] [Sender] Odesílání zprávy: "294-1-0-0-2"
+[INFO] [16:07:19] [Sender] Odesílání zprávy: "109-1-0-0-27"
+[INFO] [16:07:19] [Listener] Přijmuta zpráva: "296-109-1-0-2"
+[WARNING] [16:07:19] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 50-2-0-0-27
+
+[ERROR] [16:07:19] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:19] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:07:20] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 51-2-0-0-19
+[ERROR] [16:07:20] [CheckersBoard] Server nedostal odpověď na požadavek 287-2-0-0-18-6-3-4-5
+
+[INFO] [16:07:20] [Listener] Přijmuta zpráva: "297-2-0-0-26"
+[INFO] [16:07:20] [Sender] Odesílání zprávy: "297-2-0-0-2"
+[INFO] [16:07:20] [Listener] Přijmuta zpráva: "298-1-0-0-26"
+[INFO] [16:07:20] [Sender] Odesílání zprávy: "54-2-0-0-27"
+[INFO] [16:07:20] [Sender] Odesílání zprávy: "298-1-0-0-2"
+[INFO] [16:07:20] [Sender] Odesílání zprávy: "110-1-0-0-27"
+[INFO] [16:07:20] [Listener] Přijmuta zpráva: "299-54-2-0-2"
+[INFO] [16:07:20] [Listener] Přijmuta zpráva: "300-110-1-0-2"
+[WARNING] [16:07:20] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 52-2-0-0-27
+[WARNING] [16:07:20] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 108-1-0-0-27
+[ERROR] [16:07:20] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:20] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:21] [Listener] Přijmuta zpráva: "301-2-0-0-26"
+[INFO] [16:07:21] [Sender] Odesílání zprávy: "301-2-0-0-2"
+[INFO] [16:07:21] [Sender] Odesílání zprávy: "55-2-0-0-27"
+[INFO] [16:07:21] [Listener] Přijmuta zpráva: "302-1-0-0-26"
+[INFO] [16:07:21] [Listener] Přijmuta zpráva: "303-55-2-0-2"
+[INFO] [16:07:21] [Sender] Odesílání zprávy: "302-1-0-0-2"
+[INFO] [16:07:21] [Sender] Odesílání zprávy: "111-1-0-0-27"
+[INFO] [16:07:21] [Listener] Přijmuta zpráva: "304-111-1-0-2"
+[WARNING] [16:07:21] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 109-1-0-0-27
+[WARNING] [16:07:21] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 53-2-0-0-27
+[ERROR] [16:07:21] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:21] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:22] [Listener] Přijmuta zpráva: "305-2-0-0-26"
+[INFO] [16:07:22] [Sender] Odesílání zprávy: "305-2-0-0-2"
+[INFO] [16:07:22] [Sender] Odesílání zprávy: "56-2-0-0-27"
+[INFO] [16:07:22] [Listener] Přijmuta zpráva: "306-1-0-0-26"
+[INFO] [16:07:22] [Sender] Odesílání zprávy: "306-1-0-0-2"
+[INFO] [16:07:22] [Listener] Přijmuta zpráva: "307-56-2-0-2"
+[INFO] [16:07:22] [Sender] Odesílání zprávy: "112-1-0-0-27"
+[INFO] [16:07:22] [Listener] Přijmuta zpráva: "308-112-1-0-2"
+[WARNING] [16:07:22] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 54-2-0-0-27
+[WARNING] [16:07:22] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 110-1-0-0-27
+[ERROR] [16:07:22] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:22] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:23] [Sender] Odesílání zprávy: "57-2-0-1-16-1-4-2-5"
+[INFO] [16:07:23] [Listener] Přijmuta zpráva: "309-57-2-1-2"
+[INFO] [16:07:23] [Listener] Přijmuta zpráva: "310-2-0-1-17-1"
+[INFO] [16:07:23] [Sender] Odesílání zprávy: "310-2-0-0-2"
+[INFO] [16:07:23] [Listener] Přijmuta zpráva: "311-1-0-0-18-1-4-2-5"
+[INFO] [16:07:23] [Sender] Odesílání zprávy: "311-1-0-0-2"
+[INFO] [16:07:23] [Sender] Odesílání zprávy: "113-1-0-0-19"
+[INFO] [16:07:23] [Listener] Přijmuta zpráva: "312-113-1-0-2"
+[INFO] [16:07:23] [Listener] Přijmuta zpráva: "313-2-0-0-26"
+[INFO] [16:07:23] [Sender] Odesílání zprávy: "313-2-0-0-2"
+[INFO] [16:07:23] [Listener] Přijmuta zpráva: "314-1-0-0-26"
+[INFO] [16:07:23] [Sender] Odesílání zprávy: "58-2-0-0-27"
+[INFO] [16:07:23] [Sender] Odesílání zprávy: "314-1-0-0-2"
+[INFO] [16:07:23] [Listener] Přijmuta zpráva: "315-58-2-0-2"
+[INFO] [16:07:23] [Sender] Odesílání zprávy: "114-1-0-0-27"
+[INFO] [16:07:23] [Listener] Přijmuta zpráva: "316-114-1-0-2"
+[WARNING] [16:07:23] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 55-2-0-0-27
+[WARNING] [16:07:23] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 111-1-0-0-27
+[ERROR] [16:07:23] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:23] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:24] [Listener] Přijmuta zpráva: "317-2-0-0-26"
+[INFO] [16:07:24] [Sender] Odesílání zprávy: "317-2-0-0-2"
+[INFO] [16:07:24] [Sender] Odesílání zprávy: "59-2-0-0-27"
+[INFO] [16:07:24] [Listener] Přijmuta zpráva: "318-1-0-0-26"
+[INFO] [16:07:24] [Listener] Přijmuta zpráva: "319-59-2-0-2"
+[INFO] [16:07:24] [Sender] Odesílání zprávy: "318-1-0-0-2"
+[INFO] [16:07:24] [Sender] Odesílání zprávy: "115-1-0-0-27"
+[INFO] [16:07:24] [Listener] Přijmuta zpráva: "320-115-1-0-2"
+[WARNING] [16:07:24] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 56-2-0-0-27
+[WARNING] [16:07:24] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 112-1-0-0-27
+[ERROR] [16:07:24] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:24] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:07:25] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 113-1-0-0-19
+[WARNING] [16:07:25] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 57-2-0-1-16-1-4-2-5
+[ERROR] [16:07:25] [CheckersBoard] Server nedostal odpověď na požadavek 311-1-0-0-18-1-4-2-5
+[INFO] [16:07:25] [Listener] Přijmuta zpráva: "321-2-0-0-26"
+[INFO] [16:07:25] [Sender] Odesílání zprávy: "321-2-0-0-2"
+[INFO] [16:07:25] [Sender] Odesílání zprávy: "60-2-0-0-27"
+[INFO] [16:07:25] [Listener] Přijmuta zpráva: "322-1-0-0-26"
+[INFO] [16:07:25] [Sender] Odesílání zprávy: "322-1-0-0-2"
+[INFO] [16:07:25] [Sender] Odesílání zprávy: "116-1-0-0-27"
+[INFO] [16:07:25] [Listener] Přijmuta zpráva: "323-60-2-0-2"
+[INFO] [16:07:25] [Listener] Přijmuta zpráva: "324-116-1-0-2"
+[WARNING] [16:07:25] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 58-2-0-0-27
+[WARNING] [16:07:25] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 114-1-0-0-27
+[ERROR] [16:07:25] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:26] [Listener] Přijmuta zpráva: "325-2-0-0-26"
+[INFO] [16:07:26] [Sender] Odesílání zprávy: "325-2-0-0-2"
+[INFO] [16:07:26] [Sender] Odesílání zprávy: "61-2-0-0-27"
+[INFO] [16:07:26] [Listener] Přijmuta zpráva: "326-1-0-0-26"
+[INFO] [16:07:26] [Sender] Odesílání zprávy: "326-1-0-0-2"
+[INFO] [16:07:26] [Listener] Přijmuta zpráva: "327-61-2-0-2"
+[INFO] [16:07:26] [Sender] Odesílání zprávy: "117-1-0-0-27"
+[INFO] [16:07:26] [Listener] Přijmuta zpráva: "328-117-1-0-2"
+[WARNING] [16:07:26] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 115-1-0-0-27
+[WARNING] [16:07:26] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 59-2-0-0-27
+[ERROR] [16:07:26] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:26] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:27] [Sender] Odesílání zprávy: "118-1-0-1-16-6-7-5-6"
+[INFO] [16:07:27] [Listener] Přijmuta zpráva: "329-118-1-1-2"
+[INFO] [16:07:27] [Listener] Přijmuta zpráva: "330-1-0-1-17-1"
+[INFO] [16:07:27] [Sender] Odesílání zprávy: "330-1-0-0-2"
+[INFO] [16:07:27] [Listener] Přijmuta zpráva: "331-2-0-0-18-6-7-5-6"
+[INFO] [16:07:27] [Sender] Odesílání zprávy: "331-2-0-0-2"
+[INFO] [16:07:27] [Sender] Odesílání zprávy: "62-2-0-0-19"
+[INFO] [16:07:27] [Listener] Přijmuta zpráva: "332-62-2-0-2"
+[INFO] [16:07:27] [Listener] Přijmuta zpráva: "333-2-0-0-26"
+[INFO] [16:07:27] [Sender] Odesílání zprávy: "333-2-0-0-2"
+[INFO] [16:07:27] [Sender] Odesílání zprávy: "63-2-0-0-27"
+[INFO] [16:07:27] [Listener] Přijmuta zpráva: "334-1-0-0-26"
+[INFO] [16:07:27] [Listener] Přijmuta zpráva: "335-63-2-0-2"
+[INFO] [16:07:27] [Sender] Odesílání zprávy: "334-1-0-0-2"
+[INFO] [16:07:27] [Sender] Odesílání zprávy: "119-1-0-0-27"
+[INFO] [16:07:27] [Listener] Přijmuta zpráva: "336-119-1-0-2"
+[WARNING] [16:07:27] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 60-2-0-0-27
+[ERROR] [16:07:27] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:07:27] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 116-1-0-0-27
+[ERROR] [16:07:27] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:28] [Listener] Přijmuta zpráva: "337-2-0-0-26"
+[INFO] [16:07:28] [Sender] Odesílání zprávy: "337-2-0-0-2"
+[INFO] [16:07:28] [Sender] Odesílání zprávy: "64-2-0-0-27"
+[INFO] [16:07:28] [Listener] Přijmuta zpráva: "338-1-0-0-26"
+[INFO] [16:07:28] [Listener] Přijmuta zpráva: "339-64-2-0-2"
+[INFO] [16:07:28] [Sender] Odesílání zprávy: "338-1-0-0-2"
+[INFO] [16:07:28] [Sender] Odesílání zprávy: "120-1-0-0-27"
+[INFO] [16:07:28] [Listener] Přijmuta zpráva: "340-120-1-0-2"
+[WARNING] [16:07:28] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 61-2-0-0-27
+
+[ERROR] [16:07:28] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:28] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:07:29] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 62-2-0-0-19
+[ERROR] [16:07:29] [CheckersBoard] Server nedostal odpověď na požadavek 331-2-0-0-18-6-7-5-6
+[WARNING] [16:07:29] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 118-1-0-1-16-6-7-5-6
+[INFO] [16:07:29] [Listener] Přijmuta zpráva: "341-2-0-0-26"
+[INFO] [16:07:29] [Sender] Odesílání zprávy: "341-2-0-0-2"
+[INFO] [16:07:29] [Sender] Odesílání zprávy: "65-2-0-0-27"
+[INFO] [16:07:29] [Listener] Přijmuta zpráva: "342-1-0-0-26"
+[INFO] [16:07:29] [Sender] Odesílání zprávy: "342-1-0-0-2"
+[INFO] [16:07:29] [Listener] Přijmuta zpráva: "343-65-2-0-2"
+[INFO] [16:07:29] [Sender] Odesílání zprávy: "121-1-0-0-27"
+[INFO] [16:07:29] [Listener] Přijmuta zpráva: "344-121-1-0-2"
+[WARNING] [16:07:29] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 63-2-0-0-27
+[WARNING] [16:07:29] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 119-1-0-0-27
+[ERROR] [16:07:29] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:29] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:29] [Sender] Odesílání zprávy: "66-2-0-1-16-2-3-3-4"
+[INFO] [16:07:29] [Listener] Přijmuta zpráva: "345-66-2-1-2"
+[INFO] [16:07:29] [Listener] Přijmuta zpráva: "346-2-0-1-17-1"
+[INFO] [16:07:29] [Sender] Odesílání zprávy: "346-2-0-0-2"
+[INFO] [16:07:29] [Listener] Přijmuta zpráva: "347-1-0-0-18-2-3-3-4"
+[INFO] [16:07:29] [Sender] Odesílání zprávy: "347-1-0-0-2"
+[INFO] [16:07:29] [Sender] Odesílání zprávy: "122-1-0-0-19"
+[INFO] [16:07:29] [Listener] Přijmuta zpráva: "348-122-1-0-2"
+[INFO] [16:07:30] [Listener] Přijmuta zpráva: "349-2-0-0-26"
+[INFO] [16:07:30] [Sender] Odesílání zprávy: "349-2-0-0-2"
+[INFO] [16:07:30] [Sender] Odesílání zprávy: "67-2-0-0-27"
+[INFO] [16:07:30] [Listener] Přijmuta zpráva: "350-1-0-0-26"
+[INFO] [16:07:30] [Listener] Přijmuta zpráva: "351-67-2-0-2"
+[INFO] [16:07:30] [Sender] Odesílání zprávy: "350-1-0-0-2"
+[INFO] [16:07:30] [Sender] Odesílání zprávy: "123-1-0-0-27"
+[INFO] [16:07:30] [Listener] Přijmuta zpráva: "352-123-1-0-2"
+[WARNING] [16:07:30] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 64-2-0-0-27
+
+[ERROR] [16:07:30] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:30] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:30] [Sender] Odesílání zprávy: "124-1-0-1-16-4-5-2-3"
+[INFO] [16:07:30] [Listener] Přijmuta zpráva: "353-124-1-1-2"
+[INFO] [16:07:30] [Listener] Přijmuta zpráva: "354-1-0-1-17-1"
+[INFO] [16:07:30] [Sender] Odesílání zprávy: "354-1-0-0-2"
+[INFO] [16:07:30] [Listener] Přijmuta zpráva: "355-2-0-0-18-4-5-2-3"
+[INFO] [16:07:30] [Sender] Odesílání zprávy: "355-2-0-0-2"
+[INFO] [16:07:30] [Sender] Odesílání zprávy: "68-2-0-0-19"
+[INFO] [16:07:30] [Listener] Přijmuta zpráva: "356-68-2-0-2"
+[INFO] [16:07:31] [Listener] Přijmuta zpráva: "357-2-0-0-26"
+[INFO] [16:07:31] [Sender] Odesílání zprávy: "357-2-0-0-2"
+[INFO] [16:07:31] [Sender] Odesílání zprávy: "69-2-0-0-27"
+[INFO] [16:07:31] [Listener] Přijmuta zpráva: "358-1-0-0-26"
+[INFO] [16:07:31] [Sender] Odesílání zprávy: "358-1-0-0-2"
+[INFO] [16:07:31] [Sender] Odesílání zprávy: "125-1-0-0-27"
+[INFO] [16:07:31] [Listener] Přijmuta zpráva: "359-69-2-0-2"
+[INFO] [16:07:31] [Listener] Přijmuta zpráva: "360-125-1-0-2"
+[WARNING] [16:07:31] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 65-2-0-0-27
+[WARNING] [16:07:31] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 121-1-0-0-27
+[ERROR] [16:07:31] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:31] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:07:31] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 66-2-0-1-16-2-3-3-4
+[WARNING] [16:07:31] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 122-1-0-0-19
+[ERROR] [16:07:31] [CheckersBoard] Server nedostal odpověď na požadavek 347-1-0-0-18-2-3-3-4
+[INFO] [16:07:32] [Listener] Přijmuta zpráva: "361-2-0-0-26"
+[INFO] [16:07:32] [Sender] Odesílání zprávy: "361-2-0-0-2"
+[INFO] [16:07:32] [Sender] Odesílání zprávy: "70-2-0-0-27"
+[INFO] [16:07:32] [Listener] Přijmuta zpráva: "362-1-0-0-26"
+[INFO] [16:07:32] [Sender] Odesílání zprávy: "362-1-0-0-2"
+[INFO] [16:07:32] [Listener] Přijmuta zpráva: "363-70-2-0-2"
+[INFO] [16:07:32] [Sender] Odesílání zprávy: "126-1-0-0-27"
+[INFO] [16:07:32] [Listener] Přijmuta zpráva: "364-126-1-0-2"
+[WARNING] [16:07:32] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 67-2-0-0-27
+[ERROR] [16:07:32] [Program] Nebylo možné doručit odpověď na ping
+ávu 123-1-0-0-27
+[ERROR] [16:07:32] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:32] [Sender] Odesílání zprávy: "71-2-0-1-16-2-1-3-2"
+[INFO] [16:07:32] [Listener] Přijmuta zpráva: "365-71-2-1-2"
+[INFO] [16:07:32] [Listener] Přijmuta zpráva: "366-2-0-1-17-1"
+[INFO] [16:07:32] [Sender] Odesílání zprávy: "366-2-0-0-2"
+[INFO] [16:07:32] [Listener] Přijmuta zpráva: "367-1-0-0-18-2-1-3-2"
+[INFO] [16:07:32] [Sender] Odesílání zprávy: "367-1-0-0-2"
+[INFO] [16:07:32] [Sender] Odesílání zprávy: "127-1-0-0-19"
+[INFO] [16:07:32] [Listener] Přijmuta zpráva: "368-127-1-0-2"
+[WARNING] [16:07:32] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 68-2-0-0-19
+[ERROR] [16:07:32] [CheckersBoard] Server nedostal odpověď na požadavek 355-2-0-0-18-4-5-2-3
+[WARNING] [16:07:32] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 124-1-0-1-16-4-5-2-3
+[INFO] [16:07:33] [Listener] Přijmuta zpráva: "369-2-0-0-26"
+[INFO] [16:07:33] [Sender] Odesílání zprávy: "369-2-0-0-2"
+[INFO] [16:07:33] [Sender] Odesílání zprávy: "72-2-0-0-27"
+[INFO] [16:07:33] [Listener] Přijmuta zpráva: "370-1-0-0-26"
+[INFO] [16:07:33] [Listener] Přijmuta zpráva: "371-72-2-0-2"
+[INFO] [16:07:33] [Sender] Odesílání zprávy: "370-1-0-0-2"
+[INFO] [16:07:33] [Sender] Odesílání zprávy: "128-1-0-0-27"
+[INFO] [16:07:33] [Listener] Přijmuta zpráva: "372-128-1-0-2"
+[WARNING] [16:07:33] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 69-2-0-0-27
+[WARNING] [16:07:33] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 125-1-0-0-27
+[ERROR] [16:07:33] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:33] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:34] [Listener] Přijmuta zpráva: "373-2-0-0-26"
+[INFO] [16:07:34] [Sender] Odesílání zprávy: "373-2-0-0-2"
+[INFO] [16:07:34] [Sender] Odesílání zprávy: "73-2-0-0-27"
+[INFO] [16:07:34] [Listener] Přijmuta zpráva: "375-73-2-0-2"
+[INFO] [16:07:34] [Listener] Přijmuta zpráva: "374-1-0-0-26"
+[INFO] [16:07:34] [Sender] Odesílání zprávy: "374-1-0-0-2"
+[INFO] [16:07:34] [Sender] Odesílání zprávy: "129-1-0-0-27"
+[INFO] [16:07:34] [Listener] Přijmuta zpráva: "376-129-1-0-2"
+[WARNING] [16:07:34] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 70-2-0-0-27
+[WARNING] [16:07:34] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 126-1-0-0-27
+[ERROR] [16:07:34] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:34] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:07:34] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 71-2-0-1-16-2-1-3-2
+[ERROR] [16:07:34] [CheckersBoard] Server nedostal odpověď na požadavek 367-1-0-0-18-2-1-3-2
+[INFO] [16:07:35] [Listener] Přijmuta zpráva: "377-2-0-0-26"
+[INFO] [16:07:35] [Sender] Odesílání zprávy: "377-2-0-0-2"
+[INFO] [16:07:35] [Listener] Přijmuta zpráva: "378-1-0-0-26"
+[INFO] [16:07:35] [Sender] Odesílání zprávy: "74-2-0-0-27"
+[INFO] [16:07:35] [Sender] Odesílání zprávy: "378-1-0-0-2"
+[INFO] [16:07:35] [Listener] Přijmuta zpráva: "379-74-2-0-2"
+[INFO] [16:07:35] [Sender] Odesílání zprávy: "130-1-0-0-27"
+[INFO] [16:07:35] [Listener] Přijmuta zpráva: "380-130-1-0-2"
+[WARNING] [16:07:35] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 128-1-0-0-27
+[ERROR] [16:07:35] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:35] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:36] [Sender] Odesílání zprávy: "131-1-0-1-16-5-2-4-1"
+[INFO] [16:07:36] [Listener] Přijmuta zpráva: "381-131-1-1-2"
+[INFO] [16:07:36] [Listener] Přijmuta zpráva: "382-1-0-1-17-1"
+[INFO] [16:07:36] [Sender] Odesílání zprávy: "382-1-0-0-2"
+[INFO] [16:07:36] [Listener] Přijmuta zpráva: "383-2-0-0-18-5-2-4-1"
+[INFO] [16:07:36] [Sender] Odesílání zprávy: "383-2-0-0-2"
+[INFO] [16:07:36] [Sender] Odesílání zprávy: "75-2-0-0-19"
+[INFO] [16:07:36] [Listener] Přijmuta zpráva: "384-75-2-0-2"
+[INFO] [16:07:36] [Listener] Přijmuta zpráva: "385-2-0-0-26"
+[INFO] [16:07:36] [Listener] Přijmuta zpráva: "386-1-0-0-26"
+[INFO] [16:07:36] [Sender] Odesílání zprávy: "386-1-0-0-2"
+[INFO] [16:07:36] [Sender] Odesílání zprávy: "132-1-0-0-27"
+[INFO] [16:07:36] [Listener] Přijmuta zpráva: "387-132-1-0-2"
+[INFO] [16:07:36] [Sender] Odesílání zprávy: "385-2-0-0-2"
+[INFO] [16:07:36] [Sender] Odesílání zprávy: "76-2-0-0-27"
+[INFO] [16:07:36] [Listener] Přijmuta zpráva: "388-76-2-0-2"
+[WARNING] [16:07:36] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 129-1-0-0-27
+[ERROR] [16:07:36] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:36] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:37] [Listener] Přijmuta zpráva: "389-2-0-0-26"
+[INFO] [16:07:37] [Sender] Odesílání zprávy: "389-2-0-0-2"
+[INFO] [16:07:37] [Sender] Odesílání zprávy: "77-2-0-0-27"
+[INFO] [16:07:37] [Listener] Přijmuta zpráva: "390-1-0-0-26"
+[INFO] [16:07:37] [Sender] Odesílání zprávy: "390-1-0-0-2"
+[INFO] [16:07:37] [Listener] Přijmuta zpráva: "391-77-2-0-2"
+[INFO] [16:07:37] [Sender] Odesílání zprávy: "133-1-0-0-27"
+[INFO] [16:07:37] [Listener] Přijmuta zpráva: "392-133-1-0-2"
+[WARNING] [16:07:37] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 74-2-0-0-27
+[WARNING] [16:07:37] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 130-1-0-0-27
+[ERROR] [16:07:37] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:37] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:38] [Listener] Přijmuta zpráva: "393-2-0-0-26"
+[INFO] [16:07:38] [Sender] Odesílání zprávy: "393-2-0-0-2"
+[INFO] [16:07:38] [Sender] Odesílání zprávy: "78-2-0-0-27"
+[INFO] [16:07:38] [Listener] Přijmuta zpráva: "395-78-2-0-2"
+[INFO] [16:07:38] [Listener] Přijmuta zpráva: "394-1-0-0-26"
+[INFO] [16:07:38] [Sender] Odesílání zprávy: "394-1-0-0-2"
+[INFO] [16:07:38] [Sender] Odesílání zprávy: "134-1-0-0-27"
+[INFO] [16:07:38] [Listener] Přijmuta zpráva: "396-134-1-0-2"
+[WARNING] [16:07:38] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 75-2-0-0-19
+[WARNING] [16:07:38] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 131-1-0-1-16-5-2-4-1
+[ERROR] [16:07:38] [CheckersBoard] Server nedostal odpověď na požadavek 383-2-0-0-18-5-2-4-1
+[WARNING] [16:07:38] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 132-1-0-0-27
+[ERROR] [16:07:38] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:07:38] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 76-2-0-0-27
+[ERROR] [16:07:38] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:38] [Sender] Odesílání zprávy: "79-2-0-1-16-1-0-2-1"
+[INFO] [16:07:38] [Listener] Přijmuta zpráva: "397-79-2-1-2"
+[INFO] [16:07:38] [Listener] Přijmuta zpráva: "398-2-0-1-17-1"
+[INFO] [16:07:38] [Sender] Odesílání zprávy: "398-2-0-0-2"
+[INFO] [16:07:38] [Listener] Přijmuta zpráva: "399-1-0-0-18-1-0-2-1"
+[INFO] [16:07:38] [Sender] Odesílání zprávy: "399-1-0-0-2"
+[INFO] [16:07:38] [Sender] Odesílání zprávy: "135-1-0-0-19"
+[INFO] [16:07:38] [Listener] Přijmuta zpráva: "400-135-1-0-2"
+[INFO] [16:07:39] [Listener] Přijmuta zpráva: "401-2-0-0-26"
+[INFO] [16:07:39] [Sender] Odesílání zprávy: "401-2-0-0-2"
+[INFO] [16:07:39] [Sender] Odesílání zprávy: "80-2-0-0-27"
+[INFO] [16:07:39] [Listener] Přijmuta zpráva: "402-1-0-0-26"
+[INFO] [16:07:39] [Listener] Přijmuta zpráva: "403-80-2-0-2"
+[INFO] [16:07:39] [Sender] Odesílání zprávy: "402-1-0-0-2"
+[INFO] [16:07:39] [Sender] Odesílání zprávy: "136-1-0-0-27"
+[INFO] [16:07:39] [Listener] Přijmuta zpráva: "404-136-1-0-2"
+[WARNING] [16:07:39] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 77-2-0-0-27
+[ERROR] [16:07:39] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:07:39] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 133-1-0-0-27
+[ERROR] [16:07:39] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:39] [Sender] Odesílání zprávy: "137-1-0-1-16-2-3-1-2"
+[INFO] [16:07:39] [Listener] Přijmuta zpráva: "405-137-1-1-2"
+[INFO] [16:07:39] [Listener] Přijmuta zpráva: "406-1-0-1-17-1"
+[INFO] [16:07:39] [Sender] Odesílání zprávy: "406-1-0-0-2"
+[INFO] [16:07:39] [Listener] Přijmuta zpráva: "407-2-0-0-18-2-3-1-2"
+[INFO] [16:07:39] [Sender] Odesílání zprávy: "407-2-0-0-2"
+[INFO] [16:07:39] [Sender] Odesílání zprávy: "81-2-0-0-19"
+[INFO] [16:07:39] [Listener] Přijmuta zpráva: "408-81-2-0-2"
+[INFO] [16:07:40] [Listener] Přijmuta zpráva: "409-2-0-0-26"
+[INFO] [16:07:40] [Sender] Odesílání zprávy: "409-2-0-0-2"
+[INFO] [16:07:40] [Listener] Přijmuta zpráva: "410-1-0-0-26"
+[INFO] [16:07:40] [Sender] Odesílání zprávy: "82-2-0-0-27"
+[INFO] [16:07:40] [Sender] Odesílání zprávy: "410-1-0-0-2"
+[INFO] [16:07:40] [Listener] Přijmuta zpráva: "411-82-2-0-2"
+[INFO] [16:07:40] [Sender] Odesílání zprávy: "138-1-0-0-27"
+[INFO] [16:07:40] [Listener] Přijmuta zpráva: "412-138-1-0-2"
+[WARNING] [16:07:40] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 78-2-0-0-27
+[ERROR] [16:07:40] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:07:40] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 134-1-0-0-27
+[ERROR] [16:07:40] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:07:40] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 79-2-0-1-16-1-0-2-1
+[WARNING] [16:07:40] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 135-1-0-0-19
+[ERROR] [16:07:40] [CheckersBoard] Server nedostal odpověď na požadavek 399-1-0-0-18-1-0-2-1
+[INFO] [16:07:41] [Listener] Přijmuta zpráva: "413-2-0-0-26"
+[INFO] [16:07:41] [Sender] Odesílání zprávy: "413-2-0-0-2"
+[INFO] [16:07:41] [Sender] Odesílání zprávy: "83-2-0-0-27"
+[INFO] [16:07:41] [Listener] Přijmuta zpráva: "415-83-2-0-2"
+[INFO] [16:07:41] [Listener] Přijmuta zpráva: "414-1-0-0-26"
+[INFO] [16:07:41] [Sender] Odesílání zprávy: "414-1-0-0-2"
+[INFO] [16:07:41] [Sender] Odesílání zprávy: "139-1-0-0-27"
+[INFO] [16:07:41] [Listener] Přijmuta zpráva: "416-139-1-0-2"
+[WARNING] [16:07:41] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 80-2-0-0-27
+[WARNING] [16:07:41] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 136-1-0-0-27
+[ERROR] [16:07:41] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:41] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:07:41] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 137-1-0-1-16-2-3-1-2
+[WARNING] [16:07:41] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 81-2-0-0-19
+[ERROR] [16:07:41] [CheckersBoard] Server nedostal odpověď na požadavek 407-2-0-0-18-2-3-1-2
+[INFO] [16:07:42] [Listener] Přijmuta zpráva: "417-2-0-0-26"
+[INFO] [16:07:42] [Sender] Odesílání zprávy: "417-2-0-0-2"
+[INFO] [16:07:42] [Sender] Odesílání zprávy: "84-2-0-0-27"
+[INFO] [16:07:42] [Listener] Přijmuta zpráva: "418-1-0-0-26"
+[INFO] [16:07:42] [Listener] Přijmuta zpráva: "419-84-2-0-2"
+[INFO] [16:07:42] [Sender] Odesílání zprávy: "418-1-0-0-2"
+[INFO] [16:07:42] [Sender] Odesílání zprávy: "140-1-0-0-27"
+[INFO] [16:07:42] [Listener] Přijmuta zpráva: "420-140-1-0-2"
+[WARNING] [16:07:42] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 82-2-0-0-27
+[WARNING] [16:07:42] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 138-1-0-0-27
+[ERROR] [16:07:42] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:42] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:42] [Sender] Odesílání zprávy: "85-2-0-1-16-3-2-4-3"
+[INFO] [16:07:42] [Listener] Přijmuta zpráva: "421-85-2-1-2"
+[INFO] [16:07:42] [Listener] Přijmuta zpráva: "422-2-0-1-17-1"
+[INFO] [16:07:42] [Sender] Odesílání zprávy: "422-2-0-0-2"
+[INFO] [16:07:42] [Listener] Přijmuta zpráva: "423-1-0-0-18-3-2-4-3"
+[INFO] [16:07:42] [Sender] Odesílání zprávy: "423-1-0-0-2"
+[INFO] [16:07:42] [Sender] Odesílání zprávy: "141-1-0-0-19"
+[INFO] [16:07:42] [Listener] Přijmuta zpráva: "424-141-1-0-2"
+[INFO] [16:07:43] [Listener] Přijmuta zpráva: "425-2-0-0-26"
+[INFO] [16:07:43] [Sender] Odesílání zprávy: "425-2-0-0-2"
+[INFO] [16:07:43] [Sender] Odesílání zprávy: "86-2-0-0-27"
+[INFO] [16:07:43] [Listener] Přijmuta zpráva: "426-1-0-0-26"
+[INFO] [16:07:43] [Sender] Odesílání zprávy: "426-1-0-0-2"
+[INFO] [16:07:43] [Listener] Přijmuta zpráva: "427-86-2-0-2"
+[INFO] [16:07:43] [Sender] Odesílání zprávy: "142-1-0-0-27"
+[INFO] [16:07:43] [Listener] Přijmuta zpráva: "428-142-1-0-2"
+[WARNING] [16:07:43] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 139-1-0-0-27
+[WARNING] [16:07:43] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 83-2-0-0-27
+[ERROR] [16:07:43] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:43] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:43] [Sender] Odesílání zprávy: "143-1-0-1-16-1-2-0-1"
+[INFO] [16:07:43] [Listener] Přijmuta zpráva: "429-143-1-1-2"
+[INFO] [16:07:43] [Listener] Přijmuta zpráva: "430-1-0-1-17-1"
+[INFO] [16:07:43] [Sender] Odesílání zprávy: "430-1-0-0-2"
+[INFO] [16:07:43] [Listener] Přijmuta zpráva: "431-2-0-0-18-1-2-0-1"
+[INFO] [16:07:43] [Sender] Odesílání zprávy: "431-2-0-0-2"
+[INFO] [16:07:43] [Sender] Odesílání zprávy: "87-2-0-0-19"
+[INFO] [16:07:43] [Listener] Přijmuta zpráva: "432-87-2-0-2"
+[INFO] [16:07:44] [Listener] Přijmuta zpráva: "433-2-0-0-26"
+[INFO] [16:07:44] [Sender] Odesílání zprávy: "433-2-0-0-2"
+[INFO] [16:07:44] [Sender] Odesílání zprávy: "88-2-0-0-27"
+[INFO] [16:07:44] [Listener] Přijmuta zpráva: "434-1-0-0-26"
+[INFO] [16:07:44] [Listener] Přijmuta zpráva: "435-88-2-0-2"
+[INFO] [16:07:44] [Sender] Odesílání zprávy: "434-1-0-0-2"
+[INFO] [16:07:44] [Sender] Odesílání zprávy: "144-1-0-0-27"
+[INFO] [16:07:44] [Listener] Přijmuta zpráva: "436-144-1-0-2"
+[WARNING] [16:07:44] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 140-1-0-0-27
+[WARNING] [16:07:44] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 84-2-0-0-27
+[ERROR] [16:07:44] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:44] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:07:44] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 141-1-0-0-19
+[WARNING] [16:07:44] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 85-2-0-1-16-3-2-4-3
+[ERROR] [16:07:44] [CheckersBoard] Server nedostal odpověď na požadavek 423-1-0-0-18-3-2-4-3
+[INFO] [16:07:45] [Listener] Přijmuta zpráva: "437-2-0-0-26"
+[INFO] [16:07:45] [Sender] Odesílání zprávy: "437-2-0-0-2"
+[INFO] [16:07:45] [Sender] Odesílání zprávy: "89-2-0-0-27"
+[INFO] [16:07:45] [Listener] Přijmuta zpráva: "438-1-0-0-26"
+[INFO] [16:07:45] [Sender] Odesílání zprávy: "438-1-0-0-2"
+[INFO] [16:07:45] [Listener] Přijmuta zpráva: "439-89-2-0-2"
+[INFO] [16:07:45] [Sender] Odesílání zprávy: "145-1-0-0-27"
+[INFO] [16:07:45] [Listener] Přijmuta zpráva: "440-145-1-0-2"
+[WARNING] [16:07:45] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 142-1-0-0-27
+[ERROR] [16:07:45] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:45] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:07:45] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 143-1-0-1-16-1-2-0-1
+[WARNING] [16:07:45] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 87-2-0-0-19
+[ERROR] [16:07:45] [CheckersBoard] Server nedostal odpověď na požadavek 431-2-0-0-18-1-2-0-1
+[INFO] [16:07:46] [Listener] Přijmuta zpráva: "441-2-0-0-26"
+[INFO] [16:07:46] [Sender] Odesílání zprávy: "441-2-0-0-2"
+[INFO] [16:07:46] [Sender] Odesílání zprávy: "90-2-0-0-27"
+[INFO] [16:07:46] [Listener] Přijmuta zpráva: "442-1-0-0-26"
+[INFO] [16:07:46] [Sender] Odesílání zprávy: "442-1-0-0-2"
+[INFO] [16:07:46] [Listener] Přijmuta zpráva: "443-90-2-0-2"
+[INFO] [16:07:46] [Sender] Odesílání zprávy: "146-1-0-0-27"
+[WARNING] [16:07:46] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 144-1-0-0-27
+[WARNING] [16:07:46] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 88-2-0-0-27
+[ERROR] [16:07:46] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:46] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:46] [Listener] Přijmuta zpráva: "444-146-1-0-2"
+[INFO] [16:07:46] [Sender] Odesílání zprávy: "91-2-0-1-16-4-3-5-2"
+[INFO] [16:07:46] [Listener] Přijmuta zpráva: "445-91-2-1-2"
+[INFO] [16:07:46] [Listener] Přijmuta zpráva: "446-2-0-1-17-1"
+[INFO] [16:07:46] [Sender] Odesílání zprávy: "446-2-0-0-2"
+[INFO] [16:07:46] [Listener] Přijmuta zpráva: "447-1-0-0-18-4-3-5-2"
+[INFO] [16:07:46] [Sender] Odesílání zprávy: "447-1-0-0-2"
+[INFO] [16:07:46] [Sender] Odesílání zprávy: "147-1-0-0-19"
+[INFO] [16:07:46] [Listener] Přijmuta zpráva: "448-147-1-0-2"
+[INFO] [16:07:47] [Listener] Přijmuta zpráva: "449-2-0-0-26"
+[INFO] [16:07:47] [Sender] Odesílání zprávy: "449-2-0-0-2"
+[INFO] [16:07:47] [Sender] Odesílání zprávy: "92-2-0-0-27"
+[INFO] [16:07:47] [Listener] Přijmuta zpráva: "450-1-0-0-26"
+[INFO] [16:07:47] [Listener] Přijmuta zpráva: "451-92-2-0-2"
+[INFO] [16:07:47] [Sender] Odesílání zprávy: "450-1-0-0-2"
+[INFO] [16:07:47] [Sender] Odesílání zprávy: "148-1-0-0-27"
+[INFO] [16:07:47] [Listener] Přijmuta zpráva: "452-148-1-0-2"
+[WARNING] [16:07:47] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 145-1-0-0-27
+[WARNING] [16:07:47] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 89-2-0-0-27
+[ERROR] [16:07:47] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:47] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:47] [Listener] Přijmuta zpráva: "453-2-0-0-26"
+[INFO] [16:07:47] [Sender] Odesílání zprávy: "453-2-0-0-2"
+[INFO] [16:07:47] [Sender] Odesílání zprávy: "93-2-0-0-27"
+[INFO] [16:07:47] [Listener] Přijmuta zpráva: "454-1-0-0-26"
+[INFO] [16:07:47] [Sender] Odesílání zprávy: "454-1-0-0-2"
+[INFO] [16:07:47] [Listener] Přijmuta zpráva: "455-93-2-0-2"
+[INFO] [16:07:47] [Sender] Odesílání zprávy: "149-1-0-0-27"
+[INFO] [16:07:47] [Listener] Přijmuta zpráva: "456-149-1-0-2"
+[WARNING] [16:07:48] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 146-1-0-0-27
+[ERROR] [16:07:48] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:48] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:48] [Sender] Odesílání zprávy: "150-1-0-1-16-6-1-4-3"
+[INFO] [16:07:48] [Listener] Přijmuta zpráva: "457-150-1-1-2"
+[INFO] [16:07:48] [Listener] Přijmuta zpráva: "458-1-0-1-17-1"
+[INFO] [16:07:48] [Sender] Odesílání zprávy: "458-1-0-0-2"
+[INFO] [16:07:48] [Listener] Přijmuta zpráva: "459-2-0-0-18-6-1-4-3"
+[INFO] [16:07:48] [Sender] Odesílání zprávy: "459-2-0-0-2"
+[INFO] [16:07:48] [Sender] Odesílání zprávy: "94-2-0-0-19"
+[INFO] [16:07:48] [Listener] Přijmuta zpráva: "460-94-2-0-2"
+[WARNING] [16:07:48] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 91-2-0-1-16-4-3-5-2
+[WARNING] [16:07:48] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 147-1-0-0-19
+[ERROR] [16:07:48] [CheckersBoard] Server nedostal odpověď na požadavek 447-1-0-0-18-4-3-5-2
+[INFO] [16:07:48] [Listener] Přijmuta zpráva: "461-2-0-0-26"
+[INFO] [16:07:48] [Sender] Odesílání zprávy: "461-2-0-0-2"
+[INFO] [16:07:48] [Sender] Odesílání zprávy: "95-2-0-0-27"
+[INFO] [16:07:48] [Listener] Přijmuta zpráva: "462-1-0-0-26"
+[INFO] [16:07:48] [Sender] Odesílání zprávy: "462-1-0-0-2"
+[INFO] [16:07:48] [Listener] Přijmuta zpráva: "463-95-2-0-2"
+[INFO] [16:07:48] [Sender] Odesílání zprávy: "151-1-0-0-27"
+[INFO] [16:07:48] [Listener] Přijmuta zpráva: "464-151-1-0-2"
+[WARNING] [16:07:49] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 92-2-0-0-27
+[WARNING] [16:07:49] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 148-1-0-0-27
+[ERROR] [16:07:49] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:49] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:49] [Listener] Přijmuta zpráva: "465-2-0-0-26"
+[INFO] [16:07:49] [Sender] Odesílání zprávy: "465-2-0-0-2"
+[INFO] [16:07:49] [Listener] Přijmuta zpráva: "466-1-0-0-26"
+[INFO] [16:07:49] [Sender] Odesílání zprávy: "96-2-0-0-27"
+[INFO] [16:07:49] [Sender] Odesílání zprávy: "466-1-0-0-2"
+[INFO] [16:07:49] [Listener] Přijmuta zpráva: "467-96-2-0-2"
+[INFO] [16:07:49] [Sender] Odesílání zprávy: "152-1-0-0-27"
+[INFO] [16:07:49] [Listener] Přijmuta zpráva: "468-152-1-0-2"
+[WARNING] [16:07:49] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 149-1-0-0-27
+[ERROR] [16:07:49] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:49] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:07:50] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 94-2-0-0-19
+[ERROR] [16:07:50] [CheckersBoard] Server nedostal odpověď na požadavek 459-2-0-0-18-6-1-4-3
+
+[INFO] [16:07:50] [Listener] Přijmuta zpráva: "469-2-0-0-26"
+[INFO] [16:07:50] [Sender] Odesílání zprávy: "469-2-0-0-2"
+[INFO] [16:07:50] [Sender] Odesílání zprávy: "97-2-0-0-27"
+[INFO] [16:07:50] [Listener] Přijmuta zpráva: "470-1-0-0-26"
+[INFO] [16:07:50] [Sender] Odesílání zprávy: "470-1-0-0-2"
+[INFO] [16:07:50] [Listener] Přijmuta zpráva: "471-97-2-0-2"
+[INFO] [16:07:50] [Sender] Odesílání zprávy: "153-1-0-0-27"
+[INFO] [16:07:50] [Listener] Přijmuta zpráva: "472-153-1-0-2"
+[WARNING] [16:07:50] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 95-2-0-0-27
+
+[ERROR] [16:07:50] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:50] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:51] [Listener] Přijmuta zpráva: "473-2-0-0-26"
+[INFO] [16:07:51] [Sender] Odesílání zprávy: "473-2-0-0-2"
+[INFO] [16:07:51] [Sender] Odesílání zprávy: "98-2-0-0-27"
+[INFO] [16:07:51] [Listener] Přijmuta zpráva: "474-1-0-0-26"
+[INFO] [16:07:51] [Listener] Přijmuta zpráva: "475-98-2-0-2"
+[INFO] [16:07:51] [Sender] Odesílání zprávy: "474-1-0-0-2"
+[INFO] [16:07:51] [Sender] Odesílání zprávy: "154-1-0-0-27"
+[INFO] [16:07:51] [Listener] Přijmuta zpráva: "476-154-1-0-2"
+[WARNING] [16:07:51] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 96-2-0-0-27
+
+[ERROR] [16:07:51] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:51] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:52] [Sender] Odesílání zprávy: "99-2-0-1-16-2-1-3-2"
+[INFO] [16:07:52] [Listener] Přijmuta zpráva: "477-99-2-1-2"
+[INFO] [16:07:52] [Listener] Přijmuta zpráva: "478-2-0-1-17-1"
+[INFO] [16:07:52] [Sender] Odesílání zprávy: "478-2-0-0-2"
+[INFO] [16:07:52] [Listener] Přijmuta zpráva: "479-1-0-0-18-2-1-3-2"
+[INFO] [16:07:52] [Sender] Odesílání zprávy: "479-1-0-0-2"
+[INFO] [16:07:52] [Sender] Odesílání zprávy: "155-1-0-0-19"
+[INFO] [16:07:52] [Listener] Přijmuta zpráva: "480-155-1-0-2"
+[INFO] [16:07:52] [Listener] Přijmuta zpráva: "481-2-0-0-26"
+[INFO] [16:07:52] [Sender] Odesílání zprávy: "481-2-0-0-2"
+[INFO] [16:07:52] [Sender] Odesílání zprávy: "100-2-0-0-27"
+[INFO] [16:07:52] [Listener] Přijmuta zpráva: "482-1-0-0-26"
+[INFO] [16:07:52] [Sender] Odesílání zprávy: "482-1-0-0-2"
+[INFO] [16:07:52] [Listener] Přijmuta zpráva: "483-100-2-0-2"
+[INFO] [16:07:52] [Sender] Odesílání zprávy: "156-1-0-0-27"
+[INFO] [16:07:52] [Listener] Přijmuta zpráva: "484-156-1-0-2"
+[WARNING] [16:07:52] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 153-1-0-0-27
+[ERROR] [16:07:52] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:52] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:53] [Sender] Odesílání zprávy: "157-1-0-1-16-4-3-2-1"
+[INFO] [16:07:53] [Listener] Přijmuta zpráva: "485-157-1-1-2"
+[INFO] [16:07:53] [Listener] Přijmuta zpráva: "486-1-0-1-17-1"
+[INFO] [16:07:53] [Sender] Odesílání zprávy: "486-1-0-0-2"
+[INFO] [16:07:53] [Listener] Přijmuta zpráva: "487-2-0-0-18-4-3-2-1"
+[INFO] [16:07:53] [Sender] Odesílání zprávy: "487-2-0-0-2"
+[INFO] [16:07:53] [Sender] Odesílání zprávy: "101-2-0-0-19"
+[INFO] [16:07:53] [Listener] Přijmuta zpráva: "488-101-2-0-2"
+[INFO] [16:07:53] [Listener] Přijmuta zpráva: "489-2-0-0-26"
+[INFO] [16:07:53] [Sender] Odesílání zprávy: "489-2-0-0-2"
+[INFO] [16:07:53] [Sender] Odesílání zprávy: "102-2-0-0-27"
+[INFO] [16:07:53] [Listener] Přijmuta zpráva: "490-1-0-0-26"
+[INFO] [16:07:53] [Listener] Přijmuta zpráva: "491-102-2-0-2"
+[INFO] [16:07:53] [Sender] Odesílání zprávy: "490-1-0-0-2"
+[INFO] [16:07:53] [Sender] Odesílání zprávy: "158-1-0-0-27"
+[INFO] [16:07:53] [Listener] Přijmuta zpráva: "492-158-1-0-2"
+[WARNING] [16:07:53] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 98-2-0-0-27
+[WARNING] [16:07:53] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 154-1-0-0-27
+[ERROR] [16:07:53] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:53] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:07:54] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 155-1-0-0-19
+[WARNING] [16:07:54] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 99-2-0-1-16-2-1-3-2
+[ERROR] [16:07:54] [CheckersBoard] Server nedostal odpověď na požadavek 479-1-0-0-18-2-1-3-2
+[INFO] [16:07:54] [Listener] Přijmuta zpráva: "493-2-0-0-26"
+[INFO] [16:07:54] [Sender] Odesílání zprávy: "493-2-0-0-2"
+[INFO] [16:07:54] [Sender] Odesílání zprávy: "103-2-0-0-27"
+[INFO] [16:07:54] [Listener] Přijmuta zpráva: "494-1-0-0-26"
+[INFO] [16:07:54] [Listener] Přijmuta zpráva: "495-103-2-0-2"
+[INFO] [16:07:54] [Sender] Odesílání zprávy: "494-1-0-0-2"
+[INFO] [16:07:54] [Sender] Odesílání zprávy: "159-1-0-0-27"
+[INFO] [16:07:54] [Listener] Přijmuta zpráva: "496-159-1-0-2"
+[WARNING] [16:07:54] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 156-1-0-0-27
+[WARNING] [16:07:54] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 100-2-0-0-27
+[ERROR] [16:07:54] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:54] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:07:55] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 101-2-0-0-19
+[ERROR] [16:07:55] [CheckersBoard] Server nedostal odpověď na požadavek 487-2-0-0-18-4-3-2-1
+[WARNING] [16:07:55] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 157-1-0-1-16-4-3-2-1
+[INFO] [16:07:55] [Listener] Přijmuta zpráva: "497-2-0-0-26"
+[INFO] [16:07:55] [Sender] Odesílání zprávy: "497-2-0-0-2"
+[INFO] [16:07:55] [Sender] Odesílání zprávy: "104-2-0-0-27"
+[INFO] [16:07:55] [Listener] Přijmuta zpráva: "498-1-0-0-26"
+[INFO] [16:07:55] [Listener] Přijmuta zpráva: "499-104-2-0-2"
+[INFO] [16:07:55] [Sender] Odesílání zprávy: "498-1-0-0-2"
+[INFO] [16:07:55] [Sender] Odesílání zprávy: "160-1-0-0-27"
+[INFO] [16:07:55] [Listener] Přijmuta zpráva: "500-160-1-0-2"
+[WARNING] [16:07:55] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 158-1-0-0-27
+[ERROR] [16:07:55] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:55] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:55] [Sender] Odesílání zprávy: "105-2-0-1-16-0-3-1-2"
+[INFO] [16:07:55] [Listener] Přijmuta zpráva: "501-105-2-1-2"
+[INFO] [16:07:55] [Listener] Přijmuta zpráva: "502-2-0-1-17-1"
+[INFO] [16:07:55] [Sender] Odesílání zprávy: "502-2-0-0-2"
+[INFO] [16:07:55] [Listener] Přijmuta zpráva: "503-1-0-0-18-0-3-1-2"
+[INFO] [16:07:55] [Sender] Odesílání zprávy: "503-1-0-0-2"
+[INFO] [16:07:55] [Sender] Odesílání zprávy: "161-1-0-0-19"
+[INFO] [16:07:55] [Listener] Přijmuta zpráva: "504-161-1-0-2"
+[INFO] [16:07:56] [Listener] Přijmuta zpráva: "505-2-0-0-26"
+[INFO] [16:07:56] [Sender] Odesílání zprávy: "505-2-0-0-2"
+[INFO] [16:07:56] [Listener] Přijmuta zpráva: "506-1-0-0-26"
+[INFO] [16:07:56] [Sender] Odesílání zprávy: "106-2-0-0-27"
+[INFO] [16:07:56] [Sender] Odesílání zprávy: "506-1-0-0-2"
+[INFO] [16:07:56] [Listener] Přijmuta zpráva: "507-106-2-0-2"
+[INFO] [16:07:56] [Sender] Odesílání zprávy: "162-1-0-0-27"
+[INFO] [16:07:56] [Listener] Přijmuta zpráva: "508-162-1-0-2"
+[WARNING] [16:07:56] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 159-1-0-0-27
+[WARNING] [16:07:56] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 103-2-0-0-27
+[ERROR] [16:07:56] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:56] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:57] [Listener] Přijmuta zpráva: "509-2-0-0-26"
+[INFO] [16:07:57] [Sender] Odesílání zprávy: "509-2-0-0-2"
+[INFO] [16:07:57] [Sender] Odesílání zprávy: "107-2-0-0-27"
+[INFO] [16:07:57] [Listener] Přijmuta zpráva: "510-1-0-0-26"
+[INFO] [16:07:57] [Listener] Přijmuta zpráva: "511-107-2-0-2"
+[INFO] [16:07:57] [Sender] Odesílání zprávy: "163-1-0-0-27"
+[INFO] [16:07:57] [Listener] Přijmuta zpráva: "512-163-1-0-2"
+[WARNING] [16:07:57] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 104-2-0-0-27
+[ERROR] [16:07:57] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:07:57] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 160-1-0-0-27
+[ERROR] [16:07:57] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:07:57] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 105-2-0-1-16-0-3-1-2
+[WARNING] [16:07:57] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 161-1-0-0-19
+[ERROR] [16:07:57] [CheckersBoard] Server nedostal odpověď na požadavek 503-1-0-0-18-0-3-1-2
+[INFO] [16:07:58] [Sender] Odesílání zprávy: "164-1-0-1-16-0-1-2-3"
+[INFO] [16:07:58] [Listener] Přijmuta zpráva: "513-164-1-1-2"
+[INFO] [16:07:58] [Listener] Přijmuta zpráva: "514-1-0-1-17-1"
+[INFO] [16:07:58] [Sender] Odesílání zprávy: "514-1-0-0-2"
+[INFO] [16:07:58] [Listener] Přijmuta zpráva: "515-2-0-0-18-0-1-2-3"
+[INFO] [16:07:58] [Sender] Odesílání zprávy: "515-2-0-0-2"
+[INFO] [16:07:58] [Sender] Odesílání zprávy: "108-2-0-0-19"
+[INFO] [16:07:58] [Listener] Přijmuta zpráva: "516-108-2-0-2"
+[INFO] [16:07:58] [Listener] Přijmuta zpráva: "517-2-0-0-26"
+[INFO] [16:07:58] [Sender] Odesílání zprávy: "517-2-0-0-2"
+[INFO] [16:07:58] [Listener] Přijmuta zpráva: "518-1-0-0-26"
+[INFO] [16:07:58] [Sender] Odesílání zprávy: "109-2-0-0-27"
+[INFO] [16:07:58] [Sender] Odesílání zprávy: "518-1-0-0-2"
+[INFO] [16:07:58] [Listener] Přijmuta zpráva: "519-109-2-0-2"
+[INFO] [16:07:58] [Sender] Odesílání zprávy: "165-1-0-0-27"
+[INFO] [16:07:58] [Listener] Přijmuta zpráva: "520-165-1-0-2"
+[WARNING] [16:07:58] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 106-2-0-0-27
+[WARNING] [16:07:58] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 162-1-0-0-27
+[ERROR] [16:07:58] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:58] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:07:59] [Sender] Odesílání zprávy: "110-2-0-1-16-2-5-3-4"
+[INFO] [16:07:59] [Listener] Přijmuta zpráva: "521-110-2-1-2"
+[INFO] [16:07:59] [Listener] Přijmuta zpráva: "522-2-0-1-17-1"
+[INFO] [16:07:59] [Sender] Odesílání zprávy: "522-2-0-0-2"
+[INFO] [16:07:59] [Listener] Přijmuta zpráva: "523-1-0-0-18-2-5-3-4"
+[INFO] [16:07:59] [Sender] Odesílání zprávy: "523-1-0-0-2"
+[INFO] [16:07:59] [Sender] Odesílání zprávy: "166-1-0-0-19"
+[INFO] [16:07:59] [Listener] Přijmuta zpráva: "524-166-1-0-2"
+[INFO] [16:07:59] [Listener] Přijmuta zpráva: "525-2-0-0-26"
+[INFO] [16:07:59] [Sender] Odesílání zprávy: "525-2-0-0-2"
+[INFO] [16:07:59] [Sender] Odesílání zprávy: "111-2-0-0-27"
+[INFO] [16:07:59] [Listener] Přijmuta zpráva: "526-1-0-0-26"
+[INFO] [16:07:59] [Listener] Přijmuta zpráva: "527-111-2-0-2"
+[INFO] [16:07:59] [Sender] Odesílání zprávy: "526-1-0-0-2"
+[INFO] [16:07:59] [Sender] Odesílání zprávy: "167-1-0-0-27"
+[INFO] [16:07:59] [Listener] Přijmuta zpráva: "528-167-1-0-2"
+[WARNING] [16:07:59] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 107-2-0-0-27
+[WARNING] [16:07:59] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 163-1-0-0-27
+[ERROR] [16:07:59] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:07:59] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:08:00] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 164-1-0-1-16-0-1-2-3
+[WARNING] [16:08:00] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 108-2-0-0-19
+[ERROR] [16:08:00] [CheckersBoard] Server nedostal odpověď na požadavek 515-2-0-0-18-0-1-2-3
+[INFO] [16:08:00] [Listener] Přijmuta zpráva: "529-2-0-0-26"
+[INFO] [16:08:00] [Sender] Odesílání zprávy: "529-2-0-0-2"
+[INFO] [16:08:00] [Listener] Přijmuta zpráva: "530-1-0-0-26"
+[INFO] [16:08:00] [Sender] Odesílání zprávy: "112-2-0-0-27"
+[INFO] [16:08:00] [Sender] Odesílání zprávy: "530-1-0-0-2"
+[INFO] [16:08:00] [Listener] Přijmuta zpráva: "531-112-2-0-2"
+[INFO] [16:08:00] [Sender] Odesílání zprávy: "168-1-0-0-27"
+[INFO] [16:08:00] [Listener] Přijmuta zpráva: "532-168-1-0-2"
+[WARNING] [16:08:00] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 109-2-0-0-27
+[ERROR] [16:08:00] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:08:00] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 165-1-0-0-27
+[ERROR] [16:08:00] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:08:01] [Sender] Odesílání zprávy: "169-1-0-1-16-2-3-4-5"
+[INFO] [16:08:01] [Listener] Přijmuta zpráva: "533-169-1-1-2"
+[INFO] [16:08:01] [Listener] Přijmuta zpráva: "534-1-0-1-17-1"
+[INFO] [16:08:01] [Sender] Odesílání zprávy: "534-1-0-0-2"
+[INFO] [16:08:01] [Listener] Přijmuta zpráva: "535-2-0-0-18-2-3-4-5"
+[INFO] [16:08:01] [Sender] Odesílání zprávy: "535-2-0-0-2"
+[INFO] [16:08:01] [Sender] Odesílání zprávy: "113-2-0-0-19"
+[INFO] [16:08:01] [Listener] Přijmuta zpráva: "536-113-2-0-2"
+[INFO] [16:08:01] [Listener] Přijmuta zpráva: "537-2-0-0-26"
+[INFO] [16:08:01] [Listener] Přijmuta zpráva: "538-1-0-0-26"
+[INFO] [16:08:01] [Sender] Odesílání zprávy: "538-1-0-0-2"
+[INFO] [16:08:01] [Sender] Odesílání zprávy: "170-1-0-0-27"
+[INFO] [16:08:01] [Listener] Přijmuta zpráva: "539-170-1-0-2"
+[INFO] [16:08:01] [Sender] Odesílání zprávy: "537-2-0-0-2"
+[INFO] [16:08:01] [Sender] Odesílání zprávy: "114-2-0-0-27"
+[INFO] [16:08:01] [Listener] Přijmuta zpráva: "540-114-2-0-2"
+[WARNING] [16:08:01] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 166-1-0-0-19
+[WARNING] [16:08:01] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 110-2-0-1-16-2-5-3-4
+[ERROR] [16:08:01] [CheckersBoard] Server nedostal odpověď na požadavek 523-1-0-0-18-2-5-3-4
+[WARNING] [16:08:01] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 111-2-0-0-27
+[ERROR] [16:08:01] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:08:01] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 167-1-0-0-27
+[ERROR] [16:08:01] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:08:02] [Listener] Přijmuta zpráva: "541-2-0-0-26"
+[INFO] [16:08:02] [Sender] Odesílání zprávy: "541-2-0-0-2"
+[INFO] [16:08:02] [Sender] Odesílání zprávy: "115-2-0-0-27"
+[INFO] [16:08:02] [Listener] Přijmuta zpráva: "542-1-0-0-26"
+[INFO] [16:08:02] [Sender] Odesílání zprávy: "542-1-0-0-2"
+[INFO] [16:08:02] [Sender] Odesílání zprávy: "171-1-0-0-27"
+[INFO] [16:08:02] [Listener] Přijmuta zpráva: "543-115-2-0-2"
+[INFO] [16:08:02] [Listener] Přijmuta zpráva: "544-171-1-0-2"
+[WARNING] [16:08:02] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 112-2-0-0-27
+[ERROR] [16:08:02] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:08:02] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 168-1-0-0-27
+[ERROR] [16:08:02] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:08:03] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 169-1-0-1-16-2-3-4-5
+[WARNING] [16:08:03] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 113-2-0-0-19
+[ERROR] [16:08:03] [CheckersBoard] Server nedostal odpověď na požadavek 535-2-0-0-18-2-3-4-5
+[INFO] [16:08:03] [Listener] Přijmuta zpráva: "545-2-0-0-26"
+[INFO] [16:08:03] [Sender] Odesílání zprávy: "545-2-0-0-2"
+[INFO] [16:08:03] [Sender] Odesílání zprávy: "116-2-0-0-27"
+[INFO] [16:08:03] [Listener] Přijmuta zpráva: "546-1-0-0-26"
+[INFO] [16:08:03] [Listener] Přijmuta zpráva: "547-116-2-0-2"
+[INFO] [16:08:03] [Sender] Odesílání zprávy: "546-1-0-0-2"
+[INFO] [16:08:03] [Sender] Odesílání zprávy: "172-1-0-0-27"
+[INFO] [16:08:03] [Listener] Přijmuta zpráva: "548-172-1-0-2"
+[WARNING] [16:08:03] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 170-1-0-0-27
+[ERROR] [16:08:03] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:08:03] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 114-2-0-0-27
+[ERROR] [16:08:03] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:08:04] [Sender] Odesílání zprávy: "117-2-0-1-16-0-5-1-4"
+[INFO] [16:08:04] [Listener] Přijmuta zpráva: "549-117-2-1-2"
+[INFO] [16:08:04] [Listener] Přijmuta zpráva: "550-2-0-1-17-1"
+[INFO] [16:08:04] [Sender] Odesílání zprávy: "550-2-0-0-2"
+[INFO] [16:08:04] [Listener] Přijmuta zpráva: "551-1-0-0-18-0-5-1-4"
+[INFO] [16:08:04] [Sender] Odesílání zprávy: "551-1-0-0-2"
+[INFO] [16:08:04] [Sender] Odesílání zprávy: "173-1-0-0-19"
+[INFO] [16:08:04] [Listener] Přijmuta zpráva: "552-173-1-0-2"
+[INFO] [16:08:04] [Listener] Přijmuta zpráva: "553-2-0-0-26"
+[INFO] [16:08:04] [Sender] Odesílání zprávy: "553-2-0-0-2"
+[INFO] [16:08:04] [Sender] Odesílání zprávy: "118-2-0-0-27"
+[INFO] [16:08:04] [Listener] Přijmuta zpráva: "554-1-0-0-26"
+[INFO] [16:08:04] [Sender] Odesílání zprávy: "554-1-0-0-2"
+[INFO] [16:08:04] [Listener] Přijmuta zpráva: "555-118-2-0-2"
+[INFO] [16:08:04] [Sender] Odesílání zprávy: "174-1-0-0-27"
+[INFO] [16:08:04] [Listener] Přijmuta zpráva: "556-174-1-0-2"
+[WARNING] [16:08:04] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 115-2-0-0-27
+[WARNING] [16:08:04] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 171-1-0-0-27
+[ERROR] [16:08:04] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:08:04] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:08:05] [Listener] Přijmuta zpráva: "557-2-0-0-26"
+[INFO] [16:08:05] [Sender] Odesílání zprávy: "557-2-0-0-2"
+[INFO] [16:08:05] [Sender] Odesílání zprávy: "119-2-0-0-27"
+[INFO] [16:08:05] [Listener] Přijmuta zpráva: "558-1-0-0-26"
+[INFO] [16:08:05] [Listener] Přijmuta zpráva: "559-119-2-0-2"
+[INFO] [16:08:05] [Sender] Odesílání zprávy: "558-1-0-0-2"
+[INFO] [16:08:05] [Sender] Odesílání zprávy: "175-1-0-0-27"
+[INFO] [16:08:05] [Listener] Přijmuta zpráva: "560-175-1-0-2"
+[WARNING] [16:08:05] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 116-2-0-0-27
+[WARNING] [16:08:05] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 172-1-0-0-27
+[ERROR] [16:08:05] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:08:05] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:08:06] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 117-2-0-1-16-0-5-1-4
+[WARNING] [16:08:06] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 173-1-0-0-19
+[ERROR] [16:08:06] [CheckersBoard] Server nedostal odpověď na požadavek 551-1-0-0-18-0-5-1-4
+[INFO] [16:08:06] [Listener] Přijmuta zpráva: "561-2-0-0-26"
+[INFO] [16:08:06] [Sender] Odesílání zprávy: "561-2-0-0-2"
+[INFO] [16:08:06] [Sender] Odesílání zprávy: "120-2-0-0-27"
+[INFO] [16:08:06] [Listener] Přijmuta zpráva: "562-1-0-0-26"
+[INFO] [16:08:06] [Sender] Odesílání zprávy: "562-1-0-0-2"
+[INFO] [16:08:06] [Listener] Přijmuta zpráva: "563-120-2-0-2"
+[INFO] [16:08:06] [Sender] Odesílání zprávy: "176-1-0-0-27"
+[INFO] [16:08:06] [Listener] Přijmuta zpráva: "564-176-1-0-2"
+[WARNING] [16:08:06] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 118-2-0-0-27
+[ERROR] [16:08:06] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:08:06] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 174-1-0-0-27
+[ERROR] [16:08:06] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:08:07] [Listener] Přijmuta zpráva: "565-2-0-0-26"
+[INFO] [16:08:07] [Sender] Odesílání zprávy: "565-2-0-0-2"
+[INFO] [16:08:07] [Sender] Odesílání zprávy: "121-2-0-0-27"
+[INFO] [16:08:07] [Listener] Přijmuta zpráva: "567-121-2-0-2"
+[INFO] [16:08:07] [Listener] Přijmuta zpráva: "566-1-0-0-26"
+[INFO] [16:08:07] [Sender] Odesílání zprávy: "566-1-0-0-2"
+[INFO] [16:08:07] [Sender] Odesílání zprávy: "177-1-0-0-27"
+[INFO] [16:08:07] [Listener] Přijmuta zpráva: "568-177-1-0-2"
+[WARNING] [16:08:07] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 119-2-0-0-27
+[WARNING] [16:08:07] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 175-1-0-0-27
+[ERROR] [16:08:07] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:08:07] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:08:07] [Sender] Odesílání zprávy: "178-1-0-1-16-2-1-1-0"
+[INFO] [16:08:07] [Listener] Přijmuta zpráva: "569-178-1-1-2"
+[INFO] [16:08:07] [Listener] Přijmuta zpráva: "570-1-0-1-17-1"
+[INFO] [16:08:07] [Sender] Odesílání zprávy: "570-1-0-0-2"
+[INFO] [16:08:07] [Listener] Přijmuta zpráva: "571-2-0-0-18-2-1-1-0"
+[INFO] [16:08:07] [Sender] Odesílání zprávy: "571-2-0-0-2"
+[INFO] [16:08:07] [Sender] Odesílání zprávy: "122-2-0-0-19"
+[INFO] [16:08:07] [Listener] Přijmuta zpráva: "572-122-2-0-2"
+[INFO] [16:08:08] [Listener] Přijmuta zpráva: "573-2-0-0-26"
+[INFO] [16:08:08] [Sender] Odesílání zprávy: "573-2-0-0-2"
+[INFO] [16:08:08] [Listener] Přijmuta zpráva: "574-1-0-0-26"
+[INFO] [16:08:08] [Sender] Odesílání zprávy: "123-2-0-0-27"
+[INFO] [16:08:08] [Sender] Odesílání zprávy: "574-1-0-0-2"
+[INFO] [16:08:08] [Sender] Odesílání zprávy: "179-1-0-0-27"
+[INFO] [16:08:08] [Listener] Přijmuta zpráva: "575-123-2-0-2"
+[INFO] [16:08:08] [Listener] Přijmuta zpráva: "576-179-1-0-2"
+[WARNING] [16:08:08] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 120-2-0-0-27
+[WARNING] [16:08:08] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 176-1-0-0-27
+[ERROR] [16:08:08] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:08:08] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:08:09] [Listener] Přijmuta zpráva: "577-2-0-0-26"
+[INFO] [16:08:09] [Sender] Odesílání zprávy: "577-2-0-0-2"
+[INFO] [16:08:09] [Sender] Odesílání zprávy: "124-2-0-0-27"
+[INFO] [16:08:09] [Listener] Přijmuta zpráva: "579-124-2-0-2"
+[INFO] [16:08:09] [Listener] Přijmuta zpráva: "578-1-0-0-26"
+[INFO] [16:08:09] [Sender] Odesílání zprávy: "578-1-0-0-2"
+[INFO] [16:08:09] [Sender] Odesílání zprávy: "180-1-0-0-27"
+[INFO] [16:08:09] [Listener] Přijmuta zpráva: "580-180-1-0-2"
+[WARNING] [16:08:09] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 121-2-0-0-27
+[ERROR] [16:08:09] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:08:09] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 177-1-0-0-27
+[ERROR] [16:08:09] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:08:09] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 122-2-0-0-19
+[WARNING] [16:08:09] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 178-1-0-1-16-2-1-1-0
+[ERROR] [16:08:09] [CheckersBoard] Server nedostal odpověď na požadavek 571-2-0-0-18-2-1-1-0
+[INFO] [16:08:10] [Sender] Odesílání zprávy: "125-2-0-1-16-2-7-3-6"
+[INFO] [16:08:10] [Listener] Přijmuta zpráva: "581-125-2-1-2"
+[INFO] [16:08:10] [Listener] Přijmuta zpráva: "582-2-0-1-17-1"
+[INFO] [16:08:10] [Sender] Odesílání zprávy: "582-2-0-0-2"
+[INFO] [16:08:10] [Listener] Přijmuta zpráva: "583-1-0-0-18-2-7-3-6"
+[INFO] [16:08:10] [Sender] Odesílání zprávy: "583-1-0-0-2"
+[INFO] [16:08:10] [Sender] Odesílání zprávy: "181-1-0-0-19"
+[INFO] [16:08:10] [Listener] Přijmuta zpráva: "584-181-1-0-2"
+[INFO] [16:08:10] [Listener] Přijmuta zpráva: "585-2-0-0-26"
+[INFO] [16:08:10] [Sender] Odesílání zprávy: "585-2-0-0-2"
+[INFO] [16:08:10] [Sender] Odesílání zprávy: "126-2-0-0-27"
+[INFO] [16:08:10] [Listener] Přijmuta zpráva: "586-1-0-0-26"
+[INFO] [16:08:10] [Listener] Přijmuta zpráva: "587-126-2-0-2"
+[INFO] [16:08:10] [Sender] Odesílání zprávy: "586-1-0-0-2"
+[INFO] [16:08:10] [Sender] Odesílání zprávy: "182-1-0-0-27"
+[INFO] [16:08:10] [Listener] Přijmuta zpráva: "588-182-1-0-2"
+[WARNING] [16:08:10] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 179-1-0-0-27
+[ERROR] [16:08:10] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:08:10] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:08:11] [Listener] Přijmuta zpráva: "589-2-0-0-26"
+[INFO] [16:08:11] [Sender] Odesílání zprávy: "589-2-0-0-2"
+[INFO] [16:08:11] [Sender] Odesílání zprávy: "127-2-0-0-27"
+[INFO] [16:08:11] [Listener] Přijmuta zpráva: "590-1-0-0-26"
+[INFO] [16:08:11] [Listener] Přijmuta zpráva: "591-127-2-0-2"
+[INFO] [16:08:11] [Sender] Odesílání zprávy: "590-1-0-0-2"
+[INFO] [16:08:11] [Sender] Odesílání zprávy: "183-1-0-0-27"
+[INFO] [16:08:11] [Listener] Přijmuta zpráva: "592-183-1-0-2"
+[WARNING] [16:08:11] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 124-2-0-0-27
+[WARNING] [16:08:11] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 180-1-0-0-27
+[ERROR] [16:08:11] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:08:11] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:08:12] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 181-1-0-0-19
+[WARNING] [16:08:12] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 125-2-0-1-16-2-7-3-6
+[ERROR] [16:08:12] [CheckersBoard] Server nedostal odpověď na požadavek 583-1-0-0-18-2-7-3-6
+[INFO] [16:08:12] [Sender] Odesílání zprávy: "184-1-0-1-16-4-5-2-7"
+[INFO] [16:08:12] [Listener] Přijmuta zpráva: "593-184-1-1-2"
+[INFO] [16:08:12] [Listener] Přijmuta zpráva: "594-1-0-1-17-1"
+[INFO] [16:08:12] [Sender] Odesílání zprávy: "594-1-0-0-2"
+[INFO] [16:08:12] [Listener] Přijmuta zpráva: "595-2-0-0-18-4-5-2-7"
+[INFO] [16:08:12] [Sender] Odesílání zprávy: "595-2-0-0-2"
+[INFO] [16:08:12] [Sender] Odesílání zprávy: "128-2-0-0-19"
+[INFO] [16:08:12] [Listener] Přijmuta zpráva: "596-128-2-0-2"
+[INFO] [16:08:12] [Listener] Přijmuta zpráva: "597-2-0-0-26"
+[INFO] [16:08:12] [Listener] Přijmuta zpráva: "598-1-0-0-26"
+[INFO] [16:08:12] [Sender] Odesílání zprávy: "598-1-0-0-2"
+[INFO] [16:08:12] [Sender] Odesílání zprávy: "185-1-0-0-27"
+[INFO] [16:08:12] [Listener] Přijmuta zpráva: "599-185-1-0-2"
+[INFO] [16:08:12] [Sender] Odesílání zprávy: "597-2-0-0-2"
+[INFO] [16:08:12] [Sender] Odesílání zprávy: "129-2-0-0-27"
+[INFO] [16:08:12] [Listener] Přijmuta zpráva: "600-129-2-0-2"
+[WARNING] [16:08:12] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 182-1-0-0-27
+[WARNING] [16:08:12] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 126-2-0-0-27
+[ERROR] [16:08:12] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:08:12] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:08:13] [Sender] Odesílání zprávy: "186-1-0-1-16-2-7-0-5"
+[INFO] [16:08:13] [Listener] Přijmuta zpráva: "601-186-1-1-2"
+[INFO] [16:08:13] [Listener] Přijmuta zpráva: "602-1-0-1-17-1"
+[INFO] [16:08:13] [Sender] Odesílání zprávy: "602-1-0-0-2"
+[INFO] [16:08:13] [Listener] Přijmuta zpráva: "603-2-0-0-18-2-7-0-5"
+[INFO] [16:08:13] [Sender] Odesílání zprávy: "603-2-0-0-2"
+[INFO] [16:08:13] [Sender] Odesílání zprávy: "130-2-0-0-19"
+[INFO] [16:08:13] [Listener] Přijmuta zpráva: "604-130-2-0-2"
+[INFO] [16:08:13] [Listener] Přijmuta zpráva: "605-2-0-0-26"
+[INFO] [16:08:13] [Sender] Odesílání zprávy: "605-2-0-0-2"
+[INFO] [16:08:13] [Sender] Odesílání zprávy: "131-2-0-0-27"
+[INFO] [16:08:13] [Listener] Přijmuta zpráva: "606-1-0-0-26"
+[INFO] [16:08:13] [Sender] Odesílání zprávy: "606-1-0-0-2"
+[INFO] [16:08:13] [Sender] Odesílání zprávy: "187-1-0-0-27"
+[INFO] [16:08:13] [Listener] Přijmuta zpráva: "607-131-2-0-2"
+[INFO] [16:08:13] [Listener] Přijmuta zpráva: "608-187-1-0-2"
+[WARNING] [16:08:13] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 127-2-0-0-27
+[WARNING] [16:08:13] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 183-1-0-0-27
+[ERROR] [16:08:13] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:08:13] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:08:14] [Listener] Přijmuta zpráva: "609-2-0-0-26"
+[INFO] [16:08:14] [Sender] Odesílání zprávy: "609-2-0-0-2"
+[INFO] [16:08:14] [Sender] Odesílání zprávy: "132-2-0-0-27"
+[INFO] [16:08:14] [Listener] Přijmuta zpráva: "610-1-0-0-26"
+[INFO] [16:08:14] [Sender] Odesílání zprávy: "610-1-0-0-2"
+[INFO] [16:08:14] [Listener] Přijmuta zpráva: "611-132-2-0-2"
+[INFO] [16:08:14] [Sender] Odesílání zprávy: "188-1-0-0-27"
+[INFO] [16:08:14] [Listener] Přijmuta zpráva: "612-188-1-0-2"
+[WARNING] [16:08:14] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 128-2-0-0-19
+[WARNING] [16:08:14] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 184-1-0-1-16-4-5-2-7
+[ERROR] [16:08:14] [CheckersBoard] Server nedostal odpověď na požadavek 603-2-0-0-18-2-7-0-5
+[WARNING] [16:08:14] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 185-1-0-0-27
+[ERROR] [16:08:14] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:08:14] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 129-2-0-0-27
+[ERROR] [16:08:14] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:08:14] [Sender] Odesílání zprávy: "189-1-0-1-16-0-5-2-3"
+[INFO] [16:08:14] [Listener] Přijmuta zpráva: "613-189-1-1-2"
+[INFO] [16:08:14] [Listener] Přijmuta zpráva: "614-1-0-1-17-1"
+[INFO] [16:08:14] [Sender] Odesílání zprávy: "614-1-0-0-2"
+[INFO] [16:08:14] [Listener] Přijmuta zpráva: "615-2-0-0-18-0-5-2-3"
+[INFO] [16:08:14] [Sender] Odesílání zprávy: "615-2-0-0-2"
+[INFO] [16:08:14] [Sender] Odesílání zprávy: "133-2-0-0-19"
+[INFO] [16:08:14] [Listener] Přijmuta zpráva: "616-133-2-0-2"
+[WARNING] [16:08:15] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 130-2-0-0-19
+-7-0-5
+[ERROR] [16:08:15] [CheckersBoard] Server nedostal odpověď na požadavek 615-2-0-0-18-0-5-2-3
+[INFO] [16:08:15] [Listener] Přijmuta zpráva: "617-2-0-0-26"
+[INFO] [16:08:15] [Sender] Odesílání zprávy: "617-2-0-0-2"
+[INFO] [16:08:15] [Sender] Odesílání zprávy: "134-2-0-0-27"
+[INFO] [16:08:15] [Listener] Přijmuta zpráva: "618-1-0-0-26"
+[INFO] [16:08:15] [Listener] Přijmuta zpráva: "619-134-2-0-2"
+[INFO] [16:08:15] [Sender] Odesílání zprávy: "618-1-0-0-2"
+[INFO] [16:08:15] [Sender] Odesílání zprávy: "190-1-0-0-27"
+[INFO] [16:08:15] [Listener] Přijmuta zpráva: "620-190-1-0-2"
+[WARNING] [16:08:15] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 187-1-0-0-27
+[WARNING] [16:08:15] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 131-2-0-0-27
+[ERROR] [16:08:15] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:08:15] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:08:15] [Sender] Odesílání zprávy: "135-2-0-1-16-0-7-1-6"
+[INFO] [16:08:15] [Listener] Přijmuta zpráva: "621-135-2-1-2"
+[INFO] [16:08:15] [Listener] Přijmuta zpráva: "622-2-0-1-17-1"
+[INFO] [16:08:15] [Sender] Odesílání zprávy: "622-2-0-0-2"
+[INFO] [16:08:15] [Listener] Přijmuta zpráva: "623-1-0-0-18-0-7-1-6"
+[INFO] [16:08:15] [Sender] Odesílání zprávy: "623-1-0-0-2"
+[INFO] [16:08:15] [Sender] Odesílání zprávy: "191-1-0-0-19"
+[INFO] [16:08:15] [Listener] Přijmuta zpráva: "624-191-1-0-2"
+[INFO] [16:08:16] [Listener] Přijmuta zpráva: "625-2-0-0-26"
+[INFO] [16:08:16] [Sender] Odesílání zprávy: "625-2-0-0-2"
+[INFO] [16:08:16] [Sender] Odesílání zprávy: "136-2-0-0-27"
+[INFO] [16:08:16] [Listener] Přijmuta zpráva: "626-1-0-0-26"
+[INFO] [16:08:16] [Listener] Přijmuta zpráva: "627-136-2-0-2"
+[INFO] [16:08:16] [Sender] Odesílání zprávy: "192-1-0-0-27"
+[INFO] [16:08:16] [Listener] Přijmuta zpráva: "628-192-1-0-2"
+[WARNING] [16:08:16] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 132-2-0-0-27
+[WARNING] [16:08:16] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 188-1-0-0-27
+[ERROR] [16:08:16] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:08:16] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:08:16] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 189-1-0-1-16-0-5-2-3
+[WARNING] [16:08:16] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 133-2-0-0-19
+[ERROR] [16:08:16] [CheckersBoard] Server nedostal odpověď na požadavek 615-2-0-0-18-0-5-2-3
+[INFO] [16:08:17] [Sender] Odesílání zprávy: "193-1-0-1-16-2-3-3-4"
+[INFO] [16:08:17] [Listener] Přijmuta zpráva: "629-193-1-1-2"
+[INFO] [16:08:17] [Listener] Přijmuta zpráva: "630-1-0-1-17-1"
+[INFO] [16:08:17] [Sender] Odesílání zprávy: "630-1-0-0-2"
+[INFO] [16:08:17] [Listener] Přijmuta zpráva: "631-2-0-0-18-2-3-3-4"
+[INFO] [16:08:17] [Sender] Odesílání zprávy: "631-2-0-0-2"
+[INFO] [16:08:17] [Sender] Odesílání zprávy: "137-2-0-0-19"
+[INFO] [16:08:17] [Listener] Přijmuta zpráva: "632-137-2-0-2"
+[INFO] [16:08:17] [Listener] Přijmuta zpráva: "633-2-0-0-26"
+[INFO] [16:08:17] [Sender] Odesílání zprávy: "633-2-0-0-2"
+[INFO] [16:08:17] [Sender] Odesílání zprávy: "138-2-0-0-27"
+[INFO] [16:08:17] [Listener] Přijmuta zpráva: "634-1-0-0-26"
+[INFO] [16:08:17] [Listener] Přijmuta zpráva: "635-138-2-0-2"
+[INFO] [16:08:17] [Sender] Odesílání zprávy: "634-1-0-0-2"
+[INFO] [16:08:17] [Sender] Odesílání zprávy: "194-1-0-0-27"
+[INFO] [16:08:17] [Listener] Přijmuta zpráva: "636-194-1-0-2"
+[WARNING] [16:08:17] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 134-2-0-0-27
+[WARNING] [16:08:17] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 190-1-0-0-27
+[ERROR] [16:08:17] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:08:17] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:08:17] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 191-1-0-0-19
+[WARNING] [16:08:17] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 135-2-0-1-16-0-7-1-6
+[ERROR] [16:08:17] [CheckersBoard] Server nedostal odpověď na požadavek 623-1-0-0-18-0-7-1-6
+[INFO] [16:08:18] [Listener] Přijmuta zpráva: "637-2-0-0-26"
+[INFO] [16:08:18] [Sender] Odesílání zprávy: "637-2-0-0-2"
+[INFO] [16:08:18] [Sender] Odesílání zprávy: "139-2-0-0-27"
+[INFO] [16:08:18] [Listener] Přijmuta zpráva: "638-1-0-0-26"
+[INFO] [16:08:18] [Sender] Odesílání zprávy: "638-1-0-0-2"
+[INFO] [16:08:18] [Listener] Přijmuta zpráva: "639-139-2-0-2"
+[INFO] [16:08:18] [Sender] Odesílání zprávy: "195-1-0-0-27"
+[INFO] [16:08:18] [Listener] Přijmuta zpráva: "640-195-1-0-2"
+[WARNING] [16:08:18] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 192-1-0-0-27
+[ERROR] [16:08:18] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:08:18] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:08:18] [Sender] Odesílání zprávy: "140-2-0-1-16-1-6-2-5"
+[INFO] [16:08:18] [Listener] Přijmuta zpráva: "641-140-2-1-2"
+[INFO] [16:08:18] [Listener] Přijmuta zpráva: "642-2-0-1-17-1"
+[INFO] [16:08:18] [Sender] Odesílání zprávy: "642-2-0-0-2"
+[INFO] [16:08:18] [Listener] Přijmuta zpráva: "643-1-0-0-18-1-6-2-5"
+[INFO] [16:08:18] [Sender] Odesílání zprávy: "643-1-0-0-2"
+[INFO] [16:08:18] [Sender] Odesílání zprávy: "196-1-0-0-19"
+[INFO] [16:08:18] [Listener] Přijmuta zpráva: "644-196-1-0-2"
+[WARNING] [16:08:19] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 137-2-0-0-19
+[ERROR] [16:08:19] [CheckersBoard] Server nedostal odpověď na požadavek 631-2-0-0-18-2-3-3-4
+[WARNING] [16:08:19] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 193-1-0-1-16-2-3-3-4
+[INFO] [16:08:19] [Listener] Přijmuta zpráva: "645-2-0-0-26"
+[INFO] [16:08:19] [Sender] Odesílání zprávy: "645-2-0-0-2"
+[INFO] [16:08:19] [Sender] Odesílání zprávy: "141-2-0-0-27"
+[INFO] [16:08:19] [Listener] Přijmuta zpráva: "646-1-0-0-26"
+[INFO] [16:08:19] [Listener] Přijmuta zpráva: "647-141-2-0-2"
+[INFO] [16:08:19] [Sender] Odesílání zprávy: "646-1-0-0-2"
+[INFO] [16:08:19] [Sender] Odesílání zprávy: "197-1-0-0-27"
+[INFO] [16:08:19] [Listener] Přijmuta zpráva: "648-197-1-0-2"
+[WARNING] [16:08:19] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 138-2-0-0-27
+[ERROR] [16:08:19] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:08:19] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:08:19] [Sender] Odesílání zprávy: "198-1-0-1-16-3-4-0-7"
+[INFO] [16:08:19] [Listener] Přijmuta zpráva: "649-198-1-1-2"
+[INFO] [16:08:19] [Listener] Přijmuta zpráva: "650-1-0-1-17-1"
+[INFO] [16:08:19] [Sender] Odesílání zprávy: "650-1-0-0-2"
+[INFO] [16:08:19] [Listener] Přijmuta zpráva: "651-2-0-0-18-3-4-0-7"
+[INFO] [16:08:19] [Sender] Odesílání zprávy: "651-2-0-0-2"
+[INFO] [16:08:19] [Sender] Odesílání zprávy: "142-2-0-0-19"
+[INFO] [16:08:19] [Listener] Přijmuta zpráva: "652-1-0-0-20-1"
+[INFO] [16:08:19] [Sender] Odesílání zprávy: "652-1-0-0-2"
+[INFO] [16:08:19] [Listener] Přijmuta zpráva: "654-142-2-0-2"
+[INFO] [16:08:19] [Sender] Odesílání zprávy: "199-1-0-0-21"
+[INFO] [16:08:19] [Listener] Přijmuta zpráva: "653-2-0-0-20-1"
+[INFO] [16:08:19] [Listener] Přijmuta zpráva: "655-199-1-0-2"
+[INFO] [16:08:19] [Sender] Odesílání zprávy: "653-2-0-0-2"
+[INFO] [16:08:19] [Sender] Odesílání zprávy: "143-2-0-0-21"
+[INFO] [16:08:19] [Listener] Přijmuta zpráva: "656-143-2-0-2"
+[INFO] [16:08:20] [Listener] Přijmuta zpráva: "657-2-0-0-26"
+[INFO] [16:08:20] [Sender] Odesílání zprávy: "657-2-0-0-2"
+[INFO] [16:08:20] [Sender] Odesílání zprávy: "144-2-0-0-27"
+[INFO] [16:08:20] [Listener] Přijmuta zpráva: "658-1-0-0-26"
+[INFO] [16:08:20] [Sender] Odesílání zprávy: "658-1-0-0-2"
+[INFO] [16:08:20] [Sender] Odesílání zprávy: "200-1-0-0-27"
+[INFO] [16:08:20] [Listener] Přijmuta zpráva: "659-144-2-0-2"
+[INFO] [16:08:20] [Listener] Přijmuta zpráva: "660-200-1-0-2"
+[WARNING] [16:08:20] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 139-2-0-0-27
+[WARNING] [16:08:20] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 195-1-0-0-27
+[ERROR] [16:08:20] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:08:20] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:08:20] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 140-2-0-1-16-1-6-2-5
+[WARNING] [16:08:20] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 196-1-0-0-19
+[ERROR] [16:08:20] [CheckersBoard] Server nedostal odpověď na požadavek 643-1-0-0-18-1-6-2-5
+[INFO] [16:08:21] [Listener] Přijmuta zpráva: "661-2-0-0-26"
+[INFO] [16:08:21] [Sender] Odesílání zprávy: "661-2-0-0-2"
+[INFO] [16:08:21] [Sender] Odesílání zprávy: "145-2-0-0-27"
+[INFO] [16:08:21] [Listener] Přijmuta zpráva: "662-1-0-0-26"
+[INFO] [16:08:21] [Listener] Přijmuta zpráva: "663-145-2-0-2"
+[INFO] [16:08:21] [Sender] Odesílání zprávy: "662-1-0-0-2"
+[INFO] [16:08:21] [Sender] Odesílání zprávy: "201-1-0-0-27"
+[INFO] [16:08:21] [Listener] Přijmuta zpráva: "664-201-1-0-2"
+[WARNING] [16:08:21] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 141-2-0-0-27
+[WARNING] [16:08:21] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 197-1-0-0-27
+[ERROR] [16:08:21] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:08:21] [Program] Nebylo možné doručit odpověď na ping
+[WARNING] [16:08:21] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 198-1-0-1-16-3-4-0-7
+[WARNING] [16:08:21] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 142-2-0-0-19
+[ERROR] [16:08:21] [CheckersBoard] Server nedostal odpověď na požadavek 651-2-0-0-18-3-4-0-7
+[ERROR] [16:08:21] [GameRoom] Server nedostal odpověď na požadavek 652-1-0-0-20-1
+[WARNING] [16:08:21] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 143-2-0-0-21
+[ERROR] [16:08:21] [GameRoom] Server nedostal odpověď na požadavek 653-2-0-0-20-1
+[INFO] [16:08:22] [Listener] Přijmuta zpráva: "665-2-0-0-26"
+[INFO] [16:08:22] [Sender] Odesílání zprávy: "665-2-0-0-2"
+[INFO] [16:08:22] [Sender] Odesílání zprávy: "146-2-0-0-27"
+[INFO] [16:08:22] [Listener] Přijmuta zpráva: "666-1-0-0-26"
+[INFO] [16:08:22] [Sender] Odesílání zprávy: "666-1-0-0-2"
+
+[INFO] [16:08:22] [Sender] Odesílání zprávy: "202-1-0-0-27"
+[INFO] [16:08:22] [Listener] Přijmuta zpráva: "668-202-1-0-2"
+[WARNING] [16:08:22] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 144-2-0-0-27
+[WARNING] [16:08:22] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 200-1-0-0-27
+[ERROR] [16:08:22] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:08:22] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:08:23] [Listener] Přijmuta zpráva: "669-2-0-0-26"
+[INFO] [16:08:23] [Sender] Odesílání zprávy: "669-2-0-0-2"
+[INFO] [16:08:23] [Sender] Odesílání zprávy: "147-2-0-0-27"
+[INFO] [16:08:23] [Listener] Přijmuta zpráva: "670-1-0-0-26"
+[INFO] [16:08:23] [Sender] Odesílání zprávy: "670-1-0-0-2"
+[INFO] [16:08:23] [Listener] Přijmuta zpráva: "671-147-2-0-2"
+[INFO] [16:08:23] [Sender] Odesílání zprávy: "203-1-0-0-27"
+[INFO] [16:08:23] [Listener] Přijmuta zpráva: "672-203-1-0-2"
+[WARNING] [16:08:23] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 145-2-0-0-27
+[WARNING] [16:08:23] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 201-1-0-0-27
+[ERROR] [16:08:23] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:08:23] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:08:24] [Listener] Přijmuta zpráva: "673-2-0-0-26"
+[INFO] [16:08:24] [Sender] Odesílání zprávy: "673-2-0-0-2"
+[INFO] [16:08:24] [Sender] Odesílání zprávy: "148-2-0-0-27"
+[INFO] [16:08:24] [Listener] Přijmuta zpráva: "674-1-0-0-26"
+[WARNING] [16:08:24] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 146-2-0-0-27
+[ERROR] [16:08:24] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:08:24] [Listener] Přijmuta zpráva: "675-148-2-0-2"
+[INFO] [16:08:24] [Sender] Odesílání zprávy: "674-1-0-0-2"
+[WARNING] [16:08:24] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 202-1-0-0-27
+[ERROR] [16:08:24] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:08:24] [Sender] Odesílání zprávy: "204-1-0-0-27"
+[INFO] [16:08:24] [Listener] Přijmuta zpráva: "676-204-1-0-2"
+[INFO] [16:08:25] [Listener] Přijmuta zpráva: "677-2-0-0-26"
+[INFO] [16:08:25] [Sender] Odesílání zprávy: "677-2-0-0-2"
+[INFO] [16:08:25] [Sender] Odesílání zprávy: "149-2-0-0-27"
+[INFO] [16:08:25] [Listener] Přijmuta zpráva: "678-1-0-0-26"
+[INFO] [16:08:25] [Sender] Odesílání zprávy: "678-1-0-0-2"
+[INFO] [16:08:25] [Listener] Přijmuta zpráva: "679-149-2-0-2"
+[INFO] [16:08:25] [Sender] Odesílání zprávy: "205-1-0-0-27"
+[INFO] [16:08:25] [Listener] Přijmuta zpráva: "680-205-1-0-2"
+[WARNING] [16:08:25] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 203-1-0-0-27
+[WARNING] [16:08:25] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 147-2-0-0-27
+[ERROR] [16:08:25] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:08:25] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:08:26] [Listener] Přijmuta zpráva: "681-2-0-0-26"
+[INFO] [16:08:26] [Sender] Odesílání zprávy: "681-2-0-0-2"
+[INFO] [16:08:26] [Sender] Odesílání zprávy: "150-2-0-0-27"
+[INFO] [16:08:26] [Listener] Přijmuta zpráva: "682-1-0-0-26"
+[INFO] [16:08:26] [Listener] Přijmuta zpráva: "683-150-2-0-2"
+[INFO] [16:08:26] [Sender] Odesílání zprávy: "682-1-0-0-2"
+[INFO] [16:08:26] [Sender] Odesílání zprávy: "206-1-0-0-27"
+[INFO] [16:08:26] [Listener] Přijmuta zpráva: "684-206-1-0-2"
+[WARNING] [16:08:26] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 204-1-0-0-27
+[ERROR] [16:08:26] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:08:26] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:08:27] [Listener] Přijmuta zpráva: "685-2-0-0-26"
+[INFO] [16:08:27] [Sender] Odesílání zprávy: "685-2-0-0-2"
+[INFO] [16:08:27] [Sender] Odesílání zprávy: "151-2-0-0-27"
+[INFO] [16:08:27] [Listener] Přijmuta zpráva: "686-1-0-0-26"
+[INFO] [16:08:27] [Listener] Přijmuta zpráva: "687-151-2-0-2"
+[INFO] [16:08:27] [Sender] Odesílání zprávy: "686-1-0-0-2"
+[INFO] [16:08:27] [Sender] Odesílání zprávy: "207-1-0-0-27"
+[INFO] [16:08:27] [Listener] Přijmuta zpráva: "688-207-1-0-2"
+[WARNING] [16:08:27] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 205-1-0-0-27
+[WARNING] [16:08:27] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 149-2-0-0-27
+[ERROR] [16:08:27] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:08:27] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:08:28] [Listener] Přijmuta zpráva: "689-2-0-0-26"
+[INFO] [16:08:28] [Sender] Odesílání zprávy: "689-2-0-0-2"
+[INFO] [16:08:28] [Sender] Odesílání zprávy: "152-2-0-0-27"
+[INFO] [16:08:28] [Listener] Přijmuta zpráva: "690-1-0-0-26"
+[INFO] [16:08:28] [Listener] Přijmuta zpráva: "691-152-2-0-2"
+[INFO] [16:08:28] [Sender] Odesílání zprávy: "690-1-0-0-2"
+[INFO] [16:08:28] [Sender] Odesílání zprávy: "208-1-0-0-27"
+[INFO] [16:08:28] [Listener] Přijmuta zpráva: "692-208-1-0-2"
+[WARNING] [16:08:28] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 150-2-0-0-27
+[WARNING] [16:08:28] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 206-1-0-0-27
+[ERROR] [16:08:28] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:08:28] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:08:29] [Listener] Přijmuta zpráva: "693-2-0-0-26"
+[INFO] [16:08:29] [Sender] Odesílání zprávy: "693-2-0-0-2"
+[INFO] [16:08:29] [Sender] Odesílání zprávy: "153-2-0-0-27"
+[INFO] [16:08:29] [Listener] Přijmuta zpráva: "694-1-0-0-26"
+[INFO] [16:08:29] [Listener] Přijmuta zpráva: "695-153-2-0-2"
+[INFO] [16:08:29] [Sender] Odesílání zprávy: "694-1-0-0-2"
+[INFO] [16:08:29] [Sender] Odesílání zprávy: "209-1-0-0-27"
+[INFO] [16:08:29] [Listener] Přijmuta zpráva: "696-209-1-0-2"
+[WARNING] [16:08:29] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 207-1-0-0-27
+[WARNING] [16:08:29] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 151-2-0-0-27
+[ERROR] [16:08:29] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:08:29] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:08:30] [Listener] Přijmuta zpráva: "697-2-0-0-26"
+[INFO] [16:08:30] [Listener] Přijmuta zpráva: "698-1-0-0-26"
+[INFO] [16:08:30] [Sender] Odesílání zprávy: "697-2-0-0-2"
+[INFO] [16:08:30] [Sender] Odesílání zprávy: "154-2-0-0-27"
+[INFO] [16:08:30] [Sender] Odesílání zprávy: "698-1-0-0-2"
+[INFO] [16:08:30] [Sender] Odesílání zprávy: "210-1-0-0-27"
+[INFO] [16:08:30] [Listener] Přijmuta zpráva: "699-154-2-0-2"
+[INFO] [16:08:30] [Listener] Přijmuta zpráva: "700-210-1-0-2"
+[WARNING] [16:08:30] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 208-1-0-0-27
+[WARNING] [16:08:30] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 152-2-0-0-27
+[ERROR] [16:08:30] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:08:30] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:08:31] [Listener] Přijmuta zpráva: "701-2-0-0-26"
+[INFO] [16:08:31] [Sender] Odesílání zprávy: "701-2-0-0-2"
+[INFO] [16:08:31] [Sender] Odesílání zprávy: "155-2-0-0-27"
+[INFO] [16:08:31] [Sender] Odesílání zprávy: "702-1-0-0-2"
+[INFO] [16:08:31] [Listener] Přijmuta zpráva: "703-155-2-0-2"
+[INFO] [16:08:31] [Sender] Odesílání zprávy: "211-1-0-0-27"
+[INFO] [16:08:31] [Listener] Přijmuta zpráva: "704-211-1-0-2"
+[WARNING] [16:08:31] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 209-1-0-0-27
+[WARNING] [16:08:31] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 153-2-0-0-27
+[ERROR] [16:08:31] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:08:31] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:08:32] [Listener] Přijmuta zpráva: "705-2-0-0-26"
+[INFO] [16:08:32] [Sender] Odesílání zprávy: "705-2-0-0-2"
+[INFO] [16:08:32] [Sender] Odesílání zprávy: "156-2-0-0-27"
+[INFO] [16:08:32] [Listener] Přijmuta zpráva: "706-1-0-0-26"
+[INFO] [16:08:32] [Listener] Přijmuta zpráva: "707-156-2-0-2"
+[INFO] [16:08:32] [Sender] Odesílání zprávy: "706-1-0-0-2"
+[INFO] [16:08:32] [Sender] Odesílání zprávy: "212-1-0-0-27"
+[INFO] [16:08:32] [Listener] Přijmuta zpráva: "708-212-1-0-2"
+[WARNING] [16:08:32] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 154-2-0-0-27
+[WARNING] [16:08:32] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 210-1-0-0-27
+[ERROR] [16:08:32] [Program] Nebylo možné doručit odpověď na ping
+[ERROR] [16:08:32] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:08:33] [Program] lýv
+[INFO] [16:08:33] [Sender] Odesílání zprávy: "157-2-0-1-22"
+[INFO] [16:08:33] [Listener] Přijmuta zpráva: "709-157-2-1-2"
+[INFO] [16:08:33] [Listener] Přijmuta zpráva: "710-2-0-1-23"
+[INFO] [16:08:33] [Sender] Odesílání zprávy: "710-2-0-0-2"
+[INFO] [16:08:33] [Logger] Konec logování
+========== Konec relace ==========
+[INFO] [16:08:33] [Listener] Přijmuta zpráva: "711-1-0-0-26"
+[INFO] [16:08:33] [Sender] Odesílání zprávy: "711-1-0-0-2"
+[INFO] [16:08:33] [Sender] Odesílání zprávy: "213-1-0-0-27"
+[INFO] [16:08:33] [Listener] Přijmuta zpráva: "712-213-1-0-2"
+[WARNING] [16:08:33] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 211-1-0-0-27
+[ERROR] [16:08:33] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:08:33] [Program] lýv
+[INFO] [16:08:33] [Sender] Odesílání zprávy: "214-1-0-1-22"
+[INFO] [16:08:33] [Listener] Přijmuta zpráva: "713-214-1-1-2"
+[INFO] [16:08:33] [Listener] Přijmuta zpráva: "714-1-0-1-23"
+[INFO] [16:08:33] [Sender] Odesílání zprávy: "714-1-0-0-2"
+[WARNING] [16:08:34] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 212-1-0-0-27
+[ERROR] [16:08:34] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [16:08:34] [Logger] Konec logování
+========== Konec relace ==========
+========== Začátek relace ==========
+[INFO] [17:20:32] [Logger] Logger úspěšně inicializován. Soubor: d:\src\pytlak\JuPiEs\client_log2.txt
+[INFO] [17:20:32] [Utils] Nebyla zadána platná ip adresa a bude tedy použita 0.0.0.0
+[INFO] [17:20:32] [Utils] Nebyl zadán platný port a bude tedy použit náhodný
+[INFO] [17:20:32] [Comunicator] Komunikátor úspěšně inicializován na portu 61388
+[INFO] [17:20:32] [MessageManager] Vytvořen MessageManager.
+[INFO] [17:20:32] [MessageManager] MessageManager připojen ke komunikátoru.
+[INFO] [17:20:43] [Sender] Odesílání zprávy: "1-1-0-1-4"
+[INFO] [17:20:43] [Listener] Přijmuta zpráva: "1-1-1-1-2"
+[INFO] [17:20:43] [MessageManager] Potvrzena zpráva 1-1-0-1-4
+[INFO] [17:20:43] [Listener] Přijmuta zpráva: "2-1-0-1-5-1"
+[INFO] [17:20:43] [Sender] Odesílání zprávy: "2-1-0-0-2"
+[INFO] [17:20:43] [ConnectionDialog] Klient se úspěšně připojil k serveru.
+[INFO] [17:20:44] [Listener] Přijmuta zpráva: "3-1-0-0-26"
+[INFO] [17:20:44] [Sender] Odesílání zprávy: "3-1-0-0-2"
+[INFO] [17:20:44] [Sender] Odesílání zprávy: "2-1-0-0-27"
+[INFO] [17:20:44] [Listener] Přijmuta zpráva: "4-2-1-0-2"
+[INFO] [17:20:45] [Listener] Přijmuta zpráva: "5-1-0-0-26"
+[INFO] [17:20:45] [Sender] Odesílání zprávy: "5-1-0-0-2"
+[INFO] [17:20:45] [Sender] Odesílání zprávy: "3-1-0-0-27"
+[INFO] [17:20:45] [Listener] Přijmuta zpráva: "6-3-1-0-2"
+[INFO] [17:20:46] [Listener] Přijmuta zpráva: "7-1-0-0-26"
+[INFO] [17:20:46] [Sender] Odesílání zprávy: "7-1-0-0-2"
+[INFO] [17:20:46] [Sender] Odesílání zprávy: "4-1-0-0-27"
+[INFO] [17:20:46] [Listener] Přijmuta zpráva: "8-4-1-0-2"
+[WARNING] [17:20:46] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 2-1-0-0-27
+[ERROR] [17:20:46] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [17:20:47] [Listener] Přijmuta zpráva: "9-1-0-0-26"
+[INFO] [17:20:47] [Sender] Odesílání zprávy: "9-1-0-0-2"
+[INFO] [17:20:47] [Sender] Odesílání zprávy: "5-1-0-0-27"
+[INFO] [17:20:47] [Listener] Přijmuta zpráva: "10-5-1-0-2"
+[WARNING] [17:20:47] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 3-1-0-0-27
+[ERROR] [17:20:47] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [17:20:48] [Listener] Přijmuta zpráva: "11-1-0-0-26"
+[INFO] [17:20:48] [Sender] Odesílání zprávy: "11-1-0-0-2"
+[INFO] [17:20:48] [Sender] Odesílání zprávy: "6-1-0-0-27"
+[INFO] [17:20:48] [Listener] Přijmuta zpráva: "12-6-1-0-2"
+[WARNING] [17:20:48] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 4-1-0-0-27
+[ERROR] [17:20:48] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [17:20:49] [Listener] Přijmuta zpráva: "13-1-0-0-26"
+[INFO] [17:20:49] [Sender] Odesílání zprávy: "13-1-0-0-2"
+[INFO] [17:20:49] [Sender] Odesílání zprávy: "7-1-0-0-27"
+[INFO] [17:20:49] [Listener] Přijmuta zpráva: "14-7-1-0-2"
+[WARNING] [17:20:49] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 5-1-0-0-27
+[ERROR] [17:20:49] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [17:20:50] [Listener] Přijmuta zpráva: "15-1-0-0-26"
+[INFO] [17:20:50] [Sender] Odesílání zprávy: "15-1-0-0-2"
+[INFO] [17:20:50] [Sender] Odesílání zprávy: "8-1-0-0-27"
+[INFO] [17:20:50] [Listener] Přijmuta zpráva: "16-8-1-0-2"
+[WARNING] [17:20:50] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 6-1-0-0-27
+[ERROR] [17:20:50] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [17:20:51] [Listener] Přijmuta zpráva: "17-1-0-0-26"
+[INFO] [17:20:51] [Sender] Odesílání zprávy: "17-1-0-0-2"
+[INFO] [17:20:51] [Sender] Odesílání zprávy: "9-1-0-0-27"
+[INFO] [17:20:51] [Listener] Přijmuta zpráva: "18-9-1-0-2"
+[WARNING] [17:20:51] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 7-1-0-0-27
+[ERROR] [17:20:51] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [17:20:52] [Listener] Přijmuta zpráva: "19-1-0-0-26"
+[INFO] [17:20:52] [Sender] Odesílání zprávy: "19-1-0-0-2"
+[INFO] [17:20:52] [Sender] Odesílání zprávy: "10-1-0-0-27"
+[INFO] [17:20:52] [Listener] Přijmuta zpráva: "20-10-1-0-2"
+[WARNING] [17:20:52] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 8-1-0-0-27
+[ERROR] [17:20:52] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [17:20:53] [Listener] Přijmuta zpráva: "21-1-0-0-26"
+[INFO] [17:20:53] [Sender] Odesílání zprávy: "21-1-0-0-2"
+[INFO] [17:20:53] [Sender] Odesílání zprávy: "11-1-0-0-27"
+[INFO] [17:20:53] [Listener] Přijmuta zpráva: "22-11-1-0-2"
+[WARNING] [17:20:53] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 9-1-0-0-27
+[ERROR] [17:20:53] [Program] Nebylo možné doručit odpověď na ping
+========== Začátek relace ==========
+[INFO] [17:22:44] [Logger] Logger úspěšně inicializován. Soubor: d:\src\pytlak\JuPiEs\client_log2.txt
+[INFO] [17:22:44] [Utils] Nebyla zadána platná ip adresa a bude tedy použita 0.0.0.0
+[INFO] [17:22:44] [Utils] Nebyl zadán platný port a bude tedy použit náhodný
+[INFO] [17:22:44] [Comunicator] Komunikátor úspěšně inicializován na portu 54159
+[INFO] [17:22:44] [MessageManager] Vytvořen MessageManager.
+[INFO] [17:22:44] [MessageManager] MessageManager připojen ke komunikátoru.
+[INFO] [17:22:45] [Sender] Odesílání zprávy: "1-1-0-1-4"
+[INFO] [17:22:45] [Listener] Přijmuta zpráva: "1-1-1-1-2"
+[INFO] [17:22:45] [MessageManager] Potvrzena zpráva 1-1-0-1-4
+[INFO] [17:22:45] [Listener] Přijmuta zpráva: "2-1-0-1-5-1"
+[INFO] [17:22:45] [ConnectionDialog] Klient se úspěšně připojil k serveru.
+[INFO] [17:22:45] [Sender] Odesílání zprávy: "2-1-0-0-2"
+[INFO] [17:22:45] [Listener] Přijmuta zpráva: "3-1-0-0-26"
+[INFO] [17:22:45] [Sender] Odesílání zprávy: "3-1-0-0-2"
+[INFO] [17:22:45] [Sender] Odesílání zprávy: "2-1-0-0-27"
+[INFO] [17:22:45] [Listener] Přijmuta zpráva: "4-2-1-0-2"
+[WARNING] [17:22:47] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 2-1-0-0-27
+[ERROR] [17:22:47] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [17:22:51] [Sender] Odesílání zprávy: "3-1-0-1-28-1"
+[INFO] [17:22:51] [Listener] Přijmuta zpráva: "5-3-1-1-2"
+[INFO] [17:22:51] [Listener] Přijmuta zpráva: "6-1-1-1-29-1"
+[INFO] [17:22:51] [Sender] Odesílání zprávy: "6-1-0-0-2"
+[INFO] [17:22:51] [Program] Klient se úspěšně připojil zpátky na server
+[WARNING] [17:22:53] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 3-1-0-1-28-1
+========== Začátek relace ==========
+[INFO] [17:24:35] [Logger] Logger úspěšně inicializován. Soubor: d:\src\pytlak\JuPiEs\client_log2.txt
+[INFO] [17:24:35] [Utils] Nebyla zadána platná ip adresa a bude tedy použita 0.0.0.0
+[INFO] [17:24:35] [Utils] Nebyl zadán platný port a bude tedy použit náhodný
+[INFO] [17:24:35] [Comunicator] Komunikátor úspěšně inicializován na portu 49181
+[INFO] [17:24:35] [MessageManager] Vytvořen MessageManager.
+[INFO] [17:24:35] [MessageManager] MessageManager připojen ke komunikátoru.
+[INFO] [17:24:44] [Sender] Odesílání zprávy: "1-1-0-1-4"
+[INFO] [17:24:44] [Listener] Přijmuta zpráva: "1-1-1-1-2"
+[INFO] [17:24:44] [Listener] Přijmuta zpráva: "2-1-0-1-5-1"
+[INFO] [17:24:44] [MessageManager] Potvrzena zpráva 1-1-0-1-4
+[INFO] [17:24:44] [Sender] Odesílání zprávy: "2-1-0-0-2"
+[INFO] [17:24:44] [ConnectionDialog] Klient se úspěšně připojil k serveru.
+[INFO] [17:24:44] [Listener] Přijmuta zpráva: "3-1-0-0-26"
+[INFO] [17:24:44] [Sender] Odesílání zprávy: "3-1-0-0-2"
+[INFO] [17:24:44] [Sender] Odesílání zprávy: "2-1-0-0-27"
+[INFO] [17:24:44] [Listener] Přijmuta zpráva: "4-2-1-0-2"
+[WARNING] [17:24:46] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 2-1-0-0-27
+[ERROR] [17:24:46] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [17:24:50] [Sender] Odesílání zprávy: "3-1-0-1-28-1"
+[INFO] [17:24:50] [Listener] Přijmuta zpráva: "5-3-1-1-2"
+[INFO] [17:24:50] [Listener] Přijmuta zpráva: "6-1-1-1-29-1"
+[INFO] [17:24:50] [Sender] Odesílání zprávy: "6-1-0-0-2"
+[INFO] [17:24:50] [Program] Klient se úspěšně připojil zpátky na server
+[WARNING] [17:24:52] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 3-1-0-1-28-1
+========== Začátek relace ==========
+[INFO] [17:25:22] [Logger] Logger úspěšně inicializován. Soubor: d:\src\pytlak\JuPiEs\client_log2.txt
+[INFO] [17:25:22] [Utils] Nebyla zadána platná ip adresa a bude tedy použita 0.0.0.0
+[INFO] [17:25:22] [Utils] Nebyl zadán platný port a bude tedy použit náhodný
+[INFO] [17:25:22] [Comunicator] Komunikátor úspěšně inicializován na portu 64542
+[INFO] [17:25:22] [MessageManager] Vytvořen MessageManager.
+[INFO] [17:25:22] [MessageManager] MessageManager připojen ke komunikátoru.
+[INFO] [17:25:28] [Sender] Odesílání zprávy: "1-1-0-1-4"
+[INFO] [17:25:28] [Listener] Přijmuta zpráva: "1-1-1-1-2"
+[INFO] [17:25:28] [MessageManager] Potvrzena zpráva 1-1-0-1-4
+[INFO] [17:25:28] [Listener] Přijmuta zpráva: "2-1-0-1-5-1"
+[INFO] [17:25:28] [ConnectionDialog] Klient se úspěšně připojil k serveru.
+[INFO] [17:25:28] [Sender] Odesílání zprávy: "2-1-0-0-2"
+[INFO] [17:25:29] [Listener] Přijmuta zpráva: "3-1-0-0-26"
+[INFO] [17:25:29] [Sender] Odesílání zprávy: "3-1-0-0-2"
+[INFO] [17:25:29] [Sender] Odesílání zprávy: "2-1-0-0-27"
+[INFO] [17:25:29] [Listener] Přijmuta zpráva: "4-2-1-0-2"
+[WARNING] [17:25:34] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 2-1-0-0-27
+[ERROR] [17:25:34] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [17:25:34] [Sender] Odesílání zprávy: "3-1-0-1-28-1"
+[INFO] [17:25:34] [Listener] Přijmuta zpráva: "5-3-1-1-2"
+[INFO] [17:25:34] [Listener] Přijmuta zpráva: "6-1-1-1-29-1"
+[INFO] [17:25:34] [Sender] Odesílání zprávy: "6-1-0-0-2"
+[INFO] [17:25:34] [Program] Klient se úspěšně připojil zpátky na server
+========== Začátek relace ==========
+[INFO] [17:29:52] [Logger] Logger úspěšně inicializován. Soubor: d:\src\pytlak\JuPiEs\client_log2.txt
+[INFO] [17:29:52] [Utils] Nebyla zadána platná ip adresa a bude tedy použita 0.0.0.0
+[INFO] [17:29:52] [Utils] Nebyl zadán platný port a bude tedy použit náhodný
+[INFO] [17:29:52] [Comunicator] Komunikátor úspěšně inicializován na portu 63087
+[INFO] [17:29:52] [MessageManager] Vytvořen MessageManager.
+[INFO] [17:29:52] [MessageManager] MessageManager připojen ke komunikátoru.
+[INFO] [17:29:54] [Sender] Odesílání zprávy: "1-1-0-1-4"
+[INFO] [17:29:54] [Listener] Přijmuta zpráva: "1-1-1-1-2"
+[INFO] [17:29:54] [MessageManager] Potvrzena zpráva 1-1-0-1-4
+[INFO] [17:29:54] [Listener] Přijmuta zpráva: "2-1-0-1-5-1"
+[INFO] [17:29:54] [Sender] Odesílání zprávy: "2-1-0-0-2"
+[INFO] [17:29:54] [ConnectionDialog] Klient se úspěšně připojil k serveru.
+[INFO] [17:29:54] [Listener] Přijmuta zpráva: "3-1-0-0-26"
+[INFO] [17:29:54] [Sender] Odesílání zprávy: "3-1-0-0-2"
+[INFO] [17:29:54] [Sender] Odesílání zprávy: "2-1-0-0-27"
+[INFO] [17:29:54] [Listener] Přijmuta zpráva: "4-2-1-0-2"
+[WARNING] [17:29:59] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 2-1-0-0-27
+[ERROR] [17:29:59] [Program] Nebylo možné doručit odpověď na ping
+[INFO] [17:30:00] [Sender] Odesílání zprávy: "3-1-0-1-28-1"
+[INFO] [17:30:00] [Listener] Přijmuta zpráva: "5-3-1-1-2"
+[INFO] [17:30:00] [Listener] Přijmuta zpráva: "6-1-1-1-29-1"
+[INFO] [17:30:00] [Sender] Odesílání zprávy: "6-1-0-0-2"
+[INFO] [17:30:00] [Program] Klient se úspěšně připojil zpátky na server
+========== Začátek relace ==========
+[INFO] [17:31:59] [Logger] Logger úspěšně inicializován. Soubor: d:\src\pytlak\JuPiEs\client_log2.txt
+[INFO] [17:31:59] [Utils] Nebyla zadána platná ip adresa a bude tedy použita 0.0.0.0
+[INFO] [17:31:59] [Utils] Nebyl zadán platný port a bude tedy použit náhodný
+[INFO] [17:31:59] [Comunicator] Komunikátor úspěšně inicializován na portu 51472
+[INFO] [17:31:59] [MessageManager] Vytvořen MessageManager.
+[INFO] [17:31:59] [MessageManager] MessageManager připojen ke komunikátoru.
+========== Začátek relace ==========
+[INFO] [17:32:08] [Logger] Logger úspěšně inicializován. Soubor: d:\src\pytlak\JuPiEs\client_log2.txt
+[INFO] [17:32:08] [Utils] Nebyla zadána platná ip adresa a bude tedy použita 0.0.0.0
+[INFO] [17:32:08] [Utils] Nebyl zadán platný port a bude tedy použit náhodný
+[INFO] [17:32:08] [Comunicator] Komunikátor úspěšně inicializován na portu 61505
+[INFO] [17:32:08] [MessageManager] Vytvořen MessageManager.
+[INFO] [17:32:08] [MessageManager] MessageManager připojen ke komunikátoru.
+[INFO] [17:32:09] [Sender] Odesílání zprávy: "1-1-0-1-4"
+[INFO] [17:32:09] [Listener] Přijmuta zpráva: "1-1-1-1-2"
+[INFO] [17:32:09] [Listener] Přijmuta zpráva: "2-1-0-1-5-1"
+[INFO] [17:32:09] [MessageManager] Potvrzena zpráva 1-1-0-1-4
+[INFO] [17:32:09] [ConnectionDialog] Klient se úspěšně připojil k serveru.
+[INFO] [17:32:09] [Sender] Odesílání zprávy: "2-1-0-0-2"
+[INFO] [17:32:09] [Listener] Přijmuta zpráva: "3-1-0-0-26"
+[INFO] [17:32:09] [Sender] Odesílání zprávy: "3-1-0-0-2"
+[INFO] [17:32:09] [Sender] Odesílání zprávy: "2-1-0-0-27"
+[INFO] [17:32:09] [Listener] Přijmuta zpráva: "4-2-1-0-2"
+[WARNING] [17:32:14] [OutgoingMessage] Vypršel timeout pro odchozí zprávu 2-1-0-0-27
+[ERROR] [17:32:14] [Program] Nebylo možné doručit odpověď na ping

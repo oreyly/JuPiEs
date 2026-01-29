@@ -12,6 +12,7 @@ from RequestManager import RequestManager
 from Server import Server
 from SideSelectionDialog import SideSelectionDialog
 from GAME_BOOL import GAME_BOOL, PLAYER_COLOR
+from Utils import Utils
 
 if TYPE_CHECKING:
     from Program import Program
@@ -137,6 +138,7 @@ class GameLobby:
     def ConFailed(self):
         Logger.LogError(GameLobby, ERROR_CODES.ROOM_LOAD_FAIL)
         
+    @Utils.UpdateLastEcho
     def ConSucceded(self, responseParams: list[str]):
         rooms: list[Tuple[int, GAME_BOOL, GAME_BOOL]] = []
         for i in range(0, len(responseParams), 3):
@@ -168,6 +170,7 @@ class GameLobby:
         self._selectedColor = color
         self._program.ReqManager.CreateDemand(OPCODE.CREATE_ROOM, [str(color)], self.ConFailed, self.RoomCreateResponse,OPCODE.ROOM_CREATED)
 
+    @Utils.UpdateLastEcho
     def RoomCreateResponse(self, responseParams: list[str]):
         if(self._selectedColor is None):
             Logger.LogError(GameLobby, ERROR_CODES.OBJECT_NOT_INITIALIZED, [PLAYER_COLOR.__name__])
@@ -185,6 +188,7 @@ class GameLobby:
                 
         iAmWhite = self._selectedColor == PLAYER_COLOR.WHITE
         
+        self._program.UnregisterOnReconnect()
         self._program.Root.withdraw()
         self._gameRoom = GameRoom(self._program, self, self._selectedColor,
                                 whiteName=Server.MyName if iAmWhite else None,
@@ -198,6 +202,7 @@ class GameLobby:
         self._selectedColor = color
         self._program.ReqManager.CreateDemand(OPCODE.GET_TO_ROOM, [str(roomId), str(color)],self.ConFailed,self.JoinedRoom,OPCODE.GOT_TO_ROOM)
 
+    @Utils.UpdateLastEcho
     def JoinedRoom(self, responseParams: list[str]):
         if(self._selectedColor is None):
             Logger.LogError(GameLobby, ERROR_CODES.OBJECT_NOT_INITIALIZED, [PLAYER_COLOR.__name__])
@@ -213,13 +218,20 @@ class GameLobby:
         if self._scrollableFrame:
             for Widget in self._scrollableFrame.winfo_children():
                 Widget.destroy()
-                
+            
+        self._program.UnregisterOnReconnect()
         self._program.Root.withdraw()
         self._gameRoom = GameRoom(self._program, self, self._selectedColor,
                                 whiteName=Server.MyName if iAmWhite else responseParams[1],
                                 blackName=responseParams[1] if iAmWhite else Server.MyName
                                 )
         self._gameRoom.Open()
+    
+    def RegisterOnReconnect(self):
+        self._program.RegisterOnReconnect(self.OnReconnect)
+    
+    def OnReconnect(self):
+        self.RefreshRooms()
     
     def Open(self) -> None:
             self.SetupGui()

@@ -5,3 +5,4 @@ class GAME_STATE(IntEnum):
 	WHITE_WIN = 1
 	BLACK_WIN = 2
 	DRAW = 3
+	PRE_GAME = 4
