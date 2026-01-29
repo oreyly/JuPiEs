@@ -213,11 +213,11 @@ class GameLobby:
             self.RefreshRooms()
             return
         
-        iAmWhite = self._selectedColor == PLAYER_COLOR.WHITE
-        
         if self._scrollableFrame:
             for Widget in self._scrollableFrame.winfo_children():
                 Widget.destroy()
+        
+        iAmWhite = self._selectedColor == PLAYER_COLOR.WHITE
             
         self._program.UnregisterOnReconnect()
         self._program.Root.withdraw()
@@ -233,6 +233,37 @@ class GameLobby:
     def OnReconnect(self):
         self.RefreshRooms()
     
-    def Open(self) -> None:
-            self.SetupGui()
+    def onTimeoutPlaying(self):
+        Logger.LogError(GameLobby, ERROR_CODES.PLAY_STATUS_FAIL)
+    
+    def IPlayResponse(self, responseParams: list[str]):
+        if(GAME_BOOL(int(responseParams[0])) == GAME_BOOL.FALSE):
+            return
+        
+        if self._scrollableFrame:
+            for Widget in self._scrollableFrame.winfo_children():
+                Widget.destroy()
+
+        self._selectedColor = PLAYER_COLOR(int(responseParams[1]))
+        
+        iAmWhite = self._selectedColor == PLAYER_COLOR.WHITE
+
+        self._program.UnregisterOnReconnect()
+        self._program.Root.withdraw()
+        self._gameRoom = GameRoom(self._program, self, self._selectedColor,
+                                whiteName=Server.MyName if iAmWhite else responseParams[2],
+                                blackName=responseParams[2] if iAmWhite else Server.MyName,
+                                reconected = True
+                                )
+        self._gameRoom.Open()
+    
+    def Open(self, reconected: bool) -> None:
+        if(not self._program.ReqManager):
+            Logger.LogError(GameLobby, ERROR_CODES.OBJECT_NOT_INITIALIZED, [RequestManager.__name__])
+            return
+        
+        self.SetupGui()
+        
+        if(reconected):
+            self._program.ReqManager.CreateDemand(OPCODE.AM_I_PLAYING, [], self.onTimeoutPlaying, self.IPlayResponse, OPCODE.YOU_PLAY)
 

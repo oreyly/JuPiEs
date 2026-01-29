@@ -1,5 +1,4 @@
 from __future__ import annotations
-import threading
 import tkinter as tk
 from tkinter import messagebox
 from typing import TYPE_CHECKING
@@ -88,5 +87,12 @@ class ConnectionDialog:
         )
 
     def Open(self):
+        Server.ServerAddress = None
+        Server.MyId = 1
+        Server.MyName = ""
+        Server.Online = True
+        Server.LastEcho = 0
+        Server.ConnectionID = 0
+        
         self.SetupGui()
         self._program.Root.mainloop()

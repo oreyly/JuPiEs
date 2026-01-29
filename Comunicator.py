@@ -84,8 +84,6 @@ class Comunicator:
                     data, _ = self._comunicator._sock.recvfrom(self._comunicator._buffSize)
                     message = data.decode('utf-8')
                     
-                    Logger.LogMessage(Comunicator.Listener, f"Přijmuta zpráva: \"{message}\"")
-                    
                     if self._recieverFunction:
                         self._recieverFunction(message)
                 except (socket.timeout, TimeoutError):

@@ -28,3 +28,5 @@ class ERROR_CODES(StrEnum):
 	ALREAD_CONNECTED = "Pokus o připojení již připojeného serveru"
 	NO_NETWORK = "Síť je nedostupná"
 	I_DONT_KNOW_POSITION = "Server nevrátil poslední pozici"
+	I_DONT_KNOW_HE_ALIVE = "Serve mi neřekl, jestli oponent žije"
+	PLAY_STATUS_FAIL = "Server neodpověděl, jestli hraju"

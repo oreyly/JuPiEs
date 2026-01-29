@@ -20,6 +20,8 @@ from connectWindow import ConnectionDialog
 from nameWindow import NameDialog
 
 class Program:
+    MAX_RECON_ATTEMPTS: int = 2
+
     _nextProcessFunction: Callable[[IncomingRequest], None] | None
     Comunicaator: Comunicator | None
     MessManager: MessageManager | None
@@ -27,6 +29,7 @@ class Program:
     Running: bool
     
     _onReconect: Callable[[], None] | None
+    _reconnectAttempts: int
     
     Loading: LoadingOverlay | None
     
@@ -39,6 +42,7 @@ class Program:
         self._onReconect = None
         self.Running = False
         self.CheckerThread = None
+        self._reconnectAttempts = 0
 
     def RegisterProcessingFunction(self, nextProcessFunction: Callable[[IncomingRequest], None]):
         self._nextProcessFunction = nextProcessFunction
@@ -99,6 +103,7 @@ class Program:
 
     def EnableServer(self):
         self.Running = True
+        self._reconnectAttempts = 0
         self.CheckerThread = threading.Thread(target=self.ServerChecker ,daemon=True)
         self.CheckerThread.start()
 
@@ -108,6 +113,14 @@ class Program:
         self.TryToReconect()
         
     def TryToReconect(self):
+        self._reconnectAttempts += 1
+        
+        if(self._reconnectAttempts > self.MAX_RECON_ATTEMPTS):
+            self.Root.withdraw()
+            self.Root = tk.Tk()
+            self.ConnectToServer()
+            return
+            
         if(not self.ReqManager):
             Logger.LogError(Program, ERROR_CODES.OBJECT_NOT_INITIALIZED, [RequestManager.__name__])
             return
@@ -168,9 +181,10 @@ class Program:
         dialog = NameDialog(self)
         dialog.Open()
 
-    def OpenLobby(self):
+    def OpenLobby(self, reconected: bool):
         gl = GameLobby(self)
-        gl.Open()
+        gl.Open(reconected)
+        
     
     def main(self):
         Logger.init("client_log3.txt")

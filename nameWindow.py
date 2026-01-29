@@ -81,12 +81,15 @@ class NameDialog:
             return
         
         Server.MyName = self.entry.get()
+        if(len(responseParams) == 3):
+            Server.MyId = int(responseParams[1])
+            Server.ConnectionID = int(responseParams[2])
         self.NameRegistered = True
-        Logger.LogMessage(NameDialog, f"Klient úspěšně zaregistroval své jméno: {Server.MyName}")
+        Logger.LogMessage(NameDialog, f"Klient úspěšně přihlášen pod jménem: {Server.MyName}")
         for widget in self._program.Root.winfo_children():
             widget.destroy()
             
-        self._program.OpenLobby()
+        self._program.OpenLobby(reconected = len(responseParams) == 3)
 
     def Open(self):
         self.SetupGui()

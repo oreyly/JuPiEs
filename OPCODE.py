@@ -50,3 +50,12 @@ class OPCODE(IntEnum):
 
     HES_MISSING = 32
     THATS_A_SHAME = 33
+
+    IS_HE_ALIVE = 34
+    HE_IS_ALIVE = 35
+
+    AM_I_PLAYING = 36
+    YOU_PLAY = 37
+
+    GET_POSITION = 38
+    HERE_POSITION = 39

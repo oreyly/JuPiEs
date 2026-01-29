@@ -1,4 +1,5 @@
 from __future__ import annotations
+import base64
 import random
 import tkinter as tk
 from typing import TYPE_CHECKING, Callable, Dict, Tuple, Optional, Any
@@ -45,8 +46,11 @@ class GameRoom:
     _gameResult: GAME_RESULT | None
 
     def __init__(self, program: Program, gameLobby: GameLobby, myColor: PLAYER_COLOR, 
-                 whiteName: Optional[str] = None,
-                 blackName: Optional[str] = None):
+                whiteName: Optional[str] = None,
+                blackName: Optional[str] = None,
+                reconected: bool = False
+                ):
+        
         
         self._program = program
         self.gameLobby = gameLobby
@@ -91,7 +95,52 @@ class GameRoom:
 
         self.canvas.bind("<Button-1>", self.onClick)
         self.drawBoard()
+        
+        if(not self._program.ReqManager):
+            Logger.LogError(GameRoom, ERROR_CODES.OBJECT_NOT_INITIALIZED, [RequestManager.__name__])
+            return
+        
+        if(not self.blackName or not self.whiteName):
+            return
+        
+        self._program.ReqManager.CreateDemand(OPCODE.IS_HE_ALIVE, [], self.onTimeoutHesMissing, self.onAliveObtained, OPCODE.HE_IS_ALIVE)
+        
+        if(reconected):
+            self._program.ReqManager.CreateDemand(OPCODE.GET_POSITION, [], self.onTimeoutGetPosition, self.CreatePosition, OPCODE.HERE_POSITION)
 
+    def onTimeoutGetPosition(self):
+        Logger.LogError(GameRoom, ERROR_CODES.I_DONT_KNOW_POSITION)
+    
+    Utils.UpdateLastEcho
+    def CreatePosition(self, responseParams: list[str]):
+        self.game.currentPlayer = PLAYER_COLOR(int(responseParams[1]))
+        
+        raw_bytes = base64.b64decode(responseParams[0])
+        
+        bit_string = "".join(bin(byte)[2:].zfill(8) for byte in raw_bytes)
+
+        bit_ptr = 0
+        
+        self.game.board = [[None for _ in range(self.game.SIZE)] for _ in range(self.game.SIZE)]
+
+        for r in range(self.game.SIZE):
+            for c in range(self.game.SIZE):
+                if (r + c) % 2 != 0:
+                    bits = bit_string[bit_ptr:bit_ptr + 3]
+                    bit_ptr += 3
+
+                    if bits == "000":
+                        self.game.board[r][c] = None
+                    else:
+                        owner = PLAYER_COLOR.WHITE if bits[0] == '1' else PLAYER_COLOR.BLACK
+                        p_type = PIECE_TYPE.KING if bits[1] == '1' else PIECE_TYPE.MAN
+                        
+                        from checkers import Piece
+                        self.game.board[r][c] = Piece(owner, p_type)
+
+        self.drawBoard()
+        
+    
     def ShowResult(self):
         if(not self._gameResult):
             Logger.LogError(GameRoom, ERROR_CODES.OBJECT_NOT_INITIALIZED, [GAME_RESULT.__name__])
@@ -231,9 +280,16 @@ class GameRoom:
             return
         
         self._program.ReqManager.CreateDemand(OPCODE.WHAT_HAPPEND, [], self.onTimeoutWhatHappend, self.onLastMoveObtained, OPCODE.THIS_HAPPEND)
+        self._program.ReqManager.CreateDemand(OPCODE.IS_HE_ALIVE, [], self.onTimeoutHesMissing, self.onAliveObtained, OPCODE.HE_IS_ALIVE)
+    
+    def onTimeoutHeAlive(self):
+        Logger.LogError(GameRoom, ERROR_CODES.I_DONT_KNOW_POSITION)
     
     def onTimeoutWhatHappend(self):
-        Logger.LogError(GameRoom, ERROR_CODES.I_DONT_KNOW_POSITION)
+        Logger.LogError(GameRoom, ERROR_CODES.I_DONT_KNOW_HE_ALIVE)
+    
+    def onAliveObtained(self, responseParams: list[str]):
+        self.updatePlayerStatus(PLAYER_COLOR.WHITE if self.myColor == PLAYER_COLOR.BLACK else PLAYER_COLOR.BLACK, GAME_BOOL(int(responseParams[0])) == GAME_BOOL.TRUE)
         
     @Utils.UpdateLastEcho
     def onLastMoveObtained(self, responseParams: list[str]):
@@ -264,7 +320,7 @@ class GameRoom:
             font=("Arial", 12, "italic"), 
             fg="gray"
         )
-        
+        self.updatePlayerStatus(player, False)
         self.selectedPos = None
         self.drawBoard()
 
@@ -301,9 +357,22 @@ class GameRoom:
             canvas = self.uiElements[player]["statusCanvas"]
             canvas.itemconfig("dot", fill=color)
 
+    def highlightCurrentTurn(self) -> None:
+        for color, ui in self.uiElements.items():
+            if(not ui["nameLabel"]):
+                continue
+            is_moving = (color == self.game.currentPlayer)
+            if is_moving:
+                new_font = ("Arial", 12, "bold", "underline")
+            else:
+                    new_font = ("Arial", 12, "bold")
+                
+            ui["nameLabel"].config(font=new_font)
+
     def addPlayer(self, player: PLAYER_COLOR, name: str, isReady: bool = False) -> None:
         if(not name):
             self.removePlayer(player)
+            self.highlightCurrentTurn()
             return
         
         self.activePlayers[player] = True
@@ -311,8 +380,10 @@ class GameRoom:
         ui = self.uiElements[player]
         ui["nameLabel"].config(text=name, font=("Arial", 12, "bold"), fg="black")
         self.updatePlayerStatus(player, True)
+        self.highlightCurrentTurn()
 
     def drawBoard(self) -> None:
+        self.highlightCurrentTurn()
         self.canvas.delete("all")
         for r in range(self.game.SIZE):
             for c in range(self.game.SIZE):

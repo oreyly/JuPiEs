@@ -145,6 +145,8 @@ class MessageManager:
                 packet = Packet.FromString(message)
                 if not packet.IsValid:
                     continue
+                
+                Logger.LogMessage(Comunicator.Listener, f"Přijmuta zpráva: \"{message}\"")
 
                 if packet.Opcode == OPCODE.ACK:
                     with self._lockOutgoing, self._lockFinished:
